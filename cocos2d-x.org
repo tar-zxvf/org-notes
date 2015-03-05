@@ -1,0 +1,40 @@
+* Modern cocos2d-x
+
+** cocos2d-x 3.0 c++11
+*** modern c++ , mainly about c++ 11
+*** cocos2d-x 3.0 best practice
+*** cocos2-dx 3.0 examples
+
+** cocos2d-x 3.0 js vs lua 
+*** focus on usage samples
+*** focus on how to binding for each other, how to manage memory , how to interative with each other
+
+** cocostudio
+*** UI editor
+*** Animation editor
+*** Scene editor
+*** Data editor
+
+** game play framework
+
+** gui framework
+
+** backend service framework ( golang or ruby)
+
+** multi-thread, json, opengles
+
+** some game algorithm ( A* etc)
+
+** plugin-x (many kinds of SDKs)
+
+** box2d vs chipmunk
+
+** cocodenshion
+
+** socket & network programming
+
+** plist, xml, json, sqlite, user defined data structure parse
+
+** crack & anti-crack
+
+** memory management & mutiple resolution adpation

@@ -1,0 +1,65 @@
+#+STARTUP: showall
+* Modern Vim
+
+** Why learn vim?
+*** a very effective text editor
+*** many IDE provider a vim layer
+*** integrate very well with shell and is cross-platform                        :vim:hehe:
+*** fast & fast & fast
+*** support many kinds of text editing, extensible , configable and programable
+
+** Prepare
+
+*** first, you need to learn touchType
+
+*** then go over vimtutor 3 times
+
+*** try to use vim everyday
+
+** How to learn vim?
+
+*** step by step video tutorials
+**** vim principle(the vim way, don't repeat yourself)
+**** vim modal(insert, visual, command, normal, select, paste)
+**** buffers, windows, files
+**** motions & operators
+**** text object
+**** plugins
+**** ex command
+**** registers & macro
+**** search & replace & global command, v command, subtitution command
+**** navigation command(gg,G,H,M,L,ctrl-i,ctrl-o,ctrl-d , mark, etc)
+**** cooperate with git, shell
+**** github & customize vimrc
+**** extend & programming your vim editor
+**** tools, ctags & cscope, spell check, auto complete etc
+
+*** key stroke optimization(make it repeatable)
+
+*** Find the pain, solve it and finally make it a habit. ( to become a vim expert)
+
+** What to do next?                                                             :finally:
+
+*** where to find the master?(stackoverflow, github, goolge, vim qq group?, google+)
+
+*** tips & wiki is our best friend, vimcasts.org, some paid video taps are also good
+
+*** janus or something else like vim starterkit. search good vim plugins
+
+*** conbine emacs and vim
+
+
+* Vimcasts
+
+** Basic vim concepts
+   - mode: insert mode, normal mode, visual mode, command line mode (ctrl-o: execute one command and go to insert mode)
+   - windows, buffer, file
+   - help system
+   - open file, save file, save as file, close not save,
+   - new buffer, list buffer, switch between buffer
+     e, enew, bn(ext), bp(revious), blast, bfirst, bd
+   - split windows, go to different windows
+     only, vsp,sp,<c-w>hjkl
+   - one rule, on windows
+   - a buffer is the in-memory text of file, a window is a viewport of a buffer, a tab is a collection of windows
+

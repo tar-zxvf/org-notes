@@ -1,0 +1,147 @@
+#+TAGS: notes
+#+AUTHOR: Guanghui Qu
+#+STARTUP: overview, for taking some random notes
+#+LATEX_HEADER: \usepackage{xltxtra}
+#+LATEX_HEADER: \setmainfont{FangSong}
+#+LATEX_HEADER: \usepackage{seqsplit}
+
+* Random notes
+** hehe
+
+** Self brief introduction
+  Hello, everyone. Today I want to talk about org mode. So what is org mode? Org mode is a outline processor within emacs.
+ Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+With a emacs version greater than 23, org mode is already a build-in package. It provides a rich set of markup language. We can use lists, links, headlines, tables to manage our contents.
+We can also export all of my org files to pdf , plain text or latex files with just a few key strokes. Org mode can even help me to manage my agenda.
+It's also my personal wiki system . I came across emacs org mode a few months ago, but I really love it now. It's awesome! It really deserves the time to learn.
+
+** How to learn a new language?
+Find a project you are familiar with and reimplement it with the new language. After finish it, review the project to see the difference between the new language and the languages you used to using.
+
+** Find the target
+*** What you can be the best in the world at?
+Instructors( have some confidence)
+ best game client programmer(have some confidence)
+ best game server programmer?
+best vim user?(have a lot confidence, but still need more)
+ best emacs user?(a little confidence)
+best c++ programmer?
+*** What drives your "economic" engine.
+Writing articles. (I have the ability to write well)
+Develop games.( I am good at iterate something to make it better)
+Teatch others to learn game programming.
+*** What you are deeply passionate about.
+Learning useful stuff which can boost my productivity.(like ruby in web and go in server)
+Learning anything new about vim.( speed up my programming speed)
+Learing  anything new about emacs.(management my personal life)
+Let game programming is not a secret any more.(I love to share some new)
+
+* 2013
+** 2013-11 November
+*** 2013-11-03 Sunday
+**** Hello this is notes from gtd
+     
+     [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
+**** Org mode version dependency is very complex
+*** 2013-11-04 Monday
+**** Today, my main job is makeing a prototype of Wechat game. I have also written some ppts. A friend comes to with me and we hava a great chat each other.
+     
+     [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90%E7%8E%A9%E5%AE%B6%E8%A7%92%E8%89%B2%E4%BF%A1%E6%81%AF%E7%95%8C%E9%9D%A2][完成玩家角色信息界面]]
+*** 2013-11-07 Thursday
+**** When you graduate from college, if you want to go to a small company. 
+You should learn something to protect yourself profit.
+**** How to do presentation well.
+- multiple resolution revolution  from cocos2d-iphone
+
+- searchPath, from resource resolution to desigin resolution
+  it will only impacts the resource resolution 
+setContentScaleFactor
+- setDesignResolutionSize(DW,DH,resolutionPolicy)
+
+
+     
+     [[file:~/Dropbox/org/gtd.org::*learn%20half%20an%20hour%20emacs][learn half an hour emacs]]
+*** 2013-11-09 Saturday
+**** Happy day
+     
+     [[file:~/Dropbox/org/gtd.org::*Config%20a%20javascript%20IDE%20environment%20in%20emacs][Config a javascript IDE environment in emacs]]
+*** 2013-11-15 Friday
+** 2013-12 December
+*** 2013-12-31 Tuesday
+* 2014
+** Event Loop and Game Loop
+
+Let's see what all these means.
+
+Here is the user touching the iphone screen which generate user events.
+but where do the events go?
+they go to the operating system.
+Here is your application.
+how does your applicaton get hold all these events.
+first your application should tell the operating system , what types of events it wants to recieve.
+
+this->setTouchEnabled(true)
+
+there is the code which told the operating sysytem they want to recieve touch events.
+
+and then the operating system knows this and pumps the events from the event queue to your application.
+
+now your applications should track these event messages by implementing the following method.
+
+void ccTouchesBegan(CCSet* touches, CCEvent* event);
+
+for instance, here is the method which track the touch began message.
+
+Now suppose your application want to recieve some kind of tick messages 60 times per seconds.
+you can tell the operating system with one line code:
+
+this->scheduleUpdate();
+
+this will fire the event 60 times per second and pumps the event to your application.
+
+to track these events, you have to implement a upate method like this:
+
+void udpate(float dt)
+
+so to summarize, to recieve events from the event queue, you have to wirte some code.
+
+Make a sample to illustration to the event loop and game loop.
+
+
+make the plane to move by implementing a touch move method.
+
+and to make the plane's bullet to move , we can use a game loop.
+** 2014-08 August
+*** 2014-08-25 Monday
+****  Open eshell in another buffer
+     
+****  How to use emacs to insert a file name into the buffer. Also we might need a way to complete file name inside buffer
+     
+****   When delete a ", I will insert \"|\", which is annying
+     
+*** 2014-08-26 Tuesday
+****  read smartparens wiki page                                       :LIFE:
+** 2014-09 September
+*** 2014-09-06 Saturday
+****   怎么使用Emacs，不需要类似文件目录的sidebar来快速查找 文件
+     
+     [[http://www.quora.com/How-do-you-use-Emacs-without-a-directory-tree-on-the-side-of-the-editor][How do you use Emacs without a directory tree on the side of the editor? - Quora]]
+*** 2014-09-18 Thursday
+****   http://stackoverflow.com/questions/3293607/difference-between-git-head-and-the-current-project-state
+
+Git diff to show the diff of the work tree and the index area
+Git diff --cached to show the diff of the index area and the HEAD
+Git diff HEAD to show the work tree plus index area and the HeAD
+     
+     [[file:~/Github/programmers-guide/7.md::In%20Cocos2d-x%20v3.x,%20we%20have%20three%20ways%20to%20deal%20with%20GUI%20programming:][file:~/Github/programmers-guide/7.md::In Cocos2d-x v3.x, we have three ways to deal with GUI programming:]]
+* 2015
+** 2015-02 February
+*** 2015-02-11 Wednesday
+****  Emacs as an IDE
+
+http://elvestar.com/notes/emacs-as-an-ide/
+** 2015-03 March
+*** 2015-03-05 Thursday
+**** kdkj
+     
+     [[file:~/.emacs.d/modules/prelude-org.el::"*%20%25?\n%20%25i\n%20%25a"%20)][file:~/.emacs.d/modules/prelude-org.el::"* %?\n %i\n %a" )]]

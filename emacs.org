@@ -1,0 +1,62 @@
+#+STARTUP: overview
+* Learning Emacs
+** TODO org-mode
+*** TODO learning org mode basic syntax structures
+**** TODO Learn headline 
+** git
+** read pdf
+** read email
+** send weibo
+** use shell in emacs
+** write blog post
+** bookmark for my pdf ebooks
+** sourcecode repository
+** learn how to consult emacs document for easch mode
+
+** evil（包括我平常使用vim的各种快捷键，全部统一，这是一个漫长的过程）
+** vim里面常用插件在emacs里面的替代品
+*** color-theme
+*** surround
+*** esay motion
+*** text-obj-plugin
+*** Ack
+*** gist-vim
+*** argdo or some sort of project wide search and replace
+*** regular expresstion
+*** vim-commentary
+*** nerdtree
+*** YouCompleteMe
+*** syntastic
+*** tagbar
+*** vim -markdown
+*** ctrlp (heml，<leader>xo)
+*** delimitMate (smart parens)
+*** ultisips (yalsnipt)
+*** vim-powerLine(how to customize minibuffer toolbar)
+*** vim-ablish (add blank linet below lines)
+*** ctlr-o ctrl-i Mark, ctags, cscope,
+*** tmux
+
+**** Learn how to config org mode 
+Entered on [2013-11-02 Sat 21:06]
+  
+  [[file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Read%20the%20org%20compact%20guide%20and%20summary%20the%20keypoint%20of%20org%20mode][file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Read the org compact guide and summary the keypoint of org mode]]
+**** Today I want to test the org-capture function 
+Entered on [2013-11-02 Sat 22:30]
+  
+[[file:~/Dropbox/org/gtd.org::*Daily%20Tasks][Daily Tasks]]
+* 2013
+** 2013-11 November
+*** 2013-11-02 Saturday
+Entered on  [2013-11-02 Sat 22:42]/n  
+**** Finish this part of why I switch from vim to emacs
+Entered on  [2013-11-02 Sat 22:44]
+  
+[[file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Why%20I%20choose%20emacs%20when%20I%20am%20already%20a%20hard-core%20vim%20user.][file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Why I choose emacs when I am already a hard-core vim user.]]
+*** 2013-11-03 Sunday
+****  How to read shell output into emacs buffer
+just press <c-u><S-M-!> , and input some shell command
+Entered on  [2013-11-03 Sun 18:30]
+*** 2013-11-07 Thursday
+*** 2013-11-09 Saturday
+
