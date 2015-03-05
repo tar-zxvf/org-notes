@@ -2,6 +2,8 @@
 #+AUTHOR: guanghui
 #+TAGS: { WORK(w) ENGLISH(e) Writing(h) LIFE(l) DREAM(d) OTHER(o)  PHONE(p) MEETING(m)}
 
+* Daily Work
+
 * Daily Tasks
 #+category: Daily
 ** TODO [#B] Learn Unity3D two tomatoes                               :DREAM:
@@ -174,7 +176,7 @@
 ** TODO  Study Latex And Use Math fomular, Chinese and export as PDF   :WORK:
    SCHEDULED: <2015-02-11 Wed 21:00>
 ** TODO  change Prelude configs to use use-package to reduce startup time :LIFE:
-   DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-07 Sat>
+   DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-08 Sun>
    
    [[file:~/.emacs.d/modules/prelude-input.el::(setq%20eim-use-tooltip%20nil)][file:~/.emacs.d/modules/prelude-input.el::(setq eim-use-tooltip nil)]]
 ** TODO  Setup Irony and Rtags for c/c++ Dev in Emacs. This is very import for me! :LIFE:
@@ -186,6 +188,17 @@
    :LOGBOOK:  
    CLOCK: [2015-03-02 Mon 19:56]--[2015-03-02 Mon 21:13] =>  1:17
    :END:      
+** TODO  Learn Emacs 24 starter kit and use literal programming for .emacs :LIFE:
+
+1.[[https://eschulte.github.io/emacs24-starter-kit/][Emacs Starter Kit]]  
+2. [[https://github.com/eschulte/emacs24-starter-kit][eschulte/emacs24-starter-kit]].
+3.[[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][.emacs.d/Sacha.org at gh-pages · sachac/.emacs.d]] 
+
+And change some configs to use the use-package to speedup my emacs startup time
+
+In the meantime, I should use English and I should including the useful document
+in the original README file.
+
 
 * Weekly Tasks
 ** TODO [#B] 写一篇blog，中英文都可                                    :LIFE:
