@@ -167,22 +167,10 @@
    :PROPERTIES:
    :STYLE:    habit
    :END:
-** TODO   使用Docker把目前在阿里云上面托管的东西管理起来               :WORK:
-   SCHEDULED: <2014-12-28 Sun>
-
-   [[file:~/cocos2d-x-v2/CHANGELOG::%5BFIX%5D%20FileUtils:%20WebP%20format%20with%20alpha%20channel%20displayed%20wrong][file:~/cocos2d-x-v2/CHANGELOG::[FIX] FileUtils: WebP format with alpha channel displayed wrong]]
-** TODO  Study Emacs Save Desktop functionality                        :WORK:
-   SCHEDULED: <2015-02-11 Wed 20:00>
-** TODO  Study Latex And Use Math fomular, Chinese and export as PDF   :WORK:
-   SCHEDULED: <2015-02-11 Wed 21:00>
 ** TODO  change Prelude configs to use use-package to reduce startup time :LIFE:
    DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-08 Sun>
    
    [[file:~/.emacs.d/modules/prelude-input.el::(setq%20eim-use-tooltip%20nil)][file:~/.emacs.d/modules/prelude-input.el::(setq eim-use-tooltip nil)]]
-** TODO  Setup Irony and Rtags for c/c++ Dev in Emacs. This is very import for me! :LIFE:
-   DEADLINE: <2015-03-22 Sun> SCHEDULED: <2015-03-12 Thu>
-   
-   [[file:~/.emacs.d/modules/prelude-feed.el::"http://www.terminally-incoherent.com/blog/feed/"))]]
 ** STARTED Write Cocos2D-x Beginner's tutorial for Raywenderlich.com   :LIFE:
    SCHEDULED: <2015-03-02 Mon 19:57>
    :LOGBOOK:  
@@ -201,8 +189,9 @@ in the original README file.
 
 
 * Weekly Tasks
-** TODO [#B] 写一篇blog，中英文都可                                    :LIFE:
-   SCHEDULED: <2015-01-26 Mon .+7d/8d>
+** TODO [#B] Write a Blog, no matter English or Chinese                :LIFE:
+   SCHEDULED: <2015-03-19 Thu .+7d/8d>
+   - State "DONE"       from "TODO"       [2015-03-12 Thu 18:05]
    - State "DONE"       from "TODO"       [2015-01-19 Mon 09:35]
    - State "DONE"       from "TODO"       [2014-09-30 Tue 08:23]
    - State "DONE"       from "TODO"       [2014-09-15 Mon 09:22]
@@ -216,10 +205,11 @@ in the original README file.
   :END:
   :PROPERTIES:
   :STYLE:    habit
-  :LAST_REPEAT: [2015-01-19 Mon 09:35]
+  :LAST_REPEAT: [2015-03-12 Thu 18:05]
   :END:
-** TODO 打电话给老妈                                                   :LIFE:
-   SCHEDULED: <2015-03-09 Mon 10:00-10:30 .+7d/8d>
+** TODO Call my mum                                                    :LIFE:
+   SCHEDULED: <2015-03-19 Thu 10:00-10:30 .+7d/8d>
+   - State "DONE"       from "TODO"       [2015-03-12 Thu 18:05]
    - State "DONE"       from "TODO"       [2015-03-02 Mon 09:44]
    - State "DONE"       from "TODO"       [2015-02-02 Mon 10:34]
    - State "DONE"       from "TODO"       [2015-01-19 Mon 09:35]
@@ -248,7 +238,7 @@ in the original README file.
    :END:
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2015-03-02 Mon 09:44]
+   :LAST_REPEAT: [2015-03-12 Thu 18:05]
    :END:
 * Monthly Tasks
   #+category: Monthly
@@ -274,13 +264,11 @@ in the original README file.
 
 
 #+category: Review
-
-
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-02 Mon 19:49], for Monday, March 02, 2015.
+#+CAPTION: Clock summary at [2015-03-12 Thu 18:09], for Thursday, March 12, 2015.
 | File | Headline         | Time   |
-|------+------------------+--------+
+|------+------------------+--------|
 |      | ALL *Total time* | *0:00* |
 #+END:
 
@@ -294,7 +282,7 @@ in the original README file.
 
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-02 Mon 19:48], for week 2015-W10.
+#+CAPTION: Clock summary at [2015-03-12 Thu 18:09], for week 2015-W11.
 | File | Headline         | Time   |
 |------+------------------+--------|
 |      | ALL *Total time* | *0:00* |

@@ -3413,3 +3413,53 @@ Mathmatics for 3D game programming pdf
   :END:
   
   [[file:~/Dropbox/org/gtd.org::*Visit%20Cocos2D-x.org,%20visit%20forum][Visit Cocos2D-x.org, visit forum]]
+
+* CANCELLED 使用Docker把目前在阿里云上面托管的东西管理起来             :WORK:
+  CLOSED: [2015-03-12 Thu 18:06] SCHEDULED: <2014-12-28 Sun>
+  - State "CANCELLED"  from "TODO"       [2015-03-12 Thu 18:06] \\
+    Maybe it's not that important, my focus should be Emacs and Unity3D
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-03-12 Thu 18:08
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: CANCELLED
+  :END:
+
+  [[file:~/cocos2d-x-v2/CHANGELOG::%5BFIX%5D%20FileUtils:%20WebP%20format%20with%20alpha%20channel%20displayed%20wrong][file:~/cocos2d-x-v2/CHANGELOG::[FIX] FileUtils: WebP format with alpha channel displayed wrong]]
+
+* DONE Study Emacs Save Desktop functionality                          :WORK:
+  CLOSED: [2015-03-12 Thu 18:06] SCHEDULED: <2015-02-11 Wed 20:00>
+  - State "DONE"       from "TODO"       [2015-03-12 Thu 18:06]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-03-12 Thu 18:08
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* CANCELLED Study Latex And Use Math fomular, Chinese and export as PDF :WORK:
+  CLOSED: [2015-03-12 Thu 18:05] SCHEDULED: <2015-02-11 Wed 21:00>
+  - State "CANCELLED"  from "TODO"       [2015-03-12 Thu 18:05] \\
+    I don't want to study it anymore
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-03-12 Thu 18:08
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: CANCELLED
+  :END:
+
+* DONE Setup Irony and Rtags for c/c++ Dev in Emacs. This is very import for me! :LIFE:
+  CLOSED: [2015-03-12 Thu 18:05] DEADLINE: <2015-03-22 Sun> SCHEDULED: <2015-03-12 Thu>
+  - State "DONE"       from "TODO"       [2015-03-12 Thu 18:05]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-03-12 Thu 18:08
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+  
+  [[file:~/.emacs.d/modules/prelude-feed.el::"http://www.terminally-incoherent.com/blog/feed/"))]]
