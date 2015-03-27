@@ -1,11 +1,25 @@
 #+STARTUP: overview
 * Learning Emacs
-** TODO org-mode
-*** TODO learning org mode basic syntax structures
-**** TODO Learn headline 
+** org-mode
+*** learning org mode basic syntax structures
+*** Learn headline 
+*** TODO Learn GTD and improve my current workflow
+    SCHEDULED: <2015-03-22 Sun>
+[[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][Emacs org-mode examples and cookbook]]
+[[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
+[[http://orgmode.org/manual/index.html][The Org Manual]]
+
 ** git
 ** read pdf
-** read email
+** STARTED read email [0%]
+
+   :LOGBOOK:  
+   CLOCK: [2015-03-15 Sun 07:47]--[2015-03-16 Mon 13:33] => 29:46
+   :END:      
+   - [ ] configure mu4e client for Mac
+   http://www.ict4g.net/adolfo/notes/2014/12/27/EmacsIMAP.html
+   - [ ] improve the my daily email workflow in Emacs
+
 ** send weibo
 ** use shell in emacs
 ** write blog post
@@ -45,18 +59,44 @@ Entered on [2013-11-02 Sat 21:06]
 Entered on [2013-11-02 Sat 22:30]
   
 [[file:~/Dropbox/org/gtd.org::*Daily%20Tasks][Daily Tasks]]
-* 2013
-** 2013-11 November
-*** 2013-11-02 Saturday
-Entered on  [2013-11-02 Sat 22:42]/n  
-**** Finish this part of why I switch from vim to emacs
-Entered on  [2013-11-02 Sat 22:44]
+** c/c++
+*** Irony-mode/flycheck-irony/rtags
+*** Compile & Run in Emacs [%]
+- [ ] How to find git managed project root directory
+- [ ] Use zilongshanren/compile to choose a directory to store cmake build history. it's a buffer local variable
+- [ ] other times, when calling zilongshanren/compile it should compile properly
+- [ ] bind keys to run the project. <s-r> to run the project and <s-b> to compile the project.
   
-[[file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Why%20I%20choose%20emacs%20when%20I%20am%20already%20a%20hard-core%20vim%20user.][file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Why I choose emacs when I am already a hard-core vim user.]]
-*** 2013-11-03 Sunday
-****  How to read shell output into emacs buffer
-just press <c-u><S-M-!> , and input some shell command
-Entered on  [2013-11-03 Sun 18:30]
-*** 2013-11-07 Thursday
-*** 2013-11-09 Saturday
+* Learning Emacs Lisp
+**  How to learn Emacs Lisp
+[[http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html][Stevey's Blog Rants: Emergency Elisp]]
+[[http://www.gnu.org/software/emacs/manual/html_node/eintr/index.html][Programming in Emacs Lisp]]
+[[http://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][GNU Emacs Lisp Reference Manual]]
+[[http://www.gnu.org/software/emacs/emacs-paper.html][EMACS: The Extensible, Customizable Display Editor]]
+[[http://sachachua.com/blog/2013/03/learn-emacs-lisp-by-reading-emacs-lisp/][Learn Emacs Lisp by reading Emacs Lisp - sacha chua :: living an awesome life]]
+[[http://emacswiki.org/emacs/LearnEmacsLisp][EmacsWiki: Learn Emacs Lisp]]
+* 2015
+** 2015-03 March
+*** 2015-03-13 Friday
+*** 2015-03-23 Monday
+**** TODO Add Unity3D C# support
 
+    [[https://bbbscarter.wordpress.com/2013/08/17/c-autocompletion-in-emacs/][C# autocompletion in Emacs | Nerdgasm]] 
+[[https://bbbscarter.wordpress.com/][Nerdgasm | Brainfarts from an ageing games coder]]
+[[https://bbbscarter.wordpress.com/2014/04/21/compiling-unity-projects-from-within-emacs/][Compiling Unity projects from within Emacs | Nerdgasm]]
+[[https://bbbscarter.wordpress.com/2013/12/21/var-eldoc-and-omnisharp/][‘var’, ELDoc and Omnisharp | Nerdgasm]]
+[[https://bbbscarter.wordpress.com/2013/08/17/c-autocompletion-in-emacs/][C# autocompletion in Emacs | Nerdgasm]]
+[[http://blog.tkeo.info/blog/2014/12/10/unity-with-emacs/][To the Unity development in Emacs - blog.tkeo.info]]
+[[http://bocchies.hatenablog.com/entry/2014/05/09/041130][Emacs24.3 to write a C # for Unity in (for Mac OSX) - survival report of the phrase bocce]]
+[[http://qiita.com/fujimisakari/items/d043a2fae31ed740e290][Unity development in Emacs (c #) to Environment for - Qiita]]
+
+Entered on  [2015-03-23 Mon 00:10]
+**** TODO Figure out how Emacs Packages system works
+[[http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html#Init-File][Init File - GNU Emacs Manual]]
+[[http://www.gnu.org/software/emacs/manual/html_node/emacs/Package-Installation.html][Package Installation - GNU Emacs Manual]]
+[[http://stackoverflow.com/questions/11127109/emacs-24-package-system-initialization-problems][Emacs 24 Package System Initialization Problems - Stack Overflow]]
+Entered on  [2015-03-23 Mon 10:05]
+**** TODO Emacs CEDET configuration
+[[https://gist.github.com/andyque/ea30e46ee1ffc864f568][minimial-cedet-config.el]]
+[[https://www.logilab.org/blogentry/173886][Emacs turned into a IDE with CEDET (Logilab.org)]]
+[[http://tuhdo.github.io/c-ide.html#sec-6-4][C/C++ Development Environment for Emacs]]

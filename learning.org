@@ -12,8 +12,12 @@ http://zilongshanren.com/blog/2013/10/26/seting-up-cocos2d-x-android-development
 
 上面这篇文章是我用英文写的，里面有详细的搭建win32环境的步骤以及如何部署到android手机的步骤。
 
-* TODO Recommended Books
-  SCHEDULED: <2015-03-02 Mon 22:30>
+* DONE Recommended Books
+  CLOSED: [2015-03-23 Mon 10:09] SCHEDULED: <2015-03-02 Mon 22:30>
+  - State "DONE"       from "STARTED"    [2015-03-23 Mon 10:09]
+  :LOGBOOK:  
+  CLOCK: [2015-03-14 Sat 09:40]--[2015-03-14 Sat 10:19] =>  0:39
+  :END:      
 《cocos2d-x by example》  这个是五星推荐，里面有7个小游戏，每一个游戏你都可以下载到源码，然后可以直接运行或者hack代码。
 
 * Intermediate

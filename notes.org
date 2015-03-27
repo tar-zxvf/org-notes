@@ -8,11 +8,11 @@
 * Random notes
 
 ** Self brief introduction
-  Hello, everyone. Today I want to talk about org mode. So what is org mode? Org mode is a outline processor within emacs.
+  Hello, everyone. Today I want to talk about org mode. So what is org mode? Org mode is a outline processor within Emacs.
  Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
-With a emacs version greater than 23, org mode is already a build-in package. It provides a rich set of markup language. We can use lists, links, headlines, tables to manage our contents.
+With a Emacs version greater than 23, org mode is already a build-in package. It provides a rich set of markup language. We can use lists, links, headlines, tables to manage our contents.
 We can also export all of my org files to pdf , plain text or latex files with just a few key strokes. Org mode can even help me to manage my agenda.
-It's also my personal wiki system . I came across emacs org mode a few months ago, but I really love it now. It's awesome! It really deserves the time to learn.
+It's also my personal wiki system . I came across Emacs org mode a few months ago, but I really love it now. It's awesome! It really deserves the time to learn.
 
 ** How to learn a new language?
 Find a project you are familiar with and reimplement it with the new language. After finish it, review the project to see the difference between the new language and the languages you used to using.
@@ -20,19 +20,34 @@ Find a project you are familiar with and reimplement it with the new language. A
 ** Find the target
 *** What you can be the best in the world at?
 Instructors( have some confidence)
- best game client programmer(have some confidence)
- best game server programmer?
-best vim user?(have a lot confidence, but still need more)
- best emacs user?(a little confidence)
-best c++ programmer?
+ best game client programmer(have a few confidence)
+ best game server programmer?(no)
+ best vim user?(have a lot confidence, but still need more)
+ best Emacs user?(a few confidence)
+ best c++ programmer?(not too much confidence)
+ best blog post writer?(a few confidence)
 *** What drives your "economic" engine.
 Writing articles. (I have the ability to write well)
 Develop games.( I am good at iterate something to make it better)
-Teatch others to learn game programming.
+Teach others to learn game programming.
 *** What you are deeply passionate about.
-Learning useful stuff which can boost my productivity.(like ruby in web and go in server)
-Learning anything new about vim.( speed up my programming speed)
-Learing  anything new about emacs.(management my personal life)
+Learning useful stuff which can boost my productivity.(like ruby in web and Erlang in server)
++Learning anything new about vim.( speed up my programming speed)+  Why? Because Emacs is a better option.
+Learing  anything new about Emacs.(management my personal life)
 Let game programming is not a secret any more.(I love to share some new)
-
-
+* 2015
+** 2015-03 March
+*** 2015-03-15 Sunday
+****  Setup VPN on Ubuntu 14.04
+[[https://www.digitalocean.com/community/tutorials/how-to-setup-your-own-vpn-with-pptp][How To Setup Your Own VPN With PPTP | DigitalOcean]]
+*** 2015-03-27 Friday
+****  Find two useful links: Command Line and Rials tutorials
+[[http://conqueringthecommandline.com/book/curl][Chapter 3: cURL | Conquering the Command Line | Softcover.io]]     
+[[https://www.railstutorial.org/book][Frontmatter | Ruby on Rails Tutorial (3rd Ed.) | Softcover.io]]
+**** Learn Ruby on Rails.                                              :Ruby:
+[[http://www.reddit.com/r/learnprogramming/comments/1h3zr0/my_boyfriends_learn_to_program_manifesto_on/][My boyfriend's "learn to program manifesto" on learning Ruby Rails. : learnprogramming]]
+[[http://webdesign.tutsplus.com/series/twitter-bootstrap-101/][Twitter Bootstrap 101 - Tuts+ Web Design Tutorials]]
+[[http://code.tutsplus.com/tutorials/the-best-way-to-learn-ruby-on-rails--net-21820][The Best Way to Learn Ruby on Rails - Tuts+ Code Tutorial]]
+[[http://www.schneems.com/post/25098659429/databases-rails-week-1-introduction/][Databases & Rails: Week 1 Introduction]]
+[[http://www.schneems.com/ut-rails/][UT on Rails]]
+[[http://stackoverflow.com/questions/55574/learning-ruby-on-rails][Learning Ruby on Rails - Stack Overflow]]
