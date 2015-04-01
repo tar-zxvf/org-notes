@@ -1,0 +1,14 @@
+* GUI manual batch 
+** Purpose 
+- Reduce draw call 
+- Improve rendering performance
+** Restriction
+- Only sprites could be batched.
+- Only sprites inside of Widget could be batched.
+** How to solve the zOrder issue
+-   
+** Outcome
+*** Minimal interface change
+*** Add only one or two methods
+*** Reuse existing infrastructures.
+*** 

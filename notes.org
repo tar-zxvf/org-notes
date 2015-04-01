@@ -51,3 +51,24 @@ Let game programming is not a secret any more.(I love to share some new)
 [[http://www.schneems.com/post/25098659429/databases-rails-week-1-introduction/][Databases & Rails: Week 1 Introduction]]
 [[http://www.schneems.com/ut-rails/][UT on Rails]]
 [[http://stackoverflow.com/questions/55574/learning-ruby-on-rails][Learning Ruby on Rails - Stack Overflow]]
+*** 2015-03-31 Tuesday
+**** TODO Use Emacs to Download Youtube video                         :Emacs:
+     DEADLINE: <2015-04-06 Mon> SCHEDULED: <2015-04-04 Sat>
+** 2015-04 April
+*** 2015-04-01 Wednesday
+
+* SCIP notes
+** Lesson one
+*** Part one
+- Black box abstraction.
+- Write procedure which output procedure(write program which write program)
+- How to control complexity.
+- Conventions of interfaces.
+- Design a new language to handle the complexity(highlight some details and hide some details)
+
+*** Part two
+- When someone show you a language, ask him: What's the primitives? What are the means to combination? What are the mean of abstraction?
+  
+* Quick notes
+
+

@@ -9,14 +9,20 @@
 [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
 [[http://orgmode.org/manual/index.html][The Org Manual]]
 
-** git
+** Useful links of Emacs
+[[http://emacsclub.github.io/html/][Emacs Club]]
+
+** Git
+*** Use Emacs as an Git conflicts resolving tools.
+[[http://emacsclub.github.io/html/emerge.html][Use Emerge]] to resolve conflicts.
+
 ** read pdf
-** STARTED read email [0%]
+** STARTED read email [50%]
 
    :LOGBOOK:  
    CLOCK: [2015-03-15 Sun 07:47]--[2015-03-16 Mon 13:33] => 29:46
    :END:      
-   - [ ] configure mu4e client for Mac
+   - [X] configure mu4e client for Mac
    http://www.ict4g.net/adolfo/notes/2014/12/27/EmacsIMAP.html
    - [ ] improve the my daily email workflow in Emacs
 
@@ -66,8 +72,29 @@ Entered on [2013-11-02 Sat 22:30]
 - [ ] Use zilongshanren/compile to choose a directory to store cmake build history. it's a buffer local variable
 - [ ] other times, when calling zilongshanren/compile it should compile properly
 - [ ] bind keys to run the project. <s-r> to run the project and <s-b> to compile the project.
+
   
-* Learning Emacs Lisp
+** Read Emacs guru configs
+[[https://github.com/eschulte/emacs24-starter-kit][eschulte/emacs24-starter-kit]]
+[[https://github.com/syl20bnr/spacemacs/tree/master/contrib/lang/clojure][spacemacs/contrib/lang/clojure at master · syl20bnr/spacemacs]]
+[[https://github.com/purcell/emacs.d][purcell/emacs.d]]
+[[https://github.com/xiaohanyu/oh-my-emacs/blob/master/custom.el][oh-my-emacs/custom.el at master · xiaohanyu/oh-my-emacs]]
+[[https://github.com/technomancy/emacs-starter-kit/tree/v3][technomancy/emacs-starter-kit]]
+[[https://github.com/technomancy/better-defaults][technomancy/better-defaults]]
+[[https://github.com/magnars/.emacs.d][magnars/.emacs.d]]
+[[https://github.com/sachac/emacs-notes][sachac/emacs-notes]]
+[[https://github.com/sachac/.emacs.d][sachac/.emacs.d]]
+[[https://github.com/bbatsov/prelude][bbatsov/prelude]]
+[[https://github.com/xuchunyang/my-emacs-config/blob/master/emacs-config.org][my-emacs-config/emacs-config.org at master · xuchunyang/my-emacs-config]]
+
+
+* C/C++
+
+** Emacs CEDET configuration
+[[https://gist.github.com/andyque/ea30e46ee1ffc864f568][minimial-cedet-config.el]]
+[[https://www.logilab.org/blogentry/173886][Emacs turned into a IDE with CEDET (Logilab.org)]]
+[[http://tuhdo.github.io/c-ide.html#sec-6-4][C/C++ Development Environment for Emacs]]
+*  Emacs Lisp
 **  How to learn Emacs Lisp
 [[http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html][Stevey's Blog Rants: Emergency Elisp]]
 [[http://www.gnu.org/software/emacs/manual/html_node/eintr/index.html][Programming in Emacs Lisp]]
@@ -75,10 +102,8 @@ Entered on [2013-11-02 Sat 22:30]
 [[http://www.gnu.org/software/emacs/emacs-paper.html][EMACS: The Extensible, Customizable Display Editor]]
 [[http://sachachua.com/blog/2013/03/learn-emacs-lisp-by-reading-emacs-lisp/][Learn Emacs Lisp by reading Emacs Lisp - sacha chua :: living an awesome life]]
 [[http://emacswiki.org/emacs/LearnEmacsLisp][EmacsWiki: Learn Emacs Lisp]]
-* 2015
-** 2015-03 March
-*** 2015-03-13 Friday
-*** 2015-03-23 Monday
+
+* Quick notes
 **** TODO Add Unity3D C# support
 
     [[https://bbbscarter.wordpress.com/2013/08/17/c-autocompletion-in-emacs/][C# autocompletion in Emacs | Nerdgasm]] 
@@ -90,13 +115,29 @@ Entered on [2013-11-02 Sat 22:30]
 [[http://bocchies.hatenablog.com/entry/2014/05/09/041130][Emacs24.3 to write a C # for Unity in (for Mac OSX) - survival report of the phrase bocce]]
 [[http://qiita.com/fujimisakari/items/d043a2fae31ed740e290][Unity development in Emacs (c #) to Environment for - Qiita]]
 
-Entered on  [2015-03-23 Mon 00:10]
 **** TODO Figure out how Emacs Packages system works
 [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html#Init-File][Init File - GNU Emacs Manual]]
 [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Package-Installation.html][Package Installation - GNU Emacs Manual]]
 [[http://stackoverflow.com/questions/11127109/emacs-24-package-system-initialization-problems][Emacs 24 Package System Initialization Problems - Stack Overflow]]
-Entered on  [2015-03-23 Mon 10:05]
-**** TODO Emacs CEDET configuration
-[[https://gist.github.com/andyque/ea30e46ee1ffc864f568][minimial-cedet-config.el]]
-[[https://www.logilab.org/blogentry/173886][Emacs turned into a IDE with CEDET (Logilab.org)]]
-[[http://tuhdo.github.io/c-ide.html#sec-6-4][C/C++ Development Environment for Emacs]]
+**** TODO Clean up my Emacs Prelude Configs, put all of my customization to its own place :Emacs:
+     SCHEDULED: <2015-04-05 Sun>
+
+**  A hacker's guide for Gmail
+    http://dbp.io/essays/2013-06-29-hackers-replacement-for-gmail.html
+   
+  [2015-04-01 Wed 10:10]
+
+**  Try to use org-protocol in my Emacs Org workflow.
+  [[http://orgmode.org/worg/org-contrib/org-protocol.html][org-protocol.el – Intercept calls from emacsclient to trigger custom actions]] 
+  [2015-04-01 Wed 10:14]
+
+** Read email with mu4e                                               :email:
+[[http://www.brool.com/index.php/using-mu4e][Using mu4e | brool]] 
+   
+  [2015-04-01 Wed 11:58]
+
+**  Find and Replace all files in a directory
+[[http://stackoverflow.com/questions/270930/using-emacs-to-recursively-find-and-replace-in-text-files-not-already-open][editor - Using Emacs to recursively find and replace in text files not already open - Stack Overflow]]
+   
+  [2015-04-01 Wed 16:34]
+

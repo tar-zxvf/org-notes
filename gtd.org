@@ -12,7 +12,7 @@
    - State "DONE"       from "STARTED"    [2014-04-04 Fri 23:01]
    - State "DONE"       from "STARTED"    [2014-03-30 Sun 22:13]
    - State "DONE"       from "STARTED"    [2014-03-28 Fri 22:50]
-   SCHEDULED: <2014-10-06 Mon 20:00-21:00 .+1d>
+   SCHEDULED: <2014-10-06 Mon 21:00-22:00 .+1d>
    :LOGBOOK:
    CLOCK: [2014-10-03 Fri 22:23]--[2014-10-03 Fri 22:48] =>  0:25
    CLOCK: [2014-09-17 Wed 21:51]--[2014-09-17 Wed 22:16] =>  0:25
@@ -163,13 +163,14 @@
    :LAST_REPEAT: [2014-09-28 Sun 20:12]
    :END:
 
-** TODO  Read Algorithm books( 2 tomato)                              :DREAM:
+** TODO  Read SCIP books & watch video lectures( 2 tomato)            :DREAM:
    SCHEDULED: <2014-09-14 Sun 07:30-08:30 .+1d>
    :PROPERTIES:
    :STYLE:    habit
    :END:
-** TODO  change Prelude configs to use use-package to reduce startup time :LIFE:
-   DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-08 Sun>
+** DONE change Prelude configs to use use-package to reduce startup time :LIFE:
+   CLOSED: [2015-04-01 Wed 18:07] DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-08 Sun>
+   - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
    
    [[file:~/.emacs.d/modules/prelude-input.el::(setq%20eim-use-tooltip%20nil)][file:~/.emacs.d/modules/prelude-input.el::(setq eim-use-tooltip nil)]]
 ** DONE Write Cocos2D-x Beginner's tutorial for Raywenderlich.com [0%] :LIFE:
@@ -246,12 +247,22 @@ in the original README file.
    CLOSED: [2015-03-27 Fri 11:07] DEADLINE: <2015-03-24 Tue 18:00> SCHEDULED: <2015-03-24 Tue 10:00>
    - State "DONE"       from "STARTED"    [2015-03-27 Fri 11:07]
    :LOGBOOK:  
-   CLOCK: [2015-03-24 Tue 09:54]
+   CLOCK: [2015-03-24 Tue 09:54]--[2015-04-01 Wed 10:39] => 192:45
    :END:      
 ** TODO Change the "time" arguments in UI module into "seconds" or "miniseconds" :WORK:
    DEADLINE: <2015-03-25 Wed 18:00> SCHEDULED: <2015-03-25 Wed 14:00>
    
    [[file:~/org-notes/gtd.org::*change%20Prelude%20configs%20to%20use%20use-package%20to%20reduce%20startup%20time][change Prelude configs to use use-package to reduce startup time]]
+
+** STARTED Finish the 3rd party library upgrade                        :WORK:
+   DEADLINE: <2015-04-01 Wed 18:00> SCHEDULED: <2015-04-01 Wed 10:30>
+   :LOGBOOK:  
+   CLOCK: [2015-04-01 Wed 10:39]
+   CLOCK: [2015-04-01 Wed 10:27]--[2015-04-01 Wed 10:39] =>  0:12
+   :END:      
+
+** TODO  Don't trigger Github build status modification of V2 branch   :WORK:
+   SCHEDULED: <2015-04-10 Fri>
 
 * Weekly Tasks
 ** TODO [#B] Write a Blog, no matter English or Chinese                :LIFE:
@@ -273,7 +284,8 @@ in the original README file.
   :LAST_REPEAT: [2015-03-12 Thu 18:05]
   :END:
 ** TODO Call my mum                                                    :LIFE:
-   SCHEDULED: <2015-03-30 Mon 10:00-10:30 .+7d/8d>
+   SCHEDULED: <2015-04-08 Wed 10:00-10:30 .+7d/8d>
+   - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
    - State "DONE"       from "TODO"       [2015-03-23 Mon 10:09]
    - State "DONE"       from "TODO"       [2015-03-12 Thu 18:05]
    - State "DONE"       from "TODO"       [2015-03-02 Mon 09:44]
@@ -304,7 +316,7 @@ in the original README file.
    :END:
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2015-03-23 Mon 10:09]
+   :LAST_REPEAT: [2015-04-01 Wed 18:07]
    :END:
 
 # The following section is used for Monthly Tasks   
@@ -336,7 +348,7 @@ in the original README file.
 # The following section is used for Daily Review
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-12 Thu 20:35], for Thursday, March 12, 2015.
+#+CAPTION: Clock summary at [2015-03-29 Sun 17:21], for Sunday, March 29, 2015.
 | File | Headline         | Time   |
 |------+------------------+--------|
 |      | ALL *Total time* | *0:00* |
@@ -353,7 +365,7 @@ in the original README file.
 # The following section is used for Weekly Review
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-27 Fri 11:07], for week 2015-W13.
+#+CAPTION: Clock summary at [2015-03-29 Sun 17:22], for week 2015-W13.
 | File    | Headline                                   | Time    |       |
 |---------+--------------------------------------------+---------+-------|
 |         | ALL *Total time*                           | *23:38* |       |
@@ -377,14 +389,26 @@ in the original README file.
 # The following section is used for Monthly Review
 * Monthly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thismonth :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-12 Thu 20:34], for March 2015.
-| File    | Headline                                    | Time   |      |
-|---------+---------------------------------------------+--------+------|
-|         | ALL *Total time*                            | *1:17* |      |
-|---------+---------------------------------------------+--------+------|
-| gtd.org | *File time*                                 | *1:17* |      |
-|         | Daily Tasks                                 | 1:17   |      |
-|         | \emsp STARTED Write Cocos2D-x Beginner's... |        | 1:17 |
+#+CAPTION: Clock summary at [2015-03-29 Sun 17:22], for March 2015.
+| File         | Headline                                       | Time      |         |      |
+|--------------+------------------------------------------------+-----------+---------+------|
+|              | ALL *Total time*                               | *2d 9:53* |         |      |
+|--------------+------------------------------------------------+-----------+---------+------|
+| gtd.org      | *File time*                                    | *1d 3:28* |         |      |
+|              | Daily Tasks                                    | 1d 3:28   |         |      |
+|              | \emsp STARTED [#A] Visit Cocos2D-x.org,...     |           |    0:25 |      |
+|              | \emsp DONE Write Cocos2D-x Beginner's...       |           |    2:07 |      |
+|              | \emsp DONE [#A] Remove unneeded 3rd party...   |           |    1:43 |      |
+|              | \emsp\emsp DONE Add the latest RapidJson to... |           |         | 1:18 |
+|              | \emsp DONE Add CURL header file patch          |           |    3:34 |      |
+|              | \emsp DONE Finish missing comments             |           |   19:39 |      |
+|--------------+------------------------------------------------+-----------+---------+------|
+| emacs.org    | *File time*                                    | *1d 5:46* |         |      |
+|              | Learning Emacs                                 | 1d 5:46   |         |      |
+|              | \emsp STARTED read email [0%]                  |           | 1d 5:46 |      |
+|--------------+------------------------------------------------+-----------+---------+------|
+| learning.org | *File time*                                    | *0:39*    |         |      |
+|              | DONE Recommended Books                         | 0:39      |         |      |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
