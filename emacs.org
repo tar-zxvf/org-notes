@@ -2,9 +2,10 @@
 * Learning Emacs
 ** org-mode
 *** learning org mode basic syntax structures
-*** Learn headline 
-*** TODO Learn GTD and improve my current workflow
-    SCHEDULED: <2015-03-22 Sun>
+*** Learn headline
+*** DONE Learn GTD and improve my current workflow
+    CLOSED: [2015-04-01 Wed 18:07] SCHEDULED: <2015-03-22 Sun>
+    - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
 [[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][Emacs org-mode examples and cookbook]]
 [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
 [[http://orgmode.org/manual/index.html][The Org Manual]]
@@ -19,9 +20,9 @@
 ** read pdf
 ** STARTED read email [50%]
 
-   :LOGBOOK:  
+   :LOGBOOK:
    CLOCK: [2015-03-15 Sun 07:47]--[2015-03-16 Mon 13:33] => 29:46
-   :END:      
+   :END:
    - [X] configure mu4e client for Mac
    http://www.ict4g.net/adolfo/notes/2014/12/27/EmacsIMAP.html
    - [ ] improve the my daily email workflow in Emacs
@@ -57,13 +58,13 @@
 *** ctlr-o ctrl-i Mark, ctags, cscope,
 *** tmux
 
-**** Learn how to config org mode 
+**** Learn how to config org mode
 Entered on [2013-11-02 Sat 21:06]
-  
+
   [[file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Read%20the%20org%20compact%20guide%20and%20summary%20the%20keypoint%20of%20org%20mode][file:~/myblog/octopress/source/_posts/2013-11-02-learning-emacs-org-mode.markdown::Read the org compact guide and summary the keypoint of org mode]]
-**** Today I want to test the org-capture function 
+**** Today I want to test the org-capture function
 Entered on [2013-11-02 Sat 22:30]
-  
+
 [[file:~/Dropbox/org/gtd.org::*Daily%20Tasks][Daily Tasks]]
 ** c/c++
 *** Irony-mode/flycheck-irony/rtags
@@ -73,7 +74,7 @@ Entered on [2013-11-02 Sat 22:30]
 - [ ] other times, when calling zilongshanren/compile it should compile properly
 - [ ] bind keys to run the project. <s-r> to run the project and <s-b> to compile the project.
 
-  
+
 ** Read Emacs guru configs
 [[https://github.com/eschulte/emacs24-starter-kit][eschulte/emacs24-starter-kit]]
 [[https://github.com/syl20bnr/spacemacs/tree/master/contrib/lang/clojure][spacemacs/contrib/lang/clojure at master · syl20bnr/spacemacs]]
@@ -106,7 +107,7 @@ Entered on [2013-11-02 Sat 22:30]
 * Quick notes
 **** TODO Add Unity3D C# support
 
-    [[https://bbbscarter.wordpress.com/2013/08/17/c-autocompletion-in-emacs/][C# autocompletion in Emacs | Nerdgasm]] 
+    [[https://bbbscarter.wordpress.com/2013/08/17/c-autocompletion-in-emacs/][C# autocompletion in Emacs | Nerdgasm]]
 [[https://bbbscarter.wordpress.com/][Nerdgasm | Brainfarts from an ageing games coder]]
 [[https://bbbscarter.wordpress.com/2014/04/21/compiling-unity-projects-from-within-emacs/][Compiling Unity projects from within Emacs | Nerdgasm]]
 [[https://bbbscarter.wordpress.com/2013/12/21/var-eldoc-and-omnisharp/][‘var’, ELDoc and Omnisharp | Nerdgasm]]
@@ -124,20 +125,54 @@ Entered on [2013-11-02 Sat 22:30]
 
 **  A hacker's guide for Gmail
     http://dbp.io/essays/2013-06-29-hackers-replacement-for-gmail.html
-   
+
   [2015-04-01 Wed 10:10]
 
 **  Try to use org-protocol in my Emacs Org workflow.
-  [[http://orgmode.org/worg/org-contrib/org-protocol.html][org-protocol.el – Intercept calls from emacsclient to trigger custom actions]] 
+  [[http://orgmode.org/worg/org-contrib/org-protocol.html][org-protocol.el – Intercept calls from emacsclient to trigger custom actions]]
   [2015-04-01 Wed 10:14]
 
 ** Read email with mu4e                                               :email:
-[[http://www.brool.com/index.php/using-mu4e][Using mu4e | brool]] 
-   
+[[http://www.brool.com/index.php/using-mu4e][Using mu4e | brool]]
+
   [2015-04-01 Wed 11:58]
 
 **  Find and Replace all files in a directory
 [[http://stackoverflow.com/questions/270930/using-emacs-to-recursively-find-and-replace-in-text-files-not-already-open][editor - Using Emacs to recursively find and replace in text files not already open - Stack Overflow]]
-   
+
   [2015-04-01 Wed 16:34]
 
+** DONE Use Org-mode to Write HTML5 presentation.                       :org:
+   CLOSED: [2015-04-06 Mon 16:52] SCHEDULED: <2015-04-03 Fri 17:00>
+   - State "DONE"       from ""           [2015-04-06 Mon 16:52]
+  http://jr0cket.co.uk/2013/10/create-cool-slides--Org-mode-Revealjs.html
+  [2015-04-03 Fri 15:13]
+
+** DONE Add Minor-mode support and minor mode keybinding.
+   CLOSED: [2015-04-06 Mon 16:52] SCHEDULED: <2015-04-05 Sun>
+   - State "DONE"       from "TODO"       [2015-04-06 Mon 16:52]
+When popup win shows, add local keybinding to copy and navigate text.
+  https://github.com/andyque/youdao-dictionary.el
+  [2015-04-03 Fri 16:53]
+
+** DONE Study this package
+   CLOSED: [2015-04-06 Mon 16:52] SCHEDULED: <2015-04-04 Sat>
+   - State "DONE"       from "TODO"       [2015-04-06 Mon 16:52]
+  https://github.com/bbatsov/prelude
+  [2015-04-03 Fri 18:28]
+
+**  How to define a global keybinding to override all minor mode and major mode. :emacs:
+[[http://stackoverflow.com/questions/683425/globally-override-key-binding-in-emacs][keyboard shortcuts - Globally override key binding in Emacs - Stack Overflow]]
+  http://emacs.stackexchange.com/questions/352/how-to-override-major-mode-bindings
+[[http://shallowsky.com/blog/linux/editors/emacs-global-key-bindings.html][Global key bindings in Emacs (Shallow Thoughts)]]
+  [2015-04-04 Sat 11:50]
+
+**  Config cocos2d-x C/C++ project with EDE.                          :cmake:
+  https://github.com/alexott/emacs-configs/blob/master/rc/emacs-rc-cedet.el#L130
+  [2015-04-06 Mon 21:46]
+
+** TODO Study cpputils-cmake and CMake-ide to make my cocos2d-x c++ project rocks :cmake:
+   SCHEDULED: <2015-04-28 Tue>
+[[https://github.com/atilaneves/cmake-ide][atilaneves/cmake-ide]]
+  https://github.com/redguardtoo/cpputils-cmake/pull/26
+  [2015-04-06 Mon 22:00]

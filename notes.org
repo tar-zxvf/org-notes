@@ -71,4 +71,7 @@ Let game programming is not a secret any more.(I love to share some new)
   
 * Quick notes
 
+** Give a talk about emacs
+   
+  [2015-04-03 Fri 18:29]
 

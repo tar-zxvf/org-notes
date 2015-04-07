@@ -171,7 +171,7 @@
 ** DONE change Prelude configs to use use-package to reduce startup time :LIFE:
    CLOSED: [2015-04-01 Wed 18:07] DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-08 Sun>
    - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
-   
+
    [[file:~/.emacs.d/modules/prelude-input.el::(setq%20eim-use-tooltip%20nil)][file:~/.emacs.d/modules/prelude-input.el::(setq eim-use-tooltip nil)]]
 ** DONE Write Cocos2D-x Beginner's tutorial for Raywenderlich.com [0%] :LIFE:
    CLOSED: [2015-03-14 Sat 23:28]
@@ -180,18 +180,18 @@
    - [ ] Write other platform running instructions
    - [ ] Proofread the whole tutorials
    SCHEDULED: <2015-03-02 Mon 19:57>
-   :LOGBOOK:  
+   :LOGBOOK:
    CLOCK: [2015-03-14 Sat 10:28]--[2015-03-14 Sat 10:53] =>  0:25
    CLOCK: [2015-03-12 Thu 20:28]--[2015-03-12 Thu 20:53] =>  0:25
    CLOCK: [2015-03-02 Mon 19:56]--[2015-03-02 Mon 21:13] =>  1:17
-   :END:      
+   :END:
 ** TODO  Learn Emacs 24 starter kit and use literal programming for .emacs[0%] :LIFE:
    - [ ] Read the following links
-     1. [[https://eschulte.github.io/emacs24-starter-kit/][Emacs Starter Kit]]  
+     1. [[https://eschulte.github.io/emacs24-starter-kit/][Emacs Starter Kit]]
      2. [[https://github.com/eschulte/emacs24-starter-kit][eschulte/emacs24-starter-kit]].
-    3.[[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][ emacs.d/Sacha.org at gh-pages · sachac/.emacs.d]] 
+    3.[[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][ emacs.d/Sacha.org at gh-pages · sachac/.emacs.d]]
    - [ ] Try to modulate my Emacs configure. Must figure out how to organize my configurations.
-     Proposal solution: By functionality: Window, buffer, appearance(font, theme, fullscreen etc), keybinding in Emacs, keybindings in Evil, 
+     Proposal solution: By functionality: Window, buffer, appearance(font, theme, fullscreen etc), keybinding in Emacs, keybindings in Evil,
      programming languages, mode(mostly used mode like dired, magit)?
    - [ ] Starting to use org-babel and literal programming
 
@@ -203,66 +203,82 @@ in the original README file.
 ** DONE [#A] Remove unneeded 3rd party libs from cocos2d-x-3rd-party-libs-bin.
    CLOSED: [2015-03-23 Mon 10:09] DEADLINE: <2015-03-20 Fri 12:00> SCHEDULED: <2015-03-13 Fri 10:00>
    - State "DONE"       from "STARTED"    [2015-03-23 Mon 10:09]
-   :LOGBOOK:  
+   :LOGBOOK:
    CLOCK: [2015-03-16 Mon 14:14]--[2015-03-16 Mon 14:39] =>  0:25
-   :END:      
+   :END:
 *** DONE Add the latest RapidJson to Cocos2D-X and fix the compile issues
     CLOSED: [2015-03-16 Mon 14:14] SCHEDULED: <2015-03-13 Fri 09:40>
     - State "DONE"       from "STARTED"    [2015-03-16 Mon 14:14]
-    :LOGBOOK:  
+    :LOGBOOK:
     CLOCK: [2015-03-16 Mon 13:33]--[2015-03-16 Mon 13:59] =>  0:26
     CLOCK: [2015-03-13 Fri 11:04]--[2015-03-13 Fri 11:29] =>  0:25
     CLOCK: [2015-03-13 Fri 10:18]--[2015-03-13 Fri 10:44] =>  0:26
     CLOCK: [2015-03-13 Fri 09:39]--[2015-03-13 Fri 09:40] =>  0:01
-    :END:      
+    :END:
 ***  Add SpiderMonkey to 3rd party src repository and verify it works on all platforms except for MS platform
 ***  Remove Flatbuffer from 3rd party bin repository and remove unneeded include header file exportion
 ***  Test libCURL on Linux platform and use prebuilt version of CURL
 ***  Verify all the platforms
 
 
- 
+
 # The following section is used for Weekly Tasks
 ** DONE Add CURL header file patch                                     :WORK:
    CLOSED: [2015-03-23 Mon 14:07] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon 10:35>
    - State "DONE"       from "STARTED"    [2015-03-23 Mon 14:07]
-   :LOGBOOK:  
+   :LOGBOOK:
    CLOCK: [2015-03-23 Mon 10:43]--[2015-03-23 Mon 14:07] =>  3:24
    CLOCK: [2015-03-23 Mon 10:33]--[2015-03-23 Mon 10:43] =>  0:10
-   :END:      
+   :END:
 ** TODO  Add PageView Vertical Scroll                                  :WORK:
    DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon>
-   
+
    [[file:~/org-notes/gtd.org::*Add%20CURL%20header%20file%20patch][Add CURL header file patch]]
 ** DONE Finish missing comments                                        :WORK:
    CLOSED: [2015-03-27 Fri 11:07] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon>
    - State "DONE"       from "STARTED"    [2015-03-27 Fri 11:07]
-   :LOGBOOK:  
+   :LOGBOOK:
    CLOCK: [2015-03-23 Mon 14:40]--[2015-03-24 Tue 09:54] => 19:14
    CLOCK: [2015-03-23 Mon 14:07]--[2015-03-23 Mon 14:32] =>  0:25
-   :END:      
-   
+   :END:
+
    [[file:~/org-notes/gtd.org::*Add%20CURL%20header%20file%20patch][Add CURL header file patch]]
 ** DONE Add Daily Build for Cocos2D-X and modify the Icon for the index page in Github :WORK:
    CLOSED: [2015-03-27 Fri 11:07] DEADLINE: <2015-03-24 Tue 18:00> SCHEDULED: <2015-03-24 Tue 10:00>
    - State "DONE"       from "STARTED"    [2015-03-27 Fri 11:07]
-   :LOGBOOK:  
+   :LOGBOOK:
    CLOCK: [2015-03-24 Tue 09:54]--[2015-04-01 Wed 10:39] => 192:45
-   :END:      
+   :END:
 ** TODO Change the "time" arguments in UI module into "seconds" or "miniseconds" :WORK:
    DEADLINE: <2015-03-25 Wed 18:00> SCHEDULED: <2015-03-25 Wed 14:00>
-   
+
    [[file:~/org-notes/gtd.org::*change%20Prelude%20configs%20to%20use%20use-package%20to%20reduce%20startup%20time][change Prelude configs to use use-package to reduce startup time]]
 
 ** STARTED Finish the 3rd party library upgrade                        :WORK:
    DEADLINE: <2015-04-01 Wed 18:00> SCHEDULED: <2015-04-01 Wed 10:30>
-   :LOGBOOK:  
-   CLOCK: [2015-04-01 Wed 10:39]
+   :LOGBOOK:
+   CLOCK: [2015-04-07 Tue 16:07]
+   CLOCK: [2015-04-07 Tue 09:33]--[2015-04-07 Tue 09:58] =>  0:25
+   CLOCK: [2015-04-03 Fri 13:36]--[2015-04-03 Fri 14:02] =>  0:26
+   CLOCK: [2015-04-03 Fri 09:39]--[2015-04-03 Fri 10:04] =>  0:25
+   CLOCK: [2015-04-02 Thu 09:22]--[2015-04-02 Thu 09:47] =>  0:25
+   CLOCK: [2015-04-01 Wed 10:39]--[2015-04-02 Thu 09:22] => 22:43
    CLOCK: [2015-04-01 Wed 10:27]--[2015-04-01 Wed 10:39] =>  0:12
-   :END:      
+   :END:
 
 ** TODO  Don't trigger Github build status modification of V2 branch   :WORK:
    SCHEDULED: <2015-04-10 Fri>
+
+** TODO Fix ui::Text doesn't update its content size when enable label effect :WORK:
+   DEADLINE: <2015-04-09 Thu> SCHEDULED: <2015-04-02 Thu>
+
+** DONE Give a presentation of my Emacs workflow.
+   CLOSED: [2015-04-06 Mon 16:52] DEADLINE: <2015-04-03 Fri 18:00> SCHEDULED: <2015-04-03 Fri 17:35>
+   - State "DONE"       from "STARTED"    [2015-04-06 Mon 16:52]
+   :LOGBOOK:
+   CLOCK: [2015-04-03 Fri 17:35]--[2015-04-03 Fri 18:01] =>  0:26
+   :END:
+
 
 * Weekly Tasks
 ** TODO [#B] Write a Blog, no matter English or Chinese                :LIFE:
@@ -319,7 +335,7 @@ in the original README file.
    :LAST_REPEAT: [2015-04-01 Wed 18:07]
    :END:
 
-# The following section is used for Monthly Tasks   
+# The following section is used for Monthly Tasks
 * Monthly Tasks
   #+category: Monthly
 ** TODO [#B] Write a article to summary the fruit of a month           :LIFE:
@@ -344,7 +360,7 @@ in the original README file.
 
 
 #+category: Review
-   
+
 # The following section is used for Daily Review
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
@@ -418,4 +434,3 @@ in the original README file.
 
 #+RESULTS:
 : [-LIFE-] 01:17
-
