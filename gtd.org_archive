@@ -3463,3 +3463,192 @@ Mathmatics for 3D game programming pdf
   :END:
   
   [[file:~/.emacs.d/modules/prelude-feed.el::"http://www.terminally-incoherent.com/blog/feed/"))]]
+
+* DONE Give a presentation of my Emacs workflow.
+  CLOSED: [2015-04-06 Mon 16:52] DEADLINE: <2015-04-03 Fri 18:00> SCHEDULED: <2015-04-03 Fri 17:35>
+  - State "DONE"       from "STARTED"    [2015-04-06 Mon 16:52]
+  :LOGBOOK:
+  CLOCK: [2015-04-03 Fri 17:35]--[2015-04-03 Fri 18:01] =>  0:26
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:15
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+
+* DONE Add Daily Build for Cocos2D-X and modify the Icon for the index page in Github :WORK:
+  CLOSED: [2015-03-27 Fri 11:07] DEADLINE: <2015-03-24 Tue 18:00> SCHEDULED: <2015-03-24 Tue 10:00>
+  - State "DONE"       from "STARTED"    [2015-03-27 Fri 11:07]
+  :LOGBOOK:
+  CLOCK: [2015-03-24 Tue 09:54]--[2015-04-01 Wed 10:39] => 192:45
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:15
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE change Prelude configs to use use-package to reduce startup time :LIFE:
+  CLOSED: [2015-04-01 Wed 18:07] DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-08 Sun>
+  - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:19
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+  [[file:~/.emacs.d/modules/prelude-input.el::(setq%20eim-use-tooltip%20nil)][file:~/.emacs.d/modules/prelude-input.el::(setq eim-use-tooltip nil)]]
+
+* DONE [#A] Remove unneeded 3rd party libs from cocos2d-x-3rd-party-libs-bin.
+  CLOSED: [2015-03-23 Mon 10:09] DEADLINE: <2015-03-20 Fri 12:00> SCHEDULED: <2015-03-13 Fri 10:00>
+  - State "DONE"       from "STARTED"    [2015-03-23 Mon 10:09]
+  :LOGBOOK:
+  CLOCK: [2015-03-16 Mon 14:14]--[2015-03-16 Mon 14:39] =>  0:25
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:20
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+** DONE Add the latest RapidJson to Cocos2D-X and fix the compile issues
+   CLOSED: [2015-03-16 Mon 14:14] SCHEDULED: <2015-03-13 Fri 09:40>
+   - State "DONE"       from "STARTED"    [2015-03-16 Mon 14:14]
+   :LOGBOOK:
+   CLOCK: [2015-03-16 Mon 13:33]--[2015-03-16 Mon 13:59] =>  0:26
+   CLOCK: [2015-03-13 Fri 11:04]--[2015-03-13 Fri 11:29] =>  0:25
+   CLOCK: [2015-03-13 Fri 10:18]--[2015-03-13 Fri 10:44] =>  0:26
+   CLOCK: [2015-03-13 Fri 09:39]--[2015-03-13 Fri 09:40] =>  0:01
+   :END:
+** DONE Add SpiderMonkey to 3rd party src repository and verify it works on all platforms except for MS platform
+   CLOSED: [2015-04-07 Tue 16:11]
+   - State "DONE"       from ""           [2015-04-07 Tue 16:11]
+** DONE Remove Flatbuffer from 3rd party bin repository and remove unneeded include header file exportion
+   CLOSED: [2015-04-07 Tue 16:11]
+   - State "DONE"       from ""           [2015-04-07 Tue 16:11]
+** DONE Test libCURL on Linux platform and use prebuilt version of CURL
+   CLOSED: [2015-04-07 Tue 16:11]
+   - State "DONE"       from ""           [2015-04-07 Tue 16:11]
+** DONE Verify all the platforms
+    CLOSED: [2015-04-07 Tue 16:11]
+    - State "DONE"       from ""           [2015-04-07 Tue 16:11]
+
+
+
+# The following section is used for Weekly Tasks
+
+* DONE Finish missing comments                                         :WORK:
+  CLOSED: [2015-03-27 Fri 11:07] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon>
+  - State "DONE"       from "STARTED"    [2015-03-27 Fri 11:07]
+  :LOGBOOK:
+  CLOCK: [2015-03-23 Mon 14:40]--[2015-03-24 Tue 09:54] => 19:14
+  CLOCK: [2015-03-23 Mon 14:07]--[2015-03-23 Mon 14:32] =>  0:25
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:20
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+  [[file:~/org-notes/gtd.org::*Add%20CURL%20header%20file%20patch][Add CURL header file patch]]
+
+* DONE Write Cocos2D-x Beginner's tutorial for Raywenderlich.com [0%]  :LIFE:
+  CLOSED: [2015-03-14 Sat 23:28]
+  - State "DONE"       from "STARTED"    [2015-03-14 Sat 23:28]
+  - [ ] Write the instructions of the original tutorial
+  - [ ] Write other platform running instructions
+  - [ ] Proofread the whole tutorials
+  SCHEDULED: <2015-03-02 Mon 19:57>
+  :LOGBOOK:
+  CLOCK: [2015-03-14 Sat 10:28]--[2015-03-14 Sat 10:53] =>  0:25
+  CLOCK: [2015-03-12 Thu 20:28]--[2015-03-12 Thu 20:53] =>  0:25
+  CLOCK: [2015-03-02 Mon 19:56]--[2015-03-02 Mon 21:13] =>  1:17
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:20
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE Add CURL header file patch                                      :WORK:
+  CLOSED: [2015-03-23 Mon 14:07] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon 10:35>
+  - State "DONE"       from "STARTED"    [2015-03-23 Mon 14:07]
+  :LOGBOOK:
+  CLOCK: [2015-03-23 Mon 10:43]--[2015-03-23 Mon 14:07] =>  3:24
+  CLOCK: [2015-03-23 Mon 10:33]--[2015-03-23 Mon 10:43] =>  0:10
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:20
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE Add CURL header file patch                                      :WORK:
+  CLOSED: [2015-03-23 Mon 14:07] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon 10:35>
+  - State "DONE"       from "STARTED"    [2015-03-23 Mon 14:07]
+  :LOGBOOK:
+  CLOCK: [2015-03-23 Mon 10:43]--[2015-03-23 Mon 14:07] =>  3:24
+  CLOCK: [2015-03-23 Mon 10:33]--[2015-03-23 Mon 10:43] =>  0:10
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-07 Tue 16:21
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE Finish the 3rd party library upgrade                            :WORK:
+  CLOSED: [2015-04-10 Fri 16:18]
+  - State "DONE"       from "STARTED"    [2015-04-10 Fri 16:18]
+  - [X] update png on win32
+  - [ ] update png on WP8 and WP8.1
+  DEADLINE: <2015-04-01 Wed 18:00> SCHEDULED: <2015-04-01 Wed 10:30>
+  :LOGBOOK:
+  CLOCK: [2015-04-07 Tue 17:52]--[2015-04-07 Tue 18:17] =>  0:25
+  CLOCK: [2015-04-07 Tue 16:40]--[2015-04-07 Tue 17:05] =>  0:25
+  CLOCK: [2015-04-07 Tue 16:23]--[2015-04-07 Tue 16:40] =>  0:17
+  CLOCK: [2015-04-07 Tue 16:15]--[2015-04-07 Tue 16:23] =>  0:08
+  CLOCK: [2015-04-07 Tue 16:07]--[2015-04-07 Tue 16:15] =>  0:08
+  CLOCK: [2015-04-07 Tue 09:33]--[2015-04-07 Tue 09:58] =>  0:25
+  CLOCK: [2015-04-03 Fri 13:36]--[2015-04-03 Fri 14:02] =>  0:26
+  CLOCK: [2015-04-03 Fri 09:39]--[2015-04-03 Fri 10:04] =>  0:25
+  CLOCK: [2015-04-02 Thu 09:22]--[2015-04-02 Thu 09:47] =>  0:25
+  CLOCK: [2015-04-01 Wed 10:39]--[2015-04-02 Thu 09:22] => 22:43
+  CLOCK: [2015-04-01 Wed 10:27]--[2015-04-01 Wed 10:39] =>  0:12
+  :END:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-13 Mon 13:52
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+
+
+* DONE Fix ui::Text doesn't update its content size when enable label effect :WORK:
+  CLOSED: [2015-04-10 Fri 16:18] DEADLINE: <2015-04-09 Thu> SCHEDULED: <2015-04-02 Thu>
+  - State "DONE"       from "TODO"       [2015-04-10 Fri 16:18]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2015-04-13 Mon 13:52
+  :ARCHIVE_FILE: ~/org-notes/gtd.org
+  :ARCHIVE_OLPATH: Daily Tasks
+  :ARCHIVE_CATEGORY: Daily
+  :ARCHIVE_TODO: DONE
+  :END:
+

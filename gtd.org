@@ -1,4 +1,3 @@
-#+STARTUP: overview
 #+AUTHOR: guanghui
 #+TAGS: { WORK(w) ENGLISH(e) Writing(h) LIFE(l) DREAM(d) OTHER(o)  PHONE(p) MEETING(m)}
 
@@ -28,9 +27,9 @@
    :STYLE:    habit
    :LAST_REPEAT: [2014-10-05 Sun 09:22]
    :END:
-
 ** STARTED [#A] Visit Cocos2D-x.org, visit forum                       :WORK:
-   SCHEDULED: <2014-12-17 Wed 09:30-09:50 .+1d>
+   SCHEDULED: <2015-04-16 Thu 09:30-09:50 .+1d>
+   - State "DONE"       from "STARTED"    [2015-04-15 Wed 16:08]
    - State "DONE"       from "TODO"       [2014-12-16 Tue 13:56]
    - State "DONE"       from "STARTED"    [2014-12-15 Mon 16:05]
    - State "DONE"       from "STARTED"    [2014-09-30 Tue 10:11]
@@ -64,6 +63,8 @@
    - State "DONE"       from "TODO"       [2014-06-04 Wed 10:02]
    - State "DONE"       from "STARTED"    [2014-05-29 Thu 09:56]
    :LOGBOOK:
+   CLOCK: [2015-04-17 Fri 09:33]--[2015-04-17 Fri 09:58] =>  0:25
+   CLOCK: [2015-04-13 Mon 13:53]--[2015-04-13 Mon 14:18] =>  0:25
    CLOCK: [2015-03-23 Mon 10:08]--[2015-03-23 Mon 10:33] =>  0:25
    CLOCK: [2014-12-25 Thu 09:51]--[2014-12-25 Thu 10:16] =>  0:25
    CLOCK: [2014-12-15 Mon 14:36]--[2014-12-15 Mon 15:01] =>  0:25
@@ -100,7 +101,7 @@
    :END:
    - State "DONE"       from "TODO"       [2014-03-28 Fri 11:14]
    :PROPERTIES:
-   :LAST_REPEAT: [2014-12-16 Tue 13:56]
+   :LAST_REPEAT: [2015-04-15 Wed 16:08]
    :END:
 ** TODO [#B] Plan today, what should to do, what remains to be done    :LIFE:
    SCHEDULED: <2014-10-06 Mon 22:30-22:50 .+1d>
@@ -126,6 +127,23 @@
    :PROPERTIES:
    :STYLE:    habit
    :LAST_REPEAT: [2014-10-05 Sun 09:22]
+   :END:
+** STARTED Read RSS half an  hour                                      :LIFE:
+   DEADLINE: <2015-04-16 Thu 14:30 .+1d> SCHEDULED: <2015-04-16 Thu 13:40 .+1d>
+   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:07]
+   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
+   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
+   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
+   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
+   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
+   :LOGBOOK:
+   CLOCK: [2015-04-16 Thu 16:27]--[2015-04-16 Thu 17:05] =>  0:38
+   CLOCK: [2015-04-15 Wed 13:35]--[2015-04-15 Wed 14:00] =>  0:25
+   CLOCK: [2015-04-15 Wed 13:34]--[2015-04-15 Wed 13:35] =>  0:01
+   :END:
+   :PROPERTIES:
+   :STYLE:    habit
+   :LAST_REPEAT: [2015-04-15 Wed 16:07]
    :END:
 ** TODO [#A] Write Daily Report                                        :WORK:
    DEADLINE: <2014-09-29 Mon 18:30 .+1d> SCHEDULED: <2014-09-29 Mon 18:00 .+1d>
@@ -168,24 +186,9 @@
    :PROPERTIES:
    :STYLE:    habit
    :END:
-** DONE change Prelude configs to use use-package to reduce startup time :LIFE:
-   CLOSED: [2015-04-01 Wed 18:07] DEADLINE: <2015-03-09 Mon> SCHEDULED: <2015-03-08 Sun>
-   - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
-
-   [[file:~/.emacs.d/modules/prelude-input.el::(setq%20eim-use-tooltip%20nil)][file:~/.emacs.d/modules/prelude-input.el::(setq eim-use-tooltip nil)]]
-** DONE Write Cocos2D-x Beginner's tutorial for Raywenderlich.com [0%] :LIFE:
-   CLOSED: [2015-03-14 Sat 23:28]
-   - State "DONE"       from "STARTED"    [2015-03-14 Sat 23:28]
-   - [ ] Write the instructions of the original tutorial
-   - [ ] Write other platform running instructions
-   - [ ] Proofread the whole tutorials
-   SCHEDULED: <2015-03-02 Mon 19:57>
-   :LOGBOOK:
-   CLOCK: [2015-03-14 Sat 10:28]--[2015-03-14 Sat 10:53] =>  0:25
-   CLOCK: [2015-03-12 Thu 20:28]--[2015-03-12 Thu 20:53] =>  0:25
-   CLOCK: [2015-03-02 Mon 19:56]--[2015-03-02 Mon 21:13] =>  1:17
-   :END:
-** TODO  Learn Emacs 24 starter kit and use literal programming for .emacs[0%] :LIFE:
+** DONE Learn Emacs 24 starter kit and use literal programming for .emacs[0%] :LIFE:
+   CLOSED: [2015-04-13 Mon 13:52]
+   - State "DONE"       from "TODO"       [2015-04-13 Mon 13:52]
    - [ ] Read the following links
      1. [[https://eschulte.github.io/emacs24-starter-kit/][Emacs Starter Kit]]
      2. [[https://github.com/eschulte/emacs24-starter-kit][eschulte/emacs24-starter-kit]].
@@ -200,83 +203,36 @@ And change some configs to use the use-package to speedup my emacs startup time
 In the meantime, I should use English and I should including the useful document
 in the original README file.
 
-** DONE [#A] Remove unneeded 3rd party libs from cocos2d-x-3rd-party-libs-bin.
-   CLOSED: [2015-03-23 Mon 10:09] DEADLINE: <2015-03-20 Fri 12:00> SCHEDULED: <2015-03-13 Fri 10:00>
-   - State "DONE"       from "STARTED"    [2015-03-23 Mon 10:09]
-   :LOGBOOK:
-   CLOCK: [2015-03-16 Mon 14:14]--[2015-03-16 Mon 14:39] =>  0:25
-   :END:
-*** DONE Add the latest RapidJson to Cocos2D-X and fix the compile issues
-    CLOSED: [2015-03-16 Mon 14:14] SCHEDULED: <2015-03-13 Fri 09:40>
-    - State "DONE"       from "STARTED"    [2015-03-16 Mon 14:14]
-    :LOGBOOK:
-    CLOCK: [2015-03-16 Mon 13:33]--[2015-03-16 Mon 13:59] =>  0:26
-    CLOCK: [2015-03-13 Fri 11:04]--[2015-03-13 Fri 11:29] =>  0:25
-    CLOCK: [2015-03-13 Fri 10:18]--[2015-03-13 Fri 10:44] =>  0:26
-    CLOCK: [2015-03-13 Fri 09:39]--[2015-03-13 Fri 09:40] =>  0:01
-    :END:
-***  Add SpiderMonkey to 3rd party src repository and verify it works on all platforms except for MS platform
-***  Remove Flatbuffer from 3rd party bin repository and remove unneeded include header file exportion
-***  Test libCURL on Linux platform and use prebuilt version of CURL
-***  Verify all the platforms
-
-
-
-# The following section is used for Weekly Tasks
-** DONE Add CURL header file patch                                     :WORK:
-   CLOSED: [2015-03-23 Mon 14:07] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon 10:35>
-   - State "DONE"       from "STARTED"    [2015-03-23 Mon 14:07]
-   :LOGBOOK:
-   CLOCK: [2015-03-23 Mon 10:43]--[2015-03-23 Mon 14:07] =>  3:24
-   CLOCK: [2015-03-23 Mon 10:33]--[2015-03-23 Mon 10:43] =>  0:10
-   :END:
 ** TODO  Add PageView Vertical Scroll                                  :WORK:
    DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon>
 
    [[file:~/org-notes/gtd.org::*Add%20CURL%20header%20file%20patch][Add CURL header file patch]]
-** DONE Finish missing comments                                        :WORK:
-   CLOSED: [2015-03-27 Fri 11:07] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon>
-   - State "DONE"       from "STARTED"    [2015-03-27 Fri 11:07]
+** DONE Change the "time" arguments in UI module into "seconds" or "miniseconds" :WORK:
+   CLOSED: [2015-04-16 Thu 14:57] DEADLINE: <2015-03-25 Wed 18:00> SCHEDULED: <2015-03-25 Wed 14:00>
+   - State "DONE"       from "STARTED"    [2015-04-16 Thu 14:57]
    :LOGBOOK:
-   CLOCK: [2015-03-23 Mon 14:40]--[2015-03-24 Tue 09:54] => 19:14
-   CLOCK: [2015-03-23 Mon 14:07]--[2015-03-23 Mon 14:32] =>  0:25
+   CLOCK: [2015-04-15 Wed 16:08]--[2015-04-15 Wed 16:33] =>  0:25
    :END:
-
-   [[file:~/org-notes/gtd.org::*Add%20CURL%20header%20file%20patch][Add CURL header file patch]]
-** DONE Add Daily Build for Cocos2D-X and modify the Icon for the index page in Github :WORK:
-   CLOSED: [2015-03-27 Fri 11:07] DEADLINE: <2015-03-24 Tue 18:00> SCHEDULED: <2015-03-24 Tue 10:00>
-   - State "DONE"       from "STARTED"    [2015-03-27 Fri 11:07]
-   :LOGBOOK:
-   CLOCK: [2015-03-24 Tue 09:54]--[2015-04-01 Wed 10:39] => 192:45
-   :END:
-** TODO Change the "time" arguments in UI module into "seconds" or "miniseconds" :WORK:
-   DEADLINE: <2015-03-25 Wed 18:00> SCHEDULED: <2015-03-25 Wed 14:00>
 
    [[file:~/org-notes/gtd.org::*change%20Prelude%20configs%20to%20use%20use-package%20to%20reduce%20startup%20time][change Prelude configs to use use-package to reduce startup time]]
 
-** STARTED Finish the 3rd party library upgrade                        :WORK:
-   DEADLINE: <2015-04-01 Wed 18:00> SCHEDULED: <2015-04-01 Wed 10:30>
+** DONE Don't trigger Github build status modification of V2 branch    :WORK:
+   CLOSED: [2015-04-16 Thu 16:27] SCHEDULED: <2015-04-10 Fri>
+   - State "DONE"       from "STARTED"    [2015-04-16 Thu 16:27]
    :LOGBOOK:
-   CLOCK: [2015-04-07 Tue 16:07]
-   CLOCK: [2015-04-07 Tue 09:33]--[2015-04-07 Tue 09:58] =>  0:25
-   CLOCK: [2015-04-03 Fri 13:36]--[2015-04-03 Fri 14:02] =>  0:26
-   CLOCK: [2015-04-03 Fri 09:39]--[2015-04-03 Fri 10:04] =>  0:25
-   CLOCK: [2015-04-02 Thu 09:22]--[2015-04-02 Thu 09:47] =>  0:25
-   CLOCK: [2015-04-01 Wed 10:39]--[2015-04-02 Thu 09:22] => 22:43
-   CLOCK: [2015-04-01 Wed 10:27]--[2015-04-01 Wed 10:39] =>  0:12
+   CLOCK: [2015-04-16 Thu 14:58]--[2015-04-16 Thu 15:23] =>  0:25
+   CLOCK: [2015-04-13 Mon 09:26]--[2015-04-13 Mon 09:51] =>  0:25
    :END:
 
-** TODO  Don't trigger Github build status modification of V2 branch   :WORK:
-   SCHEDULED: <2015-04-10 Fri>
+** DONE Give a Emacs Introduction Lecture                              :WORK:
+   CLOSED: [2015-04-13 Mon 13:52]
+   - State "DONE"       from "TODO"       [2015-04-13 Mon 13:52]
 
-** TODO Fix ui::Text doesn't update its content size when enable label effect :WORK:
-   DEADLINE: <2015-04-09 Thu> SCHEDULED: <2015-04-02 Thu>
-
-** DONE Give a presentation of my Emacs workflow.
-   CLOSED: [2015-04-06 Mon 16:52] DEADLINE: <2015-04-03 Fri 18:00> SCHEDULED: <2015-04-03 Fri 17:35>
-   - State "DONE"       from "STARTED"    [2015-04-06 Mon 16:52]
+** DONE Write a document about how to make GUI more auto batch friendly :WORK:
+   CLOSED: [2015-04-15 Wed 16:07] DEADLINE: <2015-04-15 Wed 18:00> SCHEDULED: <2015-04-15 Wed 10:48>
+   - State "DONE"       from "STARTED"    [2015-04-15 Wed 16:07]
    :LOGBOOK:
-   CLOCK: [2015-04-03 Fri 17:35]--[2015-04-03 Fri 18:01] =>  0:26
+   CLOCK: [2015-04-15 Wed 10:47]--[2015-04-15 Wed 11:12] =>  0:25
    :END:
 
 
@@ -300,7 +256,8 @@ in the original README file.
   :LAST_REPEAT: [2015-03-12 Thu 18:05]
   :END:
 ** TODO Call my mum                                                    :LIFE:
-   SCHEDULED: <2015-04-08 Wed 10:00-10:30 .+7d/8d>
+   SCHEDULED: <2015-04-17 Fri 10:00-10:30 .+7d/8d>
+   - State "DONE"       from "TODO"       [2015-04-10 Fri 16:18]
    - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
    - State "DONE"       from "TODO"       [2015-03-23 Mon 10:09]
    - State "DONE"       from "TODO"       [2015-03-12 Thu 18:05]
@@ -332,7 +289,7 @@ in the original README file.
    :END:
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2015-04-01 Wed 18:07]
+   :LAST_REPEAT: [2015-04-10 Fri 16:18]
    :END:
 
 # The following section is used for Monthly Tasks
@@ -358,16 +315,27 @@ in the original README file.
    :LAST_REPEAT: [2015-01-19 Mon 09:35]
    :END:
 
+** TODO Sync the Prelude Emacs configuration from upstream
+   SCHEDULED: <2015-05-13 Wed 20:20 .+30d/31d>
+   - State "DONE"       from "TODO"       [2015-04-13 Mon 09:26]
+   :PROPERTIES:
+   :LAST_REPEAT: [2015-04-13 Mon 09:26]
+   :END:
 
 #+category: Review
 
 # The following section is used for Daily Review
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-29 Sun 17:21], for Sunday, March 29, 2015.
-| File | Headline         | Time   |
-|------+------------------+--------|
-|      | ALL *Total time* | *0:00* |
+#+CAPTION: Clock summary at [2015-04-15 Wed 13:36], for Wednesday, April 15, 2015.
+| File    | Headline                                       | Time   |      |
+|---------+------------------------------------------------+--------+------|
+|         | ALL *Total time*                               | *0:26* |      |
+|---------+------------------------------------------------+--------+------|
+| gtd.org | *File time*                                    | *0:26* |      |
+|         | Daily Tasks                                    | 0:26   |      |
+|         | \emsp STARTED Read RSS half an  hour           |        | 0:01 |
+|         | \emsp STARTED Write a document about how to... |        | 0:25 |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -381,16 +349,14 @@ in the original README file.
 # The following section is used for Weekly Review
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-29 Sun 17:22], for week 2015-W13.
-| File    | Headline                                   | Time    |       |
-|---------+--------------------------------------------+---------+-------|
-|         | ALL *Total time*                           | *23:38* |       |
-|---------+--------------------------------------------+---------+-------|
-| gtd.org | *File time*                                | *23:38* |       |
-|         | Daily Tasks                                | 23:38   |       |
-|         | \emsp STARTED [#A] Visit Cocos2D-x.org,... |         |  0:25 |
-|         | \emsp DONE Add CURL header file patch      |         |  3:34 |
-|         | \emsp DONE Finish missing comments         |         | 19:39 |
+#+CAPTION: Clock summary at [2015-04-07 Tue 16:20], for week 2015-W15.
+| File    | Headline                                      | Time   |      |
+|---------+-----------------------------------------------+--------+------|
+|         | ALL *Total time*                              | *0:33* |      |
+|---------+-----------------------------------------------+--------+------|
+| gtd.org | *File time*                                   | *0:33* |      |
+|         | Daily Tasks                                   | 0:33   |      |
+|         | \emsp STARTED Finish the 3rd party library... |        | 0:33 |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -405,26 +371,18 @@ in the original README file.
 # The following section is used for Monthly Review
 * Monthly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thismonth :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-03-29 Sun 17:22], for March 2015.
-| File         | Headline                                       | Time      |         |      |
-|--------------+------------------------------------------------+-----------+---------+------|
-|              | ALL *Total time*                               | *2d 9:53* |         |      |
-|--------------+------------------------------------------------+-----------+---------+------|
-| gtd.org      | *File time*                                    | *1d 3:28* |         |      |
-|              | Daily Tasks                                    | 1d 3:28   |         |      |
-|              | \emsp STARTED [#A] Visit Cocos2D-x.org,...     |           |    0:25 |      |
-|              | \emsp DONE Write Cocos2D-x Beginner's...       |           |    2:07 |      |
-|              | \emsp DONE [#A] Remove unneeded 3rd party...   |           |    1:43 |      |
-|              | \emsp\emsp DONE Add the latest RapidJson to... |           |         | 1:18 |
-|              | \emsp DONE Add CURL header file patch          |           |    3:34 |      |
-|              | \emsp DONE Finish missing comments             |           |   19:39 |      |
-|--------------+------------------------------------------------+-----------+---------+------|
-| emacs.org    | *File time*                                    | *1d 5:46* |         |      |
-|              | Learning Emacs                                 | 1d 5:46   |         |      |
-|              | \emsp STARTED read email [0%]                  |           | 1d 5:46 |      |
-|--------------+------------------------------------------------+-----------+---------+------|
-| learning.org | *File time*                                    | *0:39*    |         |      |
-|              | DONE Recommended Books                         | 0:39      |         |      |
+#+CAPTION: Clock summary at [2015-04-07 Tue 16:20], for April 2015.
+| File            | Headline                                      | Time       |         |
+|-----------------+-----------------------------------------------+------------+---------|
+|                 | ALL *Total time*                              | *1d 11:49* |         |
+|-----------------+-----------------------------------------------+------------+---------|
+| gtd.org         | *File time*                                   | *1d 0:44*  |         |
+|                 | Daily Tasks                                   | 1d 0:44    |         |
+|                 | \emsp STARTED Finish the 3rd party library... |            | 1d 0:44 |
+|-----------------+-----------------------------------------------+------------+---------|
+| gtd.org_archive | *File time*                                   | *11:05*    |         |
+|                 | DONE Give a presentation of my Emacs...       | 0:26       |         |
+|                 | DONE Add Daily Build for Cocos2D-X...         | 10:39      |         |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value

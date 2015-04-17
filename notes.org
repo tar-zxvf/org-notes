@@ -42,7 +42,7 @@ Let game programming is not a secret any more.(I love to share some new)
 [[https://www.digitalocean.com/community/tutorials/how-to-setup-your-own-vpn-with-pptp][How To Setup Your Own VPN With PPTP | DigitalOcean]]
 *** 2015-03-27 Friday
 ****  Find two useful links: Command Line and Rials tutorials
-[[http://conqueringthecommandline.com/book/curl][Chapter 3: cURL | Conquering the Command Line | Softcover.io]]     
+[[http://conqueringthecommandline.com/book/curl][Chapter 3: cURL | Conquering the Command Line | Softcover.io]]
 [[https://www.railstutorial.org/book][Frontmatter | Ruby on Rails Tutorial (3rd Ed.) | Softcover.io]]
 **** Learn Ruby on Rails.                                              :Ruby:
 [[http://www.reddit.com/r/learnprogramming/comments/1h3zr0/my_boyfriends_learn_to_program_manifesto_on/][My boyfriend's "learn to program manifesto" on learning Ruby Rails. : learnprogramming]]
@@ -53,7 +53,7 @@ Let game programming is not a secret any more.(I love to share some new)
 [[http://stackoverflow.com/questions/55574/learning-ruby-on-rails][Learning Ruby on Rails - Stack Overflow]]
 *** 2015-03-31 Tuesday
 **** TODO Use Emacs to Download Youtube video                         :Emacs:
-     DEADLINE: <2015-04-06 Mon> SCHEDULED: <2015-04-04 Sat>
+     DEADLINE: <2015-06-29 Mon> SCHEDULED: <2015-06-07 Sun>
 ** 2015-04 April
 *** 2015-04-01 Wednesday
 
@@ -68,10 +68,14 @@ Let game programming is not a secret any more.(I love to share some new)
 
 *** Part two
 - When someone show you a language, ask him: What's the primitives? What are the means to combination? What are the mean of abstraction?
-  
+
 * Quick notes
 
 ** Give a talk about emacs
-   
+
   [2015-04-03 Fri 18:29]
 
+**  Learning R and Python for Big Data                                :Dream:
+    DEADLINE: <2015-11-01 Sun> SCHEDULED: <2015-07-24 Fri>
+[[http://blog.revolutionanalytics.com/2014/03/emacs-ess-and-r-for-zombies.html][Emacs, ESS and R for Zombies]]
+  [2015-04-13 Mon 17:49]

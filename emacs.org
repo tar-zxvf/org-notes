@@ -3,9 +3,10 @@
 ** org-mode
 *** learning org mode basic syntax structures
 *** Learn headline
-*** DONE Learn GTD and improve my current workflow
-    CLOSED: [2015-04-01 Wed 18:07] SCHEDULED: <2015-03-22 Sun>
-    - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
+*** Learn GTD and improve my current workflow
+    SCHEDULED: <2015-03-22 Sun>
+    :LOGBOOK:
+    :END:
 [[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][Emacs org-mode examples and cookbook]]
 [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
 [[http://orgmode.org/manual/index.html][The Org Manual]]
@@ -95,7 +96,9 @@ Entered on [2013-11-02 Sat 22:30]
 [[https://gist.github.com/andyque/ea30e46ee1ffc864f568][minimial-cedet-config.el]]
 [[https://www.logilab.org/blogentry/173886][Emacs turned into a IDE with CEDET (Logilab.org)]]
 [[http://tuhdo.github.io/c-ide.html#sec-6-4][C/C++ Development Environment for Emacs]]
-*  Emacs Lisp
+* Emacs Lisp
+  - State "DONE"       from "WAITING"    [2015-04-17 Fri 09:50]
+  - State "DONE"       from "STARTED"    [2015-04-17 Fri 09:50]
 **  How to learn Emacs Lisp
 [[http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html][Stevey's Blog Rants: Emergency Elisp]]
 [[http://www.gnu.org/software/emacs/manual/html_node/eintr/index.html][Programming in Emacs Lisp]]
@@ -120,8 +123,9 @@ Entered on [2013-11-02 Sat 22:30]
 [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html#Init-File][Init File - GNU Emacs Manual]]
 [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Package-Installation.html][Package Installation - GNU Emacs Manual]]
 [[http://stackoverflow.com/questions/11127109/emacs-24-package-system-initialization-problems][Emacs 24 Package System Initialization Problems - Stack Overflow]]
-**** TODO Clean up my Emacs Prelude Configs, put all of my customization to its own place :Emacs:
-     SCHEDULED: <2015-04-05 Sun>
+**** DONE Clean up my Emacs Prelude Configs, put all of my customization to its own place :Emacs:
+     CLOSED: [2015-04-10 Fri 16:18] SCHEDULED: <2015-04-05 Sun>
+     - State "DONE"       from "TODO"       [2015-04-10 Fri 16:18]
 
 **  A hacker's guide for Gmail
     http://dbp.io/essays/2013-06-29-hackers-replacement-for-gmail.html
@@ -161,18 +165,38 @@ When popup win shows, add local keybinding to copy and navigate text.
   https://github.com/bbatsov/prelude
   [2015-04-03 Fri 18:28]
 
-**  How to define a global keybinding to override all minor mode and major mode. :emacs:
+** TODO How to define a global keybinding to override all minor mode and major mode. :emacs:
 [[http://stackoverflow.com/questions/683425/globally-override-key-binding-in-emacs][keyboard shortcuts - Globally override key binding in Emacs - Stack Overflow]]
   http://emacs.stackexchange.com/questions/352/how-to-override-major-mode-bindings
 [[http://shallowsky.com/blog/linux/editors/emacs-global-key-bindings.html][Global key bindings in Emacs (Shallow Thoughts)]]
-  [2015-04-04 Sat 11:50]
 
 **  Config cocos2d-x C/C++ project with EDE.                          :cmake:
   https://github.com/alexott/emacs-configs/blob/master/rc/emacs-rc-cedet.el#L130
-  [2015-04-06 Mon 21:46]
 
 ** TODO Study cpputils-cmake and CMake-ide to make my cocos2d-x c++ project rocks :cmake:
-   SCHEDULED: <2015-04-28 Tue>
 [[https://github.com/atilaneves/cmake-ide][atilaneves/cmake-ide]]
   https://github.com/redguardtoo/cpputils-cmake/pull/26
-  [2015-04-06 Mon 22:00]
+
+** Emacs for  Python openstack development tools.                    :Python:
+  https://dague.net/2015/03/24/openstack-emacs-tools/
+  [2015-04-13 Mon 23:17]
+
+** TODO Make github flavor markdown Emacs live editing                :Emacs:
+   DEADLINE: <2015-04-24 Fri> SCHEDULED: <2015-04-19 Sun>
+[[http://qiita.com/garaemon/items/2a551f6da3380950b21c][To preview a markdown in emacs - Qiita]]
+  [2015-04-14 Tue 11:30]
+
+**  Use Org-mode to do literate programming                             :Org:
+    DEADLINE: <2037-04-16 Thu> SCHEDULED: <2015-04-16 Thu>
+http://www.howardism.org/Technical/Emacs/literate-database.html
+http://www.howardism.org/Technical/Emacs/literate-devops.html#fnr.2
+http://analogpixel.org/html/2015-03-10-Literate-Systems-Administration.html
+  http://irreal.org/blog/?p=3883
+  [2015-04-16 Thu 18:11]
+
+**  Add greyshade theme to my Octopress blog. And add a new English blog to www.zilongshanren.com. :Blog:
+    DEADLINE: <2015-04-27 Mon> SCHEDULED: <2015-04-25 Sat>
+And start blogging my road to mastering emacs.
+
+  https://github.com/shashankmehta/greyshade
+  [2015-04-16 Thu 23:44]
