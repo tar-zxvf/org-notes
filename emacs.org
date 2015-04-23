@@ -181,8 +181,9 @@ When popup win shows, add local keybinding to copy and navigate text.
   https://dague.net/2015/03/24/openstack-emacs-tools/
   [2015-04-13 Mon 23:17]
 
-** TODO Make github flavor markdown Emacs live editing                :Emacs:
-   DEADLINE: <2015-04-24 Fri> SCHEDULED: <2015-04-19 Sun>
+** DONE Make github flavor markdown Emacs live editing                :Emacs:
+   CLOSED: [2015-04-21 Tue 09:48] DEADLINE: <2015-04-24 Fri> SCHEDULED: <2015-04-19 Sun>
+   - State "DONE"       from "TODO"       [2015-04-21 Tue 09:48]
 [[http://qiita.com/garaemon/items/2a551f6da3380950b21c][To preview a markdown in emacs - Qiita]]
   [2015-04-14 Tue 11:30]
 
@@ -200,3 +201,37 @@ And start blogging my road to mastering emacs.
 
   https://github.com/shashankmehta/greyshade
   [2015-04-16 Thu 23:44]
+
+**  Use Ctags for Lua code completion.
+http://zmalltalker.com/emacs/tags.html
+
+  http://ericjmritz.name/2013/03/14/writing-custom-rules-for-exuberant-ctags/
+  [2015-04-19 Sun 08:53]
+
+** Emacs defadvice limitations                              :Emacs:defadvice:
+http://nullprogram.com/blog/2013/01/22/
+  [2015-04-22 Wed 11:35]
+
+**  Configure my Lua development environment.                         :Emacs:
+    DEADLINE: <2015-04-22 Wed> SCHEDULED: <2015-05-12 Tue>
+http://ericjmritz.name/2015/03/25/creating-and-using-environments-in-lua/
+http://ericjmritz.name/2013/06/17/type-checking-in-lua/
+  http://ericjmritz.name/2015/04/21/luacheck/
+  [2015-04-22 Wed 14:01]
+
+**   Write a repository for storing my Elisp tips and tricks as well as the Cheetsheet. :Emacs:
+     DEADLINE: <2015-05-03 Sun> SCHEDULED: <2015-04-28 Tue>
+Where did these cheetsheet comes from?
+1. From the functions written by myself. I need to regonize the common pattern.
+2. From existing cheetsheet
+https://lispp.wordpress.com/2009/11/25/emacs-lisp-cheatsheet/     
+http://wikemacs.org/wiki/Emacs_Lisp_Cheat_Sheet
+https://github.com/gar3thjon3s/elisp-cheatsheet/blob/master/cheatsheet.md
+http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
+
+3. the cheetsheet should be written in org-mode.
+4. it should cover the basics of elisp (learn x in y minutes and elisp intro)
+5. From the packages written by others. like abo-abo, prelude etc.
+
+  [2015-04-23 Thu 11:40]
+
