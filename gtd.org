@@ -28,7 +28,9 @@
    :LAST_REPEAT: [2014-10-05 Sun 09:22]
    :END:
 ** TODO [#A] Visit Cocos2D-x.org, visit forum                          :WORK:
-   SCHEDULED: <2015-04-23 Thu 09:30-09:50 .+1d>
+   SCHEDULED: <2015-04-25 Sat 09:30-09:50 .+1d>
+   - State "DONE"       from "TODO"       [2015-04-24 Fri 16:18]
+   - State "DONE"       from "TODO"       [2015-04-23 Thu 13:47]
    - State "DONE"       from "STARTED"    [2015-04-22 Wed 11:35]
    - State "DONE"       from "STARTED"    [2015-04-21 Tue 14:05]
    - State "DONE"       from "STARTED"    [2015-04-17 Fri 11:09]
@@ -106,7 +108,7 @@
    :END:
    - State "DONE"       from "TODO"       [2014-03-28 Fri 11:14]
    :PROPERTIES:
-   :LAST_REPEAT: [2015-04-22 Wed 11:35]
+   :LAST_REPEAT: [2015-04-24 Fri 16:18]
    :END:
 ** TODO [#B] Plan today, what should to do, what remains to be done    :LIFE:
    SCHEDULED: <2014-10-06 Mon 22:30-22:50 .+1d>
@@ -134,7 +136,9 @@
    :LAST_REPEAT: [2014-10-05 Sun 09:22]
    :END:
 ** TODO Read RSS half an  hour                                         :LIFE:
-   DEADLINE: <2015-04-22 Wed 14:30 .+1d> SCHEDULED: <2015-04-22 Wed 13:40 .+1d>
+   DEADLINE: <2015-04-25 Sat 14:30 .+1d> SCHEDULED: <2015-04-25 Sat 13:40 .+1d>
+   - State "DONE"       from "TODO"       [2015-04-24 Fri 16:18]
+   - State "DONE"       from "STARTED"    [2015-04-23 Thu 13:47]
    - State "DONE"       from "STARTED"    [2015-04-21 Tue 15:41]
    - State "DONE"       from "TODO"       [2015-04-15 Wed 16:07]
    - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
@@ -143,6 +147,7 @@
    - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
    - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
    :LOGBOOK:
+   CLOCK: [2015-04-23 Thu 13:31]--[2015-04-23 Thu 13:47] =>  0:16
    CLOCK: [2015-04-21 Tue 14:06]--[2015-04-21 Tue 14:31] =>  0:25
    CLOCK: [2015-04-16 Thu 16:27]--[2015-04-16 Thu 17:05] =>  0:38
    CLOCK: [2015-04-15 Wed 13:35]--[2015-04-15 Wed 14:00] =>  0:25
@@ -150,7 +155,7 @@
    :END:
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2015-04-21 Tue 15:41]
+   :LAST_REPEAT: [2015-04-24 Fri 16:18]
    :END:
 ** TODO [#A] Write Daily Report                                        :WORK:
    DEADLINE: <2014-09-29 Mon 18:30 .+1d> SCHEDULED: <2014-09-29 Mon 18:00 .+1d>
@@ -246,16 +251,24 @@ in the original README file.
    CLOSED: [2015-04-21 Tue 15:41] DEADLINE: <2015-04-21 Tue 18:00> SCHEDULED: <2015-04-21 Tue 15:00>
    - State "DONE"       from "TODO"       [2015-04-21 Tue 15:41]
 
-** STARTED Add Android 9-patch image support                           :WORK:
-   DEADLINE: <2015-04-21 Tue 18:00> SCHEDULED: <2015-04-21 Tue 15:42>
+** DONE Add Android 9-patch image support                              :WORK:
+   CLOSED: [2015-04-24 Fri 16:18] DEADLINE: <2015-04-21 Tue 18:00> SCHEDULED: <2015-04-21 Tue 15:42>
+   - State "DONE"       from "STARTED"    [2015-04-24 Fri 16:18]
    :LOGBOOK:  
    CLOCK: [2015-04-21 Tue 15:42]--[2015-04-21 Tue 16:20] =>  0:38
    :END:      
 
-** STARTED Read the article about emacs defadvice
-   DEADLINE: <2015-04-22 Wed 12:00> SCHEDULED: <2015-04-22 Wed 11:37>
+** DONE Read the article about emacs defadvice
+   CLOSED: [2015-04-24 Fri 16:19] DEADLINE: <2015-04-22 Wed 12:00> SCHEDULED: <2015-04-22 Wed 11:37>
+   - State "DONE"       from "STARTED"    [2015-04-24 Fri 16:19]
    :LOGBOOK:  
-   CLOCK: [2015-04-22 Wed 11:36]
+   CLOCK: [2015-04-22 Wed 11:36]--[2015-04-23 Thu 13:31] => 25:55
+   :END:      
+
+** STARTED Fix node and scrollview nested issue                        :WORK:
+   DEADLINE: <2015-04-23 Thu 18:00> SCHEDULED: <2015-04-23 Thu 14:00>
+   :LOGBOOK:  
+   CLOCK: [2015-04-23 Thu 13:47]--[2015-04-23 Thu 14:12] =>  0:25
    :END:      
 
 * Weekly Tasks
@@ -278,7 +291,8 @@ in the original README file.
   :LAST_REPEAT: [2015-03-12 Thu 18:05]
   :END:
 ** TODO Call my mum                                                    :LIFE:
-   SCHEDULED: <2015-04-24 Fri 10:00-10:30 .+7d/8d>
+   SCHEDULED: <2015-05-01 Fri 10:00-10:30 .+7d/8d>
+   - State "DONE"       from "TODO"       [2015-04-24 Fri 16:18]
    - State "DONE"       from "TODO"       [2015-04-17 Fri 11:09]
    - State "DONE"       from "TODO"       [2015-04-10 Fri 16:18]
    - State "DONE"       from "TODO"       [2015-04-01 Wed 18:07]
@@ -312,7 +326,7 @@ in the original README file.
    :END:
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2015-04-17 Fri 11:09]
+   :LAST_REPEAT: [2015-04-24 Fri 16:18]
    :END:
 
 # The following section is used for Monthly Tasks

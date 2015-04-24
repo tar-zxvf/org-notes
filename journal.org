@@ -3,8 +3,9 @@
 ** 2015-04 April
 *** 2015-04-01 Wednesday
 
-**** TODO Today I should finish the org-mode workflow for me
-     SCHEDULED: <2015-04-10 Fri>
+**** DONE Today I should finish the org-mode workflow for me
+     CLOSED: [2015-04-24 Fri 16:19] SCHEDULED: <2015-04-10 Fri>
+     - State "DONE"       from "TODO"       [2015-04-24 Fri 16:19]
 
 **** What I have done today?
 - Tweak my org tempate and add journal org files
