@@ -3652,3 +3652,130 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
+
+* DONE Learn Emacs 24 starter kit and use literal programming for .emacs[0%] :LIFE:
+   CLOSED: [2015-04-13 Mon 13:52]
+   - State "DONE"       from "TODO"       [2015-04-13 Mon 13:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+   - [ ] Read the following links
+     1. [[https://eschulte.github.io/emacs24-starter-kit/][Emacs Starter Kit]]
+     2. [[https://github.com/eschulte/emacs24-starter-kit][eschulte/emacs24-starter-kit]].
+    3.[[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][ emacs.d/Sacha.org at gh-pages · sachac/.emacs.d]]
+   - [ ] Try to modulate my Emacs configure. Must figure out how to organize my configurations.
+     Proposal solution: By functionality: Window, buffer, appearance(font, theme, fullscreen etc), keybinding in Emacs, keybindings in Evil,
+     programming languages, mode(mostly used mode like dired, magit)?
+   - [ ] Starting to use org-babel and literal programming
+
+And change some configs to use the use-package to speedup my emacs startup time
+
+In the meantime, I should use English and I should including the useful document
+in the original README file.
+
+
+* DONE Change the "time" arguments in UI module into "seconds" or "miniseconds" :WORK:
+   CLOSED: [2015-04-16 Thu 14:57] DEADLINE: <2015-03-25 Wed 18:00> SCHEDULED: <2015-03-25 Wed 14:00>
+   - State "DONE"       from "STARTED"    [2015-04-16 Thu 14:57]
+   :LOGBOOK:
+   CLOCK: [2015-04-15 Wed 16:08]--[2015-04-15 Wed 16:33] =>  0:25
+   :END:
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+   [[file:~/org-notes/gtd.org::*change%20Prelude%20configs%20to%20use%20use-package%20to%20reduce%20startup%20time][change Prelude configs to use use-package to reduce startup time]]
+
+
+* DONE Give a Emacs Introduction Lecture                               :WORK:
+   CLOSED: [2015-04-13 Mon 13:52]
+   - State "DONE"       from "TODO"       [2015-04-13 Mon 13:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Review Tizen document.                                          :WORK:
+   CLOSED: [2015-04-21 Tue 15:41] DEADLINE: <2015-04-21 Tue 18:00> SCHEDULED: <2015-04-21 Tue 15:00>
+   - State "DONE"       from "TODO"       [2015-04-21 Tue 15:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Read the article about emacs defadvice
+   CLOSED: [2015-04-24 Fri 16:19] DEADLINE: <2015-04-22 Wed 12:00> SCHEDULED: <2015-04-22 Wed 11:37>
+   - State "DONE"       from "STARTED"    [2015-04-24 Fri 16:19]
+   :LOGBOOK:  
+   CLOCK: [2015-04-22 Wed 11:36]--[2015-04-23 Thu 13:31] => 25:55
+   :END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Don't trigger Github build status modification of V2 branch     :WORK:
+   CLOSED: [2015-04-16 Thu 16:27] SCHEDULED: <2015-04-10 Fri>
+   - State "DONE"       from "STARTED"    [2015-04-16 Thu 16:27]
+   :LOGBOOK:
+   CLOCK: [2015-04-16 Thu 14:58]--[2015-04-16 Thu 15:23] =>  0:25
+   CLOCK: [2015-04-13 Mon 09:26]--[2015-04-13 Mon 09:51] =>  0:25
+   :END:
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Add Android 9-patch image support                               :WORK:
+   CLOSED: [2015-04-24 Fri 16:18] DEADLINE: <2015-04-21 Tue 18:00> SCHEDULED: <2015-04-21 Tue 15:42>
+   - State "DONE"       from "STARTED"    [2015-04-24 Fri 16:18]
+   :LOGBOOK:  
+   CLOCK: [2015-04-21 Tue 15:42]--[2015-04-21 Tue 16:20] =>  0:38
+   :END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Write a document about how to make GUI more auto batch friendly :WORK:
+   CLOSED: [2015-04-15 Wed 16:07] DEADLINE: <2015-04-15 Wed 18:00> SCHEDULED: <2015-04-15 Wed 10:48>
+   - State "DONE"       from "STARTED"    [2015-04-15 Wed 16:07]
+   :LOGBOOK:
+   CLOCK: [2015-04-15 Wed 10:47]--[2015-04-15 Wed 11:12] =>  0:25
+   :END:
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-04-29 Wed 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
