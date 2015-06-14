@@ -53,7 +53,6 @@ Let game programming is not a secret any more.(I love to share some new)
 [[http://stackoverflow.com/questions/55574/learning-ruby-on-rails][Learning Ruby on Rails - Stack Overflow]]
 *** 2015-03-31 Tuesday
 **** TODO Use Emacs to Download Youtube video                         :Emacs:
-     DEADLINE: <2015-06-29 Mon> SCHEDULED: <2015-06-07 Sun>
 ** 2015-04 April
 *** 2015-04-01 Wednesday
 
