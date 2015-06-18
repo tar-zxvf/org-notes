@@ -8,7 +8,7 @@
 * Random notes
 
 ** Self brief introduction
-  Hello, everyone. Today I want to talk about org mode. So what is org mode? Org mode is a outline processor within Emacs.
+Hello, everyone. Today I want to talk about org mode. So what is org mode? Org mode is a outline processor within Emacs.
  Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
 With a Emacs version greater than 23, org mode is already a build-in package. It provides a rich set of markup language. We can use lists, links, headlines, tables to manage our contents.
 We can also export all of my org files to pdf , plain text or latex files with just a few key strokes. Org mode can even help me to manage my agenda.
@@ -35,6 +35,16 @@ Learning useful stuff which can boost my productivity.(like ruby in web and Erla
 +Learning anything new about vim.( speed up my programming speed)+  Why? Because Emacs is a better option.
 Learing  anything new about Emacs.(management my personal life)
 Let game programming is not a secret any more.(I love to share some new)
+
+** 如何快速地学习
+"http://mp.weixin.qq.com/s?__biz=MjAzNzMzNTkyMQ==&mid=208026768&idx=1&sn=6556761557ed251f2c4edfd7f28f9994&key=af154fdc40fed003cd7094c76a4bf50bb8eeff22986719f53ad0f20d6865f9643f42d9e2c545ac994ae56509ff31edb2&ascene=0&uin=MTIxOTIzODU2MA%3D%3D&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.10.1+build(14B25)&version=11020012&pass_ticket=yL%2FziNX4ZJCQKHv%2Br5APHAKFi7j7l7tfW5P9%2FSvCfJmSD2T6q98Sc8QxyH%2F%2F0knv"
+- 以专家为榜样，不必自己重新探索
+- 解构技能，找出实现80%效果的那20%
+- 不要一心二用
+- 练习练习再练习！然后获得即时反馈
+- 坚持，不要在低谷期放弃
+
+
 * 2015
 ** 2015-03 March
 *** 2015-03-15 Sunday
@@ -58,7 +68,8 @@ Let game programming is not a secret any more.(I love to share some new)
 
 * SCIP notes
 ** Lesson one
-*** Part one
+*** TODO Part one
+SCHEDULED: <2015-06-15 Mon 23:00>
 - Black box abstraction.
 - Write procedure which output procedure(write program which write program)
 - How to control complexity.

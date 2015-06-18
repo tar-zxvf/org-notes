@@ -4,262 +4,29 @@
 #+LATEX_HEADER: \usepackage{xltxtra}
 #+LATEX_HEADER: \setmainfont{FangSong}
 #+LATEX_HEADER: \usepackage{seqsplit}
-#+TITLE: Cocos2d-x Leading Game Development Technology2
+#+TITLE: 我的书单
 
-* Environment
+"http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/"
+"http://www.zhihu.com/question/23821125"
+"http://mindhacks.cn/2008/07/07/the-importance-of-knowing-why/"
 
-http://zilongshanren.com/blog/2013/10/26/seting-up-cocos2d-x-android-development-on-win7/
 
-上面这篇文章是我用英文写的，里面有详细的搭建win32环境的步骤以及如何部署到android手机的步骤。
+** 编程相关
+*** 《A little Scheme》
+2015年5-6月阅读，8-10章没有读完，准备读完SCIP之后再读一遍8-9章。读此书后，让自己对于递归思想有了比较深入的认识和掌握。
+输出：1.博客一篇，github仓库一个。
+*** 《The Structure and Interpretation of Computer Programs》
 
-* DONE Recommended Books
-  CLOSED: [2015-03-23 Mon 10:09] SCHEDULED: <2015-03-02 Mon 22:30>
-  - State "DONE"       from "STARTED"    [2015-03-23 Mon 10:09]
-  :LOGBOOK:  
-  CLOCK: [2015-03-14 Sat 09:40]--[2015-03-14 Sat 10:19] =>  0:39
-  :END:      
-《cocos2d-x by example》  这个是五星推荐，里面有7个小游戏，每一个游戏你都可以下载到源码，然后可以直接运行或者hack代码。
+** 数学相关
 
-* Intermediate
-推荐你们去看这些书籍。
+** 算法相关
 
-c++的：
-《professional c++ 2nd》
+** 思维相关
 
-opengles的
-《Android game programming》
+** 软件工程相关
 
-其它的，就是多去写游戏，尝试写不同类型的游戏。多写代码，慢慢进步。
-
-
-
-* Memory Management
-** Introduction to  c/ c++ memory management rules
-
-Memory management is very important for c/c++ program. Due to the lack of a built-in Garbage Collection mechanism, we 
-have to manage the memory manually.
-
-Memory management in C uses *malloc*, *realloc* and *calloc* functions to allocate the memory. The *free* function is used to free the memory.
- The malloc function is used to allocate the block of memory in heap. The realloc function is to reallocate the memory;
- if programmer allocates the memory using malloc, if he/she wants to extend the memory use realloc function.
- The calloc function is to allocate the array of memory and initialize to 0. 
- 
-Memory management in c++ uses *new* and *delete* to manage memory. Since c++ is a super set of c, so in a c++ program, you can use the memory management rules in c.
-
-**But don't intermix with c runtime library and c++ new/delete operator.**
-
-For example: 
-
-If you allocate memory using new, you compulsorily deallocate memory using delete operator. Don't try to allocate memory using *malloc* and deallocate with *delete* operator 
-and vice versa. But we use both *malloc* and *new* in single program.
-
-In c++, *new* operator is used to allocate the memory from heap and *delete* operator is used to deallocate the memory;
-
-#+begin_src c++ 
-  int *p = new int;
-  delete p;
-#+end_src
-
-You can also use *new* operator to allocate array of memory, for example:
-
-#+begin_src c++ 
-  int *array = new int[100];
-  delete [] array;
-#+end_src
-
-If you allocate the memory from heap either using *malloc*, *realloc*, *calloc* or *new* but don't deallocate the memory with the responding operators,
-you will get a memory leak. Memory leak is very dangerous and we must avoid it.
-
-So, how to solve that problem. The basic rule is *when you allocate a piece of memory from heap, remember to deallocate it*. Quite simple but very hard to take it into practice.
-Because we are human beings, we can easily make mistakes when the project becomes bigger and complex. 
-
-#+begin_src c++
-#include <string>
-using namespace std;
-void f()
-{
- string *p = new string;
- //...use p
- if (p->empty()== false)
- {
-  //...do something
-  return; //OOPS! memory leak: p was not deleted
- }
- else //string is empty
- {
-  delete p;
-  //..do other stuff
- }
- delete p; //OOPS! p is deleted twice if isEmpty == true
-}
-#+end_src
-
-
-So we need some technical to solve that problem.
-
-** How to make memory management easier
-*** the compiler
-If only the compiler could do some help for managing memory. Yes, it does!
-
-In c++ there is a constructor and destructor. We can put allocation code in constructor and put deallocation code in destructor. 
-
-When we allocate object from heap, we still have to manually call *new* and *delete* to manage memory.
-
-But if we can allocate a object in the stack, the memory headache disappears. 
-
-C++ prefer RAII and stack object to heap object. It is very important to keep this idea in your mind. 
-
-But we can't make every object in the stack. So we need some technical for handling heap memory management.
-
-*** smart pointer
-- auto_ptr (don't use it!)
-
-  It is evil! Because it will transfer ownership when assigned. We can't storage it in STL container.
-
-  The C++ Standard says that an STL element must be "copy-constructible" and "assignable." In other words,
- an element must be able to be assigned or copied and the two elements are logically independent. std::auto_ptr does not fulfill this requirement.
- 
-#+begin_src c++ 
- class X
-{
-};
-
-std::vector<std::auto_ptr<X> > vecX;
-vecX.push_back(new X);
-
-std::auto_ptr<X> pX = vecX[0];  // vecX[0] is assigned NULL. 
-#+end_src
- 
-  To overcome this limitation, you should use the std::unique_ptr, std::shared_ptr or std::weak_ptr smart pointers or the boost equivalents if you don't have C++11
-
-- shared_ptr
-
-  Manages the storage of a pointer, providing a limited garbage-collection facility, possibly sharing that management with other objects.
-
-  Objects of shared_ptr types have the ability of taking ownership of a pointer and share that ownership: once they take ownership,
- the group of owners of a pointer become responsible for its deletion when the last one of them releases that ownership.
-
-  shared_ptr objects release ownership on the object they co-own as soon as they themselves are destroyed,
- or as soon as their value changes either by an assignment operation or by an explicit call to shared_ptr::reset. Once all shared_ptr objects that share ownership over a pointer have released this ownership, the managed object is deleted (normally by calling ::delete, but a different deleter may be specified on construction).
-
-  shared_ptr objects can only share ownership by copying their value: If two shared_ptr are constructed (or made) from the same (non-shared_ptr) pointer,
- they will both be owning the pointer without sharing it, causing potential access problems when one of them releases it (deleting its managed object) and leaving the other pointing to an invalid location.
-
-  Additionally, shared_ptr objects can share ownership over a pointer while at the same time pointing to another object. This ability is known as aliasing (see constructors),
- and is commonly used to point to member objects while owning the object they belong to. Because of this, a shared_ptr may relate to two pointers:
-
-  A stored pointer, which is the pointer it is said to point to, and the one it dereferences with operator*.
-  An owned pointer (possibly shared), which is the pointer the ownership group is in charge of deleting at some point, and for which it counts as a use.
-
-  Generally, the stored pointer and the owned pointer refer to the same object, but alias shared_ptr objects (those constructed with the alias constructor and their copies)
-   may refer to different objects.
-
-  A shared_ptr that does not own any pointer is called an empty shared_ptr. A shared_ptr that points to no object is called a null shared_ptr and shall not be dereferenced.
-   Notice though that an empty shared_ptr is not necessarily a null shared_ptr, and a null shared_ptr is not necessarily an empty shared_ptr.
-
-  shared_ptr objects replicate a limited pointer functionality by providing access to the object they point to through operators * and ->. For safety reasons,
-   they do not support pointer arithmetics.
-  
-   You can refer to [[this%20post][http://www.cnblogs.com/hujian/archive/2012/12/10/2810754.html]]  for more information.
-  
-
-- unique_ptr
-    Manages the storage of a pointer, providing a limited garbage-collection facility, with little to no overhead over built-in pointers (depending on the deleter used).
-
-    These objects have the ability of taking ownership of a pointer: once they take ownership they manage the pointed object by becoming responsible for its deletion at some point.
-
-    unique_ptr objects automatically delete the object they manage (using a deleter) as soon as they themselves are destroyed,
-     or as soon as their value changes either by an assignment operation or by an explicit call to unique_ptr::reset.
-
-    unique_ptr objects own their pointer uniquely: no other facility shall take care of deleting the object,
-     and thus no other managed pointer should point to its managed object, since as soon as they have to,
-     unique_ptr objects delete their managed object without taking into account whether other pointers still point to the same object or not,
-     and thus leaving any other pointers that point there as pointing to an invalid location.
-
-- weak_ptr
-
-    std::weak_ptr is a smart pointer that holds a non-owning ("weak") reference to an object that is managed by std::shared_ptr.
-     It must be converted to std::shared_ptr in order to access the referenced object.
-    std::weak_ptr models temporary ownership: when an object needs to be accessed only if it exists, and it may be deleted at any time by someone else,
-   std::weak_ptr is used to track the object, and it is converted to std::shared_ptr to assume temporary ownership. If the original std::shared_ptr is destroyed at this time,
-   the object's lifetime is extended until the temporary std::shared_ptr is destroyed as well.
-    In addition, std::weak_ptr is used to break circular references of std::shared_ptr.
-
-*** reference counting 
-    Shared_ptr is actually using reference counting technical. cocos2d-x also uses reference counting to manage memory. 
-    We will talk more about it in the next section.
-*** garbage collection
-    It is out the discussion scope of today's topic.
-
-** Which technical does cocos2d-x use? -- References Counting!
-*** How does the reference counting implemented in cocos2d-x
-- When you new a object, it's retain count is 1
-- When you call retain on the object, the retain count increase 1
-- When you call release on the object, the retain count decrease 1
-- When the retain count equals 0, the object will be deleted
-
-- what does autorelease mean?
-   It means defered release at the end of the game loop. When you call auto release to a CCObject, the auto release pool will hold the object.
-and the retain count of the object is still 1. When your game code run at the end of a game loop, all the object with retain 1 will be release.
-
-shared_ptr does the same trick with retain and release. But do it automatically. When you construct shared_ptr in stack , the pointer's retain count will increase one.
-when the shared_ptr destructs the retain count will decrease one.
-
-unique_ptr does the same trick with retain and release as the shared_ptr. But it doesn't shared ownership. 
-
-weak_ptr is just using for break the cycle retain situation of shared_ptr.
-
-Both of them are the example of RAII. Construct on stack, it will deallocate automatically when destructor called.
-
-*Note*: Modern c++'s best practice is prefer to using stack scope. You shouldn't use any raw *delete* or *new* operator in your client code.
-
-You can refer to the source code for more details.
-
-*** Basic Memory Management rules
-    Since this kind of memory management rules are borrowed from cocos2d-iphone and objective-c. So the memory management rules of objective-c 
-is very suitable for cocos2d-x.
-
-- You own the object you created
-  you create a object using *new* operator or *copy* method.
-
-- You can take the ownership of an object using retain.
-  If you want to use the object during many game frames, you should use retain to obtain the ownership.
-
-- When you no longer need it, you must relinquish ownership of an object you own.
-  If you don't need the ownership of an object, you can call release to release the object. If you are not sure when to call release method,
-You can just leave it out auto release pool with just a method call to autorelease of that object.
-
-- You must not relinquish ownership of an object you do not own.
-  Don't call *retain* or *release* or *autorelease* blindly only for unexpected memory crashes. It is very dangerous.
-
-*** Practical memory management
-
-- All data structures are derived from CCObject with a constructor and a destructor. We can initialize our resource in constructor and deallocate them in destructor.
-
-- Container in cocos2d-x, like CCArray, CCDictionary, when you add an object to them,  the container owns the object's ownership.
-  
-- CCObject's SetObject, CCTouchDispatcher's add delegate method. All of them retain ownership of the object.
-
-- Use accessor Method to make memory management easier.  Use CC_SAFE_RETAIN and CC_SAFE_RELEASE instead of retain and release.
-Use CC_SYTHESIZE to define member variables
-
-- Use accessor to set variables values. Try to avoid public member attributes.
-  Maybe the getter and setter definition is boring, but it does many benefit on memory management and other condition check.
-
-- Add log in destructor to monitor resource deallocation.
-
-- Prefer Cocoa data structures to STL, prefer STL to raw c array and char*.
-  
-- Carefully design the relationship of the shared source to avoid cycle reference. Use weak refer pointer.
-  
-- Don't use accessor in constructor and destructor.
-
-    
-*** Use tools to detect memory leaks
-    Even if you are very good at memory management and you are an expert of memory management. You will make some mistakes. 
-So we need some tools to detect the memory leaks.
-
-
-
-
-
+** 工具相关
+*** 《Mastering Emacs》
+ 2015年阅读，时间2天。中间有两章泛读。读书笔记：http://zilongshanren.com/blog/2015/05/25/review-of-mastering-emacs/
+*** 《Write GNU Emacs Extension.》
+2014年阅读，希望重读并编写一些读书笔记。

@@ -1,0 +1,6 @@
+* Clojure学习资料
+http://blog.clojure.cn/
+http://ask.clojure.cn/
+http://wiki.clojure.cn/index.php?title=%E9%A6%96%E9%A1%B5
+http://www.flyingmachinestudios.com/programming/building-a-forum-with-clojure-datomic-angular/
+

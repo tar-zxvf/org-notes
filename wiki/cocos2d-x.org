@@ -1,6 +1,7 @@
 * Modern cocos2d-x
 
-** cocos2d-x 3.0 c++11
+** TODO cocos2d-x 3.0 c++11
+SCHEDULED: <2015-06-15 Mon 09:50>
 *** modern c++ , mainly about c++ 11
 *** cocos2d-x 3.0 best practice
 *** cocos2-dx 3.0 examples
