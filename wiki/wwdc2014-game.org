@@ -1,0 +1,72 @@
+** What's new in SpriteKit
+*** Review
+- 2D graphics framework for games, idea borrow from cocos2d-iphone
+- super easy to use, easy to learn
+- Apple's own optimization and better UIKit integration.
+- Better tools: Xcode. Live editor.
+- Support iPhone, iPad, iOS and OSX(not real cross platform: maybe cocos2d-x a try)
+*** SKCameraNode - which viewport is visible, multiple cameras.
+- Best feature, it's a node: actions, constrains, rotation, scale. 
+*** SKAudioNode
+- positional audio, environmental sound, immerse audio.
+*** SKReferenceNode(reuse nodes and actions, nscopying)
+- create serialized assets
+- Component as assets
+- editor support
+- automatically cache. This file won't load more than once.
+- Complex action combo or scene. You could reuse across project or games.
+- Texture animation action with lighting.
+*** System integration
+- Metal backend. SKShader will automatically upgrade. Zero action by developers.
+- If the device support metal, it will use metal, otherwise it will use OpenGL.
+- Swift support.  Nullability enhancements, objective-c generics.
+*** SpriteKit Tools
+- games rely on tools for iteration and scalability
+- game logic, animation or assets
+- improve workflow and build game faster
+- focus on building the gameplay
+**** tools:
+- Texture atlas: automatically built with xcode. TexturePacker, we use scripts.
+- Asset catalog: 
+  1. precise control resolution. @2x @3x 
+  2.use only download the assets match with the device.
+- on Demand Resources: load by tags. background streaming.（重点）
+- Particle editor: SKEmitterNode. live editor. Export small files.
+- XCode quick: Playground with Swift. Easy to learn and use. Even in debugger.
+- 2D editor: full visual editor for 2D games, no more compile and check. node code required. visual layout. live physics simulation. live shader editing.
+- 2d editor enhancement: custom classes, camera, audio node, reference node. increased collaboration and reusability.
+- exciting feature: timeline action editor, realtime preview, 2d and 3d support. Cinematic and interactive animations.(重点）
+- data driven, reusability, no code required.（重点）
+** enhancement to SceneKit
+- SKTransitions
+- metal support
+- automatic context matching. (Metal or OpenGL)
+** GamePlayKit(重点）
+*** Pathfinding(重点）
+- automatic graph generation
+- 
+*** Entity/component system
+*** state machines
+*** agent behaviors
+*** AI strategies
+*** Random sources
+*** Rule systems
+
+** Manage 3D assets with Model I/O (重点）
+*** Overview
+Content Creation Tool -> Import -> Model I/O -> (SceneKit/Metal/OpenGL)
+*** Features
+- File formats( .abc, .ply, .stl, .obj)  Exports format: .stl
+- Modify and Bake Assets
+- Voxels
+- System Integration: Playground and Swift, Finder and Quick look
+- MDLAsset: Indexed container for 3D objects
+- MDLObject: MDLTransformComponent -> TriggerComponent
+- MDLMesh: contains one or more vertex buffers.
+- MDLMeshBuffer/MDLVertexDescriptor
+- Materials
+** What's new in metal part1
+** What's new in metal part2
+** metal performance optimization
+** going so social with replaykit and game center(重点）
+

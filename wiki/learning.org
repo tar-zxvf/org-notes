@@ -12,14 +12,18 @@
 
 
 ** 编程相关
-*** 《A little Scheme》
+-  A little Scheme
 2015年5-6月阅读，8-10章没有读完，准备读完SCIP之后再读一遍8-9章。读此书后，让自己对于递归思想有了比较深入的认识和掌握。
 输出：1.博客一篇，github仓库一个。
-*** 《The Structure and Interpretation of Computer Programs》
+- The Structure and Interpretation of Computer Programs
+- A tour of c++.
+
 
 ** 数学相关
+- 3D Math primer
 
 ** 算法相关
+- Algorithm
 
 ** 思维相关
 
@@ -30,3 +34,9 @@
  2015年阅读，时间2天。中间有两章泛读。读书笔记：http://zilongshanren.com/blog/2015/05/25/review-of-mastering-emacs/
 *** 《Write GNU Emacs Extension.》
 2014年阅读，希望重读并编写一些读书笔记。
+** 课外书籍
+- 我的互联网方法论 -- 周鸿祎
+- 从0到1
+- 你的知识需要管理
+- 乔布斯传
+- Getting Things Done

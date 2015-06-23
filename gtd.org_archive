@@ -1,5 +1,4 @@
 #    -*- mode: org -*-
-#+STARTUP: overview
 #+TAGS: { WORK(w) ENGLISH(e) JAPANESE(j) LIFE(l) DREAM(d) OTHER(o) }
 
 Archived entries from file /Users/guanghui/Dropbox/org/gtd.org
@@ -3777,5 +3776,675 @@ in the original README file.
 :ARCHIVE_OLPATH: Daily Tasks
 :ARCHIVE_CATEGORY: Daily
 :ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Add discover-my-major, display difference color when line width larger than fill-column.
+CLOSED: [2015-05-04 Mon 09:48] DEADLINE: <2015-05-06 Wed> SCHEDULED: <2015-05-01 Fri>
+- State "DONE"       from "TODO"       [2015-05-04 Mon 09:48]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#A]  upgrade rapidJson to latest version                       :WORK:
+CLOSED: [2015-05-25 Mon 11:54] SCHEDULED: <2015-05-25 Mon 09:40>
+- State "DONE"       from "STARTED"    [2015-05-25 Mon 11:54]
+:LOGBOOK:  
+CLOCK: [2015-05-25 Mon 09:58]--[2015-05-25 Mon 10:00] =>  0:02
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Add more data format for Android 9-patch image                  :WORK:
+CLOSED: [2015-06-09 Tue 15:47] SCHEDULED: <2015-05-25 Mon 15:00>
+- State "DONE"       from "TODO"       [2015-06-09 Tue 15:47]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Integrate Qiniu upload image in dired buffer. Support marked files. :LIFE:
+CLOSED: [2015-06-07 Sun 19:45] SCHEDULED: <2015-05-30 Sat>
+- State "DONE"       from "TODO"       [2015-06-07 Sun 19:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+
+* DONE Try out Emacs package Deft                                      :LIFE:
+CLOSED: [2015-06-02 Tue 09:38] SCHEDULED: <2015-05-29 Fri>
+- State "DONE"       from "STARTED"    [2015-06-02 Tue 09:38]
+:LOGBOOK:  
+CLOCK: [2015-06-01 Mon 23:04]--[2015-06-02 Tue 09:39] => 10:35
+:END:      
+- State "TODO"       from "CANCELLED"  [2015-06-01 Mon 23:04]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+http://pragmaticemacs.com/emacs/make-quick-notes-with-deft/
+
+
+* DONE Study Doxygen document international.                           :WORK:
+CLOSED: [2015-05-27 Wed 16:12] DEADLINE: <2015-05-27 Wed 18:00> SCHEDULED: <2015-05-27 Wed 14:00>
+- State "DONE"       from "STARTED"    [2015-05-27 Wed 16:12]
+:LOGBOOK:  
+CLOCK: [2015-05-27 Wed 13:38]--[2015-05-27 Wed 14:03] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Improve automatically translation tools                         :WORK:
+CLOSED: [2015-06-01 Mon 09:23] DEADLINE: <2015-06-01 Mon> SCHEDULED: <2015-06-01 Mon 09:16>
+- State "DONE"       from "STARTED"    [2015-06-01 Mon 09:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 汉化自己的中文博客，对照下面的链接，给出自己的简历。
+CLOSED: [2015-06-11 Thu 17:35] SCHEDULED: <2015-06-11 Thu>
+- State "DONE"       from "TODO"       [2015-06-11 Thu 17:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+http://lucida.me/blog/levels-on-learning-and-using-technologies/
+
+
+* DONE 阅读spacemacs的Release note.                                    :LIFE:
+CLOSED: [2015-06-01 Mon 23:02] SCHEDULED: <2015-06-01 Mon 22:00>
+- State "DONE"       from "STARTED"    [2015-06-01 Mon 23:02]
+:LOGBOOK:  
+CLOCK: [2015-06-01 Mon 21:21]--[2015-06-01 Mon 23:04] =>  1:43
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+https://github.com/syl20bnr/spacemacs/releases#0-102-x-sec-2
+
+
+* DONE 处理Cocos2D-X Pull Request                                      :WORK:
+CLOSED: [2015-06-02 Tue 10:49] SCHEDULED: <2015-06-02 Tue 10:12>
+- State "DONE"       from "STARTED"    [2015-06-02 Tue 10:49]
+:LOGBOOK:  
+CLOCK: [2015-06-02 Tue 10:10]--[2015-06-02 Tue 10:35] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Fix UI consumes extra memory issue                           :WRITING:
+CLOSED: [2015-06-06 Sat 15:51] SCHEDULED: <2015-06-04 Thu 10:00>
+- State "DONE"       from "STARTED"    [2015-06-06 Sat 15:51]
+- State "TODO"       from "DONE"       [2015-06-04 Thu 09:59]
+- State "DONE"       from "STARTED"    [2015-06-04 Thu 09:58]
+:LOGBOOK:  
+CLOCK: [2015-06-05 Fri 13:40]--[2015-06-05 Fri 14:05] =>  0:25
+CLOCK: [2015-06-04 Thu 09:59]--[2015-06-04 Thu 11:05] =>  1:06
+CLOCK: [2015-06-03 Wed 16:52]--[2015-06-03 Wed 17:17] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 写一篇中文博客                                                  :LIFE:
+CLOSED: [2015-06-11 Thu 09:59] DEADLINE: <2015-06-08 Mon 00:00> SCHEDULED: <2015-06-07 Sun 23:00>
+- State "DONE"       from "TODO"       [2015-06-11 Thu 09:59]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 设置Emacs的中文等宽字体                                         :LIFE:
+CLOSED: [2015-06-14 Sun 10:29] SCHEDULED: <2015-06-13 Sat>
+- State "DONE"       from "TODO"       [2015-06-14 Sun 10:29]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Learn spacemacs layer                                           :LIFE:
+CLOSED: [2015-06-16 Tue 14:59] SCHEDULED: <2015-06-16 Tue 09:40>
+- State "DONE"       from "STARTED"    [2015-06-16 Tue 14:59]
+- State "DONE"       from "TODO"       [2015-06-15 Mon 10:29]
+- State "DONE"       from "STARTED"    [2015-06-12 Fri 13:44]
+- State "DONE"       from "STARTED"    [2015-06-08 Mon 10:43]
+:LOGBOOK:  
+CLOCK: [2015-06-16 Tue 11:03]--[2015-06-16 Tue 11:28] =>  0:25
+CLOCK: [2015-06-12 Fri 11:33]--[2015-06-12 Fri 13:44] =>  2:11
+CLOCK: [2015-06-12 Fri 10:52]--[2015-06-12 Fri 11:17] =>  0:25
+CLOCK: [2015-06-08 Mon 09:40]--[2015-06-08 Mon 10:05] =>  0:25
+:END:      
+:PROPERTIES:
+:LAST_REPEAT: [2015-06-15 Mon 10:29]
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 学习cVim的Chrome插件，同时设置自己的快捷键                   :ENGLISH:
+CLOSED: [2015-06-14 Sun 10:28] SCHEDULED: <2015-06-13 Sat>
+- State "DONE"       from "CANCELLED"  [2015-06-14 Sun 10:29]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 把spacemacs的配置整理一下，变成一个zilongshanren Layer，同时简单一些不要的配置。 :LIFE:
+CLOSED: [2015-06-14 Sun 22:58] SCHEDULED: <2015-06-14 Sun>
+- State "DONE"       from "TODO"       [2015-06-14 Sun 22:58]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 编写emacser.com的“手术”方案                                     :LIFE:
+CLOSED: [2015-06-14 Sun 22:58] SCHEDULED: <2015-06-13 Sat>
+- State "DONE"       from "TODO"       [2015-06-14 Sun 22:58]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理PR                                                          :WORK:
+CLOSED: [2015-06-12 Fri 10:21] SCHEDULED: <2015-06-12 Fri 09:50>
+- State "DONE"       from "STARTED"    [2015-06-12 Fri 10:21]
+:LOGBOOK:  
+CLOCK: [2015-06-12 Fri 09:49]--[2015-06-12 Fri 10:14] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Read Spacemacs docs                                            :Emacs:
+CLOSED: [2015-06-12 Fri 16:20] SCHEDULED: <2015-06-12 Fri 15:27>
+- State "DONE"       from "STARTED"    [2015-06-12 Fri 16:20]
+:LOGBOOK:  
+CLOCK: [2015-06-12 Fri 15:26]--[2015-06-12 Fri 16:20] =>  0:54
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理Cocos2D-X的PR                                               :WORK:
+CLOSED: [2015-06-16 Tue 10:42] SCHEDULED: <2015-06-16 Tue 10:10>
+- State "DONE"       from "STARTED"    [2015-06-16 Tue 10:42]
+:LOGBOOK:  
+CLOCK: [2015-06-16 Tue 10:08]--[2015-06-16 Tue 10:33] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 修复spritePolygon在Linux编译不过的问题。                        :WORK:
+CLOSED: [2015-06-17 Wed 13:34] SCHEDULED: <2015-06-17 Wed 10:53>
+- State "DONE"       from "STARTED"    [2015-06-17 Wed 13:34]
+:LOGBOOK:  
+CLOCK: [2015-06-17 Wed 10:52]--[2015-06-17 Wed 11:17] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 下载三星的cpcEx文档                                             :WORK:
+CLOSED: [2015-06-17 Wed 15:59] SCHEDULED: <2015-06-17 Wed 15:00>
+- State "DONE"       from "STARTED"    [2015-06-17 Wed 15:59]
+:LOGBOOK:  
+CLOCK: [2015-06-17 Wed 14:53]--[2015-06-17 Wed 15:18] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理邮件                                                        :WORK:
+CLOSED: [2015-06-18 Thu 15:21] SCHEDULED: <2015-06-18 Thu 15:00>
+- State "DONE"       from "TODO"       [2015-06-18 Thu 15:21]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Write a PPT "Stop playing games, make them!"                    :WORK:
+CLOSED: [2015-05-07 Thu 18:31] DEADLINE: <2015-05-05 Tue 18:00> SCHEDULED: <2015-05-05 Tue 14:00>
+- State "DONE"       from "STARTED"    [2015-05-07 Thu 18:31]
+:LOGBOOK:  
+CLOCK: [2015-05-05 Tue 15:46]--[2015-05-25 Mon 09:58] => 474:12
+CLOCK: [2015-05-05 Tue 13:37]--[2015-05-05 Tue 14:02] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Write <<Matering Emacs>> after reading words.                   :LIFE:
+CLOSED: [2015-05-26 Tue 17:26] SCHEDULED: <2015-05-25 Mon 20:00>
+- State "DONE"       from "TODO"       [2015-05-26 Tue 17:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+
+* DONE Add Chinese Translation to Cocos2D-X header files.              :WORK:
+CLOSED: [2015-06-11 Thu 16:15] SCHEDULED: <2015-06-03 Wed 10:10>
+- State "DONE"       from "STARTED"    [2015-06-11 Thu 16:15]
+:LOGBOOK:  
+CLOCK: [2015-06-11 Thu 14:43]--[2015-06-11 Thu 15:08] =>  0:25
+CLOCK: [2015-06-11 Thu 10:29]--[2015-06-11 Thu 10:54] =>  0:25
+CLOCK: [2015-06-11 Thu 09:59]--[2015-06-11 Thu 10:24] =>  0:25
+CLOCK: [2015-06-10 Wed 16:24]--[2015-06-10 Wed 16:49] =>  0:25
+CLOCK: [2015-06-10 Wed 16:03]--[2015-06-10 Wed 16:24] =>  0:21
+CLOCK: [2015-06-09 Tue 16:34]--[2015-06-09 Tue 16:59] =>  0:25
+CLOCK: [2015-06-08 Mon 16:30]--[2015-06-08 Mon 16:55] =>  0:25
+CLOCK: [2015-06-08 Mon 15:42]--[2015-06-08 Mon 16:07] =>  0:25
+CLOCK: [2015-06-08 Mon 14:26]--[2015-06-08 Mon 14:51] =>  0:25
+CLOCK: [2015-06-08 Mon 12:03]--[2015-06-08 Mon 12:28] =>  0:25
+CLOCK: [2015-06-08 Mon 11:16]--[2015-06-08 Mon 11:41] =>  0:25
+CLOCK: [2015-06-06 Sat 16:32]--[2015-06-06 Sat 16:57] =>  0:25
+CLOCK: [2015-06-06 Sat 15:52]--[2015-06-06 Sat 16:17] =>  0:25
+CLOCK: [2015-06-03 Wed 10:07]--[2015-06-03 Wed 10:32] =>  0:25
+CLOCK: [2015-06-02 Tue 16:41]--[2015-06-03 Wed 09:19] => 16:38
+CLOCK: [2015-06-02 Tue 16:03]--[2015-06-02 Tue 16:28] =>  0:25
+CLOCK: [2015-06-02 Tue 15:30]--[2015-06-02 Tue 15:55] =>  0:25
+CLOCK: [2015-06-02 Tue 15:00]--[2015-06-02 Tue 15:25] =>  0:25
+CLOCK: [2015-06-01 Mon 13:55]--[2015-06-01 Mon 14:20] =>  0:25
+CLOCK: [2015-06-01 Mon 09:24]--[2015-06-01 Mon 09:49] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 更新cocos2d-x opengles系列教程，完善webgl系列教程               :LIFE:
+CLOSED: [2015-06-17 Wed 19:37] SCHEDULED: <2015-06-16 Tue 16:00>
+- State "DONE"       from "STARTED"    [2015-06-17 Wed 19:37]
+:LOGBOOK:  
+CLOCK: [2015-06-16 Tue 16:59]--[2015-06-16 Tue 17:24] =>  0:25
+CLOCK: [2015-06-16 Tue 16:06]--[2015-06-16 Tue 16:31] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理PR                                                          :WORK:
+CLOSED: [2015-06-03 Wed 09:54] SCHEDULED: <2015-06-03 Wed 09:20>
+- State "DONE"       from "STARTED"    [2015-06-03 Wed 09:54]
+:LOGBOOK:  
+CLOCK: [2015-06-03 Wed 09:19]--[2015-06-03 Wed 09:44] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 分享我的spacemacs的使用                                         :LIFE:
+CLOSED: [2015-06-08 Mon 00:25] DEADLINE: <2015-06-07 Sun 23:30> SCHEDULED: <2015-06-07 Sun 22:50>
+- State "DONE"       from "STARTED"    [2015-06-08 Mon 00:25]
+:LOGBOOK:  
+CLOCK: [2015-06-07 Sun 22:50]--[2015-06-07 Sun 23:15] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 检查中文翻译的PR                                                :WORK:
+CLOSED: [2015-06-09 Tue 15:46] SCHEDULED: <2015-06-09 Tue 14:22>
+- State "DONE"       from "STARTED"    [2015-06-09 Tue 15:46]
+:LOGBOOK:  
+CLOCK: [2015-06-09 Tue 14:50]--[2015-06-09 Tue 15:15] =>  0:25
+CLOCK: [2015-06-09 Tue 14:20]--[2015-06-09 Tue 14:45] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 给ui::Slider添加按下和释放事件类型。同时，与文海商量，以前的百分比接口怎么修改，要注意兼容性。 :WORK:
+CLOSED: [2015-06-16 Tue 10:08] SCHEDULED: <2015-06-15 Mon 10:30>
+- State "DONE"       from "STARTED"    [2015-06-16 Tue 10:08]
+:LOGBOOK:  
+CLOCK: [2015-06-15 Mon 13:58]--[2015-06-15 Mon 14:23] =>  0:25
+CLOCK: [2015-06-15 Mon 10:30]--[2015-06-15 Mon 10:55] =>  0:25
+CLOCK: [2015-06-12 Fri 16:20]--[2015-06-15 Mon 09:50] => 65:30
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理邮件                                                        :WORK:
+CLOSED: [2015-06-12 Fri 10:50] SCHEDULED: <2015-06-12 Fri 10:21>
+- State "DONE"       from "STARTED"    [2015-06-12 Fri 10:50]
+:LOGBOOK:  
+CLOCK: [2015-06-12 Fri 10:21]--[2015-06-12 Fri 10:46] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理PR和邮件                                                    :WORK:
+CLOSED: [2015-06-17 Wed 09:57] SCHEDULED: <2015-06-17 Wed 09:27>
+- State "DONE"       from "STARTED"    [2015-06-17 Wed 09:57]
+:LOGBOOK:  
+CLOCK: [2015-06-17 Wed 09:26]--[2015-06-17 Wed 09:51] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理PR和修复引擎的一些 bug                                      :WORK:
+CLOSED: [2015-06-17 Wed 14:53] SCHEDULED: <2015-06-17 Wed 14:10>
+- State "DONE"       from "TODO"       [2015-06-17 Wed 14:53]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE [#A] Add JSB projects to jenkins-ci                             :WORK:
+CLOSED: [2015-05-26 Tue 17:26] SCHEDULED: <2015-05-25 Mon 11:30>
+- State "DONE"       from "TODO"       [2015-05-26 Tue 17:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 修复引擎C++模板在Windows下面资源有改动不拷贝的问题              :WORK:
+CLOSED: [2015-06-01 Mon 21:21] DEADLINE: <2015-06-01 Mon 18:00> SCHEDULED: <2015-06-01 Mon 14:32>
+- State "DONE"       from "STARTED"    [2015-06-01 Mon 21:21]
+:LOGBOOK:  
+CLOCK: [2015-06-01 Mon 17:56]--[2015-06-01 Mon 21:21] =>  3:25
+CLOCK: [2015-06-01 Mon 15:08]--[2015-06-01 Mon 17:56] =>  2:48
+CLOCK: [2015-06-01 Mon 14:32]--[2015-06-01 Mon 14:57] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 我要去下载新的Emacs版本                                         :LIFE:
+CLOSED: [2015-06-17 Wed 09:25]
+- State "DONE"       from "TODO"       [2015-06-17 Wed 09:25]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+[[http://emacsformacosx.com/][GNU Emacs For Mac OS X]]
+
+
+* DONE 翻译cocos API,同时修改配置文件                                  :WORK:
+CLOSED: [2015-06-17 Wed 19:37] SCHEDULED: <2015-06-17 Wed 16:00>
+- State "DONE"       from "STARTED"    [2015-06-17 Wed 19:37]
+:LOGBOOK:  
+CLOCK: [2015-06-17 Wed 15:59]--[2015-06-17 Wed 16:24] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 处理PR                                                          :WORK:
+CLOSED: [2015-06-04 Thu 09:58] DEADLINE: <2015-06-04 Thu 12:00> SCHEDULED: <2015-06-04 Thu 09:30>
+- State "DONE"       from "STARTED"    [2015-06-04 Thu 09:58]
+:LOGBOOK:  
+CLOCK: [2015-06-04 Thu 09:25]--[2015-06-04 Thu 09:50] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Review一些Cocos2D-X的PR，同时修改changelog                      :WORK:
+CLOSED: [2015-06-10 Wed 11:04] SCHEDULED: <2015-06-10 Wed 10:40>
+- State "DONE"       from "STARTED"    [2015-06-10 Wed 11:04]
+:LOGBOOK:  
+CLOCK: [2015-06-10 Wed 10:36]--[2015-06-10 Wed 11:01] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:36
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* CANCELLED Add functions to translate links in Markdown buffer, use c-u to allow custom text input :LIFE:
+CLOSED: [2015-06-10 Wed 10:33] SCHEDULED: <2015-05-30 Sat>
+- State "CANCELLED"  from "TODO"       [2015-06-10 Wed 10:33] \\
+  这个需求不是很重要，可以使用org-mac-link来代替
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:39
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: CANCELLED
+:END:
+
+
+* CANCELLED Add Github Pull request workflow in Emacs. Found out what's the best. :WORK:
+CLOSED: [2015-06-02 Tue 09:38] SCHEDULED: <2015-05-27 Wed>
+- State "CANCELLED"  from "TODO"       [2015-06-02 Tue 09:38] \\
+  Currently the Cocos2D-X repository has too many pull request
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:39
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: CANCELLED
+:END:
+Now there are two options:
+- use magit-gh-pull mode. Maybe a optional magit-gh-pull mode
+- modify local .git/config, when a repository contains tons of pr, this way is not good
+
+
+* CANCELLED Add Python compile and debug support for Emacs            :DREAM:
+CLOSED: [2015-06-09 Tue 14:19] DEADLINE: <2015-06-14 Sun> SCHEDULED: <2015-06-07 Sun>
+- State "CANCELLED"  from "TODO"       [2015-06-09 Tue 14:19] \\
+  Don't need this feature
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:39
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: CANCELLED
+:END:
+
+
+* CANCELLED Migrate my blog to China, gitcaf                           :LIFE:
+CLOSED: [2015-06-09 Tue 11:48] SCHEDULED: <2015-05-25 Mon>
+- State "CANCELLED"  from "STARTED"    [2015-06-09 Tue 11:48] \\
+  gitcafe is crappy
+:LOGBOOK:  
+CLOCK: [2015-06-08 Mon 22:44]--[2015-06-09 Tue 13:37] => 14:53
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:39
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: CANCELLED
+:END:
+
+
+* CANCELLED Add coverage tool to cocos2d-x project.                    :WORK:
+CLOSED: [2015-06-11 Thu 09:57] SCHEDULED: <2015-06-06 Sat>
+- State "CANCELLED"  from "TODO"       [2015-06-11 Thu 09:57] \\
+  这个任务暂时取消
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-06-19 Fri 10:39
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: CANCELLED
 :END:
 
