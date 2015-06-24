@@ -81,3 +81,6 @@ Let game programming is not a secret any more.(I love to share some new)
 本质是数据处理（数据结构与算法，大数据），可视化（图形学，GUI），网络
 
 ** Mac Name server issue: sudo networksetup -setdnsservers Ethernet 8.8.8.8
+
+* Setup VPN
+"http://blog.fengqijun.me/vpn/2015/03/08/l2tp-ipsec-vpn-on-ubuntu-14/"

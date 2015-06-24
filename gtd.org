@@ -24,7 +24,8 @@
    CLOCK: [2014-03-28 Fri 21:44]--[2014-03-28 Fri 22:09] =>  0:25
    :END:
 ** TODO [#B] Visit Cocos2D-x.org, visit forum                         :WORK:
-SCHEDULED: <2015-06-24 Wed 09:30-09:50 .+1d>
+SCHEDULED: <2015-06-25 Thu 09:30-09:50 .+1d>
+- State "DONE"       from "STARTED"    [2015-06-24 Wed 13:38]
 - State "DONE"       from "TODO"       [2015-06-23 Tue 09:42]
 - State "DONE"       from "STARTED"    [2015-06-17 Wed 10:51]
 - State "DONE"       from "TODO"       [2015-06-16 Tue 10:07]
@@ -47,6 +48,7 @@ SCHEDULED: <2015-06-24 Wed 09:30-09:50 .+1d>
 - State "DONE"       from "TODO"       [2015-05-04 Mon 10:52]
 - State "DONE"       from "STARTED"    [2015-05-04 Mon 10:52]
 :LOGBOOK:  
+CLOCK: [2015-06-24 Wed 09:34]--[2015-06-24 Wed 09:59] =>  0:25
 CLOCK: [2015-06-17 Wed 09:57]--[2015-06-17 Wed 10:22] =>  0:25
 CLOCK: [2015-06-15 Mon 09:50]--[2015-06-15 Mon 10:15] =>  0:25
 CLOCK: [2015-06-11 Thu 17:38]--[2015-06-11 Thu 18:03] =>  0:25
@@ -98,10 +100,11 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    - State "DONE"       from "STARTED"    [2014-05-29 Thu 09:56]
    - State "DONE"       from "TODO"       [2014-03-28 Fri 11:14]
    :PROPERTIES:
-:LAST_REPEAT: [2015-06-23 Tue 09:42]
+:LAST_REPEAT: [2015-06-24 Wed 13:38]
    :END:
 ** TODO Read RSS half an  hour                                        :LIFE:
-DEADLINE: <2015-06-24 Wed 14:30 .+1d> SCHEDULED: <2015-06-24 Wed 13:40 .+1d>
+DEADLINE: <2015-06-25 Thu 14:30 .+1d> SCHEDULED: <2015-06-25 Thu 13:40 .+1d>
+- State "DONE"       from "TODO"       [2015-06-24 Wed 13:39]
 - State "DONE"       from "TODO"       [2015-06-23 Tue 13:55]
 - State "DONE"       from "STARTED"    [2015-06-19 Fri 14:10]
 - State "DONE"       from "STARTED"    [2015-06-18 Thu 15:52]
@@ -149,7 +152,7 @@ CLOCK: [2015-05-04 Mon 14:29]--[2015-05-04 Mon 14:54] =>  0:25
    - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
    - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
 :PROPERTIES:
-:LAST_REPEAT: [2015-06-23 Tue 13:55]
+:LAST_REPEAT: [2015-06-24 Wed 13:39]
 :END:
 ** TODO [#A]  Write English Diary，Conclude what I have learned today :LIFE:
    SCHEDULED: <2014-09-29 Mon 22:00-22:30 .+1d>
@@ -183,6 +186,7 @@ SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
 
 ** TODO  打造自己的sublime Text3 编辑器                                :WORK:
 SCHEDULED: <2015-06-07 Sun>
+"http://vinta.ws/code/must-have-sublime-text-packages.html"
 http://lucida.me/blog/sublime-text-complete-guide/
 
 ** TODO  使用org-mode建立自己的wiki系统，同时把这个wiki系统弄到阿里云上面去。 :LIFE:
@@ -245,12 +249,22 @@ CLOCK: [2015-06-19 Fri 10:33]--[2015-06-19 Fri 10:58] =>  0:25
 SCHEDULED: <2015-06-28 Sun>
 
 ** STARTED 修复引擎的Bug                                              :WORK:
-SCHEDULED: <2015-06-23 Tue 09:45>
+SCHEDULED: <2015-06-24 Wed 14:00>
 :LOGBOOK:  
+CLOCK: [2015-06-24 Wed 17:02]
+CLOCK: [2015-06-24 Wed 16:07]--[2015-06-24 Wed 16:32] =>  0:25
+CLOCK: [2015-06-24 Wed 13:39]--[2015-06-24 Wed 14:04] =>  0:25
 CLOCK: [2015-06-23 Tue 16:32]--[2015-06-23 Tue 16:57] =>  0:25
 CLOCK: [2015-06-23 Tue 14:34]--[2015-06-23 Tue 14:59] =>  0:25
 CLOCK: [2015-06-23 Tue 13:55]--[2015-06-23 Tue 14:20] =>  0:25
 :END:      
+
+** TODO  替换oh-my-zsh为antigen,同时为cocos-console编写一个zsh插件    :LIFE:
+"https://github.com/shengyou/codeception-zsh-plugin/blob/master/codeception.plugin.zsh"
+"https://askql.wordpress.com/2011/01/11/zsh-writing-own-completion/"
+"https://joshldavis.com/2014/07/26/oh-my-zsh-is-a-disease-antigen-is-the-vaccine/"
+"http://wikimatze.de/writing-zsh-completion-for-padrino/"
+SCHEDULED: <2015-07-08 Wed>
 
 * Weekly Tasks
 ** TODO [#A] Write a Blog, no matter English or Chinese               :LIFE:
