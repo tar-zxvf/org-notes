@@ -1,11 +1,22 @@
 #+AUTHOR: guanghui
 #+TAGS: { WORK(w) Emacs(e) WRITING(h) LIFE(l) DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
 
-* Daily Work
+* Projects
+#+category: Project
+** Reading
+*** STARTED [#B]  Read <<SCIP>> books                               :DREAM:
+SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
+- State "DONE"       from "STARTED"    [2015-06-03 Wed 16:39]
+   :LOGBOOK:  
+   CLOCK: [2015-06-03 Wed 14:31]--[2015-06-03 Wed 14:56] =>  0:25
+   CLOCK: [2015-06-02 Tue 10:49]--[2015-06-02 Tue 11:14] =>  0:25
+   :END:      
+:PROPERTIES:
+:LAST_REPEAT: [2015-06-03 Wed 16:39]
+:END:
 
-* Daily Tasks
-#+category: Daily
-** TODO [#B] Learn Algorithm two tomatoes                                :DREAM:
+
+*** TODO [#B] Learn <<Algorithm>> :DREAM:
    - State "DONE"       from "STARTED"    [2014-10-05 Sun 09:22]
    - State "DONE"       from "STARTED"    [2014-04-08 Tue 21:43]
    - State "DONE"       from "STARTED"    [2014-04-04 Fri 23:01]
@@ -23,8 +34,13 @@
    CLOCK: [2014-03-28 Fri 22:14]--[2014-03-28 Fri 22:39] =>  0:25
    CLOCK: [2014-03-28 Fri 21:44]--[2014-03-28 Fri 22:09] =>  0:25
    :END:
+** Side Project(非正式项目）
+*** Emacs Chinese Wubi Input Method                                 :Emacs:
+* Daily Tasks
+#+category: Daily
 ** TODO [#B] Visit Cocos2D-x.org, visit forum                         :WORK:
-SCHEDULED: <2015-06-25 Thu 09:30-09:50 .+1d>
+SCHEDULED: <2015-06-26 Fri 09:30-09:50 .+1d>
+- State "DONE"       from "STARTED"    [2015-06-25 Thu 09:53]
 - State "DONE"       from "STARTED"    [2015-06-24 Wed 13:38]
 - State "DONE"       from "TODO"       [2015-06-23 Tue 09:42]
 - State "DONE"       from "STARTED"    [2015-06-17 Wed 10:51]
@@ -48,6 +64,7 @@ SCHEDULED: <2015-06-25 Thu 09:30-09:50 .+1d>
 - State "DONE"       from "TODO"       [2015-05-04 Mon 10:52]
 - State "DONE"       from "STARTED"    [2015-05-04 Mon 10:52]
 :LOGBOOK:  
+CLOCK: [2015-06-25 Thu 09:20]--[2015-06-25 Thu 09:45] =>  0:25
 CLOCK: [2015-06-24 Wed 09:34]--[2015-06-24 Wed 09:59] =>  0:25
 CLOCK: [2015-06-17 Wed 09:57]--[2015-06-17 Wed 10:22] =>  0:25
 CLOCK: [2015-06-15 Mon 09:50]--[2015-06-15 Mon 10:15] =>  0:25
@@ -100,9 +117,9 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    - State "DONE"       from "STARTED"    [2014-05-29 Thu 09:56]
    - State "DONE"       from "TODO"       [2014-03-28 Fri 11:14]
    :PROPERTIES:
-:LAST_REPEAT: [2015-06-24 Wed 13:38]
+:LAST_REPEAT: [2015-06-25 Thu 09:53]
    :END:
-** TODO Read RSS half an  hour                                        :LIFE:
+** STARTED Read RSS half an  hour                                     :LIFE:
 DEADLINE: <2015-06-25 Thu 14:30 .+1d> SCHEDULED: <2015-06-25 Thu 13:40 .+1d>
 - State "DONE"       from "TODO"       [2015-06-24 Wed 13:39]
 - State "DONE"       from "TODO"       [2015-06-23 Tue 13:55]
@@ -131,6 +148,7 @@ DEADLINE: <2015-06-25 Thu 14:30 .+1d> SCHEDULED: <2015-06-25 Thu 13:40 .+1d>
 - State "DONE"       from "TODO"       [2015-05-05 Tue 15:46]
 - State "DONE"       from "STARTED"    [2015-05-04 Mon 18:16]
 :LOGBOOK:  
+CLOCK: [2015-06-25 Thu 15:42]
 CLOCK: [2015-06-19 Fri 13:33]--[2015-06-19 Fri 13:58] =>  0:25
 CLOCK: [2015-06-18 Thu 15:21]--[2015-06-18 Thu 15:46] =>  0:25
 CLOCK: [2015-06-17 Wed 13:35]--[2015-06-17 Wed 14:00] =>  0:25
@@ -158,22 +176,6 @@ CLOCK: [2015-05-04 Mon 14:29]--[2015-05-04 Mon 14:54] =>  0:25
    SCHEDULED: <2014-09-29 Mon 22:00-22:30 .+1d>
    - State "DONE"       from "TODO"       [2014-09-28 Sun 20:12]
    - State "DONE"       from "TODO"       [2014-08-25 Mon 23:42]
-** STARTED [#B]  Read <<SCIP>> books                                    :DREAM:
-SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
-- State "DONE"       from "STARTED"    [2015-06-03 Wed 16:39]
-   :LOGBOOK:  
-
-
-
-
-
-
-   CLOCK: [2015-06-03 Wed 14:31]--[2015-06-03 Wed 14:56] =>  0:25
-   CLOCK: [2015-06-02 Tue 10:49]--[2015-06-02 Tue 11:14] =>  0:25
-   :END:      
-:PROPERTIES:
-:LAST_REPEAT: [2015-06-03 Wed 16:39]
-:END:
 ** TODO  Add PageView Vertical Scroll                                  :WORK:
    DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon>
 
@@ -208,18 +210,6 @@ SCHEDULED: <2015-06-13 Sat>
 ** TODO  学习Org-Mode管理小项目的方法                                :Emacs:
 SCHEDULED: <2015-06-20 Sat>
 
-** DONE fork eim并且把它提取出一个包，取名ChineseWubi                :Emacs:
-CLOSED: [2015-06-23 Tue 13:56] SCHEDULED: <2015-06-20 Sat>
-- State "DONE"       from "TODO"       [2015-06-23 Tue 13:56]
-
-** DONE 完善三星的 EnhanceAPI的类文档                                 :WORK:
-CLOSED: [2015-06-21 Sun 13:08] SCHEDULED: <2015-06-18 Thu 16:00>
-- State "DONE"       from "STARTED"    [2015-06-21 Sun 13:08]
-:LOGBOOK:  
-CLOCK: [2015-06-19 Fri 17:49]--[2015-06-19 Fri 18:14] =>  0:25
-CLOCK: [2015-06-18 Thu 16:22]--[2015-06-18 Thu 16:47] =>  0:25
-:END:      
-
 ** TODO Review 游戏编程模式一书                                      :DREAM:
 SCHEDULED: <2015-06-24 Wed 21:00 .+1d>
 - State "DONE"       from "STARTED"    [2015-06-23 Tue 13:56]
@@ -234,30 +224,8 @@ CLOCK: [2015-06-21 Sun 13:08]--[2015-06-21 Sun 13:33] =>  0:25
 ** TODO  添加模板的Jenkins Daily Build                                :WORK:
 SCHEDULED: <2015-06-25 Thu>
 
-** DONE 测试Lua 和js-tests                                            :WORK:
-CLOSED: [2015-06-19 Fri 17:49] SCHEDULED: <2015-06-19 Fri 09:30>
-- State "DONE"       from "STARTED"    [2015-06-19 Fri 17:49]
-:LOGBOOK:  
-CLOCK: [2015-06-19 Fri 15:10]--[2015-06-19 Fri 15:35] =>  0:25
-CLOCK: [2015-06-19 Fri 14:40]--[2015-06-19 Fri 15:05] =>  0:25
-CLOCK: [2015-06-19 Fri 14:10]--[2015-06-19 Fri 14:35] =>  0:25
-CLOCK: [2015-06-19 Fri 11:03]--[2015-06-19 Fri 11:28] =>  0:25
-CLOCK: [2015-06-19 Fri 10:33]--[2015-06-19 Fri 10:58] =>  0:25
-:END:      
-
 ** TODO 增强 evil 里面 f t 根据拼音首 字母来搜索汉字的能力           :Emacs:
 SCHEDULED: <2015-06-28 Sun>
-
-** STARTED 修复引擎的Bug                                              :WORK:
-SCHEDULED: <2015-06-24 Wed 14:00>
-:LOGBOOK:  
-CLOCK: [2015-06-24 Wed 17:02]
-CLOCK: [2015-06-24 Wed 16:07]--[2015-06-24 Wed 16:32] =>  0:25
-CLOCK: [2015-06-24 Wed 13:39]--[2015-06-24 Wed 14:04] =>  0:25
-CLOCK: [2015-06-23 Tue 16:32]--[2015-06-23 Tue 16:57] =>  0:25
-CLOCK: [2015-06-23 Tue 14:34]--[2015-06-23 Tue 14:59] =>  0:25
-CLOCK: [2015-06-23 Tue 13:55]--[2015-06-23 Tue 14:20] =>  0:25
-:END:      
 
 ** TODO  替换oh-my-zsh为antigen,同时为cocos-console编写一个zsh插件    :LIFE:
 "https://github.com/shengyou/codeception-zsh-plugin/blob/master/codeception.plugin.zsh"
@@ -266,7 +234,19 @@ CLOCK: [2015-06-23 Tue 13:55]--[2015-06-23 Tue 14:20] =>  0:25
 "http://wikimatze.de/writing-zsh-completion-for-padrino/"
 SCHEDULED: <2015-07-08 Wed>
 
+** TODO  学习Raywenderlich的Android教程，并且学习Android Studio和Gradle的配置和使用。 :LIFE:
+SCHEDULED: <2015-06-28 Sun>
+
+** TODO  配置 org-mode                                               :Emacs:
+"http://wenshanren.org/?p=327"
+SCHEDULED: <2015-06-25 Thu 22:00>
+
+** TODO  Learn Org Dashboard to management my project, like reading a book or doing a side project. :DREAM:
+SCHEDULED: <2015-07-06 Mon>
+"http://thehelpfulhacker.net/2014/07/19/a-dashboard-for-your-life-a-minimal-goal-tracker-using-org-mode-go-and-git/"
+
 * Weekly Tasks
+#+category: Weekly
 ** TODO [#A] Write a Blog, no matter English or Chinese               :LIFE:
 SCHEDULED: <2015-06-02 Tue .+7d/8d>
 - State "DONE"       from "TODO"       [2015-05-26 Tue 17:26]
@@ -294,15 +274,15 @@ SCHEDULED: <2015-06-30 Tue 10:00-10:30 .+7d/8d>
 - State "DONE"       from "TODO"       [2015-05-25 Mon 09:36]
 - State "DONE"       from "TODO"       [2015-05-08 Fri 15:19]
 - State "DONE"       from "TODO"       [2015-05-01 Fri 12:42]
-   - State "DONE"       from "TODO"       [2014-04-07 Mon 20:00]
-   - State "DONE"       from "STARTED"    [2014-03-29 Sat 10:11]
+- State "DONE"       from "TODO"       [2014-04-07 Mon 20:00]
+- State "DONE"       from "STARTED"    [2014-03-29 Sat 10:11]
 :PROPERTIES:
 :LAST_REPEAT: [2015-06-23 Tue 09:42]
 :END:
 
 # The following section is used for Monthly Tasks
 * Monthly Tasks
-  #+category: Monthly
+#+category: Monthly
 ** TODO [#A] Write a article to summary the fruit of a month          :LIFE:
 SCHEDULED: <2015-06-07 Sun 20:20 .+30d/31d>
 - State "DONE"       from "TODO"       [2015-05-08 Fri 15:20]
@@ -323,7 +303,7 @@ SCHEDULED: <2015-06-07 Sun 20:20 .+30d/31d>
 :LAST_REPEAT: [2015-05-08 Fri 15:20]
 :END:
 
-** TODO Sync the Spacemacs Emacs configuration from upstream
+** TODO Sync the Spacemacs Emacs configuration from upstream         :Emacs:
 SCHEDULED: <2015-06-24 Wed 20:20 .+30d/31d>
 - State "DONE"       from "TODO"       [2015-05-25 Mon 09:36]
    - State "DONE"       from "TODO"       [2015-04-13 Mon 09:26]
@@ -336,14 +316,10 @@ SCHEDULED: <2015-06-24 Wed 20:20 .+30d/31d>
 # The following section is used for Daily Review
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-06-19 Fri 11:14], for Friday, June 19, 2015.
-| File    | Headline                         | Time   |      |
-|---------+----------------------------------+--------+------|
-|         | ALL *Total time*                 | *0:25* |      |
-|---------+----------------------------------+--------+------|
-| gtd.org | *File time*                      | *0:25* |      |
-|         | Daily Tasks                      | 0:25   |      |
-|         | \emsp STARTED 测试Lua 和js-tests |        | 0:25 |
+#+CAPTION: Clock summary at [2015-06-26 Fri 10:24], for Friday, June 26, 2015.
+| File | Headline         | Time   |
+|------+------------------+--------|
+|      | ALL *Total time* | *0:00* |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -357,26 +333,18 @@ SCHEDULED: <2015-06-24 Wed 20:20 .+30d/31d>
 # The following section is used for Weekly Review
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-06-19 Fri 10:43], for week 2015-W25.
-| File            | Headline                                      |    Time |      |
-|-----------------+-----------------------------------------------+---------+------|
-|                 | ALL *Total time*                              | *16:42* |      |
-|-----------------+-----------------------------------------------+---------+------|
-| gtd.org         | *File time*                                   |  *2:42* |      |
-|                 | Daily Tasks                                   |    2:42 |      |
-|                 | \emsp TODO [#B] Visit Cocos2D-x.org, visit... |         | 0:50 |
-|                 | \emsp TODO Read RSS half an  hour             |         | 1:27 |
-|                 | \emsp STARTED 完善三星的 EnhanceAPI的类文档   |         | 0:25 |
-|-----------------+-----------------------------------------------+---------+------|
-| gtd.org_archive | *File time*                                   | *14:00* |      |
-|                 | DONE Learn spacemacs layer                    |    0:25 |      |
-|                 | DONE 处理Cocos2D-X的PR                        |    0:25 |      |
-|                 | DONE 修复spritePolygon在Linux编译不过的问题。 |    0:25 |      |
-|                 | DONE 下载三星的cpcEx文档                      |    0:25 |      |
-|                 | DONE 更新cocos2d-x...                         |    0:50 |      |
-|                 | DONE...                                       |   10:40 |      |
-|                 | DONE 处理PR和邮件                             |    0:25 |      |
-|                 | DONE 翻译cocos API,同时修改配置文件           |    0:25 |      |
+#+CAPTION: Clock summary at [2015-06-26 Fri 10:24], for week 2015-W26.
+| File            | Headline                                      | Time      |      |
+|-----------------+-----------------------------------------------+-----------+------|
+|                 | ALL *Total time*                              | *1d 0:14* |      |
+|-----------------+-----------------------------------------------+-----------+------|
+| gtd.org         | *File time*                                   | *0:50*    |      |
+|                 | Daily Tasks                                   | 0:50      |      |
+|                 | \emsp TODO [#B] Visit Cocos2D-x.org, visit... |           | 0:50 |
+|-----------------+-----------------------------------------------+-----------+------|
+| gtd.org_archive | *File time*                                   | *23:24*   |      |
+|                 | DONE 修复引擎的Bug                            | 18:48     |      |
+|                 | DONE 阅读 c++右值引用和 universal引用         | 4:36      |      |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -392,42 +360,48 @@ SCHEDULED: <2015-06-24 Wed 20:20 .+30d/31d>
 # The following section is used for Monthly Review
 * Monthly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thismonth :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-06-19 Fri 10:43], for June 2015.
-| File            | Headline                                                |       Time |      |
-|-----------------+---------------------------------------------------------+------------+------|
-|                 | ALL *Total time*                                        |  *6d 0:01* |      |
-|-----------------+---------------------------------------------------------+------------+------|
-| gtd.org         | *File time*                                             |     *6:27* |      |
-|                 | Daily Tasks                                             |       6:27 |      |
-|                 | \emsp TODO [#B] Visit Cocos2D-x.org, visit...           |            | 2:30 |
-|                 | \emsp TODO Read RSS half an  hour                       |            | 2:42 |
-|                 | \emsp STARTED [#B]  Read <<SCIP>> books                 |            | 0:50 |
-|                 | \emsp STARTED 完善三星的 EnhanceAPI的类文档             |            | 0:25 |
-|-----------------+---------------------------------------------------------+------------+------|
-| gtd.org_archive | *File time*                                             | *5d 17:34* |      |
-|                 | DONE Try out Emacs package Deft                         |      10:35 |      |
-|                 | DONE 阅读spacemacs的Release note.                       |       1:43 |      |
-|                 | DONE 处理Cocos2D-X Pull Request                         |       0:25 |      |
-|                 | DONE Fix UI consumes extra memory issue                 |       1:56 |      |
-|                 | DONE Learn spacemacs layer                              |       3:26 |      |
-|                 | DONE 处理PR                                             |       0:25 |      |
-|                 | DONE Read Spacemacs docs                                |       0:54 |      |
-|                 | DONE 处理Cocos2D-X的PR                                  |       0:25 |      |
-|                 | DONE 修复spritePolygon在Linux编译不过的问题。           |       0:25 |      |
-|                 | DONE 下载三星的cpcEx文档                                |       0:25 |      |
-|                 | DONE Add Chinese Translation to...                      |    1d 0:29 |      |
-|                 | DONE 更新cocos2d-x...                                   |       0:50 |      |
-|                 | DONE 处理PR                                             |       0:25 |      |
-|                 | DONE 分享我的spacemacs的使用                            |       0:25 |      |
-|                 | DONE 检查中文翻译的PR                                   |       0:50 |      |
-|                 | DONE...                                                 |   2d 18:20 |      |
-|                 | DONE 处理邮件                                           |       0:25 |      |
-|                 | DONE 处理PR和邮件                                       |       0:25 |      |
-|                 | DONE 修复引擎C++模板在Windows下面资源有改动不拷贝的问题 |       6:38 |      |
-|                 | DONE 翻译cocos API,同时修改配置文件                     |       0:25 |      |
-|                 | DONE 处理PR                                             |       0:25 |      |
-|                 | DONE Review一些Cocos2D-X的PR，同时修改changelog         |       0:25 |      |
-|                 | CANCELLED Migrate my blog to China,...                  |      14:53 |      |
+#+CAPTION: Clock summary at [2015-06-26 Fri 10:24], for June 2015.
+| File            | Headline                                                |       Time |      |      |
+|-----------------+---------------------------------------------------------+------------+------+------|
+|                 | ALL *Total time*                                        |  *7d 4:00* |      |      |
+|-----------------+---------------------------------------------------------+------------+------+------|
+| gtd.org         | *File time*                                             |     *8:07* |      |      |
+|                 | Projects                                                |       0:50 |      |      |
+|                 | \emsp Reading                                           |            | 0:50 |      |
+|                 | \emsp\emsp STARTED [#B]  Read <<SCIP>> books            |            |      | 0:50 |
+|                 | Daily Tasks                                             |       7:17 |      |      |
+|                 | \emsp TODO [#B] Visit Cocos2D-x.org, visit...           |            | 3:20 |      |
+|                 | \emsp STARTED Read RSS half an  hour                    |            | 3:07 |      |
+|                 | \emsp TODO Review 游戏编程模式一书                      |            | 0:50 |      |
+|-----------------+---------------------------------------------------------+------------+------+------|
+| gtd.org_archive | *File time*                                             | *6d 19:53* |      |      |
+|                 | DONE Try out Emacs package Deft                         |      10:35 |      |      |
+|                 | DONE 阅读spacemacs的Release note.                       |       1:43 |      |      |
+|                 | DONE 处理Cocos2D-X Pull Request                         |       0:25 |      |      |
+|                 | DONE Fix UI consumes extra memory issue                 |       1:56 |      |      |
+|                 | DONE Learn spacemacs layer                              |       3:26 |      |      |
+|                 | DONE 处理PR                                             |       0:25 |      |      |
+|                 | DONE Read Spacemacs docs                                |       0:54 |      |      |
+|                 | DONE 处理Cocos2D-X的PR                                  |       0:25 |      |      |
+|                 | DONE 修复spritePolygon在Linux编译不过的问题。           |       0:25 |      |      |
+|                 | DONE 下载三星的cpcEx文档                                |       0:25 |      |      |
+|                 | DONE Add Chinese Translation to...                      |    1d 0:29 |      |      |
+|                 | DONE 更新cocos2d-x...                                   |       0:50 |      |      |
+|                 | DONE 处理PR                                             |       0:25 |      |      |
+|                 | DONE 分享我的spacemacs的使用                            |       0:25 |      |      |
+|                 | DONE 检查中文翻译的PR                                   |       0:50 |      |      |
+|                 | DONE...                                                 |   2d 18:20 |      |      |
+|                 | DONE 处理邮件                                           |       0:25 |      |      |
+|                 | DONE 处理PR和邮件                                       |       0:25 |      |      |
+|                 | DONE 修复引擎C++模板在Windows下面资源有改动不拷贝的问题 |       6:38 |      |      |
+|                 | DONE 翻译cocos API,同时修改配置文件                     |       0:25 |      |      |
+|                 | DONE 处理PR                                             |       0:25 |      |      |
+|                 | DONE Review一些Cocos2D-X的PR，同时修改changelog         |       0:25 |      |      |
+|                 | CANCELLED Migrate my blog to China,...                  |      14:53 |      |      |
+|                 | DONE 完善三星的 EnhanceAPI的类文档                      |       0:50 |      |      |
+|                 | DONE 测试Lua 和js-tests                                 |       2:05 |      |      |
+|                 | DONE 修复引擎的Bug                                      |      18:48 |      |      |
+|                 | DONE 阅读 c++右值引用和 universal引用                   |       4:36 |      |      |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -436,8 +410,8 @@ SCHEDULED: <2015-06-24 Wed 20:20 .+30d/31d>
 #+END_SRC
 
 #+RESULTS:
-: [-WORK-] 106:37
-: [-DREAM-] 00:50
+: [-WORK-] 132:31
+: [-DREAM-] 01:40
 : [-WRITING-] 01:56
-: [-LIFE-] 34:34
+: [-LIFE-] 34:59
 

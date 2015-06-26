@@ -38,6 +38,34 @@
 - exciting feature: timeline action editor, realtime preview, 2d and 3d support. Cinematic and interactive animations.(重点）
 - data driven, reusability, no code required.（重点）
 ** enhancement to SceneKit
+*** intro to SceneKit
+- SceneKit for 3D/ SpriteKit for 2D
+- for iOS & MacOS X
+- Particles/Physics/Physics fields/SpriteKit
+- Metal and New scene editor
+*** Scene Editor
+- Can open and edit DAE, OBJ, Alembic, STL and PLY files
+- New native file format(SceneKit Archive) NSKeyedArchiver
+- Buld your game levels
+- Shader modifiers and Ambient Occlusion
+- Skybox, geometry modifiers
+- collision mesh/rendered mesh
+- skinning and shader modifiers
+- configuring materials
+- self illumination texture
+- Reflective cube map
+- compute shader(MTLbuffer and MTLTexture)
+- Default on iOS 9
+- Backward compatibility ensured(use interface builder to choose backend)
+- Dealing with shaders(metal)
+- shaders are not compatible
+- SCNTechnique: pass description addition.
+- Integration with Model I/O
+- DAE format is best supported.
+- Debug option
+- Blend IO
+- Audio nodes(AVAudioEngine)
+*** Enhance
 - SKTransitions
 - metal support
 - automatic context matching. (Metal or OpenGL)
