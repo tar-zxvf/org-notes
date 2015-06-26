@@ -39,7 +39,8 @@ SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
 * Daily Tasks
 #+category: Daily
 ** TODO [#B] Visit Cocos2D-x.org, visit forum                         :WORK:
-SCHEDULED: <2015-06-26 Fri 09:30-09:50 .+1d>
+SCHEDULED: <2015-06-27 Sat 09:30-09:50 .+1d>
+- State "DONE"       from "TODO"       [2015-06-26 Fri 11:33]
 - State "DONE"       from "STARTED"    [2015-06-25 Thu 09:53]
 - State "DONE"       from "STARTED"    [2015-06-24 Wed 13:38]
 - State "DONE"       from "TODO"       [2015-06-23 Tue 09:42]
@@ -117,38 +118,13 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    - State "DONE"       from "STARTED"    [2014-05-29 Thu 09:56]
    - State "DONE"       from "TODO"       [2014-03-28 Fri 11:14]
    :PROPERTIES:
-:LAST_REPEAT: [2015-06-25 Thu 09:53]
+:LAST_REPEAT: [2015-06-26 Fri 11:33]
    :END:
-** STARTED Read RSS half an  hour                                     :LIFE:
-DEADLINE: <2015-06-25 Thu 14:30 .+1d> SCHEDULED: <2015-06-25 Thu 13:40 .+1d>
-- State "DONE"       from "TODO"       [2015-06-24 Wed 13:39]
-- State "DONE"       from "TODO"       [2015-06-23 Tue 13:55]
-- State "DONE"       from "STARTED"    [2015-06-19 Fri 14:10]
-- State "DONE"       from "STARTED"    [2015-06-18 Thu 15:52]
-- State "DONE"       from "STARTED"    [2015-06-17 Wed 14:07]
-- State "DONE"       from "STARTED"    [2015-06-16 Tue 15:43]
-- State "DONE"       from "STARTED"    [2015-06-15 Mon 13:49]
-- State "DONE"       from "STARTED"    [2015-06-12 Fri 15:26]
-- State "DONE"       from "STARTED"    [2015-06-11 Thu 17:02]
-- State "DONE"       from "TODO"       [2015-06-10 Wed 14:34]
-- State "DONE"       from "TODO"       [2015-06-09 Tue 14:19]
-- State "DONE"       from "TODO"       [2015-06-09 Tue 14:19]
-- State "DONE"       from "STARTED"    [2015-06-09 Tue 14:19]
-- State "DONE"       from "TODO"       [2015-06-08 Mon 13:42]
-- State "DONE"       from "TODO"       [2015-06-06 Sat 15:51]
-- State "DONE"       from "TODO"       [2015-06-05 Fri 13:40]
-- State "DONE"       from "TODO"       [2015-06-03 Wed 14:12]
-- State "DONE"       from "TODO"       [2015-06-02 Tue 14:48]
-- State "DONE"       from "TODO"       [2015-06-01 Mon 13:54]
-- State "DONE"       from "TODO"       [2015-05-28 Thu 11:47]
-- State "DONE"       from "TODO"       [2015-05-27 Wed 13:38]
-- State "DONE"       from "TODO"       [2015-05-26 Tue 17:26]
-- State "DONE"       from "TODO"       [2015-05-08 Fri 15:20]
-- State "DONE"       from "TODO"       [2015-05-07 Thu 18:31]
-- State "DONE"       from "TODO"       [2015-05-05 Tue 15:46]
-- State "DONE"       from "STARTED"    [2015-05-04 Mon 18:16]
+** TODO Read RSS half an  hour                                        :LIFE:
+DEADLINE: <2015-06-27 Sat 14:30 .+1d> SCHEDULED: <2015-06-27 Sat 13:40 .+1d>
+- State "DONE"       from "STARTED"    [2015-06-26 Fri 11:59]
 :LOGBOOK:  
-CLOCK: [2015-06-25 Thu 15:42]
+CLOCK: [2015-06-25 Thu 15:42]--[2015-06-26 Fri 10:27] => 18:45
 CLOCK: [2015-06-19 Fri 13:33]--[2015-06-19 Fri 13:58] =>  0:25
 CLOCK: [2015-06-18 Thu 15:21]--[2015-06-18 Thu 15:46] =>  0:25
 CLOCK: [2015-06-17 Wed 13:35]--[2015-06-17 Wed 14:00] =>  0:25
@@ -159,18 +135,8 @@ CLOCK: [2015-06-11 Thu 16:15]--[2015-06-11 Thu 16:40] =>  0:25
 CLOCK: [2015-06-09 Tue 13:37]--[2015-06-09 Tue 14:02] =>  0:25
 CLOCK: [2015-05-04 Mon 14:29]--[2015-05-04 Mon 14:54] =>  0:25
 :END:      
-- State "DONE"       from "STARTED"    [2015-04-30 Thu 17:10]
-   - State "DONE"       from "TODO"       [2015-04-24 Fri 16:18]
-   - State "DONE"       from "STARTED"    [2015-04-23 Thu 13:47]
-   - State "DONE"       from "STARTED"    [2015-04-21 Tue 15:41]
-   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:07]
-   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
-   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
-   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
-   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
-   - State "DONE"       from "TODO"       [2015-04-15 Wed 16:06]
 :PROPERTIES:
-:LAST_REPEAT: [2015-06-24 Wed 13:39]
+:LAST_REPEAT: [2015-06-26 Fri 11:59]
 :END:
 ** TODO [#A]  Write English Diary，Conclude what I have learned today :LIFE:
    SCHEDULED: <2014-09-29 Mon 22:00-22:30 .+1d>
@@ -244,6 +210,15 @@ SCHEDULED: <2015-06-25 Thu 22:00>
 ** TODO  Learn Org Dashboard to management my project, like reading a book or doing a side project. :DREAM:
 SCHEDULED: <2015-07-06 Mon>
 "http://thehelpfulhacker.net/2014/07/19/a-dashboard-for-your-life-a-minimal-goal-tracker-using-org-mode-go-and-git/"
+
+** DONE Test V3.7 in iOS simulator and device                         :WORK:
+CLOSED: [2015-06-26 Fri 11:31] SCHEDULED: <2015-06-26 Fri 10:30>
+- State "DONE"       from "STARTED"    [2015-06-26 Fri 11:31]
+:LOGBOOK:  
+CLOCK: [2015-06-26 Fri 10:57]--[2015-06-26 Fri 11:22] =>  0:25
+CLOCK: [2015-06-26 Fri 10:27]--[2015-06-26 Fri 10:52] =>  0:25
+:END:      
+
 
 * Weekly Tasks
 #+category: Weekly

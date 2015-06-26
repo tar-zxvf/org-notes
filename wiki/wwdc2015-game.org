@@ -70,15 +70,147 @@
 - metal support
 - automatic context matching. (Metal or OpenGL)
 ** GamePlayKit(重点）
+*** Mission
+- Common design patterns and architecture
+- Standard gameplay algorithm
+- Applicable to many games
+- Graphics and engine agnostic
+- SpriteKit, SceneKit, Metal and more.
 *** Pathfinding(重点）
-- automatic graph generation
-- 
+- pathfinding operates on a navigation graph
+- Graphs are collections of nodes
+- Nodes are joined by connections
+- Connections are directional
+- Optimal path exists between any two connected nodes
+**** automatic graph generation
+**** GKGraph
+- Abstract graph base class
+- Container of graph nodes
+- Dynamic add/remove nodes
+- Connect new nodes
+- Find paths between nodes
+- Two specializations(Grid graphs, obstacle graphs)
+**** GKGridGraph
+- Specialized for a 2D Grid
+- Creates nodes on the grid(Cardinal connections, Optional diagonal connections)
+- Optional diagonal connections (Easy add/remove of grid nodes)
+**** GKObstacleGraph
+- Specialized for pathing around obstacles
+- Obstacles are arbitrary polygons(Dynamically add/remove obstacles, Dynamically connect nodes.)
+- Buffer radius ("safty zone" around obstacles, Game dependent size.)
+**** GKGraphNode
+- Graph node base class
+- Subclass for:
+  - Advanced or non-spatial costs
+  - Control over pathfinding
+- Create your own graphs
+  - Manually manage connections
+  - Good for abstract or no-spatial graphs
+**** Easily generate obstacles from SKNode bounds, physics bodies or textures
+
 *** Entity/component system
+- Great way to organize game logic
+- Easy to maintain
+- Easy to collaborate
+- Scales with complexity
+- Dynamic behavior
+**** GKEntity
+- Collectioin of components
+- Dynamically add/remove component
+- Access components by class type
+- Update all components
+**** GKComponent
+- Subclass to add functionality
+- Store component data as properties
+- Custom selectors extend functionality
+- Updated by there entity's update
+- Implement logic in [updateWithDeltaTime:]
+**** GKComponentSystem
+- Collectioin of components from different entities(eg.All components are of the same class)
+- Use when update order is important(eg.Update all AI before movement)
+- Components in a system don't update with their entity's update
+
 *** state machines
-*** agent behaviors
-*** AI strategies
+- Backbone of many gameplay elements
+- Games are a collection of state machines (eg. Animations, AI, UI, levels etc)
+- Common implementation removes boilerplate
+- States reused throughout your game
+**** GKStateMachine
+- General purpose finite state machine
+  - Single current state
+  - All possible state
+- [enterState] cause state transition
+  - Check if transition is valid
+  - Calls [exit] on previous
+  - [enter] on next state
+- Update currentState
+**** GKState
+- Abstract class
+- Implement logic in Enter/Exit/Update (There are called by the state machine)
+- Override [isValideNextState:] to control edges
+  - By default, all edges are valid
+  - Can be dynamic, based on internal state
+
+*** agents, goal and behaviors
+- Agents are autonomously moving entities(Driven by behaviors and goals, realistic constrains)
+- Behaviours are made of goals (goals combined via weights)
+- Games need believable movements
+- Organic behaviors look intelligent
+- Realistic movement(Has inertia, avoid obstacles, avoid other entities, follow paths)
+**** GKAgent
+- Simple autonomous point-mass
+- Is a GKComponent
+- Update applies behaviors(Goals change acceleration, velocity, position, rotation updated)
+- Units are dimensionless(game world specific)
+**** GKBehavior
+- Dictionary-lick container of goals
+- Dynamically modify behaviors(add/remove goals, modify weights)
+- Set behavior on agent to use it
+**** GKAgentDelegate
+- Sync graphics, animations, physics, etc
+[agentWillUpdate:] called before updates
+[agentDidUpdate:] called after updates
+
+*** AI strategies(MinMax AI)
+- Many games need equal AI components
+  - Can play the entire game
+  - Play by the same rules as human players
+- Chess, Checkers, Tic-Tac-Toe, etc
+**** Features
+- AI-controlled opponents
+- Suggest move for human players
+- Best suited for turn-based games (any game with discrete moves)
+- Variable difficulty(adjust look ahead, select suboptimal moves)
+**** GKGameModel protocol
+- Abstract of the current game state
+- list of players
+- currently active players
+- player scores
+- possible player moves
+- Apply moves for players
+- changes game state
 *** Random sources
+- game have unique random number need
+- rand() gives us random numbers, but we need more.
+- platform-independent determinism
+- multiple sources
+- number distribution
+This is where random source come in.
 *** Rule systems
+**** A game consists of three elements
+- Nouns(properties)
+- Position, speed, health, equipment, etc
+- Verbs(Actions)
+- Run , jump, use item, acceleration, etc
+- Rules
+- How your nouns and verbs interact.
+**** motivation
+- Complex reasoning with fuzzy logic
+- facts can be grades of true
+- fuzzy logic deals with approximations
+- separate what we should do from how we should to it
+- state facts about the world
+- take deferred actions based on those facts.
 
 ** Manage 3D assets with Model I/O (重点）
 *** Overview
