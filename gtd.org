@@ -36,6 +36,15 @@ SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
    :END:
 ** Side Project(非正式项目）
 *** Emacs Chinese Wubi Input Method                                 :Emacs:
+*** STARTED 编写InfoQ的WWDC2015游戏技术介绍 [50%]
+SCHEDULED: <2015-06-27 Sat 16:00>
+:LOGBOOK:  
+CLOCK: [2015-06-27 Sat 15:53]--[2015-06-27 Sat 16:18] =>  0:25
+:END:      
+- [X] 观看WWDC 的视频，重点关注一下游戏的部分。               :WORK:
+
+- [ ] TODO 为InfoQ编写WWDC的文章，可以结合视频和Keynote来弄         :DREAM:
+
 * Daily Tasks
 #+category: Daily
 ** TODO [#B] Visit Cocos2D-x.org, visit forum                         :WORK:
@@ -121,7 +130,7 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
 :LAST_REPEAT: [2015-06-26 Fri 11:33]
    :END:
 ** TODO Read RSS half an  hour                                        :LIFE:
-DEADLINE: <2015-06-27 Sat 14:30 .+1d> SCHEDULED: <2015-06-27 Sat 13:40 .+1d>
+ SCHEDULED: <2015-06-27 Sat 13:40 .+1d>
 - State "DONE"       from "STARTED"    [2015-06-26 Fri 11:59]
 :LOGBOOK:  
 CLOCK: [2015-06-25 Thu 15:42]--[2015-06-26 Fri 10:27] => 18:45
@@ -166,12 +175,6 @@ SCHEDULED: <2015-06-06 Sat>
 
 ** TODO  使用Clojure搭建一个Emacs社区                                 :LIFE:
 SCHEDULED: <2015-07-20 Mon>
-
-** TODO   观看WWDC 的视频，重点关注一下游戏的部分。                   :WORK:
-SCHEDULED: <2015-06-11 Thu 22:00>
-
-** TODO 为InfoQ编写WWDC的文章，可以结合视频和Keynote来弄             :DREAM:
-SCHEDULED: <2015-06-13 Sat>
 
 ** TODO  学习Org-Mode管理小项目的方法                                :Emacs:
 SCHEDULED: <2015-06-20 Sat>
