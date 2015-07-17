@@ -1,14 +1,13 @@
+#+TITLE: Git及Github的使用
 #+LATEX_HEADER: \usepackage{xltxtra}
 #+LATEX_HEADER: \setmainfont{Hiragino Sans GB}
-#+PANDOC_OPTIONS: standalone:t latex-engine:xelatex
-#+PANDOC_METADATA: page-progression-direction:ltr
-#+LATEX_HEADER: \usepackage[utf8x]{inputenc} 
-
+#+LATEX_HEADER: \usepackage[paperheight=13in,paperwidth=14in]{geometry}
 
 * 主要内容
 ** Git本质(5min)
 Why?我们为什么要版本控制
 版本管理？ 没有Git，或者说没有版权控制工具，我们该怎么管理？ 
+
 
 *** Poor man's Git (Totally wrong!)
 ~Git commit is a snapshot of a directory, not maintain a diff.~
@@ -97,7 +96,8 @@ git branch -D branchname
 	throwh	= reset --hard HEAD^
 	clr	= clean -fdx -f
 	last	= log -1
-	glog	= log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	glog	= log --color --graph 
+--pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	slog	= log --pretty=oneline	
   accept-ours = "!f() { git checkout --ours -- \"${@:-.}\"; git add -u \"${@:-.}\"; }; f"
   accept-theirs = "!f() { git checkout --theirs -- \"${@:-.}\"; git add -u \"${@:-.}\"; }; f"
@@ -108,6 +108,16 @@ git branch -D branchname
 ** 终极指南
  Commit early, commit often, perfect later and publish once.
 
+#+begin_src cpp
+  #include <iostream>
+  #include <string>
+
+  using namespace std;
+  int main(char** argc, int argv)
+  {
+      std::cout<<"Hello World"<<std::endl;
+  }
+#+end_src
 *** 什么是好的Commit历史
 1. 必须有一个summary，而且summary不要超过50行
 2. summary后必须空一行
