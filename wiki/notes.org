@@ -84,3 +84,20 @@ Let game programming is not a secret any more.(I love to share some new)
 
 * Setup VPN
 "http://blog.fengqijun.me/vpn/2015/03/08/l2tp-ipsec-vpn-on-ubuntu-14/"
+
+* 骨骼动画评审
+** CCBone和CCBoneNode是什么关系？同样的逻辑代码在一个仓库里面出现两次是否合理？
+** CCBoneNode继承至Node有点太重度了，可以考虑继承至Ref, 具体可以参考CCBone3D的实现
+** static BoneNode* create(const int &length);  基本数据类型不需要 const int&
+** 有问题的API
+*** 含义不明
+    virtual void display(SkinNode* skin, bool hideOthers = false);
+    virtual cocos2d::Vector<SkinNode*> getDisplaying() const;
+** 缺少doxgen文档注释
+** 暴露的接口是否完整，接口意义是否清晰，use-case是怎样的？
+** Bone的length, width, rackShow是什么意思？
+** 是否考虑了多个摄相机以及在3D场景里面的显示。
+** CustomCommand 是不被推荐使用的，能否在UI的容器里面正确使用，是否被正确clipping
+** 代码里面应该要移除 EMSCRIPTEN的宏
+** _groupCommand在CCSkeletonNode里面并没有被使用到。
+

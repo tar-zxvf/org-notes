@@ -272,8 +272,87 @@ physic materials, physics light.
 -- complex lights supported (tray trace)
 
 ** What's new in metal part1
+*** Overview
+- Dramatically reduced overhead
+- Precompiled shaders
+- Graphics and compute
+- Efficient multithreading
+- Support for OS X 10
+- Tools support: Frame debugger, shader profiler, shader editor, state inspector
+**** Metal OS X
+- Minimal code change required for existing iOS applications
+- Device selection
+- Support for discrete memory
+- new texture formats for desktop GPUs.
+*** New feature
+- New memory model (discrete memory model)
+-- shared storage mode/private storage mode/managed storage mode(on in OS X)
+- Layered rendering(OS X 10)
+- Texture barriers(OS X 10)
+- Texture compression formats(ASTC format)
+- GPU families
+- MetalKit
+- Metal performance shaders
+- Metal trace tools
+*** Metal and App Thinning
+- Tag assets, this is the same with iOS
 ** What's new in metal part2
+*** Introduction MetalKit
+- MetalKit provides efficient implementation for commonly used scenarios
+-- less effort to get up and rendering
+-- increased performance and stability
+- MetalKit View
+-- Unified view class for rendering Metal secene
+- Texture Loader
+-- Metal texture object creation from image files
+- Model I/O integration
+-- load and manage mesh data for Metal rendering
+*** Metal Performance Shaders(A8 chip)
+- A framwork of data-parallel algorithms for the GPU
+- CPU-style library for the GPU
+- Optimized for iOS
+- Available in iOS 9 for the A8 processor
+- Histogram, Equalization and Specification
+- Morphology -- min, max, dilate and rode
+- Lanczos(兰索斯) resampling
+- Median
+- Thresholding
+- Integral
+- Convolution -- general, gaussian blur, box, tent and sobel
+*** Summary
+- Make use of the new Metal support framework
+- robust, optimized, easy to integrate
+- faster bring-up of your application
+- less code to write and maintain
 ** metal performance optimization
+*** Metal system trace tool(new in iOS 9, watch the demo)
+- Visual frame debugger
+- Resource and state viewer
+- shader profiling
+- shader edit and continue
+- debug mode for Metal framwork
+- integrated offline Metal compiler
+*** demo
+- Create expensive objects upfront and reuse
+- MTLLibrary (a library of compiled shaders)
+- Device and Command Queue
+- Depth/Stencil and Sampler State
+*** Metal Best practices
+- profile early and often
+- Acquire the Drawable at the latest opportunity
+-- Immediately before the render pass in which it is used
+-- Hides long latency in no drawables available.
+- consider multithreading if GPU based
+*** Summary
+- Metal System Trace offers a new insight into Metal app performance.
+-- Use in conjunction with XCode to profile early and often.
+- Follow Metal best practices to maximize app performance
+-- Create expensive objects upfront and reuse.
+-- Buffer dynamic shared resource
+-- Acquire the drawable at the latest opportunity
+-- Don't waste render command encoders
+-- Consider multithreading f still CPU-bound
+-- no runtime shader compilation
 ** going so social with replaykit and game center(重点）
 *** Overview
 *** What's new in Game center

@@ -1,0 +1,43 @@
+* Learn Spacemacs
+** Install Spacemacs
+1. 安装跟平台相关的 Emacs 版本
+2. 安装 Source Code Pro 字体
+** Basic Configuration
+*** Add a layer to record commands
+add mwe-log-commands dotspacemacs-additional-packages 
+#+begin_src emacs-lisp
+      (evil-leader/set-key
+        "oll" 'mwe:log-keyboard-commands
+        "olf" 'mwe:open-command-log-buffer)
+#+end_src
+
+
+*** Add two configuration line into dotspacemacs/config function.
+#+begin_src emacs-lisp
+  (global-company-mode t)
+  (add-hook prog-mode-hook #'linum-mode)
+#+end_src
+
+*** 配置一个主题
+比如 monokai 或者 solarized-light
+
+** Add some layers. (better-defaults, color, osx, chinese) 改了一些东西
+*** You should read the docs of each layer you added
+*** You'd better read all the code reside in the layer you added
+** Create your own layers(prelude, purcell, chenbin, oh-my-emacs etc)
+*** Where to put your layer?
+*** What's the meaning of layer files
+ funcs.el, config.el, packages.el, extentions.el, keybindings.el
+*** How to migrate your existing configurations
+
+** Modify the existing configuration of layers
+Emacs is a state machine, all configurations override the existing
+- post init function
+- put it in the dotspacemacs/config function
+
+** Killer features
+- Key sequence(guide key and helm)
+- Windows, file, buffer
+- search and replace
+- major mode keybindings
+

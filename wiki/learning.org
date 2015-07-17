@@ -10,6 +10,15 @@
 "http://www.zhihu.com/question/23821125"
 "http://mindhacks.cn/2008/07/07/the-importance-of-knowing-why/"
 
+** 编程语言学习
+*** C/C++, Javascript, Lua, 3D graphics, WebGL, Python, Golang, Shader, Java(LibGDX), C#(unity)
+Main language: C/C++, Java, C#, GoLang
+Scripting Language: Lua, Javascript, GLSL, Python
+*** Lisp, perl, Ruby Clojure, Erlang, Rails, Prolog, haskell
+- Main language: Ruby, Clojure, Erlang
+- Scripting language: elisp, perl, ruby
+- mind hacking: Prolog, haskell
+
 
 ** 编程相关
 -  A little Scheme
@@ -40,3 +49,15 @@
 - 你的知识需要管理
 - 乔布斯传
 - Getting Things Done
+
+** 游戏相关链接
+*** 动画系统
+1. 
+"http://veeenu.github.io/2014/04/22/implementing-keyframe-animation.html"
+"http://veeenu.github.io/2014/05/09/implementing-skeletal-animation.html"
+2. 
+"http://amazingretardo.simiansoftwerks.com/2010/02/23/skeletal-animation-in-2d-part-1-concept/"
+"http://amazingretardo.simiansoftwerks.com/2010/03/06/skeletal-animation-in-2d-part-2-implementation/"
+3.
+"http://fileadmin.cs.lth.se/graphics/theses/projects/skeleton/"
+

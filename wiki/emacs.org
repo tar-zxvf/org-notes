@@ -179,7 +179,7 @@ CLOSED: [2015-06-07 Sun 19:54]
 
 ** TODO Study cpputils-cmake and CMake-ide to make my cocos2d-x c++ project rocks :cmake:
 [[https://github.com/atilaneves/cmake-ide][atilaneves/cmake-ide]]
-  https://github.com/redguardtoo/cpputils-cmake/pull/26
+https://github.com/redguardtoo/cpputils-cmake/pull/26
 
 ** Emacs for  Python openstack development tools.                    :Python:
   https://dague.net/2015/03/24/openstack-emacs-tools/
