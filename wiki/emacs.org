@@ -108,6 +108,9 @@ Entered on [2013-11-02 Sat 22:30]
 [[http://sachachua.com/blog/2013/03/learn-emacs-lisp-by-reading-emacs-lisp/][Learn Emacs Lisp by reading Emacs Lisp - sacha chua :: living an awesome life]]
 [[http://emacswiki.org/emacs/LearnEmacsLisp][EmacsWiki: Learn Emacs Lisp]]
 
+** Emacs lisp tips
+[[http://www.emacswiki.org/emacs/EmacsLispProfiler][EmacsWiki: Emacs Lisp Profiler]]
+[[https://www.youtube.com/watch?v%3DRvPFZL6NJNQ#t%3D15][Emacs Lisp Development - John Wiegley - Emacs Conference 2013 - YouTube]]
 * Quick notes
 
 ** TODO Add Unity3D C# support
@@ -252,7 +255,7 @@ http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 
 
 
-* 介绍一下Spacemacs
+* 介绍一下Spacemacs(已经录制两个视频)
 ** 介绍Spacemacs的特点，以及我为什么要选择它(5min)
 ** 介绍如何添加自己的配置(5min, 添加command-log-mode)
 ** 介绍我是怎么使用Spacemacs的(10 min)

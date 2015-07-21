@@ -1,4 +1,9 @@
 #+TITLE: Git及Github的使用
+#+AUTHOR: 子龙山人
+#+EMAIL: guanghui.qu@cocos2d-x.org
+#+OPTIONS: toc:3 num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+STARTUP: overview
 #+LATEX_HEADER: \usepackage{xltxtra}
 #+LATEX_HEADER: \setmainfont{Hiragino Sans GB}
 #+LATEX_HEADER: \usepackage[paperheight=13in,paperwidth=14in]{geometry}
@@ -28,11 +33,16 @@ Why there is a index area?
 - index file: 
 The index is a binary file (generally kept in .git/index) containing a sorted list of path names,
  each with permissions and the SHA1 of a blob object; git ls-files can show you the contents of the index:
-#+begin_src shell-script
+#+begin_src sh
  git ls-files --stage
 #+end_src
 ** 理解Git Commit，Tag, Branch, merge, rebase, cherry-pick，submodule (10min)
 *** 理解Commit的组成
+
+#+BEGIN_SRC sh
+  find ../.git/objects -type f
+#+END_SRC
+
 - commit is a snapshot
 - SHA to a tree blob. A tree has many file/folders blob
 - Use git ls-files and git ls-tree to understand snapshot
@@ -69,7 +79,7 @@ git am --signoff <  patchname
 *** Github Pull request自动生成detail和title
 一次只提交一个commit
 *** 删除远程分支和本地分地
-#+begin_src shell
+#+begin_src sh
 git branch -d branchnae  
 git branch -D branchname
 #+end_src
@@ -77,7 +87,7 @@ git branch -D branchname
 *** 查找bug -- git bisect
 *** 巧用git alias
 在~/.gitconfig里面添加下面的内容
-#+begin_src config
+#+begin_src
 [alias]
 	# Show the diff between the latest commit and the current state
 	d	= !"git diff"
@@ -106,29 +116,7 @@ git branch -D branchname
 *** 安装zsh和git插件
 
 ** 终极指南
- Commit early, commit often, perfect later and publish once.
-
-#+begin_src cpp
-  #include <iostream>
-  #include <string>
-
-  using namespace std;
-  int main(char** argc, int argv)
-  {
-      std::cout<<"Hello World"<<std::endl;
-  }
-#+end_src
-*** 什么是好的Commit历史
-1. 必须有一个summary，而且summary不要超过50行
-2. summary后必须空一行
-3. 详细信息和summary必须是经过仔细思考写下的
-4. 每一行不超过72个字符
-*** 一些惯例
-1. 是Fix bug而不是Fixed bug or fixes bug.
-
-
-
-
+Commit early, Commit often, perfect later and publish once.
 * Reference:
 
 1. http://tom.preston-werner.com/2009/05/19/the-git-parable.html

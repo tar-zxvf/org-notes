@@ -142,7 +142,7 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :PROPERTIES:
 :LAST_REPEAT: [2015-07-15 Wed 14:58]
    :END:
-** TODO Read RSS half an  hour                                        :LIFE:
+** STARTED Read RSS half an  hour                                     :LIFE:
 SCHEDULED: <2015-07-16 Thu 13:40 .+1d>
 - State "DONE"       from "TODO"       [2015-07-15 Wed 14:58]
 - State "DONE"       from "TODO"       [2015-07-14 Tue 17:23]
@@ -152,6 +152,7 @@ SCHEDULED: <2015-07-16 Thu 13:40 .+1d>
 - State "DONE"       from "TODO"       [2015-07-02 Thu 14:30]
 - State "DONE"       from "STARTED"    [2015-06-26 Fri 11:59]
 :LOGBOOK:  
+CLOCK: [2015-07-18 Sat 15:49]--[2015-07-18 Sat 18:34] =>  2:45
 CLOCK: [2015-07-06 Mon 13:36]--[2015-07-06 Mon 14:01] =>  0:25
 CLOCK: [2015-06-25 Thu 15:42]--[2015-06-26 Fri 10:27] => 18:45
 CLOCK: [2015-06-19 Fri 13:33]--[2015-06-19 Fri 13:58] =>  0:25
@@ -196,7 +197,7 @@ http://blog.csdn.net/meteor1113/article/details/4395673
 SCHEDULED: <2015-06-06 Sat>
 
 ** TODO  使用Clojure搭建一个Emacs社区                                 :LIFE:
-SCHEDULED: <2015-07-20 Mon>
+SCHEDULED: <2015-10-28 Wed>
 
 ** DONE 学习Org-Mode管理小项目的方法                                 :Emacs:
 CLOSED: [2015-07-05 Sun 00:02] SCHEDULED: <2015-06-20 Sat>
@@ -227,14 +228,17 @@ CLOSED: [2015-07-05 Sun 16:42] SCHEDULED: <2015-06-28 Sun>
   use ace-jump is enough
 
 ** TODO  替换oh-my-zsh为antigen,同时为cocos-console编写一个zsh插件    :LIFE:
+DEADLINE: <2015-08-19 Wed> SCHEDULED: <2015-09-08 Tue>
 "https://github.com/shengyou/codeception-zsh-plugin/blob/master/codeception.plugin.zsh"
 "https://askql.wordpress.com/2011/01/11/zsh-writing-own-completion/"
 "https://joshldavis.com/2014/07/26/oh-my-zsh-is-a-disease-antigen-is-the-vaccine/"
 "http://wikimatze.de/writing-zsh-completion-for-padrino/"
-SCHEDULED: <2015-07-08 Wed>
 
-** TODO  学习Raywenderlich的Android教程，并且学习Android Studio和Gradle的配置和使用。 :LIFE:
+** STARTED 学习Raywenderlich的Android教程，并且学习Android Studio和Gradle的配置和使用。 :LIFE:
 SCHEDULED: <2015-06-28 Sun>
+:LOGBOOK:  
+CLOCK: [2015-07-19 Sun 19:39]--[2015-07-20 Mon 09:57] => 14:18
+:END:      
 
 ** DONE 配置 org-mode                                                :Emacs:
 CLOSED: [2015-07-05 Sun 15:47]
@@ -305,8 +309,9 @@ CLOCK: [2015-07-06 Mon 09:50]--[2015-07-06 Mon 10:15] =>  0:25
 CLOCK: [2015-07-06 Mon 09:20]--[2015-07-06 Mon 09:45] =>  0:25
 :END:      
 
-** STARTED 修复PageView的scrollToPages Bug                            :WORK:
-SCHEDULED: <2015-07-10 Fri 09:24>
+** DONE 修复PageView的scrollToPages Bug                               :WORK:
+CLOSED: [2015-07-18 Sat 13:55] SCHEDULED: <2015-07-10 Fri 09:24>
+- State "DONE"       from "STARTED"    [2015-07-18 Sat 13:55]
 :LOGBOOK:  
 CLOCK: [2015-07-10 Fri 09:23]--[2015-07-10 Fri 09:48] =>  0:25
 :END:      
@@ -336,10 +341,29 @@ SCHEDULED: <2015-07-28 Tue>
 "http://blog.modelworks.ch/?p=129"
 SCHEDULED: <2015-07-14 Tue 22:00>
 
-** STARTED 添加jumpToPage API                                         :WORK:
-SCHEDULED: <2015-07-15 Wed 15:00>
+** DONE 添加jumpToPage API                                            :WORK:
+CLOSED: [2015-07-18 Sat 13:55] SCHEDULED: <2015-07-15 Wed 15:00>
+- State "DONE"       from "STARTED"    [2015-07-18 Sat 13:55]
 :LOGBOOK:  
 CLOCK: [2015-07-15 Wed 14:58]--[2015-07-15 Wed 15:23] =>  0:25
+:END:      
+
+** DONE 给Node添加两个API                                             :WORK:
+CLOSED: [2015-07-21 Tue 09:35] SCHEDULED: <2015-07-20 Mon 10:00>
+- State "DONE"       from "STARTED"    [2015-07-21 Tue 09:35]
+:LOGBOOK:  
+CLOCK: [2015-07-20 Mon 09:57]--[2015-07-20 Mon 10:22] =>  0:25
+:END:      
+
+** TODO  学习EDebug和Ert                                             :Emacs:
+[[http://www.gnu.org/software/emacs/manual/html_node/ert/index.html][Emacs Lisp Regression Testing: Top]]
+"http://www.gnu.org/software/emacs/manual/html_node/ert/index.html"
+SCHEDULED: <2015-07-28 Tue>
+
+** STARTED 上传中英文 API 到有拍云                                    :WORK:
+SCHEDULED: <2015-07-21 Tue 09:36>
+:LOGBOOK:  
+CLOCK: [2015-07-21 Tue 09:35]--[2015-07-21 Tue 10:00] =>  0:25
 :END:      
 
 * Weekly Tasks
@@ -365,7 +389,8 @@ SCHEDULED: <2015-07-20 Mon .+7d/8d>
 :LAST_REPEAT: [2015-07-13 Mon 09:31]
 :END:
 ** TODO Call my mum                                                   :LIFE:
-SCHEDULED: <2015-07-21 Tue 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-07-28 Tue 10:00-10:30 .+7d/8d>
+- State "DONE"       from "TODO"       [2015-07-21 Tue 09:34]
 - State "DONE"       from "TODO"       [2015-07-14 Tue 17:23]
 - State "DONE"       from "TODO"       [2015-07-07 Tue 13:59]
 - State "DONE"       from "TODO"       [2015-06-30 Tue 09:23]
@@ -379,7 +404,7 @@ SCHEDULED: <2015-07-21 Tue 10:00-10:30 .+7d/8d>
 - State "DONE"       from "TODO"       [2014-04-07 Mon 20:00]
 - State "DONE"       from "STARTED"    [2014-03-29 Sat 10:11]
 :PROPERTIES:
-:LAST_REPEAT: [2015-07-14 Tue 17:23]
+:LAST_REPEAT: [2015-07-21 Tue 09:34]
 :END:
 
 # The following section is used for Monthly Tasks
