@@ -1,0 +1,11 @@
+#+TITLE: 我的 wiki
+
+   + [[file:journal.org][Journal]]
+   + [[file:notes.org][零散笔记]]
+   + [[file:cocos2d-x.org][Cocos2D-X 相关]]
+   + [[file:booklists.org][我的书单]]
+   + [[file:resume.org][个人简历]]
+   + [[file:tools.org][一些提高效率的工具]]
+   + [[file:programming.org][编程语言学习]]
+   + [[file:graphics.org][图形渲染相关]]
+   + [[file:emacs.org][Emacs 相关]]

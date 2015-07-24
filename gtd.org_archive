@@ -1,8 +1,6 @@
 #    -*- mode: org -*-
 #+TAGS: { WORK(w) ENGLISH(e) JAPANESE(j) LIFE(l) DREAM(d) OTHER(o) }
 
-Archived entries from file /Users/guanghui/Dropbox/org/gtd.org
-
 
 * DONE help essedo to answer some cocos2d-x related questions                   :OTHER:
   CLOSED: [2013-10-23 Wed 08:50]
@@ -4531,5 +4529,440 @@ CLOCK: [2015-06-25 Thu 10:26]--[2015-06-25 Thu 14:12] =>  3:46
 :ARCHIVE_OLPATH: Daily Tasks
 :ARCHIVE_CATEGORY: Daily
 :ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 编写 InfoQ 的 WWDC2015 游戏技术介绍 [100%]
+CLOSED: [2015-07-03 Fri 22:46] SCHEDULED: <2015-06-27 Sat 16:00>
+- State "DONE"       from "STARTED"    [2015-07-03 Fri 22:46]
+:LOGBOOK:  
+CLOCK: [2015-06-27 Sat 15:53]--[2015-06-27 Sat 16:18] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Projects/Side Project(非正式项目）
+:ARCHIVE_CATEGORY: Project
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: DREAM
+:END:
+- [X] 观看 WWDC 的视频，重点关注一下游戏的部分。               :WORK:
+
+- [X] TODO 为 InfoQ 编写 WWDC 的文章，可以结合视频和 Keynote 来弄         :DREAM:
+
+
+* DONE Add PageView Vertical Scroll                                    :WORK:
+CLOSED: [2015-08-02 Sun 15:58] DEADLINE: <2015-03-27 Fri> SCHEDULED: <2015-03-23 Mon>
+- State "DONE"       from "TODO"       [2015-08-02 Sun 15:58]
+
+   [[file:~/org-notes/gtd.org::*Add%20CURL%20header%20file%20patch][Add CURL header file patch]]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE 打造自己的 sublime Text3 编辑器                                 :WORK:
+CLOSED: [2015-07-05 Sun 22:18] SCHEDULED: <2015-06-07 Sun>
+- State "DONE"       from "STARTED"    [2015-07-05 Sun 22:18]
+:LOGBOOK:  
+CLOCK: [2015-07-05 Sun 19:02]--[2015-07-05 Sun 19:27] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+"http://vinta.ws/code/must-have-sublime-text-packages.html"
+http://lucida.me/blog/sublime-text-complete-guide/
+
+
+* DONE 学习 Org-Mode 管理小项目的方法                                 :Emacs:
+CLOSED: [2015-07-05 Sun 00:02] SCHEDULED: <2015-06-20 Sat>
+- State "DONE"       from "TODO"       [2015-07-05 Sun 00:02]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 添加模板的 Jenkins Daily Build                                  :WORK:
+CLOSED: [2015-07-13 Mon 09:29] SCHEDULED: <2015-06-25 Thu>
+- State "DONE"       from "STARTED"    [2015-07-13 Mon 09:29]
+:LOGBOOK:  
+CLOCK: [2015-07-07 Tue 13:59]--[2015-07-07 Tue 14:24] =>  0:25
+CLOCK: [2015-07-06 Mon 15:23]--[2015-07-06 Mon 15:48] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 学习 Raywenderlich 的 Android 教程，并且学习 Android Studio 和 Gradle 的配置和使用。 :LIFE:
+CLOSED: [2015-07-28 Tue 09:23] SCHEDULED: <2015-06-28 Sun>
+- State "DONE"       from "STARTED"    [2015-07-28 Tue 09:23]
+:LOGBOOK:  
+CLOCK: [2015-07-21 Tue 13:56]--[2015-07-28 Tue 07:49] => 161:53
+CLOCK: [2015-07-19 Sun 19:39]--[2015-07-20 Mon 09:57] => 14:18
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Test V3.7 in iOS simulator and device                           :WORK:
+CLOSED: [2015-06-26 Fri 11:31] SCHEDULED: <2015-06-26 Fri 10:30>
+- State "DONE"       from "STARTED"    [2015-06-26 Fri 11:31]
+:LOGBOOK:  
+CLOCK: [2015-06-26 Fri 10:57]--[2015-06-26 Fri 11:22] =>  0:25
+CLOCK: [2015-06-26 Fri 10:27]--[2015-06-26 Fri 10:52] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 完成 template 的 Jenkins Daily build                            :WORK:
+CLOSED: [2015-07-03 Fri 22:46] SCHEDULED: <2015-07-01 Wed 09:30>
+- State "DONE"       from "STARTED"    [2015-07-03 Fri 22:46]
+:LOGBOOK:  
+CLOCK: [2015-07-03 Fri 14:52]--[2015-07-03 Fri 15:17] =>  0:25
+CLOCK: [2015-07-01 Wed 09:28]--[2015-07-01 Wed 09:53] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:30
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE View Emacs Hangout                                             :Emacs:
+CLOSED: [2015-07-05 Sun 17:10] SCHEDULED: <2015-07-04 Sat>
+- State "DONE"       from "STARTED"    [2015-07-05 Sun 17:10]
+:LOGBOOK:  
+CLOCK: [2015-07-05 Sun 16:42]--[2015-07-05 Sun 17:07] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+[[http://sachachua.com/blog/2015/06/emacs-hangout-june-2015/][Emacs Hangout June 2015 - sacha chua :: living an awesome life]]
+
+*** DONE 学习大神的 Emacs 配置                                      :Emacs:
+CLOSED: [2015-07-14 Tue 17:50] SCHEDULED: <2015-07-13 Mon>
+- State "DONE"       from "TODO"       [2015-07-14 Tue 17:50]
+"http://doc.rix.si/org/fsem.html"
+
+
+* DONE Review ScrollBar PR                                             :WORK:
+CLOSED: [2015-07-06 Mon 13:36] SCHEDULED: <2015-07-06 Mon 09:20>
+- State "DONE"       from "STARTED"    [2015-07-06 Mon 13:36]
+:LOGBOOK:  
+CLOCK: [2015-07-06 Mon 09:50]--[2015-07-06 Mon 10:15] =>  0:25
+CLOCK: [2015-07-06 Mon 09:20]--[2015-07-06 Mon 09:45] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 阅读骨骼动画的源代码                                            :WORK:
+CLOSED: [2015-07-14 Tue 10:00] SCHEDULED: <2015-07-13 Mon 09:33>
+- State "DONE"       from "STARTED"    [2015-07-14 Tue 10:00]
+:LOGBOOK:  
+CLOCK: [2015-07-13 Mon 10:37]--[2015-07-13 Mon 11:02] =>  0:25
+CLOCK: [2015-07-13 Mon 10:02]--[2015-07-13 Mon 10:27] =>  0:25
+CLOCK: [2015-07-13 Mon 09:32]--[2015-07-13 Mon 09:57] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 添加 jumpToPage API                                             :WORK:
+CLOSED: [2015-07-18 Sat 13:55] SCHEDULED: <2015-07-15 Wed 15:00>
+- State "DONE"       from "STARTED"    [2015-07-18 Sat 13:55]
+:LOGBOOK:  
+CLOCK: [2015-07-15 Wed 14:58]--[2015-07-15 Wed 15:23] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 上传中英文 API 到有拍云                                         :WORK:
+CLOSED: [2015-07-21 Tue 13:48] SCHEDULED: <2015-07-21 Tue 09:36>
+- State "DONE"       from "STARTED"    [2015-07-21 Tue 13:48]
+:LOGBOOK:  
+CLOCK: [2015-07-21 Tue 09:35]--[2015-07-21 Tue 10:00] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 重构 UI 坐标设置的代码：
+CLOSED: [2015-08-02 Sun 12:02] SCHEDULED: <2015-07-30 Thu>
+- State "DONE"       from "TODO"       [2015-08-02 Sun 12:02]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+#+BEGIN_SRC C++
+  auto directorInstance = cocos2d::Director::getInstance();
+  auto glView = directorInstance->getOpenGLView();
+  auto frameSize = glView->getFrameSize();
+
+  auto winSize = directorInstance->getWinSize();
+
+  auto leftBottom = this->_webView->convertToWorldSpace(cocos2d::Point::ZERO);
+  auto rightTop = this->_webView->convertToWorldSpace(cocos2d::Point(this->_webView->getContentSize().width,this->_webView->getContentSize().height));
+
+  auto uiLeft = frameSize.width / 2 + (leftBottom.x - winSize.width / 2 ) * glView->getScaleX();
+  auto uiTop = frameSize.height /2 - (rightTop.y - winSize.height / 2) * glView->getScaleY();
+
+  setWebViewRectJNI(_viewTag,uiLeft,uiTop,
+                    (rightTop.x - leftBottom.x) * glView->getScaleX(),
+                    (rightTop.y - leftBottom.y) * glView->getScaleY());
+#+END_SRC
+
+
+* DONE 迁移 Blog 到 Hexo                                               :LIFE:
+CLOSED: [2015-08-02 Sun 15:58] SCHEDULED: <2015-08-01 Sat>
+- State "DONE"       from "TODO"       [2015-08-02 Sun 15:58]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+[[http://zipperary.com/2013/06/27/media-on-hexo/][怎样在博文中嵌入图片、音乐、视频？ | Zippera's blog]]
+[[http://louisbarranqueiro.github.io/tranquilpeak-hexo-theme/2015/06/15/Welcome-to-the-new-Tranquilpeak/][Welcome to Tranquilpeak 1.2.0 - Tranquilpeak Hexo theme demo]]
+[[https://hexo.io/docs/migration.html][Migration | Hexo]]
+[[https://github.com/sailxjx/hexo-migrator-octopress/blob/master/index.js][hexo-migrator-octopress/index.js at master · sailxjx/hexo-migrator-octopress]]
+
+
+* DONE 修改完 Editbox, 并且修复完测试提交的 Bug                        :WORK:
+CLOSED: [2015-08-04 Tue 23:30] SCHEDULED: <2015-08-04 Tue 09:20>
+- State "DONE"       from "STARTED"    [2015-08-04 Tue 23:30]
+:LOGBOOK:  
+CLOCK: [2015-08-04 Tue 09:17]--[2015-08-04 Tue 09:42] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 使用 org-mode 建立自己的 wiki 系统，同时把这个 wiki 系统弄到阿里云上面去。 :LIFE:
+CLOSED: [2015-07-05 Sun 22:18]
+- State "DONE"       from "TODO"       [2015-07-05 Sun 22:18]
+http://orgmode.org/worg/org-blog-wiki.html
+https://github.com/shishougang/wiki/blob/gh-pages/src/notes-init.el
+http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
+http://blog.csdn.net/meteor1113/article/details/4395673
+SCHEDULED: <2015-06-06 Sat>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE Review 游戏编程模式一书                                        :DREAM:
+CLOSED: [2015-07-14 Tue 17:24] SCHEDULED: <2015-07-14 Tue 21:00>
+- State "DONE"       from "TODO"       [2015-07-14 Tue 17:24]
+- State "DONE"       from "TODO"       [2015-07-13 Mon 09:31]
+- State "DONE"       from "TODO"       [2015-06-30 Tue 09:23]
+- State "DONE"       from "STARTED"    [2015-06-23 Tue 13:56]
+:LOGBOOK:  
+CLOCK: [2015-06-21 Sun 20:55]--[2015-06-21 Sun 21:20] =>  0:25
+CLOCK: [2015-06-21 Sun 13:08]--[2015-06-21 Sun 13:33] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 配置 org-mode                                                  :Emacs:
+CLOSED: [2015-07-05 Sun 15:47]
+- State "DONE"       from "STARTED"    [2015-07-05 Sun 15:47]
+:LOGBOOK:  
+CLOCK: [2015-07-05 Sun 08:47]--[2015-07-05 Sun 16:42] =>  7:55
+:END:      
+"http://wenshanren.org/?p=327"
+SCHEDULED: <2015-06-25 Thu 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+
+* DONE 修改 Cocos2D-X 的 authors and changelog                         :WORK:
+CLOSED: [2015-07-03 Fri 14:52] SCHEDULED: <2015-06-30 Tue 09:30>
+- State "DONE"       from "STARTED"    [2015-07-03 Fri 14:52]
+:LOGBOOK:  
+CLOCK: [2015-06-30 Tue 09:24]--[2015-07-01 Wed 09:28] => 24:04
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 给 markdown mode 添加 company 显示 yasnippet 支持                  :Emacs
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 修复 PageView 的 scrollToPages Bug                              :WORK:
+CLOSED: [2015-07-18 Sat 13:55] SCHEDULED: <2015-07-10 Fri 09:24>
+- State "DONE"       from "STARTED"    [2015-07-18 Sat 13:55]
+:LOGBOOK:  
+CLOCK: [2015-07-10 Fri 09:23]--[2015-07-10 Fri 09:48] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 给 Node 添加两个 API                                            :WORK:
+CLOSED: [2015-07-21 Tue 09:35] SCHEDULED: <2015-07-20 Mon 10:00>
+- State "DONE"       from "STARTED"    [2015-07-21 Tue 09:35]
+:LOGBOOK:  
+CLOCK: [2015-07-20 Mon 09:57]--[2015-07-20 Mon 10:22] =>  0:25
+:END:      
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 添加一个 minor mode 当修改一个 html 标记的时候，可以同时修改它的关闭标记 :Emacs:
+CLOSED: [2015-07-28 Tue 09:23] SCHEDULED: <2015-07-25 Sat>
+- State "DONE"       from "TODO"       [2015-07-28 Tue 09:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* DONE 学习 C++11 的线程管理                                           :WORK:
+CLOSED: [2015-07-28 Tue 09:23]
+- State "DONE"       from "TODO"       [2015-07-28 Tue 09:23]
+"http://thispointer.com/c-11-multithreading-part-1-three-different-ways-to-create-threads/"
+"http://www.bogotobogo.com/cplusplus/multithreaded4_cplusplus11.php"
+"https://www.classes.cs.uchicago.edu/archive/2013/spring/12300-1/labs/lab6/"
+"http://custom-software-blog.com/2014/02/13/multi-threading-c11-standard/"
+"http://www.codeproject.com/Articles/598695/Cplusplus-threads-locks-and-condition-variables"
+SCHEDULED: <2015-07-28 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: DONE
+:END:
+
+
+* CANCELLED 增强 evil 里面 f t 根据拼音首 字母来搜索汉字的能力        :Emacs:
+CLOSED: [2015-07-05 Sun 16:42] SCHEDULED: <2015-06-28 Sun>
+- State "CANCELLED"  from "TODO"       [2015-07-05 Sun 16:42] \\
+  use ace-jump is enough
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: CANCELLED
+:END:
+
+
+* CANCELLED 配置 Emacs 编辑 Java,使用 spacemacs                       :Emacs:
+CLOSED: [2015-07-05 Sun 22:18] SCHEDULED: <2015-07-05 Sun>
+- State "CANCELLED"  from "TODO"       [2015-07-05 Sun 22:18] \\
+  don't want to edit java in Emacs
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-08-04 Tue 23:31
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Daily
+:ARCHIVE_TODO: CANCELLED
 :END:
 

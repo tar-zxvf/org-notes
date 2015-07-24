@@ -1,3 +1,9 @@
+#+TITLE: 图形渲染相关
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+* OpenGL
+* DirectX
+* VR
+* WWDC 2015 notes
 ** What's new in SpriteKit
 *** Review
 - 2D graphics framework for games, idea borrow from cocos2d-iphone

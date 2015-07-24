@@ -1,0 +1,55 @@
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+#+TITLE: 个人简历
+#+LATEX_HEADER: \usepackage{xltxtra}
+#+LATEX_HEADER: \setmainfont{Hiragino Sans GB}
+#+LATEX_HEADER: \usepackage[paperheight=13in,paperwidth=14in]{geometry}
+#+AUTHOR: 子龙山人
+#+EMAIL: guanghui.qu@cocos2d-x.org
+#+OPTIONS: toc:3 num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+* 项目经历
+1. 长沙中联重科：
+参与项目：ZMES 系统研发
+项目时间：2011.9-2012.9 年，我读研期间导师的项目
+项目概况： 
+该项目是中联重科（甲方）和我们（乙方）历时一年半，从零开始自主研发的企业信息化管理系统。
+该项目主要功能为：管理中联重科的订单计划，物料需求，物料配送，消耗件管理，装配管理，车间管理，仓库管理和人员管理等，
+是一个大型的企业内部信息化管理系统。
+
+项目涉及人员： 甲方：5 人开发，3 人测试，3 人实施  乙方: 8 人开发，3 人测试，2 人实施
+项目持续时间：2 年（我参与第一个版本的开发，历时一年）
+项目规模：代码行数 60 万行以上（前后端累计）
+我的主要职责：
+
+与甲方技术人员讨论并确定需求，快速制作原型验证需求并进行迭代式开发。
+在此项目期间，我主要负责海量数据的 SQL 语句编写，网站前端框架的架构及日常任务开发，同时我还兼任部分后台任务的开发。
+前端使用的是.NET MVC + Kendo UI + PL/SQL, 由于我之前主要经验都是 C/C++和 J2EE，这期间我花了一个礼拜学习了 C#和前端开发的一些知识,
+ 最终完美地完成了第一个版本的开发任务。
+
+2. 长沙凯基软件有限公司：
+参与项目：：iOS 游戏，虫虫爱吃糖（Foodie The Bug）的主程
+项目时间：4 个月
+项目规模：代码行数 6 万行
+项目人员：1 名策划（台湾），2 名美术（台湾），1 名程序（我）
+此项目是我在读研利用周末和晚上兼职开发的，因为程序只有我一个，所以我负责整个游戏项目的需求分析，设计和编码，测试等工作，
+
+
+3. 厦门触控科技：
+参与项目：Cocos2D-X
+项目简介：
+Cocos2D-X 是一款强大的基于 OpenGL ES 的跨平台游戏开发引擎。它易学易用，支持 Android, iOS, Window Phone, Windows, MacOS X 等平台。
+
+Cocos2D-X 已被海内外顶尖的游戏公司，如 Zynga、Glu、Gree、DeNA、TinyCo、Gamevil、HandyGames、
+网易，腾讯，乐动，人人游戏、4399、搜狐畅游、昆仑万维、热酷、乐元素、菲音、心动游戏等用于其主流 iOS/Android 游戏开发。
+
+微信的天天系列游戏（包括天天酷跑，天天爱消除，天天连萌等），网易的梦幻西游，乐动的我叫 MT，触控的捕鱼达人等知名都是采用 Cocos2D-X 开发。
+
+项目职责： 
+引擎开发核心工程师，主要负责引擎的 GUI 框架，持续集成系统，文档以及第三方库的自动交叉编译系统。
+目前主要负责引擎代码审查，保障团队和外部开发者编写的代码高质量，无 BUG 才能合并进来。
+通过对自动编译脚本的开发，持续集成系统的深入开发，提高了团队的效率，减少了人力成本。
+通过改造 doxygen 工具，可以从 C++代码提取生成 Lua 和 Javascript 文档，大大方便了开发者对于脚本语言的文档需求。
+
+
+
+

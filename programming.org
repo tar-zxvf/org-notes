@@ -1,0 +1,53 @@
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+#+TITLE: 编程语言学习
+* Clojure
+http://blog.clojure.cn/
+http://ask.clojure.cn/
+http://wiki.clojure.cn/index.php?title=%E9%A6%96%E9%A1%B5
+http://www.flyingmachinestudios.com/programming/building-a-forum-with-clojure-datomic-angular/
+
+* Scheme
+** How to learn
+*** Read books, such as "A little scheme" and "SICP
+#+BEGIN_SRC emacs-lisp
+  (message "hello")
+#+END_SRC
+"
+
+
+** Rules
+*** The Law of Car: The primitive *car* is defined only for non-empty lists.
+*** The Law of Cdr: The primitive *cdr* is defined only for non-empty list. The *cdr* of of any non-empty list is always another list.
+*** The Law of Cons: The primitive *cons* takes two arguments. The second argument to *cons* must be a list. The result is a lit.
+*** The Law of NULL?: The primitive *null?* is defined only for lists.
+*** The Law of Eq?: The primitive *eq?* takes two arguments. Each must be a non-numeric atom.
+
+* C/C++
+
+** 封装而不失效率
+  
+ [2015-08-09 Sun 13:21]
+* Objective-C
+
+* Java
+
+* Lua
+
+* C#
+
+* Javascript
+
+* Python
+
+* Regular Expressions
+
+* CMake
+
+* HTML
+
+* CSS
+
+* Bash
+
+* Ruby
+

@@ -1,8 +1,126 @@
 #+STARTUP: overview
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+#+TITLE: Emacs 相关
+* 与中文相关的 Emacs 配置                                               :Emacs:
+[[https://github.com/hick/emacs-chinese][hick/emacs-chinese]]  
+ [2015-08-11 Tue 08:58]
 * Learning Emacs
+** Learn Spacemacs
+*** Install Spacemacs
+1. 安装跟平台相关的 Emacs 版本
+2. 安装 Source Code Pro 字体
+*** Basic Configuration
+**** Add a layer to record commands
+add mwe-log-commands dotspacemacs-additional-packages
+#+begin_src emacs-lisp
+      (evil-leader/set-key
+        "oll" 'mwe:log-keyboard-commands
+        "olf" 'mwe:open-command-log-buffer)
+#+end_src
+
+
+**** Add two configuration line into dotspacemacs/config function.
+#+begin_src emacs-lisp
+  (global-company-mode t)
+  (add-hook prog-mode-hook #'linum-mode)
+#+end_src
+
+**** 配置一个主题
+比如 monokai 或者 solarized-light
+
+*** Add some layers. (better-defaults, color, osx, chinese) 改了一些东西
+**** You should read the docs of each layer you added
+**** You'd better read all the code reside in the layer you added
+*** Create your own layers(prelude, purcell, chenbin, oh-my-emacs etc)
+**** Where to put your layer?
+**** What's the meaning of layer files
+ funcs.el, config.el, packages.el, extentions.el, keybindings.el
+**** How to migrate your existing configurations
+
+*** Modify the existing configuration of layers
+Emacs is a state machine, all configurations override the existing
+- post init function
+- put it in the dotspacemacs/config function
+
+*** Killer features
+- Key sequence(guide key and helm)
+- Windows, file, buffer
+- search and replace
+- major mode keybindings
+
 ** org-mode
-*** learning org mode basic syntax structures
+
+*** 使用 Org-mode 来绘制 UML
+[[http://archive.3zso.com/archives/plantuml-quickstart.html][使用 Emacs 敲出 UML，PlantUML 快速指南]]
+
+#+begin_src plantuml :file normal_task_states.png :cache yes
+title Task States
+[*] -> TODO
+TODO -> NEXT
+TODO -> DONE
+NEXT -> DONE
+DONE -> [*]
+TODO --> WAITING
+WAITING --> TODO
+NEXT --> WAITING
+WAITING --> NEXT
+HOLD --> CANCELLED
+WAITING --> CANCELLED
+CANCELLED --> [*]
+TODO --> HOLD
+HOLD --> TODO
+TODO --> CANCELLED
+TODO: t
+NEXT: n
+DONE: d
+WAITING:w
+note right of WAITING: Note records\nwhat it is waiting for
+HOLD:h
+note right of CANCELLED: Note records\nwhy it was cancelled
+CANCELLED:c
+WAITING --> DONE
+#+end_src
+
+#+begin_src ditaa :file communication.png :cmdline -r -s 0.8 :exports both :cache yes
+    +-----------+        +---------+                      
+    |    PLC    |        |         |                      
+    |  Network  +<------>+   PLC   +<---=---------+       
+    |    cRED   |        |  c707   |              |       
+    +-----------+        +----+----+              |       
+                              ^                   |       
+                              |                   |
+                              |  +----------------|-----------------+
+                              |  |                |                 |
+                              v  v                v                 v
+      +----------+       +----+--+--+      +-------+---+      +-----+-----+       Windows clients
+      |          |       |          |      |           |      |           |      +----+      +----+
+      | Database +<----->+  Shared  +<---->+ Executive +<-=-->+ Operator  +<---->|cYEL| . . .|cYEL|
+      |   c707   |       |  Memory  |      |   c707    |      | Server    |      |    |      |    |
+      +--+----+--+       |{d} cGRE  |      +------+----+      |   c707    |      +----+      +----+
+         ^    ^          +----------+             ^           +-------+---+
+         |    |                                   |
+         |    +--------=--------------------------+
+         v
++--------+--------+
+|                 |
+| Millwide System |            -------- Data ---------
+| cBLU            |            --=----- Signals ---=--
++-----------------+
+#+end_src
+
+#+RESULTS[cce5f629e908a24b141a5250763c3719a4d4680a]:
+[[file:communication.png]]
+
+
+
+ [2015-08-06 Thu 21:31]
+*** DONE refile 到一个 org(helm 选择),然后指定一个 headline(helm 选择)
+CLOSED: [2015-08-06 Thu 15:10] SCHEDULED: <2015-08-05 Wed 22:00>
+- State "DONE"       from "TODO"       [2015-08-06 Thu 15:10]
 *** Learn headline
+*** learning org mode basic syntax structures
+*** Cookbook
+[[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][Emacs org-mode examples and cookbook]]
 *** DONE Learn GTD and improve my current workflow
     CLOSED: [2015-04-24 Fri 16:19] SCHEDULED: <2015-03-22 Sun>
     - State "DONE"       from ""           [2015-04-24 Fri 16:19]
@@ -11,6 +129,10 @@
 [[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][Emacs org-mode examples and cookbook]]
 [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
 [[http://orgmode.org/manual/index.html][The Org Manual]]
+*** Project planning
+[[http://members.optusnet.com.au/~charles57/GTD/Natural_Project_Planning.html#sec-2][Natural Project Planning with org-mode]]
+*** 导出思维导图                                               :emacs:week:
+"http://foobarnbaz.com/2013/08/02/awesome-mindmaps-using-org/"
 
 ** Useful links of Emacs
 [[http://emacsclub.github.io/html/][Emacs Club]]
@@ -36,8 +158,8 @@
 ** sourcecode repository
 ** learn how to consult emacs document for easch mode
 
-** evil（包括我平常使用vim的各种快捷键，全部统一，这是一个漫长的过程）
-** vim里面常用插件在emacs里面的替代品
+** evil（包括我平常使用 vim 的各种快捷键，全部统一，这是一个漫长的过程）
+** vim 里面常用插件在 emacs 里面的替代品
 *** color-theme
 *** surround
 *** esay motion
@@ -206,9 +328,9 @@ http://analogpixel.org/html/2015-03-10-Literate-Systems-Administration.html
 ** DONE Add greyshade theme to my Octopress blog. And add a new English blog to www.zilongshanren.com. :Blog:
 CLOSED: [2015-05-04 Mon 14:28] DEADLINE: <2015-04-27 Mon> SCHEDULED: <2015-04-25 Sat>
 - State "DONE"       from "STARTED"    [2015-05-04 Mon 14:28]
-:LOGBOOK:  
+:LOGBOOK:
 CLOCK: [2015-05-04 Mon 10:53]--[2015-05-04 Mon 11:18] =>  0:25
-:END:      
+:END:
 And start blogging my road to mastering emacs.
 
   https://github.com/shashankmehta/greyshade
@@ -238,7 +360,7 @@ CLOSED: [2015-05-10 Sun 16:58] DEADLINE: <2015-05-03 Sun> SCHEDULED: <2015-04-28
 Where did these cheetsheet comes from?
 1. From the functions written by myself. I need to regonize the common pattern.
 2. From existing cheetsheet
-https://lispp.wordpress.com/2009/11/25/emacs-lisp-cheatsheet/     
+https://lispp.wordpress.com/2009/11/25/emacs-lisp-cheatsheet/
 http://wikemacs.org/wiki/Emacs_Lisp_Cheat_Sheet
 https://github.com/gar3thjon3s/elisp-cheatsheet/blob/master/cheatsheet.md
 http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
@@ -255,10 +377,10 @@ http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 
 
 
-* 介绍一下Spacemacs(已经录制两个视频)
-** 介绍Spacemacs的特点，以及我为什么要选择它(5min)
-** 介绍如何添加自己的配置(5min, 添加command-log-mode)
-** 介绍我是怎么使用Spacemacs的(10 min)
+* 介绍一下 Spacemacs(已经录制两个视频)
+** 介绍 Spacemacs 的特点，以及我为什么要选择它(5min)
+** 介绍如何添加自己的配置(5min, 添加 command-log-mode)
+** 介绍我是怎么使用 Spacemacs 的(10 min)
 *** Org-mode
 **** GTD
 **** Taking Notes
@@ -269,3 +391,5 @@ http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 *** Lisp
 *** Writing(Blog and Markdown)
 *** Tools(Git, Elfeed, Github-star, Youdao, Flyspell, finder, shell)
+[[file:cocos2d-x.org::*modern%20c%2B%2B%20,%20mainly%20about%20c%2B%2B%2011][modern c++ , mainly about c++ 11]]
+[[file:cocos2d-x.org::*cocos2d-x][cocos2d-x]]

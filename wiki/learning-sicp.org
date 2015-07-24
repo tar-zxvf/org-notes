@@ -1,8 +1,0 @@
-* Preparation 
-Editor: Emacs
-Lisp dialect: Racket (Maybe MIT/Scheme is better)
-
-* Chapter1
-** 
-
-

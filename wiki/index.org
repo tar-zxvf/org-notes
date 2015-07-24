@@ -1,5 +1,0 @@
-* 这个是我的个人笔记
-
-** Emacs学习
-[[file:emacs.org::*Read%20Emacs%20guru%20configs][Emacs learning]]
-

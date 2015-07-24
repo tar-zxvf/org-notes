@@ -4,6 +4,9 @@
 #+LATEX_HEADER: \usepackage{xltxtra}
 #+LATEX_HEADER: \setmainfont{FangSong}
 #+LATEX_HEADER: \usepackage{seqsplit}
+#+TITLE: 零散笔记
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+
 
 * Random notes
 
@@ -39,7 +42,7 @@ Let game programming is not a secret any more.(I love to share some new)
 ** 如何快速地学习
 "http://mp.weixin.qq.com/s?__biz=MjAzNzMzNTkyMQ==&mid=208026768&idx=1&sn=6556761557ed251f2c4edfd7f28f9994&key=af154fdc40fed003cd7094c76a4bf50bb8eeff22986719f53ad0f20d6865f9643f42d9e2c545ac994ae56509ff31edb2&ascene=0&uin=MTIxOTIzODU2MA%3D%3D&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.10.1+build(14B25)&version=11020012&pass_ticket=yL%2FziNX4ZJCQKHv%2Br5APHAKFi7j7l7tfW5P9%2FSvCfJmSD2T6q98Sc8QxyH%2F%2F0knv"
 - 以专家为榜样，不必自己重新探索
-- 解构技能，找出实现80%效果的那20%
+- 解构技能，找出实现 80%效果的那 20%
 - 不要一心二用
 - 练习练习再练习！然后获得即时反馈
 - 坚持，不要在低谷期放弃
@@ -57,7 +60,7 @@ Let game programming is not a secret any more.(I love to share some new)
 [[http://www.schneems.com/post/25098659429/databases-rails-week-1-introduction/][Databases & Rails: Week 1 Introduction]]
 [[http://www.schneems.com/ut-rails/][UT on Rails]]
 [[http://stackoverflow.com/questions/55574/learning-ruby-on-rails][Learning Ruby on Rails - Stack Overflow]]
-*** TODO Use Emacs to Download Youtube video                        :Emacs:
+*** TODO [#C] Use Emacs to Download Youtube video                   :Emacs:
 
 * SCIP notes
 ** Lesson one
@@ -82,22 +85,91 @@ Let game programming is not a secret any more.(I love to share some new)
 
 ** Mac Name server issue: sudo networksetup -setdnsservers Ethernet 8.8.8.8
 
+** This is a test note capture
+  
+ [2015-08-06 Thu 08:12]
+
+**  找书的技巧
+豆瓣的豆列是个好东西, 可惜不支持搜索功能, 使用 Google 的 CSE 可以自定义一
+个搜索:
+
+[Doulist Search](https://www.google.com/cse/publicurl?cx=009465131986610461898:ijyxpftyhlw)
+
+
+有时候英文原版书籍实在是太贵, 或者根本就买不到绝版的, 只能去找下电子书
+看, 这时候可以使用下面的网站:
+
+[English PDF](http://gen.lib.rus.ec/)
+
+
+看到有些中文书的推荐, 想知道内容是不是你想要的, 或者只想查看书中的某一
+段话, 可以用下面的网站来找到相应的电子书:
+
+[Chinese PDF](http://www.zhaofile.com/)
+
+  
+ [2015-08-10 Mon 17:53]
+
+** TODO 必读书单                                                     :Dream:
+
+Code Complete (2nd edition) by Steve McConnell
+The Pragmatic Programmer
+Structure and Interpretation of Computer Programs
+The C Programming Language by Kernighan and Ritchie
+Introduction to Algorithms by Cormen, Leiserson, Rivest & Stein
+Design Patterns by the Gang of Four
+Refactoring: Improving the Design of Existing Code
+The Mythical Man Month
+The Art of Computer Programming by Donald Knuth
+Compilers: Principles, Techniques and Tools by Alfred V. Aho, Ravi Sethi and Jeffrey D. Ullman
+Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+Discrete Mathematics For Computer Scientists
+  
+ [2015-08-13 Thu 22:14]
+
 * Setup VPN
 "http://blog.fengqijun.me/vpn/2015/03/08/l2tp-ipsec-vpn-on-ubuntu-14/"
 
 * 骨骼动画评审
-** CCBone和CCBoneNode是什么关系？同样的逻辑代码在一个仓库里面出现两次是否合理？
-** CCBoneNode继承至Node有点太重度了，可以考虑继承至Ref, 具体可以参考CCBone3D的实现
+** CCBone 和 CCBoneNode 是什么关系？同样的逻辑代码在一个仓库里面出现两次是否合理？
+** CCBoneNode 继承至 Node 有点太重度了，可以考虑继承至 Ref, 具体可以参考 CCBone3D 的实现
 ** static BoneNode* create(const int &length);  基本数据类型不需要 const int&
-** 有问题的API
+** 有问题的 API
 *** 含义不明
     virtual void display(SkinNode* skin, bool hideOthers = false);
     virtual cocos2d::Vector<SkinNode*> getDisplaying() const;
-** 缺少doxgen文档注释
-** 暴露的接口是否完整，接口意义是否清晰，use-case是怎样的？
-** Bone的length, width, rackShow是什么意思？
-** 是否考虑了多个摄相机以及在3D场景里面的显示。
-** CustomCommand 是不被推荐使用的，能否在UI的容器里面正确使用，是否被正确clipping
-** 代码里面应该要移除 EMSCRIPTEN的宏
-** _groupCommand在CCSkeletonNode里面并没有被使用到。
+** 缺少 doxgen 文档注释
+** 暴露的接口是否完整，接口意义是否清晰，use-case 是怎样的？
+** Bone 的 length, width, rackShow 是什么意思？
+** 是否考虑了多个摄相机以及在 3D 场景里面的显示。
+** CustomCommand 是不被推荐使用的，能否在 UI 的容器里面正确使用，是否被正确 clipping
+** 代码里面应该要移除 EMSCRIPTEN 的宏
+** _groupCommand 在 CCSkeletonNode 里面并没有被使用到。
 
+
+* Ngix
+** 设置文件目录可以访问
+
+#+BEGIN_SRC sh
+  autoindex on;
+#+END_SRC
+** 设置服务器 ip 转发
+
+#+BEGIN_SRC sh
+  server{
+      server_name  4gamers.cn;
+      rewrite ^(.*) http://zilongshanren.com$1 permanent;
+  }
+#+END_SRC
+
+
+
+* DONE 经验教训
+CLOSED: [2015-08-10 Mon 09:48] SCHEDULED: <2015-08-02 Sun>
+- State "DONE"       from "TODO"       [2015-08-10 Mon 09:48]
+** 对合伙创业认识不够
+** 对代码敬畏不足
+** 对兼容性重视有限
+** 对知识管理不甚关心
+** 对技术过分依赖
+** 对工作和生活平衡不够关心

@@ -4,6 +4,8 @@
 #+LATEX_HEADER: \usepackage{xltxtra}
 #+LATEX_HEADER: \setmainfont{FangSong}
 #+LATEX_HEADER: \usepackage{seqsplit}
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+#+TAGS: { WORK(w) Emacs(e) WRITING(h) LIFE(l) DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
 #+TITLE: 我的书单
 
 "http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/"
@@ -22,8 +24,8 @@ Scripting Language: Lua, Javascript, GLSL, Python
 
 ** 编程相关
 -  A little Scheme
-2015年5-6月阅读，8-10章没有读完，准备读完SCIP之后再读一遍8-9章。读此书后，让自己对于递归思想有了比较深入的认识和掌握。
-输出：1.博客一篇，github仓库一个。
+2015 年 5-6 月阅读，8-10 章没有读完，准备读完 SCIP 之后再读一遍 8-9 章。读此书后，让自己对于递归思想有了比较深入的认识和掌握。
+输出：1.博客一篇，github 仓库一个。
 - The Structure and Interpretation of Computer Programs
 - A tour of c++.
 
@@ -40,13 +42,12 @@ Scripting Language: Lua, Javascript, GLSL, Python
 
 ** 工具相关
 *** 《Mastering Emacs》
- 2015年阅读，时间2天。中间有两章泛读。读书笔记：http://zilongshanren.com/blog/2015/05/25/review-of-mastering-emacs/
+ 2015 年阅读，时间 2 天。中间有两章泛读。读书笔记：http://zilongshanren.com/blog/2015/05/25/review-of-mastering-emacs/
 *** 《Write GNU Emacs Extension.》
-2014年阅读，希望重读并编写一些读书笔记。
+2014 年阅读，希望重读并编写一些读书笔记。
 ** 课外书籍
 - 我的互联网方法论 -- 周鸿祎
-- 从0到1
-- 你的知识需要管理
+- 从 0 到 1
 - 乔布斯传
 - Getting Things Done
 

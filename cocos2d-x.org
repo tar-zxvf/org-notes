@@ -1,12 +1,17 @@
-* Modern cocos2d-x
-
-** TODO cocos2d-x 3.0 c++11
-SCHEDULED: <2015-06-15 Mon 09:50>
+#+STARTUP: overview
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+#+TAGS: { cocos2d-x(c) work(w) }
+#+TITLE: Cocos2D-X 相关
+*  cocos2d-x                                                   :cocos2d:
+** cocos2d-x 3.0 c++11
 *** modern c++ , mainly about c++ 11
+:PROPERTIES:
+:ID: xx
+:END:
 *** cocos2d-x 3.0 best practice
 *** cocos2-dx 3.0 examples
 
-** cocos2d-x 3.0 js vs lua 
+** cocos2d-x 3.0 js vs lua                                              :ol:
 *** focus on usage samples
 *** focus on how to binding for each other, how to manage memory , how to interative with each other
 
