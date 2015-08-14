@@ -189,8 +189,8 @@ Commit early, Commit often, perfect later and publish once.
 6. http://stackoverflow.com/questions/4084921/what-does-the-git-index-contain-exactly
 7. http://gitref.org/basic/
 8. http://addamhardy.com/blog/2013/06/05/good-commit-messages-and-enforcing-them-with-git-hooks/
-* TODO Zsh
-* TODO Tmux
-* TODO Percol
+* Zsh
+* Tmux
+*  Percol
 * iTerm2
 
