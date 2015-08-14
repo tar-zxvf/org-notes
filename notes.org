@@ -6,6 +6,7 @@
 #+LATEX_HEADER: \usepackage{seqsplit}
 #+TITLE: 零散笔记
 #+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+#+TAGS: { WORK(w) Emacs(e)  DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
 
 
 * Random notes
@@ -126,6 +127,691 @@ Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
 Discrete Mathematics For Computer Scientists
   
  [2015-08-13 Thu 22:14]
+
+** 编写自己的编译器.                                                 :Dream:
+[[http://gnuu.org/2009/09/18/writing-your-own-toy-compiler/][Writing Your Own Toy Compiler Using Flex, Bison and LLVM (gnuu.org)]]
+
+  
+ [2015-08-14 Fri 10:06]
+
+** 图形学相关应用                                                    :Dream:
+## [[图形学书籍]]
+
+[数学在图形学中的应用](http://www.math.zju.edu.cn/ligangliu/resources/graphics/math_for_graphics_Turk_CN.htm)
+
+### 网络资料
+
+http://www.geisswerks.com/ryan/FAQS/learn.html
+
+http://www.arcsynthesis.org/gltut/
+
+http://www.altdevblogaday.com/2011/05/10/so-you-want-to-be-a-graphics-programmer/
+
+http://www.reddit.com/r/gamedev/comments/1475oj/whats_the_best_way_to_learn_graphic_creation_for/
+
+http://www.scratchapixel.com/
+
+http://www.glprogramming.com/red/chapter03.html
+
+http://www.glprogramming.com/red/
+
+http://en.wikipedia.org/wiki/Linear_algebra
+
+http://en.wikipedia.org/wiki/Foundations_of_mathematics
+
+http://blog.csdn.net/imyfriend/article/details/7823803
+
+http://www.opengl.org/archives/resources/faq/technical/transformations.htm
+
+http://relativity.net.au/gaming/java/Matrix4x4.html
+
+https://github.com/mattdesl/lwjgl-basics/wiki
+
+https://github.com/wantnon2/3DToolKit-for-cocos2dx
+
+https://www.opengl.org/wiki/Rendering_Pipeline_Overview
+
+http://www.cs.princeton.edu/~gewang/projects/darth/stuff/quat_faq.html#Q1
+
+http://www.gamerendering.com/category/rendering-methods/shaders-rendering-methods/
+
+http://inside.mines.edu/~gmurray/ArbitraryAxisRotation/
+
+http://www.opengl-tutorial.org/
+
+http://www.facstaff.bucknell.edu/mastascu/elessonshtml/Circuit/MatVecMultiply.htm
+
+http://en.wikibooks.org/wiki/GLSL_Programming/Vector_and_Matrix_Operations
+
+http://www.mathsisfun.com/algebra/vector-calculator.html
+
+http://www.mathsisfun.com/algebra/vectors-dot-product.html
+
+http://www.cocoachina.com/bbs/read.php?tid=181942
+
+http://r3dux.org/2012/07/a-simple-glfw-fps-counter/
+
+http://lazyfoo.net/tutorials/OpenGL/index.php
+
+http://lazyfoo.net/tutorials/OpenGL/01_hello_opengl/mac/xcode/index.php
+
+http://openglbook.com/the-book/
+
+https://github.com/libgdx/libgdx/wiki/Quick-start
+
+https://code.google.com/p/gl2-android/
+
+http://www.badlogicgames.com/wordpress/?p=3161
+
+http://pan.baidu.com/s/1hqsUrly
+
+http://swarminglogic.com/jotting/2013_10_gamedev01
+
+http://www.andersriggelsen.dk/glblendfunc.php
+
+https://github.com/mattdesl/lwjgl-basics/wiki/2D-Pixel-Perfect-Shadows
+
+  
+ [2015-08-14 Fri 10:10]
+
+** Erlang 学习                                                       :Dream:
+1. http://stackoverflow.com/questions/1017017/what-is-the-best-way-to-learn-erlang
+
+2. https://pragprog.com/book/jaerlang/programming-erlang
+
+3. http://www.erlang.org/faq/getting_started.html
+
+4. http://learnyousomeerlang.com/contents
+
+5. http://www.myexception.cn/program/1252498.html
+
+6. http://www.infoq.com/articles/vinoski-erlang-rest
+
+7. http://steve.vinoski.net/blog/category/erlang/
+
+8. https://github.com/jordillonch/eggs
+  
+ [2015-08-14 Fri 10:12]
+
+** 一些不错的 Lisp 学习资料                                            :Emacs:
+## Common Lisp
+1. 环境搭建
+https://www.youtube.com/watch?v=VnWVu8VVDbI
+
+http://www.mohiji.org/2011/01/31/modern-common-lisp-on-osx/
+
+## Emacs Lisp
+- http://bzg.fr/learn-emacs-lisp-in-15-minutes.html
+
+- http://nullprogram.com/blog/2013/02/06/
+
+- http://www.emacswiki.org/emacs/LearnEmacsLisp
+
+- http://ergoemacs.org/emacs/elisp.html
+
+- http://www.emacswiki.org/emacs/EmacsLisp
+
+- http://www.gnu.org/software/emacs/manual/html_node/elisp/
+
+- http://learnxinyminutes.com/
+
+- http://www.gnu.org/software/emacs/manual/html_mono/eintr.html
+
+- http://www.emacswiki.org/emacs/ElispCookbook
+
+
+# 两篇 lisp 文章
+
+- http://www.defmacro.org/ramblings/lisp.html
+
+- http://daiyuwen.freeshell.org/gb/rol/roots_of_lisp.html
+
+  
+ [2015-08-14 Fri 10:13]
+
+** 一些不错的数学资料                                                 :Math:
+- 免费的数学电子书: http://www.e-booksdirectory.com/mathematics.php
+
+- [Math FAQ](http://www.j3d.org/matrix_faq/matrfaq_latest.html)
+
+- [free linear agebra](http://joshua.smcvt.edu/linearalgebra/)
+
+- [Math for Game Developers](https://www.youtube.com/watch?v=Q9FZllr6-wY&list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My&index=9)
+
+
+## 博客
+- [线代启示录](http://ccjou.wordpress.com/)
+
+## 博客里面显示数学符号
+
+- http://rypress.com/tutorials/mathml/basic-algebra.html
+- http://tobilehman.com/blog/2012/07/18/mathjax-for-octopress/
+
+  
+ [2015-08-14 Fri 10:13]
+
+** 一些不错的 OpenGLES 学习资料                                     :OpenGLES:
+http://www.jayway.com/2009/12/03/opengl-es-tutorial-for-android-part-i/
+
+http://www.absoluteblogger.com/2013/04/best-books-to-learn-android-application-development.html
+
+http://www.learnopengles.com/opengl-es-2-for-android-printed-in-full-color/
+
+http://www.rbgrn.net/content/54-getting-started-android-game-development
+
+http://stackoverflow.com/questions/9937783/android-game-development
+
+http://chimera.labs.oreilly.com/books/1234000000802/index.html
+
+http://www.codeavengers.com/javascript/1#1.4
+
+http://www.ozone3d.net/tutorials/bump_mapping.php#tangent_space
+
+http://www.idevgames.com/forums/thread-8833.html
+
+http://software.intel.com/en-us/articles/dynamic-resolution-rendering-on-opengl-es-2
+
+http://software.intel.com/en-us/articles/setting-up-native-opengl-es-on-android-platforms
+
+http://cyrilmottier.com/2013/06/27/a-productive-android-development-environment/
+
+http://www.cocos2d-iphone.org/forum/topic/33478
+
+http://www.cocos2d-iphone.org/forum/topic/27856
+
+https://www.udacity.com/course/cs255
+
+http://education-portal.com/articles/8_Free_Game_Design_and_Development_Courses_and_Resources_Online.html
+
+http://howtomakeitinamsterdam.wordpress.com/
+
+http://caminardespierto.blogspot.com/2010/11/how-to-build-3d-multiplayer-game.html
+
+https://github.com/gitlabhq/gitlabhq
+
+http://www.opengl.org/wiki/Texture
+
+http://www.alcove-games.com/opengl-es-2-tutorials/lightmap-shader-fire-effect-glsl/
+
+https://www.shadertoy.com/view/Xdf3zl
+
+http://www.opengl.org/wiki/Uniform_(GLSL)
+
+http://gamedev.stackexchange.com/questions/29260/transform-matrix-multiplication-order
+
+http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/
+
+http://3dgep.com/?p=5303
+
+http://bussystemanalysis.blogspot.com/2014/02/android-programming-and-opengl-es.html
+
+http://http.developer.nvidia.com/CgTutorial/cg_tutorial_chapter01.html
+
+http://glsl.heroku.com/
+
+http://www.songho.ca/opengl/gl_transform.html
+
+http://www.glprogramming.com/red/index.html
+
+https://www.youtube.com/watch?v=-tonZsbHty8&index=26&list=PLRwVmtr-pp06qT6ckboaOhnm9FxmzHpbY
+
+https://www.youtube.com/watch?v=kOAbQf1gqtc&list=PL4288D6E84B4D414D
+
+http://www.realtimerendering.com/blog/
+
+http://svenandersson.se/2014/realtime-rendering-blogs.html
+
+http://www.p1xelcoder.com/links/#Blogs
+
+http://molecularmusings.wordpress.com/2013/05/02/adventures-in-data-oriented-design-part-3a-ownership/
+
+http://gamedevcoder.wordpress.com/
+
+http://www.raywenderlich.com/49955/blender-tutorial-for-beginners-how-to-make-a-mushroom
+
+http://www.raywenderlich.com/48293/how-to-export-blender-models-to-opengl-es-part-1
+
+http://compohub.net/
+
+http://www.newgrounds.com/art/browse/category/pixel-art
+
+http://www.newgrounds.com/audio/listen/567996
+
+http://opengles3.com/learn/shading-language/vertex-shaders/
+
+https://docs.google.com/a/cocos2d-x.org/spreadsheet/pub?key=0Aijk_rdV3j9qdGw5TS1MYnFPaVZmM3R0N0ZVdFhxeWc&single=true&gid=0&output=html
+
+https://bitbucket.org/alfonse/gltut/src/1d1479cc7027f1e32c5adff748f3b296f1931d84/Tut%2006%20Objects%20in%20Motion/Rotations.cpp?at=default
+
+http://stackoverflow.com/questions/8482327/learning-opengles-2-0-on-ios
+
+http://www.learnopengles.com/opengl-es-resources-and-best-practices/
+
+http://gamedev.stackexchange.com/questions/32876/good-resources-for-learning-modern-opengl-3-0-or-later
+
+http://www.davidbishop.org/oglmeta
+
+http://en.wikibooks.org/wiki/OpenGL_Programming
+
+http://littlecheesecake.me/blog/13804700/opengles-shader
+
+http://www.learnopengles.com/android-lesson-one-getting-started/
+
+http://openglinsights.com/
+
+http://www.antigrain.com/doc/introduction/introduction.agdoc.html#toc0002
+
+http://www.learnopengles.com/
+
+http://blog.manbolo.com/2012/11/20/using-xcode-opengl-es-frame-capture
+
+https://developer.apple.com/library/mac/recipes/xcode_help-debugger/articles/debugging_opengl_es_frame.html
+
+http://blog.csdn.net/wu4long/article/details/6126408
+
+http://www.cocos2d-iphone.org/forums/topic/ccsprite-with-video-trivial-extension/
+
+http://blog.csdn.net/langresser_king/article/details/14516879
+
+http://www.marctenbosch.com/npr_edges/
+
+http://stackoverflow.com/questions/8999304/opengl-es-shader-to-outline-2d-images
+
+http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S12/final_projects/hutchins_kim.pdf
+
+http://3dgep.com/?p=1815
+
+http://www.xojo3d.com/pro001.php
+
+http://www.ogre3d.org/tikiwiki/Quaternion+and+Rotation+Primer
+
+http://antongerdelan.net/opengl/index.html
+
+http://tomdalling.com/blog/modern-opengl/04-cameras-vectors-and-input/
+
+http://www.realtimerendering.com/blog/webgl-debugging-and-profiling-tools/
+
+http://www.falstad.com/mathphysics.html
+
+http://www.euclideanspace.com/maths/algebra/matrix/index.htm
+
+http://games.greggman.com/game/category/webgl/page/2/
+
+https://user.xmission.com/~nate/opengl.html
+
+http://www.xiaohanyu.me/oh-my-emacs/modules/ome-javascript.html
+
+http://open.gl/depthstencils
+
+http://ogldev.atspace.co.uk/index.html
+
+http://lazyfoo.net/tutorials/OpenGL/26_the_stencil_buffer/index.php
+
+http://lazyfoo.net/articles/article10/index.php
+
+http://blog.csdn.net/ryfdizuo/article/details/8701284
+
+http://www.flipcode.com/archives/Object_Outlining.shtml
+
+- http://code.csdn.net/news/2820766
+
+- http://pixelshaders.com/examples/noise.html
+
+- http://freespace.virgin.net/hugo.elias/models/m_perlin.htm
+
+- http://www.shaderific.com/glsl-functions/
+
+- http://pixelshaders.com/external.html
+
+  
+ [2015-08-14 Fri 10:14]
+
+** 一些不错的 OpenGL 学习资料                                       :OpenGLES:
+### 网站链接
+
+- http://open.gl/
+
+- http://opengl.zilongshanren.com
+
+- http://blog.db-in.com/cameras-on-opengl-es-2-x/
+
+- https://courses.edx.org/c4x/BerkeleyX/CS-184.1x/asset/links.html
+
+- [Learning Modern OpenGL Programming](http://www.arcsynthesis.org/gltut/)
+
+
+- [tomdalling's modern-opengl/](http://tomdalling.com/blog/category/modern-opengl/)
+
+- [scratchapixel](http://www.scratchapixel.com/)
+
+- [lazyfoo OpenGL](http://lazyfoo.net/tutorials/OpenGL/index.php)
+
+- [antongerdelan opengl](http://antongerdelan.net/opengl/index.html)
+
+- [ogldev](http://ogldev.atspace.co.uk/)
+
+- [lighthouse3d](http://www.lighthouse3d.com/tutorials/)
+
+- [songho](http://www.songho.ca/)
+
+- [duriansoftware modern opengl](http://duriansoftware.com/joe/An-intro-to-modern-OpenGL.-Table-of-Contents.html)
+
+  
+ [2015-08-14 Fri 10:14]
+
+** 一些不错的 Org-mode 学习资料                               :Emacs:Org:
+http://forum.ubuntu.com.cn/viewtopic.php?t=395158
+
+http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html
+
+http://www.mastermindcn.com/2012/02/org_mode_quite_a_life/
+
+http://blog.jr0cket.co.uk/2013/08/manage-dev-life-with-emacs-org-mode.html
+
+http://bzg.fr/blogging-from-emacs.html
+
+http://blog.jr0cket.co.uk/2013/10/create-cool-slides--Org-mode-Revealjs.html
+
+http://blog.jr0cket.co.uk/2013/09/create-html5-presentations-emacs-revealjs.html
+
+https://plus.google.com/102778904320752967064/posts
+
+http://members.optusnet.com.au/~charles57/GTD/remember.html
+
+http://kanedou.me/2010/10/note-with-orgmode/
+
+http://blog.gabrielsaldana.org/quick-note-taking-with-emacs-and-org-capture/
+
+http://orgmode.org/worg/org-gtd-etc.html
+
+http://www.youtube.com/watch?v=nsGYet02bEk
+
+http://emacser.com/org-mode.htm
+
+http://www.youtube.com/watch?v=ht4JtEbFtFI&feature=c4-overview-vl&list=PL7E11B34616530F5E
+
+http://orgmode.org/worg/org-tools/index.html
+
+http://orgmode.org/worg/org-faq.html
+
+http://orgmode.org/worg/
+
+http://orgmode.org/worg/org-tutorials/
+
+http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html
+
+http://www.chinaxing.org/linux/2013/03/30/emacs-org-misc.html
+
+http://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html
+
+http://newartisans.com/2007/08/using-org-mode-as-a-day-planner/
+
+http://chaoslawful.info/archives/59
+
+http://www.railsonmaui.com/blog/2013/04/27/octopress-setup-with-github-and-org-mode/
+
+http://orgmode.org/
+
+http://www.headhole.org/organisation/2012/08/22/org-mode-gtd-and-the-pomodoro-technique/
+
+http://doc.norang.ca/org-mode.html
+
+http://www.cnblogs.com/chenfanyu/category/442296.html
+
+http://dayigu.github.io/WhyUseOrgModeToWriteBlog.html
+
+http://doc.norang.ca/org-mode.org
+
+
+http://everet.org/2012/12/screenshot-and-image-paste-in-emacs-when-writing-markdown.html
+
+
+  
+ [2015-08-14 Fri 10:15]
+
+** 一些不错的 shell 学习资料                                           :shell:
+1. Shell 编程指南
+
+http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc1
+
+编译静态库
+https://github.com/kivy/kivy-ios/blob/master/tools/environment.sh
+
+
+[Advanced shell programming](http://www.tldp.org/LDP/abs/html/index.html)
+
+[Learn shell the hard way](http://cli.learncodethehardway.org/book/ex1.html#faq)
+
+[learn linux the hard way](http://nixsrv.com/llthw)
+
+[http://www.catonmat.net/blog/bash-one-liners-explained-part-one/](http://www.catonmat.net/blog/bash-one-liners-explained-part-one/)
+
+[Bash reference manual](http://www.gnu.org/software/bash/manual/bashref.html)
+
+2. shell 神器： [percol](https://github.com/mooz/percol)
+
+3. tmux, tig, oh-my-zsh 这些都是神器
+
+[linux command line](http://linuxcommand.org/index.php)
+
+## shell Tips
+使用 Vim 编辑 CMakeLists.txt 的时候，如果要列出所有的源文件，可以这样：
+
+`:r !find . -name *.cpp`
+
+## 打包 tar.xz 文件
+
+tar cfJ xxxx.tar.xz file-path
+
+## shell 读取配置文件
+
+http://devdragon.com/2012/09/reading-java-style-properties-files-in-bash-scripts/
+
+http://www.unix.com/shell-programming-and-scripting/136213-reading-configuration-files-bash-best-way.html
+
+## shelll 资源整理
+
+1. IFS 
+
+http://bash.cyberciti.biz/guide/$IFS
+
+  
+ [2015-08-14 Fri 10:16]
+
+** 一些 sed 的资料                                                       :sed:
+1.  http://robots.thoughtbot.com/sed-102-replace-in-place
+
+2. http://www.grymoire.com/unix/sed.html
+
+3. http://www.gentoo.org/doc/en/articles/l-sed1.xml
+
+
+##删除文件里面的内容
+
+- http://en.kioskea.net/faq/1451-sed-delete-one-or-more-lines-from-a-file
+
+- http://stackoverflow.com/questions/8323287/how-can-i-use-sed-to-delete-2-lines-after-match-matches
+
+  
+ [2015-08-14 Fri 10:16]
+
+** 一些 WebGL 的学习资料                                               :webgl:
+http://learningwebgl.com/blog/
+
+https://www.youtube.com/watch?v=me3BviH3nZc
+
+http://www.khronos.org/webgl/
+
+http://www.khronos.org/files/webgl/webgl-reference-card-1_0.pdf
+
+http://nullprogram.com/blog/2013/06/10/
+
+http://greggman.github.io/webgl-fundamentals/
+
+http://games.greggman.com/game/webgl-fundamentals/
+
+http://learningwebgl.com/blog/?page_id=1217
+
+https://github.com/GoodBoyDigital/pixi.js
+
+http://threejs.org/
+
+http://www.goodboydigital.com/pixi-js-storm-webgl-demo/
+
+http://solarlune-gameup.blogspot.com/search/label/OpenGL%20Tutorials
+
+http://bjartr.blogspot.com/2009/10/webgl-webglu-demo-in-50-lines.html
+
+https://www.khronos.org/registry/webgl/specs/1.0.2/
+
+https://www.khronos.org/registry/webgl/specs/latest/2.0/
+
+http://www.html5rocks.com/en/tutorials/webgl/webgl_fundamentals/
+
+http://tutorialzine.com/2013/09/20-impressive-examples-for-learning-webgl-with-three-js/
+
+http://webglfundamentals.org/
+
+http://glmatrix.net/docs/2.2.0/symbols/mat4.html#.translate
+
+https://developer.tizen.org/dev-guide/2.2.1/org.tizen.web.appprogramming/html/tutorials/suppl_tutorial/webgl_tutorial.htm
+
+http://www.beginningwebgl.com/blog/2013-09-26/using-glmatrix-2-book-code#.U6jW6JSSz04
+
+http://www.beginningwebgl.com/resources
+
+https://github.com/gpjt/webgl-lessons
+
+https://developer.mozilla.org/en-US/docs/Web/WebGL
+
+http://blog.tojicode.com/2011/10/building-game-part-1-setup.html
+
+http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
+
+http://rodrigo-silveira.com/webgl-3d-demos/
+
+  
+ [2015-08-14 Fri 10:17]
+
+** Vim 学习资料                                                         :vim:
+## 网络资源
+
+- http://stackoverflow.com/questions/3723493/latex-and-vim-usage
+
+- http://macshuo.com/?p=535
+
+- http://usevim.com/
+
+- http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim
+
+- http://oli.me.uk/2013/06/29/equipping-vim-for-javascript/
+
+- http://danielmiessler.com/study/vim/
+
+- https://zschoche.org/debugging-in-vim/
+
+- http://astonj.com/tech/learning-vim/
+
+- http://jrmiii.com/attachments/Vim.pdf
+
+- http://swaroopch.com/notes/vim_zh-cn-%E7%BC%96%E5%86%99%E8%84%9A%E6%9C%AC/
+
+- http://vimregex.com/
+
+- https://github.com/google/maktaba
+
+- https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup/blob/master/.vimrc
+
+- http://showmedo.com/videotutorials/series?name=0oSagogCe
+
+- http://www.oualline.com/vim-cook.html
+
+- http://www.douban.com/note/145491549/
+
+- https://www.artandlogic.com/blog/2013/06/vim-for-python-development/
+
+- http://www.onitato.com/pep8-checking-in-vim.html
+
+- http://blog.xeonxu.info/blog/2013/05/14/gao-liao-ge-ban-zi-dong-hua-de-vim/
+
+- http://stackoverflow.com/questions/18693526/vim-completion-with-youcompleteme-on-windows
+
+- http://pascalprecht.github.io/2014/03/18/why-i-use-vim/
+
+- http://stevelosh.com/blog/2011/09/writing-vim-plugins/
+
+
+
+## Vim 技巧
+
+- 往文件里面的每一行后面插入一个新的空行
+
+>  :%s/.*\n/\0\r/g
+
+## 安装 Vim
+1. 在 centos 6.4 上面安装 vim7.4
+
+https://stavrovski.net/blog/how-to-build-and-install-vim-74-from-source-on-centos6rhel6
+
+  
+ [2015-08-14 Fri 10:17]
+
+** 游戏算法                                                      :algorithm:
+1. A*算法：
+
+- http://www.policyalmanac.org/games/aStarTutorial.htm
+- http://gamedevelopment.tutsplus.com/tutorials/speed-up-a-star-pathfinding-with-the-jump-point-search-algorithm--gamedev-5818
+
+2. 行为树
+http://web.archive.org/web/20140402204854/http://www.altdevblogaday.com/2011/02/24/introduction-to-behavior-trees/
+
+3. planing Tree
+http://alumni.media.mit.edu/~jorkin/goap.html
+
+  
+ [2015-08-14 Fri 10:18]
+
+** 算法学习资料                                                  :algorithm:
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2003/
+
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/
+
+
+http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773
+
+
+## 在线 OJ
+
+- https://oj.leetcode.com/ (user: 0owen)
+
+  
+ [2015-08-14 Fri 10:18]
+
+** 10 本最好的图形学书籍                                              :DREAM:
+[[http://www.amazon.com/10-Best-Computer-Graphics-Books/lm/4WO0N1AG8AJN][Amazon.com: 10 Best 3D Computer Graphics Books]]
+  
+ [2015-08-14 Fri 10:19]
+
+** 学习计算机网络知识                                                :DREAM:
+### 网络资源：
+
+http://www.haogongju.net/art/1290027
+
+http://www.cppblog.com/API/archive/2012/08/07/186605.html
+
+http://bbs.html5china.com/forum-32-1.html
+
+
+### Books
+
+- [学习网络编程的入门书推荐（知乎）](http://www.zhihu.com/question/19923329/answer/21548546?utm_source=weibo&utm_medium=weibo_share&utm_content=share_answer&utm_campaign=share_button)
+
+- [enet](http://enet.bespin.org/Features.html)
+
+- [libev](http://software.schmorp.de/pkg/libev.html)
+
+  
+ [2015-08-14 Fri 10:20]
 
 * Setup VPN
 "http://blog.fengqijun.me/vpn/2015/03/08/l2tp-ipsec-vpn-on-ubuntu-14/"
