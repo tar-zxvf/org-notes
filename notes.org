@@ -9,72 +9,6 @@
 #+TAGS: { WORK(w) Emacs(e)  DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
 
 
-* Random notes
-
-** Self brief introduction
-Hello, everyone. Today I want to talk about org mode. So what is org mode? Org mode is a outline processor within Emacs.
- Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
-With a Emacs version greater than 23, org mode is already a build-in package. It provides a rich set of markup language. We can use lists, links, headlines, tables to manage our contents.
-We can also export all of my org files to pdf , plain text or latex files with just a few key strokes. Org mode can even help me to manage my agenda.
-It's also my personal wiki system . I came across Emacs org mode a few months ago, but I really love it now. It's awesome! It really deserves the time to learn.
-
-** How to learn a new language?
-Find a project you are familiar with and reimplement it with the new language. After finish it, review the project to see the difference between the new language and the languages you used to using.
-
-** Find the target
-*** What you can be the best in the world at?
-Instructors( have some confidence)
- best game client programmer(have a few confidence)
- best game server programmer?(no)
- best vim user?(have a lot confidence, but still need more)
- best Emacs user?(a few confidence)
- best c++ programmer?(not too much confidence)
- best blog post writer?(a few confidence)
-*** What drives your "economic" engine.
-Writing articles. (I have the ability to write well)
-Develop games.( I am good at iterate something to make it better)
-Teach others to learn game programming.
-*** What you are deeply passionate about.
-Learning useful stuff which can boost my productivity.(like ruby in web and Erlang in server)
-+Learning anything new about vim.( speed up my programming speed)+  Why? Because Emacs is a better option.
-Learing  anything new about Emacs.(management my personal life)
-Let game programming is not a secret any more.(I love to share some new)
-
-** 如何快速地学习
-"http://mp.weixin.qq.com/s?__biz=MjAzNzMzNTkyMQ==&mid=208026768&idx=1&sn=6556761557ed251f2c4edfd7f28f9994&key=af154fdc40fed003cd7094c76a4bf50bb8eeff22986719f53ad0f20d6865f9643f42d9e2c545ac994ae56509ff31edb2&ascene=0&uin=MTIxOTIzODU2MA%3D%3D&devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.10.1+build(14B25)&version=11020012&pass_ticket=yL%2FziNX4ZJCQKHv%2Br5APHAKFi7j7l7tfW5P9%2FSvCfJmSD2T6q98Sc8QxyH%2F%2F0knv"
-- 以专家为榜样，不必自己重新探索
-- 解构技能，找出实现 80%效果的那 20%
-- 不要一心二用
-- 练习练习再练习！然后获得即时反馈
-- 坚持，不要在低谷期放弃
-
-
-***  Setup VPN on Ubuntu 14.04
-[[https://www.digitalocean.com/community/tutorials/how-to-setup-your-own-vpn-with-pptp][How To Setup Your Own VPN With PPTP | DigitalOcean]]
-***  Find two useful links: Command Line and Rials tutorials
-[[http://conqueringthecommandline.com/book/curl][Chapter 3: cURL | Conquering the Command Line | Softcover.io]]
-[[https://www.railstutorial.org/book][Frontmatter | Ruby on Rails Tutorial (3rd Ed.) | Softcover.io]]
-*** Learn Ruby on Rails.                                             :Ruby:
-[[http://www.reddit.com/r/learnprogramming/comments/1h3zr0/my_boyfriends_learn_to_program_manifesto_on/][My boyfriend's "learn to program manifesto" on learning Ruby Rails. : learnprogramming]]
-[[http://webdesign.tutsplus.com/series/twitter-bootstrap-101/][Twitter Bootstrap 101 - Tuts+ Web Design Tutorials]]
-[[http://code.tutsplus.com/tutorials/the-best-way-to-learn-ruby-on-rails--net-21820][The Best Way to Learn Ruby on Rails - Tuts+ Code Tutorial]]
-[[http://www.schneems.com/post/25098659429/databases-rails-week-1-introduction/][Databases & Rails: Week 1 Introduction]]
-[[http://www.schneems.com/ut-rails/][UT on Rails]]
-[[http://stackoverflow.com/questions/55574/learning-ruby-on-rails][Learning Ruby on Rails - Stack Overflow]]
-*** TODO [#C] Use Emacs to Download Youtube video                   :Emacs:
-
-* SCIP notes
-** Lesson one
-*** Part one
-- Black box abstraction.
-- Write procedure which output procedure(write program which write program)
-- How to control complexity.
-- Conventions of interfaces.
-- Design a new language to handle the complexity(highlight some details and hide some details)
-
-*** Part two
-- When someone show you a language, ask him: What's the primitives? What are the means to combination? What are the mean of abstraction?
-
 * Quick notes
 **  Learning R and Python for Big Data                                :Dream:
 [[http://blog.revolutionanalytics.com/2014/03/emacs-ess-and-r-for-zombies.html][Emacs, ESS and R for Zombies]]
@@ -813,49 +747,12 @@ http://bbs.html5china.com/forum-32-1.html
   
  [2015-08-14 Fri 10:20]
 
-* Setup VPN
-"http://blog.fengqijun.me/vpn/2015/03/08/l2tp-ipsec-vpn-on-ubuntu-14/"
+* Blog Ideas
 
-* 骨骼动画评审
-** CCBone 和 CCBoneNode 是什么关系？同样的逻辑代码在一个仓库里面出现两次是否合理？
-** CCBoneNode 继承至 Node 有点太重度了，可以考虑继承至 Ref, 具体可以参考 CCBone3D 的实现
-** static BoneNode* create(const int &length);  基本数据类型不需要 const int&
-** 有问题的 API
-*** 含义不明
-    virtual void display(SkinNode* skin, bool hideOthers = false);
-    virtual cocos2d::Vector<SkinNode*> getDisplaying() const;
-** 缺少 doxgen 文档注释
-** 暴露的接口是否完整，接口意义是否清晰，use-case 是怎样的？
-** Bone 的 length, width, rackShow 是什么意思？
-** 是否考虑了多个摄相机以及在 3D 场景里面的显示。
-** CustomCommand 是不被推荐使用的，能否在 UI 的容器里面正确使用，是否被正确 clipping
-** 代码里面应该要移除 EMSCRIPTEN 的宏
-** _groupCommand 在 CCSkeletonNode 里面并没有被使用到。
+** TODO 写一篇博客介绍的的 Mac 上面无鼠标工作流
+1. 介绍 Tmux + Zsh + Percol + vim + Alfred + ncdu
 
+2. 介绍 keyboard maestro editor, whatpulse 和 Karabiner_AXNotifier
+  
+ [2015-08-18 Tue 13:45]
 
-* Ngix
-** 设置文件目录可以访问
-
-#+BEGIN_SRC sh
-  autoindex on;
-#+END_SRC
-** 设置服务器 ip 转发
-
-#+BEGIN_SRC sh
-  server{
-      server_name  4gamers.cn;
-      rewrite ^(.*) http://zilongshanren.com$1 permanent;
-  }
-#+END_SRC
-
-
-
-* DONE 经验教训
-CLOSED: [2015-08-10 Mon 09:48] SCHEDULED: <2015-08-02 Sun>
-- State "DONE"       from "TODO"       [2015-08-10 Mon 09:48]
-** 对合伙创业认识不够
-** 对代码敬畏不足
-** 对兼容性重视有限
-** 对知识管理不甚关心
-** 对技术过分依赖
-** 对工作和生活平衡不够关心

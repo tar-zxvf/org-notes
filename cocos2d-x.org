@@ -3,6 +3,23 @@
 #+TAGS: { cocos2d-x(c) work(w) }
 #+TITLE: Cocos2D-X 相关
 *  cocos2d-x                                                   :cocos2d:
+** 骨骼动画评审
+*** CCBone 和 CCBoneNode 是什么关系？同样的逻辑代码在一个仓库里面出现两次是否合理？
+*** CCBoneNode 继承至 Node 有点太重度了，可以考虑继承至 Ref, 具体可以参考 CCBone3D 的实现
+*** static BoneNode* create(const int &length);  基本数据类型不需要 const int&
+*** 有问题的 API
+**** 含义不明
+    virtual void display(SkinNode* skin, bool hideOthers = false);
+    virtual cocos2d::Vector<SkinNode*> getDisplaying() const;
+*** 缺少 doxgen 文档注释
+*** 暴露的接口是否完整，接口意义是否清晰，use-case 是怎样的？
+*** Bone 的 length, width, rackShow 是什么意思？
+*** 是否考虑了多个摄相机以及在 3D 场景里面的显示。
+*** CustomCommand 是不被推荐使用的，能否在 UI 的容器里面正确使用，是否被正确 clipping
+*** 代码里面应该要移除 EMSCRIPTEN 的宏
+*** _groupCommand 在 CCSkeletonNode 里面并没有被使用到。
+
+
 ** cocos2d-x 3.0 c++11
 *** modern c++ , mainly about c++ 11
 :PROPERTIES:

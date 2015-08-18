@@ -25,6 +25,18 @@ http://www.flyingmachinestudios.com/programming/building-a-forum-with-clojure-da
   
  [2015-08-14 Fri 09:44]
 * Scheme
+** SCIP notes
+*** Lesson one
+**** Part one
+- Black box abstraction.
+- Write procedure which output procedure(write program which write program)
+- How to control complexity.
+- Conventions of interfaces.
+- Design a new language to handle the complexity(highlight some details and hide some details)
+
+**** Part two
+- When someone show you a language, ask him: What's the primitives? What are the means to combination? What are the mean of abstraction?
+
 ** How to learn
 *** Read books, such as "A little scheme" and "SICP
 #+BEGIN_SRC emacs-lisp

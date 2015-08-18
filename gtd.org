@@ -46,12 +46,14 @@ SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
      - State "DONE"       from "TODO"       [2015-04-24 Fri 16:19]
 
 ** TODO [#B] Visit Cocos2D-x.org, visit forum                         :WORK:
+- State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
+- State "DONE"       from "TODO"       [2015-08-17 Mon 11:06]
 - State "DONE"       from "STARTED"    [2015-08-14 Fri 10:01]
 - State "DONE"       from "TODO"       [2015-08-12 Wed 17:08]
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-08-15 Sat 09:30-09:50 .+1d>
+SCHEDULED: <2015-08-19 Wed 09:30-09:50 .+1d>
 :LOGBOOK:  
 CLOCK: [2015-08-14 Fri 09:35]--[2015-08-14 Fri 10:00] =>  0:25
 CLOCK: [2015-08-10 Mon 10:10]--[2015-08-10 Mon 10:35] =>  0:25
@@ -73,10 +75,12 @@ CLOCK: [2015-05-04 Mon 10:32]--[2015-05-04 Mon 10:52] =>  0:20
 CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
 :END:      
    :PROPERTIES:
-   :LAST_REPEAT: [2015-08-14 Fri 10:01]
+   :LAST_REPEAT: [2015-08-18 Tue 13:35]
    :END:
 ** TODO [#B] Read RSS half an  hour                                   :LIFE:
-SCHEDULED: <2015-08-15 Sat 13:40 .+1d>
+SCHEDULED: <2015-08-19 Wed 13:40 .+1d>
+- State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
+- State "DONE"       from "TODO"       [2015-08-17 Mon 11:06]
 - State "DONE"       from "TODO"       [2015-08-14 Fri 10:01]
 - State "DONE"       from "TODO"       [2015-08-13 Thu 11:57]
 - State "DONE"       from "STARTED"    [2015-08-12 Wed 11:31]
@@ -104,7 +108,7 @@ CLOCK: [2015-06-09 Tue 13:37]--[2015-06-09 Tue 14:02] =>  0:25
 CLOCK: [2015-05-04 Mon 14:29]--[2015-05-04 Mon 14:54] =>  0:25
 :END:      
 :PROPERTIES:
-:LAST_REPEAT: [2015-08-14 Fri 10:01]
+:LAST_REPEAT: [2015-08-18 Tue 13:35]
 :END:
 ** STARTED [#A] Fix node and scrollview nested issue                  :WORK:
    DEADLINE: <2015-04-23 Thu 18:00> SCHEDULED: <2015-04-23 Thu 14:00>
@@ -219,14 +223,33 @@ CLOSED: [2015-08-13 Thu 18:22] SCHEDULED: <2015-08-13 Thu 14:00>
 CLOCK: [2015-08-13 Thu 13:46]--[2015-08-13 Thu 14:11] =>  0:25
 :END:      
 
-** TODO 把 wiki.4gamers.cn 上面的有价值的链接搬到 Emacs 上面来           :DREAM:
-SCHEDULED: <2015-08-14 Fri 10:10>
+** DONE 把 wiki.4gamers.cn 上面的有价值的链接搬到 Emacs 上面来       :DREAM:
+CLOSED: [2015-08-14 Fri 10:21] SCHEDULED: <2015-08-14 Fri 10:10>
+- State "DONE"       from "TODO"       [2015-08-14 Fri 10:21]
+
+** DONE [#A] 迁移美国办公室的 Windows 机器,支持 Jenkins               :WORK:
+CLOSED: [2015-08-14 Fri 13:35] SCHEDULED: <2015-08-14 Fri 10:30>
+- State "DONE"       from "STARTED"    [2015-08-14 Fri 13:35]
+:LOGBOOK:  
+CLOCK: [2015-08-14 Fri 10:39]--[2015-08-14 Fri 11:04] =>  0:25
+:END:      
+
+** DONE [#A] 第二轮较正<game programming patterns>                   :DREAM:
+CLOSED: [2015-08-16 Sun 23:51] DEADLINE: <2015-08-16 Sun> SCHEDULED: <2015-08-15 Sat>
+- State "DONE"       from "TODO"       [2015-08-16 Sun 23:51]
+
+** STARTED [#A]  iOS 的 EditBox 添加多行输入
+SCHEDULED: <2015-08-17 Mon 11:10>
+:LOGBOOK:  
+CLOCK: [2015-08-17 Mon 11:06]--[2015-08-17 Mon 11:31] =>  0:25
+:END:      
 
 
 * Weekly Tasks
 #+category: Weekly
 ** TODO [#A] Write a Blog, no matter English or Chinese               :LIFE:
-SCHEDULED: <2015-08-17 Mon .+7d/8d>
+SCHEDULED: <2015-08-25 Tue .+7d/8d>
+- State "DONE"       from "TODO"       [2015-08-18 Tue 13:36]
 - State "DONE"       from "TODO"       [2015-08-10 Mon 16:51]
 - State "DONE"       from "TODO"       [2015-07-28 Tue 09:23]
 - State "DONE"       from "TODO"       [2015-07-13 Mon 09:31]
@@ -245,10 +268,11 @@ SCHEDULED: <2015-08-17 Mon .+7d/8d>
   CLOCK: [2014-03-30 Sun 22:45]--[2014-03-30 Sun 22:57] =>  0:12
   :END:
 :PROPERTIES:
-:LAST_REPEAT: [2015-08-10 Mon 16:51]
+:LAST_REPEAT: [2015-08-18 Tue 13:36]
 :END:
 ** TODO [#C] Call my mum                                              :LIFE:
-SCHEDULED: <2015-08-18 Tue 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-08-25 Tue 10:00-10:30 .+7d/8d>
+- State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
 - State "DONE"       from "TODO"       [2015-08-11 Tue 08:52]
 - State "DONE"       from "TODO"       [2015-08-04 Tue 09:16]
 - State "DONE"       from "TODO"       [2015-07-28 Tue 07:49]
@@ -266,13 +290,14 @@ SCHEDULED: <2015-08-18 Tue 10:00-10:30 .+7d/8d>
 - State "DONE"       from "TODO"       [2014-04-07 Mon 20:00]
 - State "DONE"       from "STARTED"    [2014-03-29 Sat 10:11]
 :PROPERTIES:
-:LAST_REPEAT: [2015-08-11 Tue 08:52]
+:LAST_REPEAT: [2015-08-18 Tue 13:35]
 :END:
 ** TODO [#A] Technical Sharing                                        :WORK:
-SCHEDULED: <2015-08-17 Wed 14:00-15:00 .+7d/8d>
+SCHEDULED: <2015-08-25 Tue 14:00-15:00 .+7d/8d>
+- State "DONE"       from "TODO"       [2015-08-18 Tue 13:36]
 - State "DONE"       from "TODO"       [2015-08-12 Wed 11:31]
 :PROPERTIES:
-:LAST_REPEAT: [2015-08-12 Wed 11:31]
+:LAST_REPEAT: [2015-08-18 Tue 13:36]
 :END:
 
 # The following section is used for Monthly Tasks

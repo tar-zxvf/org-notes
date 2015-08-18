@@ -8,6 +8,26 @@
 #+LATEX_HEADER: \setmainfont{Hiragino Sans GB}
 #+LATEX_HEADER: \usepackage[paperheight=13in,paperwidth=14in]{geometry}
 
+* Ngix
+** 设置文件目录可以访问
+
+#+BEGIN_SRC sh
+  autoindex on;
+#+END_SRC
+** 设置服务器 ip 转发
+
+#+BEGIN_SRC sh
+  server{
+      server_name  4gamers.cn;
+      rewrite ^(.*) http://zilongshanren.com$1 permanent;
+  }
+#+END_SRC
+
+
+
+* Setup VPN
+"http://blog.fengqijun.me/vpn/2015/03/08/l2tp-ipsec-vpn-on-ubuntu-14/"
+
 * Vim
 
 ** Why learn vim?
