@@ -246,7 +246,9 @@ Entered on [2013-11-02 Sat 22:30]
 [[http://bocchies.hatenablog.com/entry/2014/05/09/041130][Emacs24.3 to write a C # for Unity in (for Mac OSX) - survival report of the phrase bocce]]
 [[http://qiita.com/fujimisakari/items/d043a2fae31ed740e290][Unity development in Emacs (c #) to Environment for - Qiita]]
 
-** TODO Figure out how Emacs Packages system works
+** DONE Figure out how Emacs Packages system works
+CLOSED: [2015-08-23 Sun 16:13]
+- State "DONE"       from "TODO"       [2015-08-23 Sun 16:13]
 [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html#Init-File][Init File - GNU Emacs Manual]]
 [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Package-Installation.html][Package Installation - GNU Emacs Manual]]
 [[http://stackoverflow.com/questions/11127109/emacs-24-package-system-initialization-problems][Emacs 24 Package System Initialization Problems - Stack Overflow]]

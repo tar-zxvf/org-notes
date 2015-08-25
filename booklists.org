@@ -16,7 +16,7 @@
 *** C/C++, Javascript, Lua, 3D graphics, WebGL, Python, Golang, Shader, Java(LibGDX), C#(unity)
 Main language: C/C++, Java, C#, GoLang
 Scripting Language: Lua, Javascript, GLSL, Python
-*** Lisp, perl, Ruby Clojure, Erlang, Rails, Prolog, haskell
+** Lisp, perl, Ruby Clojure, Erlang, Rails, Prolog, haskell
 - Main language: Ruby, Clojure, Erlang
 - Scripting language: elisp, perl, ruby
 - mind hacking: Prolog, haskell

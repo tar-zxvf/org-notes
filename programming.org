@@ -62,6 +62,14 @@ http://www.flyingmachinestudios.com/programming/building-a-forum-with-clojure-da
 * Java
 
 * Lua
+** DONE Write a DSL in Lua
+CLOSED: [2015-08-23 Sun 16:12]
+- State "DONE"       from "TODO"       [2015-08-23 Sun 16:12]
+[[http://ericjmritz.name/2013/02/21/writing-a-lua-dsl-for-nvls-part-one/][Writing a Lua DSL For NVLs: Part One | One More Game-Dev and Programming Blog]]
+[[http://leafo.net/guides/dsl-in-lua.html][Writing a DSL in Lua]]
+** Lua 的优缺点
+[[http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts][Lua: Good, bad, and ugly parts - ZeroBrane]]
+
 
 * C#
 

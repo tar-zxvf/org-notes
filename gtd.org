@@ -1,31 +1,54 @@
 #+TITLE: GTD
 #+AUTHOR: guanghui
 #+TAGS: { WORK(w) Emacs(e)  DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
+#+PRIORITIES: A C B
 
-* Projects
-#+category: Project
-** Reading                                                         :PROJECT:
-*** STARTED TARTED [#B]  Read <<SCIP>> books                        :DREAM:
-SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
-- State "DONE"       from "STARTED"    [2015-06-03 Wed 16:39]
+
+* Cocos2D-X                                                    :PROJECT:
+:PROPERTIES:
+:CATEGORY: cocos2d-x
+:END:
+
+** TODO ListView 添加 Cell 复用  [0%]
+*** TODO [#A]  研究 Android 的 ListView 的实现方式
+*** TODO [#A]  设计 ListView 的接口和实现的功能
+DEADLINE: <2015-09-11 Fri>
+  
+ [2015-08-25 Tue 17:57]
+
+** TODO PageView 添加 Cell 复用
+DEADLINE: <2015-09-18 Fri>
+  
+ [2015-08-25 Tue 17:59]
+
+** TODO iOS EditBox 支持多行输入
+DEADLINE: <2015-09-17 Thu>
+  
+ [2015-08-25 Tue 18:02]
+
+** TODO 完善 PageView 的 childFocusCancelOffset
+DEADLINE: <2015-09-16 Wed>
+  
+ [2015-08-25 Tue 18:02]
+
+** TODO Slider 添加点击滑动条能够拖动
+DEADLINE: <2015-09-16 Wed>
+  
+ [2015-08-25 Tue 18:02]
+
+* Zilongshanren                                                     :PROJECT:
+** Reading                                                         
+*** TODO [#B]  Read <<SCIP>> books                           
    :LOGBOOK:  
-
-
    CLOCK: [2015-06-03 Wed 14:31]--[2015-06-03 Wed 14:56] =>  0:25
    CLOCK: [2015-06-02 Tue 10:49]--[2015-06-02 Tue 11:14] =>  0:25
    :END:      
 :PROPERTIES:
 :LAST_REPEAT: [2015-06-03 Wed 16:39]
-:CATEGORY: scip
+:CATEGORY: zilongshanren
 :END:
 
-*** TODO [#B] Learn <<Algorithm>> :DREAM:
-   - State "DONE"       from "STARTED"    [2014-10-05 Sun 09:22]
-   - State "DONE"       from "STARTED"    [2014-04-08 Tue 21:43]
-   - State "DONE"       from "STARTED"    [2014-04-04 Fri 23:01]
-   - State "DONE"       from "STARTED"    [2014-03-30 Sun 22:13]
-   - State "DONE"       from "STARTED"    [2014-03-28 Fri 22:50]
-   SCHEDULED: <2014-10-06 Mon 17:00-18:00 .+1d>
+*** TODO [#B] Learn <<Algorithm>> 
    :LOGBOOK:
    CLOCK: [2014-10-03 Fri 22:23]--[2014-10-03 Fri 22:48] =>  0:25
    CLOCK: [2014-09-17 Wed 21:51]--[2014-09-17 Wed 22:16] =>  0:25
@@ -37,15 +60,18 @@ SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
    CLOCK: [2014-03-28 Fri 22:14]--[2014-03-28 Fri 22:39] =>  0:25
    CLOCK: [2014-03-28 Fri 21:44]--[2014-03-28 Fri 22:09] =>  0:25
    :END:
-** Side Project(非正式项目）                                         :Emacs:
-*** Emacs Chinese Wubi Input Method                                 :Emacs:
+:PROPERTIES:
+:CATEGORY: zilongshanren
+:END:
+** Side Project(非正式项目）                              
+*** TODO Emacs Chinese Wubi Input Method                                 
+:PROPERTIES:
+:CATEGORY: zilongshanren
+:END:
 * Daily Tasks
 #+category: Daily
-** DONE Today I should finish the org-mode workflow for me
-     CLOSED: [2015-04-24 Fri 16:19] SCHEDULED: <2015-04-10 Fri>
-     - State "DONE"       from "TODO"       [2015-04-24 Fri 16:19]
-
 ** TODO [#B] Visit Cocos2D-x.org, visit forum                         :WORK:
+- State "DONE"       from "TODO"       [2015-08-25 Tue 16:58]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
 - State "DONE"       from "TODO"       [2015-08-17 Mon 11:06]
 - State "DONE"       from "STARTED"    [2015-08-14 Fri 10:01]
@@ -53,7 +79,7 @@ SCHEDULED: <2015-06-04 Thu 07:30-08:30 .+1d>
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-08-19 Wed 09:30-09:50 .+1d>
+SCHEDULED: <2015-08-26 Wed 09:30-09:50 .+1d>
 :LOGBOOK:  
 CLOCK: [2015-08-14 Fri 09:35]--[2015-08-14 Fri 10:00] =>  0:25
 CLOCK: [2015-08-10 Mon 10:10]--[2015-08-10 Mon 10:35] =>  0:25
@@ -75,10 +101,13 @@ CLOCK: [2015-05-04 Mon 10:32]--[2015-05-04 Mon 10:52] =>  0:20
 CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
 :END:      
    :PROPERTIES:
-   :LAST_REPEAT: [2015-08-18 Tue 13:35]
+   :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
 ** TODO [#B] Read RSS half an  hour                                   :LIFE:
-SCHEDULED: <2015-08-19 Wed 13:40 .+1d>
+SCHEDULED: <2015-08-26 Wed 13:40 .+1d>
+- State "DONE"       from "TODO"       [2015-08-25 Tue 16:58]
+- State "DONE"       from "TODO"       [2015-08-23 Sun 15:15]
+- State "DONE"       from "TODO"       [2015-08-21 Fri 17:59]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
 - State "DONE"       from "TODO"       [2015-08-17 Mon 11:06]
 - State "DONE"       from "TODO"       [2015-08-14 Fri 10:01]
@@ -108,31 +137,24 @@ CLOCK: [2015-06-09 Tue 13:37]--[2015-06-09 Tue 14:02] =>  0:25
 CLOCK: [2015-05-04 Mon 14:29]--[2015-05-04 Mon 14:54] =>  0:25
 :END:      
 :PROPERTIES:
-:LAST_REPEAT: [2015-08-18 Tue 13:35]
+:LAST_REPEAT: [2015-08-25 Tue 16:58]
 :END:
-** STARTED [#A] Fix node and scrollview nested issue                  :WORK:
-   DEADLINE: <2015-04-23 Thu 18:00> SCHEDULED: <2015-04-23 Thu 14:00>
-   :LOGBOOK:  
-   CLOCK: [2015-04-23 Thu 13:47]--[2015-04-23 Thu 14:12] =>  0:25
-   :END:      
+** STARTED [#B] Fix node and scrollview nested issue                  :WORK:
 
 ** TODO  使用 Clojure 搭建一个 Emacs 社区                                 :LIFE:
 SCHEDULED: <2015-10-28 Wed>
 
 ** TODO  替换 oh-my-zsh 为 antigen,同时为 cocos-console 编写一个 zsh 插件    :LIFE:
-DEADLINE: <2015-08-19 Wed> SCHEDULED: <2015-09-08 Tue>
 "https://github.com/shengyou/codeception-zsh-plugin/blob/master/codeception.plugin.zsh"
 "https://askql.wordpress.com/2011/01/11/zsh-writing-own-completion/"
 "https://joshldavis.com/2014/07/26/oh-my-zsh-is-a-disease-antigen-is-the-vaccine/"
 "http://wikimatze.de/writing-zsh-completion-for-padrino/"
 
 ** TODO [#C]  Learn Org Dashboard to management my project, like reading a book or doing a side project. :Emacs:
-SCHEDULED: <2015-07-06 Mon>
 "http://thehelpfulhacker.net/2014/07/19/a-dashboard-for-your-life-a-minimal-goal-tracker-using-org-mode-go-and-git/"
 
 ** TODO [#C] 学习 demo-it package 的用法，同时为我的 git 培训写一个 ppt :Emacs:
 [[https://github.com/howardabrams/demo-it][howardabrams/demo-it]]
-SCHEDULED: <2015-07-08 Wed>
 
 ** TODO [#C]  使用 Emacs 进行项目管理                                :Emacs:
 "https://leiyue.wordpress.com/2012/07/04/use-org-mode-and-taskjuggler-to-manage-to-project-information/"
@@ -140,43 +162,24 @@ SCHEDULED: <2015-07-08 Wed>
 "http://doc.norang.ca/org-mode.html"
 "http://juanreyero.com/article/emacs/org-teams.html"
 "http://blog.modelworks.ch/?p=129"
-SCHEDULED: <2015-07-14 Tue 22:00>
 
 ** TODO [#C]  学习 EDebug 和 Ert                                     :Emacs:
 [[http://www.gnu.org/software/emacs/manual/html_node/ert/index.html][Emacs Lisp Regression Testing: Top]]
 "http://www.gnu.org/software/emacs/manual/html_node/ert/index.html"
-SCHEDULED: <2015-07-28 Tue>
 
-** TODO [#B]  安装 Win10 在我的 Macbook 上面。同时备份目前 Linux 上面的一些软件包。 :OTHER:
-SCHEDULED: <2015-07-31 Fri>
-后续在 Mac 电脑上面安装 Linux 虚拟机
-
-** TODO [#A] 重写 Win32 的 EditBox                                    :WORK:
+** TODO [#B] 重写 Win32 的 EditBox                                    :WORK:
 [[http://stackoverflow.com/questions/978632/how-do-i-create-a-normal-win32-edit-control][c - How do I create a normal win32 edit control? - Stack Overflow]]
 [[https://msdn.microsoft.com/en-us/library/windows/desktop/hh298433(v%3Dvs.85).aspx][How to Create a Multiline Edit Control (Windows)]]
 [[http://www.win32developer.com/tutorial/windows/windows_tutorial_3.shtm][Win32 Developer - Tutorial 3 Using edit boxes, buttons, and other window asset using the Win32 API]]
 [[https://msdn.microsoft.com/en-us/library/bb773169(VS.85).aspx][Control Library (Windows)]]
-SCHEDULED: <2015-08-08 Sat>
-
-** DONE 使用 Gpg 来加密我的文章                                      :Emacs:
-CLOSED: [2015-08-05 Wed 23:51]
-- State "DONE"       from "STARTED"    [2015-08-05 Wed 23:51]
-:LOGBOOK:  
-CLOCK: [2015-08-05 Wed 23:37]--[2015-08-10 Mon 10:10] => 106:33
-:END:      
-[[http://coldnew.github.io/blog/2013/07/13_5b094.html][使用 gnupg 加密你的 org-mode 文章 - coldnew's blog]]
-SCHEDULED: <2015-08-03 Mon>
 
 ** TODO [#B]  Add Travis CI to my website                             :LIFE:
-SCHEDULED: <2015-08-09 Sun>
 
 ** TODO [#C] 研究 js2-mode 的各种妙用                                :Emacs:
 [[http://blog.binchen.org/posts/why-emacs-is-better-editor.html][Why Emacs is better editor - a case study for javascript developer | Chen's blog]]
 [[http://blog.binchen.org/posts/use-which-func-mode-with-js2-mode.html][Use which-func-mode with js2-mode | Chen's blog]]
-SCHEDULED: <2015-08-11 Tue>
 
-** STARTED [#A] 修复 Scale9Sprite 进度条缩放的问题                    :WORK:
-SCHEDULED: <2015-08-10 Mon 14:30>
+** STARTED [#B] 修复 Scale9Sprite 进度条缩放的问题                    :WORK:
 :LOGBOOK:  
 CLOCK: [2015-08-11 Tue 13:55]--[2015-08-11 Tue 14:20] =>  0:25
 CLOCK: [2015-08-10 Mon 17:13]--[2015-08-10 Mon 17:38] =>  0:25
@@ -185,7 +188,6 @@ CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
 :END:      
 
 ** TODO [#C] 给 Org-insert-link 添加 Helm 接口,可以从所有的 Agenda Files 里面选择一个 Headline 并插件链接 :Emacs:
-SCHEDULED: <2015-08-15 Sat>
 
 ** TODO [#C] 设置 org-agenda 显示周末使用不同的字体,同时设置 org-agenda 显示中国的节日和亲朋好友的 :Emacs:
 生日.使用 bbdb 来管理联系人的电话和生日.
@@ -194,61 +196,36 @@ SCHEDULED: <2015-08-15 Sat>
 [[http://www.emacswiki.org/emacs/CalendarLocalization#toc20][EmacsWiki: Calendar Localization]]
 [[http://xlambda.com/blog/2010/01/11/customize-calendar-in-emacs/][在 emacs calendar 中定制中国农历节日 - X lambda]]
 
-SCHEDULED: <2015-08-16 Sun>
 
 ** TODO [#C]  阅读[[http://sachachua.com/blog/2008/01/projects-in-emacs-org/][Projects in Emacs Org - sacha chua :: living an awesome life]]
-SCHEDULED: <2015-08-11 Tue 13:00>
 
 ** TODO Org Custom command 支持过滤掉一些 habit 的任务.                :Emacs:
 比如重要且非常紧急的任务,应该是已经 schedule 的,但是不是 habit 任务
 [[http://headhole.org/organisation/2012/08/22/org-mode-gtd-and-the-pomodoro-technique/][Headhole - Org-mode, GTD and the Pomodoro technique]]
 
-** STARTED [#A] 阅读<搞定 1>,然后用 Org-mode 来实现之                :Emacs:
-SCHEDULED: <2015-08-13 Thu>
+** STARTED [#B] 阅读<搞定 1>,然后用 Org-mode 来实现之                :Emacs:
 :LOGBOOK:  
 CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 :END:      
 
-** DONE [#A] 修复 Lua 绑定的问题.                                     :WORK:
-CLOSED: [2015-08-13 Thu 11:57] SCHEDULED: <2015-08-13 Thu 09:50>
-- State "DONE"       from "STARTED"    [2015-08-13 Thu 11:57]
-:LOGBOOK:  
-CLOCK: [2015-08-13 Thu 09:46]--[2015-08-13 Thu 10:11] =>  0:25
-:END:      
-
-** DONE [#A] 修复 iOS 的 EditBox 的输入最大长度的 bug                 :WORK:
-CLOSED: [2015-08-13 Thu 18:22] SCHEDULED: <2015-08-13 Thu 14:00>
-- State "DONE"       from "STARTED"    [2015-08-13 Thu 18:22]
-:LOGBOOK:  
-CLOCK: [2015-08-13 Thu 13:46]--[2015-08-13 Thu 14:11] =>  0:25
-:END:      
-
-** DONE 把 wiki.4gamers.cn 上面的有价值的链接搬到 Emacs 上面来       :DREAM:
-CLOSED: [2015-08-14 Fri 10:21] SCHEDULED: <2015-08-14 Fri 10:10>
-- State "DONE"       from "TODO"       [2015-08-14 Fri 10:21]
-
-** DONE [#A] 迁移美国办公室的 Windows 机器,支持 Jenkins               :WORK:
-CLOSED: [2015-08-14 Fri 13:35] SCHEDULED: <2015-08-14 Fri 10:30>
-- State "DONE"       from "STARTED"    [2015-08-14 Fri 13:35]
-:LOGBOOK:  
-CLOCK: [2015-08-14 Fri 10:39]--[2015-08-14 Fri 11:04] =>  0:25
-:END:      
-
-** DONE [#A] 第二轮较正<game programming patterns>                   :DREAM:
-CLOSED: [2015-08-16 Sun 23:51] DEADLINE: <2015-08-16 Sun> SCHEDULED: <2015-08-15 Sat>
-- State "DONE"       from "TODO"       [2015-08-16 Sun 23:51]
-
-** STARTED [#A]  iOS 的 EditBox 添加多行输入
-SCHEDULED: <2015-08-17 Mon 11:10>
+** STARTED [#B]  iOS 的 EditBox 添加多行输入
 :LOGBOOK:  
 CLOCK: [2015-08-17 Mon 11:06]--[2015-08-17 Mon 11:31] =>  0:25
 :END:      
 
+** TODO Learn Phaser and Clojure
+[[http://phaser.io/][Phaser - A fast, fun and free open source HTML5 game framework]]
+[[https://github.com/dparis/phzr][dparis/phzr]]
+[[https://www.reddit.com/r/Clojure/comments/3h6gso/phzr_a_clojurescript_wrapper_for_the_phaser_html5/][phzr - A ClojureScript wrapper for the Phaser HTML5 game framework : Clojure]]
+
+** TODO  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
+
 
 * Weekly Tasks
 #+category: Weekly
-** TODO [#A] Write a Blog, no matter English or Chinese               :LIFE:
-SCHEDULED: <2015-08-25 Tue .+7d/8d>
+** TODO [#B] Write a Blog, no matter English or Chinese               :LIFE:
+SCHEDULED: <2015-08-29 Sat .+7d/8d>
+- State "DONE"       from "TODO"       [2015-08-25 Tue 16:57]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:36]
 - State "DONE"       from "TODO"       [2015-08-10 Mon 16:51]
 - State "DONE"       from "TODO"       [2015-07-28 Tue 09:23]
@@ -268,10 +245,11 @@ SCHEDULED: <2015-08-25 Tue .+7d/8d>
   CLOCK: [2014-03-30 Sun 22:45]--[2014-03-30 Sun 22:57] =>  0:12
   :END:
 :PROPERTIES:
-:LAST_REPEAT: [2015-08-18 Tue 13:36]
+:LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
-** TODO [#C] Call my mum                                              :LIFE:
-SCHEDULED: <2015-08-25 Tue 10:00-10:30 .+7d/8d>
+** TODO [#B] Call my mum                                              :LIFE:
+SCHEDULED: <2015-09-01 Tue 10:00-10:30 .+7d/8d>
+- State "DONE"       from "TODO"       [2015-08-25 Tue 11:37]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
 - State "DONE"       from "TODO"       [2015-08-11 Tue 08:52]
 - State "DONE"       from "TODO"       [2015-08-04 Tue 09:16]
@@ -290,20 +268,11 @@ SCHEDULED: <2015-08-25 Tue 10:00-10:30 .+7d/8d>
 - State "DONE"       from "TODO"       [2014-04-07 Mon 20:00]
 - State "DONE"       from "STARTED"    [2014-03-29 Sat 10:11]
 :PROPERTIES:
-:LAST_REPEAT: [2015-08-18 Tue 13:35]
+:LAST_REPEAT: [2015-08-25 Tue 11:37]
 :END:
-** TODO [#A] Technical Sharing                                        :WORK:
-SCHEDULED: <2015-08-25 Tue 14:00-15:00 .+7d/8d>
-- State "DONE"       from "TODO"       [2015-08-18 Tue 13:36]
-- State "DONE"       from "TODO"       [2015-08-12 Wed 11:31]
-:PROPERTIES:
-:LAST_REPEAT: [2015-08-18 Tue 13:36]
-:END:
-
-# The following section is used for Monthly Tasks
 * Monthly Tasks
 #+category: Monthly
-** TODO [#A] Write a article to summary the fruit of a month          :LIFE:
+** TODO [#B] Write a article to summary the fruit of a month          :LIFE:
 SCHEDULED: <2015-09-11 Fri 20:20 .+30d/31d>
 - State "DONE"       from "TODO"       [2015-08-12 Wed 11:31]
 - State "DONE"       from "TODO"       [2015-07-13 Mon 09:31]

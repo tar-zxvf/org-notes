@@ -747,6 +747,11 @@ http://bbs.html5china.com/forum-32-1.html
   
  [2015-08-14 Fri 10:20]
 
+**  [#A] Install Windows on Mac with a extern SSD driver.
+1. hacking BootCamp: modify info.plist
+  
+ [2015-08-21 Fri 14:35]
+
 * Blog Ideas
 
 ** TODO 写一篇博客介绍的的 Mac 上面无鼠标工作流
@@ -755,4 +760,17 @@ http://bbs.html5china.com/forum-32-1.html
 2. 介绍 keyboard maestro editor, whatpulse 和 Karabiner_AXNotifier
   
  [2015-08-18 Tue 13:45]
+
+** DONE 写一篇博客介绍 Mac 使用 efi 安装双系统.
+CLOSED: [2015-08-23 Sun 16:12] SCHEDULED: <2015-08-23 Sun 15:15>
+- State "DONE"       from "STARTED"    [2015-08-23 Sun 16:12]
+:LOGBOOK:  
+CLOCK: [2015-08-23 Sun 15:16]--[2015-08-23 Sun 15:41] =>  0:25
+:END:      
+不过声音有问题啊...
+[[http://jmeosbn.github.io/blog/windows-8.1-efi-install/][Windows 8.1 - EFI install - jmeosbn]]
+如果你像我一样安装了第二块硬盘,那么,需要修改 boot camp/info.plist
+需要修改两个地方.
+  
+ [2015-08-21 Fri 18:11]
 

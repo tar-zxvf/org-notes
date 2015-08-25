@@ -1,0 +1,6 @@
+#+TITLE: 游戏开发
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+
+* Game blog
+[[http://www.emanueleferonato.com/][Emanuele Feronato | italian geek and PROgrammer]]
+[[http://voodoocactus.com/devlog/2015/03/04/extend-native-lua/][Extend native cocos2d-x C++ class in Lua · Devlog]]
