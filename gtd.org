@@ -9,36 +9,39 @@
 :CATEGORY: cocos2d-x
 :END:
 
-** TODO ListView 添加 Cell 复用  [0%]
+** TODO ListView 添加 Cell 复用  [0%]                                 :WORK:
 *** TODO [#A]  研究 Android 的 ListView 的实现方式
 *** TODO [#A]  设计 ListView 的接口和实现的功能
 DEADLINE: <2015-09-11 Fri>
   
  [2015-08-25 Tue 17:57]
 
-** TODO PageView 添加 Cell 复用
+** TODO PageView 添加 Cell 复用                                       :WORK:
 DEADLINE: <2015-09-18 Fri>
   
  [2015-08-25 Tue 17:59]
 
-** TODO iOS EditBox 支持多行输入
+** TODO iOS EditBox 支持多行输入                                      :WORK:
 DEADLINE: <2015-09-17 Thu>
   
  [2015-08-25 Tue 18:02]
 
-** TODO 完善 PageView 的 childFocusCancelOffset
+** TODO 完善 PageView 的 childFocusCancelOffset                       :WORK:
 DEADLINE: <2015-09-16 Wed>
   
  [2015-08-25 Tue 18:02]
 
-** TODO Slider 添加点击滑动条能够拖动
+** TODO Slider 添加点击滑动条能够拖动                                 :WORK:
 DEADLINE: <2015-09-16 Wed>
   
  [2015-08-25 Tue 18:02]
+
 
 * Zilongshanren                                                     :PROJECT:
 ** Reading                                                         
-*** TODO [#B]  Read <<SCIP>> books                           
+*** TODO   Read <<SCIP>> books                           
+:PROPERTIES:
+:END:
    :LOGBOOK:  
    CLOCK: [2015-06-03 Wed 14:31]--[2015-06-03 Wed 14:56] =>  0:25
    CLOCK: [2015-06-02 Tue 10:49]--[2015-06-02 Tue 11:14] =>  0:25
@@ -48,7 +51,9 @@ DEADLINE: <2015-09-16 Wed>
 :CATEGORY: zilongshanren
 :END:
 
-*** TODO [#B] Learn <<Algorithm>> 
+*** TODO  Learn <<Algorithm>> 
+:PROPERTIES:
+:END:
    :LOGBOOK:
    CLOCK: [2014-10-03 Fri 22:23]--[2014-10-03 Fri 22:48] =>  0:25
    CLOCK: [2014-09-17 Wed 21:51]--[2014-09-17 Wed 22:16] =>  0:25
@@ -70,7 +75,21 @@ DEADLINE: <2015-09-16 Wed>
 :END:
 * Daily Tasks
 #+category: Daily
-** TODO [#B] Visit Cocos2D-x.org, visit forum                         :WORK:
+** TODO Visit Cocos2D-x.org, visit forum                              :WORK:
+:PROPERTIES:
+:LAST_REPEAT: [2015-09-07 Mon 09:50]
+:END:
+- State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
+- State "DONE"       from "TODO"       [2015-09-06 Sun 13:44]
+- State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
+- State "DONE"       from "STARTED"    [2015-09-04 Fri 11:51]
+- State "DONE"       from "TODO"       [2015-09-01 Tue 10:33]
+- State "DONE"       from "TODO"       [2015-08-31 Mon 10:15]
+- State "DONE"       from "TODO"       [2015-08-30 Sun 22:40]
+- State "DONE"       from "TODO"       [2015-08-29 Sat 21:58]
+- State "DONE"       from "STARTED"    [2015-08-28 Fri 09:55]
+- State "DONE"       from "TODO"       [2015-08-27 Thu 09:44]
+- State "DONE"       from "TODO"       [2015-08-27 Thu 09:44]
 - State "DONE"       from "TODO"       [2015-08-25 Tue 16:58]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
 - State "DONE"       from "TODO"       [2015-08-17 Mon 11:06]
@@ -79,8 +98,10 @@ DEADLINE: <2015-09-16 Wed>
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-08-26 Wed 09:30-09:50 .+1d>
+SCHEDULED: <2015-09-08 Tue 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-09-02 Wed 15:15]--[2015-09-02 Wed 15:40] =>  0:25
+CLOCK: [2015-08-28 Fri 09:28]--[2015-08-28 Fri 09:53] =>  0:25
 CLOCK: [2015-08-14 Fri 09:35]--[2015-08-14 Fri 10:00] =>  0:25
 CLOCK: [2015-08-10 Mon 10:10]--[2015-08-10 Mon 10:35] =>  0:25
 CLOCK: [2015-07-28 Tue 07:51]--[2015-08-04 Tue 09:17] => 169:26
@@ -103,8 +124,21 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :PROPERTIES:
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
-** TODO [#B] Read RSS half an  hour                                   :LIFE:
-SCHEDULED: <2015-08-26 Wed 13:40 .+1d>
+** TODO Read RSS half an  hour                                        :LIFE:
+SCHEDULED: <2015-09-08 Tue 13:40 .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-09-07 Mon 09:50]
+:END:
+- State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
+- State "DONE"       from "TODO"       [2015-09-06 Sun 13:44]
+- State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
+- State "DONE"       from "TODO"       [2015-09-04 Fri 11:51]
+- State "DONE"       from "TODO"       [2015-09-02 Wed 13:36]
+- State "DONE"       from "TODO"       [2015-08-31 Mon 10:15]
+- State "DONE"       from "TODO"       [2015-08-30 Sun 22:40]
+- State "DONE"       from "TODO"       [2015-08-29 Sat 21:58]
+- State "DONE"       from "TODO"       [2015-08-28 Fri 09:55]
+- State "DONE"       from "TODO"       [2015-08-27 Thu 09:44]
 - State "DONE"       from "TODO"       [2015-08-25 Tue 16:58]
 - State "DONE"       from "TODO"       [2015-08-23 Sun 15:15]
 - State "DONE"       from "TODO"       [2015-08-21 Fri 17:59]
@@ -187,7 +221,7 @@ CLOCK: [2015-08-10 Mon 17:11]--[2015-08-10 Mon 17:13] =>  0:02
 CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
 :END:      
 
-** TODO [#C] 给 Org-insert-link 添加 Helm 接口,可以从所有的 Agenda Files 里面选择一个 Headline 并插件链接 :Emacs:
+** TODO  给 Org-insert-link 添加 Helm 接口,可以从所有的 Agenda Files 里面选择一个 Headline 并插件链接 :Emacs:
 
 ** TODO [#C] 设置 org-agenda 显示周末使用不同的字体,同时设置 org-agenda 显示中国的节日和亲朋好友的 :Emacs:
 生日.使用 bbdb 来管理联系人的电话和生日.
@@ -208,11 +242,6 @@ CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
 CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 :END:      
 
-** STARTED [#B]  iOS 的 EditBox 添加多行输入
-:LOGBOOK:  
-CLOCK: [2015-08-17 Mon 11:06]--[2015-08-17 Mon 11:31] =>  0:25
-:END:      
-
 ** TODO Learn Phaser and Clojure
 [[http://phaser.io/][Phaser - A fast, fun and free open source HTML5 game framework]]
 [[https://github.com/dparis/phzr][dparis/phzr]]
@@ -220,11 +249,59 @@ CLOCK: [2015-08-17 Mon 11:06]--[2015-08-17 Mon 11:31] =>  0:25
 
 ** TODO  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
 
+** STARTED 完成 Tizen 大会的 Keynote                                  :WORK:
+SCHEDULED: <2015-08-27 Thu> DEADLINE: <2015-09-08 Tue>
+:PROPERTIES:
+:dir:      /root@cocos:
+:END:
+:LOGBOOK:
+CLOCK: [2015-09-07 Mon 09:50]--[2015-09-07 Mon 10:15] =>  0:25
+CLOCK: [2015-09-06 Sun 13:44]--[2015-09-07 Mon 09:50] => 20:06
+CLOCK: [2015-08-28 Fri 10:03]--[2015-08-28 Fri 10:28] =>  0:25
+:END:
+ mailto:tdc.session@cheil.com
+- Tizen Open Sourced 
+- primarily focused on mobile and in-vehicle infotainment the past few years.
+- 会议主题: Tizen, The Best Way to Connect Everything (Internet of Things)
+- Other speakers:
+Breakthrough Games with Tizen
+Qingli Wang (Samsung)
+Location: Auditorium
+Track: Game
+DETAILS AND MEDIA
+Games enable developers to see what potential can hardware, software, and platforms can do.
+ The game app market is also a main source of profit for some 3rd party companies.
+ In this session, the basics of Game Development using Tizen will be discussed.
+ This would also include Game Porting Solutions, Review Rendering Architecture, Performance Enhancement, and monetization.
+
+
+Session 题目/简要，发表人信息，履历，相片
+
+
+** TODO  订回厦门的火车票                                            :OTHER:
+SCHEDULED: <2015-09-18 Fri>
+
+** TODO  Read the Book <The Art of Unix Programming>
+[[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
+
+** DONE 修复 Android EditBox 的若干 Bug                               :WORK:
+CLOSED: [2015-09-02 Wed 15:14] SCHEDULED: <2015-08-31 Mon 10:20>
+- State "DONE"       from "STARTED"    [2015-09-02 Wed 15:14]
+:LOGBOOK:
+CLOCK: [2015-08-31 Mon 10:46]--[2015-09-02 Wed 15:15] => 52:29
+CLOCK: [2015-08-31 Mon 10:32]--[2015-08-31 Mon 10:46] =>  0:14
+CLOCK: [2015-08-31 Mon 10:16]--[2015-08-31 Mon 10:32] =>  0:16
+:END:
+
 
 * Weekly Tasks
 #+category: Weekly
-** TODO [#B] Write a Blog, no matter English or Chinese               :LIFE:
-SCHEDULED: <2015-08-29 Sat .+7d/8d>
+** TODO Write a Blog, no matter English or Chinese                    :LIFE:
+SCHEDULED: <2015-09-11 Fri .+7d/8d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-09-04 Fri 11:51]
+:END:
+- State "DONE"       from "STARTED"    [2015-09-04 Fri 11:51]
 - State "DONE"       from "TODO"       [2015-08-25 Tue 16:57]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:36]
 - State "DONE"       from "TODO"       [2015-08-10 Mon 16:51]
@@ -242,13 +319,18 @@ SCHEDULED: <2015-08-29 Sat .+7d/8d>
    - State "DONE"       from "TODO"       [2014-08-13 Wed 09:50]
   - State "DONE"       from "TODO"       [2014-08-02 Sat 07:00]
   :LOGBOOK:
+CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
   CLOCK: [2014-03-30 Sun 22:45]--[2014-03-30 Sun 22:57] =>  0:12
   :END:
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
-** TODO [#B] Call my mum                                              :LIFE:
-SCHEDULED: <2015-09-01 Tue 10:00-10:30 .+7d/8d>
+** TODO Call my mum                                                   :LIFE:
+SCHEDULED: <2015-09-08 Tue 10:00-10:30 .+7d/8d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-09-01 Tue 10:33]
+:END:
+- State "DONE"       from "TODO"       [2015-09-01 Tue 10:33]
 - State "DONE"       from "TODO"       [2015-08-25 Tue 11:37]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
 - State "DONE"       from "TODO"       [2015-08-11 Tue 08:52]
@@ -272,8 +354,12 @@ SCHEDULED: <2015-09-01 Tue 10:00-10:30 .+7d/8d>
 :END:
 * Monthly Tasks
 #+category: Monthly
-** TODO [#B] Write a article to summary the fruit of a month          :LIFE:
-SCHEDULED: <2015-09-11 Fri 20:20 .+30d/31d>
+** TODO Write a article to summary the fruit of a month               :LIFE:
+SCHEDULED: <2015-10-05 Mon .+30d/31d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-09-05 Sat 23:39]
+:END:
+- State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
 - State "DONE"       from "TODO"       [2015-08-12 Wed 11:31]
 - State "DONE"       from "TODO"       [2015-07-13 Mon 09:31]
 - State "DONE"       from "TODO"       [2015-05-08 Fri 15:20]

@@ -126,6 +126,8 @@ The index is a binary file (generally kept in .git/index) containing a sorted li
   find ../.git/objects -type f
 #+END_SRC
 
+#+RESULTS:
+
 - commit is a snapshot
 - SHA to a tree blob. A tree has many file/folders blob
 - Use git ls-files and git ls-tree to understand snapshot
@@ -170,7 +172,7 @@ git branch -D branchname
 *** 查找 bug -- git bisect
 *** 巧用 git alias
 在~/.gitconfig 里面添加下面的内容
-#+begin_src
+#+begin_example
 [alias]
 	# Show the diff between the latest commit and the current state
 	d	= !"git diff"
@@ -195,7 +197,7 @@ git branch -D branchname
   accept-ours = "!f() { git checkout --ours -- \"${@:-.}\"; git add -u \"${@:-.}\"; }; f"
   accept-theirs = "!f() { git checkout --theirs -- \"${@:-.}\"; git add -u \"${@:-.}\"; }; f"
   tagcommit = !sh -c 'git rev-list $0 | head -n 1'
-#+end_src
+#+end_example
 *** 安装 zsh 和 git 插件
 
 ** 终极指南

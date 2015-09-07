@@ -643,7 +643,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :PROPERTIES:
   :ARCHIVE_TIME: 2013-11-12 Tue 22:34
   :ARCHIVE_FILE: ~/Dropbox/org/gtd.org
-  :ARCHIVE_OLPATH: Tasks/完成HTML5 programming book ,参考google的修改意见
+  :ARCHIVE_OLPATH: Tasks/完成 HTML5 programming book ,参考 google 的修改意见
   :ARCHIVE_CATEGORY: Tasks
   :ARCHIVE_TODO: DONE
   :ARCHIVE_ITAGS: OTHER
@@ -657,7 +657,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :PROPERTIES:
   :ARCHIVE_TIME: 2013-11-12 Tue 22:35
   :ARCHIVE_FILE: ~/Dropbox/org/gtd.org
-  :ARCHIVE_OLPATH: Tasks/完成HTML5 programming book ,参考google的修改意见
+  :ARCHIVE_OLPATH: Tasks/完成 HTML5 programming book ,参考 google 的修改意见
   :ARCHIVE_CATEGORY: Tasks
   :ARCHIVE_TODO: DONE
   :ARCHIVE_ITAGS: OTHER
@@ -668,7 +668,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :PROPERTIES:
   :ARCHIVE_TIME: 2013-11-12 Tue 22:35
   :ARCHIVE_FILE: ~/Dropbox/org/gtd.org
-  :ARCHIVE_OLPATH: Tasks/完成HTML5 programming book ,参考google的修改意见
+  :ARCHIVE_OLPATH: Tasks/完成 HTML5 programming book ,参考 google 的修改意见
   :ARCHIVE_CATEGORY: Tasks
   :ARCHIVE_TODO: DONE
   :ARCHIVE_ITAGS: OTHER
@@ -685,13 +685,13 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :PROPERTIES:
   :ARCHIVE_TIME: 2013-11-12 Tue 22:35
   :ARCHIVE_FILE: ~/Dropbox/org/gtd.org
-  :ARCHIVE_OLPATH: Tasks/完成HTML5 programming book ,参考google的修改意见
+  :ARCHIVE_OLPATH: Tasks/完成 HTML5 programming book ,参考 google 的修改意见
   :ARCHIVE_CATEGORY: Tasks
   :ARCHIVE_TODO: DONE
   :ARCHIVE_ITAGS: OTHER
   :END:
 
-* DONE [#B] 完成百词斩15个单词的背诵                                :ENGLISH:
+* DONE [#B] 完成百词斩 15 个单词的背诵                                :ENGLISH:
   SCHEDULED: <2013-11-12 Tue>
   - State "DONE"       from "TODO"       [2013-11-13 Wed 09:46]
   :PROPERTIES:
@@ -728,7 +728,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/*Shell%20Command%20Output*][file:~/Dropbox/org/*Shell Command Output*]]
 
-* DONE [#A] 保存卡牌有个bug                                           :OTHER:
+* DONE [#A] 保存卡牌有个 bug                                           :OTHER:
   SCHEDULED: <2013-11-13 Wed>
   - State "DONE"       from "STARTED"    [2013-11-13 Wed 22:06]
   :LOGBOOK:
@@ -776,7 +776,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#A] 制订出详细的可以执行的任务清单，关于接下来6周要做的工作    :WORK:
+* DONE [#A] 制订出详细的可以执行的任务清单，关于接下来 6 周要做的工作    :WORK:
   SCHEDULED: <2013-11-14 Thu>
   - State "DONE"       from "STARTED"    [2013-11-14 Thu 15:33]
   :LOGBOOK:
@@ -804,7 +804,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 完成HTML5 programming book ,参考google的修改意见          :OTHER:
+* DONE [#A] 完成 HTML5 programming book ,参考 google 的修改意见          :OTHER:
   DEADLINE: <2013-11-15 Fri> SCHEDULED: <2013-11-13 Wed>
   - State "DONE"       from "STARTED"    [2013-11-15 Fri 17:53]
   :LOGBOOK:
@@ -849,7 +849,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
 
 
-* DONE [#B] 录制cocos2d-x的英文视频，每集在10分钟以内                 :OTHER:
+* DONE [#B] 录制 cocos2d-x 的英文视频，每集在 10 分钟以内                 :OTHER:
   SCHEDULED: <2013-11-12 Tue>
   - State "DONE"       from "STARTED"    [2013-11-15 Fri 20:41]
   - State "STARTED"    from "DONE"       [2013-11-15 Fri 20:41]
@@ -878,7 +878,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#B] 完成cocos2d-x英文论坛的扫帖任务，主要解决0回复的帖。       :WORK:
+* DONE [#B] 完成 cocos2d-x 英文论坛的扫帖任务，主要解决 0 回复的帖。       :WORK:
   SCHEDULED: <2013-11-12 Tue>
   - State "DONE"       from "STARTED"    [2013-11-17 Sun 15:00]
   - State "STARTED"    from "DONE"       [2013-11-15 Fri 20:45]
@@ -901,7 +901,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#B] 解决卡牌游戏ios设置上面的多分辨率问题                     :OTHER:
+* DONE [#B] 解决卡牌游戏 ios 设置上面的多分辨率问题                     :OTHER:
   SCHEDULED: <2013-11-13 Wed>
   - State "DONE"       from "STARTED"    [2013-11-15 Fri 18:27]
   - State "STARTED"    from "DONE"       [2013-11-15 Fri 18:27]
@@ -921,7 +921,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#B] 解决卡牌游戏ios设置上面的多分辨率问题                     :OTHER:
+* DONE [#B] 解决卡牌游戏 ios 设置上面的多分辨率问题                     :OTHER:
   SCHEDULED: <2013-11-13 Wed>
   - State "DONE"       from "STARTED"    [2013-11-15 Fri 18:27]
   - State "STARTED"    from "DONE"       [2013-11-15 Fri 18:27]
@@ -941,7 +941,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#B] 完成emacs收发邮件功能的配置，让读取邮件更方便             :OTHER:
+* DONE [#B] 完成 emacs 收发邮件功能的配置，让读取邮件更方便             :OTHER:
   SCHEDULED: <2013-11-14 Thu>
   - State "DONE"       from "STARTED"    [2013-11-17 Sun 15:24]
   :LOGBOOK:
@@ -1076,7 +1076,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 完成markdown显示图片，然后自动截屏并插入当前截屏功能      :OTHER:
+* DONE [#A] 完成 markdown 显示图片，然后自动截屏并插入当前截屏功能      :OTHER:
   SCHEDULED: <2013-11-17 Sun>
   - State "DONE"       from "TODO"       [2013-11-17 Sun 23:15]
   :PROPERTIES:
@@ -1106,7 +1106,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 编写cocos2d-html5的文档一篇，熟悉html5文档的要求           :WORK:
+* DONE [#A] 编写 cocos2d-html5 的文档一篇，熟悉 html5 文档的要求           :WORK:
   SCHEDULED: <2013-11-18 Mon>
   - State "DONE"       from "STARTED"    [2013-11-18 Mon 16:49]
   :LOGBOOK:
@@ -1336,7 +1336,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 ** TODO Add click event to show the maxmize card                       :WORK:
 ** TODO make it more similar to the artist requirement
 
-* DONE [#A]  制作出cocos2d-x的内存管理实践指南                         :WORK:
+* DONE [#A]  制作出 cocos2d-x 的内存管理实践指南                         :WORK:
   DEADLINE: <2013-11-27 Wed> SCHEDULED: <2013-11-24 Sun>
   - State "DONE"       from "STARTED"    [2013-11-29 Fri 21:56]
   :LOGBOOK:
@@ -1387,7 +1387,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#A] 完成cocos2d-html5的文档chapter4
+* DONE [#A] 完成 cocos2d-html5 的文档 chapter4
   DEADLINE: <2013-11-27 Wed> SCHEDULED: <2013-11-26 Tue>
   - State "DONE"       from "STARTED"    [2013-11-28 Thu 14:51]
   :LOGBOOK:
@@ -1424,7 +1424,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#A] 完成EventDispatcher编程指南的提纲撰写
+* DONE [#A] 完成 EventDispatcher 编程指南的提纲撰写
   DEADLINE: <2013-12-02 Mon 18:00> SCHEDULED: <2013-12-02 Mon 10:30-12:30>
   - State "DONE"       from "STARTED"    [2013-12-02 Mon 13:11]
   :LOGBOOK:
@@ -1456,7 +1456,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#A] 解决符文显示问题的bug
+* DONE [#A] 解决符文显示问题的 bug
   SCHEDULED: <2013-12-03 Tue>
   - State "DONE"       from "STARTED"    [2013-12-03 Tue 18:18]
   :LOGBOOK:
@@ -1582,7 +1582,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#A] 完成《cocos2d-x 3.0权威指南》一书目录的编写
+* DONE [#A] 完成《cocos2d-x 3.0 权威指南》一书目录的编写
   SCHEDULED: <2013-12-06 Fri>
   - State "DONE"       from "STARTED"    [2013-12-06 Fri 10:48]
   :LOGBOOK:
@@ -1613,7 +1613,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 还12月份的信用卡帐单
+* DONE 还 12 月份的信用卡帐单
   SCHEDULED: <2013-12-09 Mon>
   - State "DONE"       from "STARTED"    [2013-12-09 Mon 20:32]
   :LOGBOOK:
@@ -1688,7 +1688,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Github/cocos-docs/tutorial/parkour-game-with-javascript/7.0-add-coin-and-obstacles/en.md]]
 
-* DONE [#A] 完成华南理工大学的cocos2d-x课程试卷B卷
+* DONE [#A] 完成华南理工大学的 cocos2d-x 课程试卷 B 卷
   SCHEDULED: <2013-12-18 Wed>
   - State "DONE"       from "STARTED"    [2013-12-18 Wed 17:05]
   :LOGBOOK:
@@ -1739,7 +1739,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 写一篇关于autorelease pool的英文文章，同时录好内存管理的中文视频
+* DONE [#A] 写一篇关于 autorelease pool 的英文文章，同时录好内存管理的中文视频
   SCHEDULED: <2013-12-20 Fri>
   - State "DONE"       from "TODO"       [2013-12-23 Mon 10:04]
   :PROPERTIES:
@@ -1752,7 +1752,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#A] 完成New Label文章的review
+* DONE [#A] 完成 New Label 文章的 review
   SCHEDULED: <2013-12-23 Mon>
   - State "DONE"       from "STARTED"    [2013-12-25 Wed 10:08]
   :LOGBOOK:
@@ -1768,7 +1768,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Github/cocos-docs/catalog/zh.md::-%20Manual][file:~/Github/cocos-docs/catalog/zh.md::- Manual]]
 
-* DONE [#A] 完成跑酷游戏第10章
+* DONE [#A] 完成跑酷游戏第 10 章
   SCHEDULED: <2013-12-23 Mon>
   - State "DONE"       from "STARTED"    [2013-12-25 Wed 10:08]
   :LOGBOOK:
@@ -1814,12 +1814,12 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
    3.确认到档
    待学校派遣转档后，登陆成都人才网（www.rc114.com）查询确认档案到达市人才中心后，前往办理报到；
    4.系统注册
-   登陆成都人才网（www.rc114.com）点击“成都市高校毕业生就业服务管理系统”，按照系统提示录入基本信息进行注册，注册成功后打印《成都市20XX年高校毕业生报到登记表》；
+   登陆成都人才网（www.rc114.com）点击“成都市高校毕业生就业服务管理系统”，按照系统提示录入基本信息进行注册，注册成功后打印《成都市 20XX 年高校毕业生报到登记表》；
    5.办理报到
    持下列材料至市人才中心办理报到及档案托管：
    （1）《报到证》原件（学校发放、指派地系成都市）；
-   （2）《成都市20XX年高校毕业生报到登记表》1份（网上注册打印）；
-   （3）有效身份证原件（如系代办，还需提供委托人已签字按手印的委托书、委托人的身份证复印件1份、代办人的有效身份证原件和复印件1份）。
+   （2）《成都市 20XX 年高校毕业生报到登记表》1 份（网上注册打印）；
+   （3）有效身份证原件（如系代办，还需提供委托人已签字按手印的委托书、委托人的身份证复印件 1 份、代办人的有效身份证原件和复印件 1 份）。
   :PROPERTIES:
   :ARCHIVE_TIME: 2013-12-25 Wed 10:20
   :ARCHIVE_FILE: ~/Dropbox/org/gtd.org
@@ -1831,7 +1831,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 ** TODO hello
 
-* DONE [#B] 完成cocos2d-x 3.0 c++ objc best practice
+* DONE [#B] 完成 cocos2d-x 3.0 c++ objc best practice
   SCHEDULED: <2013-12-23 Mon>
   - State "DONE"       from "TODO"       [2013-12-25 Wed 10:20]
   :PROPERTIES:
@@ -1862,7 +1862,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Weekly%20Review][Weekly Review]]
 
-* DONE [#A] 看5个同学的作业                                            :WORK:
+* DONE [#A] 看 5 个同学的作业                                            :WORK:
   SCHEDULED: <2013-12-02 Mon 17:00-18:00>
   - State "DONE"       from "STARTED"    [2013-12-30 Mon 15:03]
   :LOGBOOK:
@@ -1990,7 +1990,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Github/zilongshanren.com/index.html::<li%20class%3D"weibo"><a%20href%3D"http://www.weibo.com/zilongshanren"%20title%3D"weibo"%20target%3D"_blank"%20><img%20alt%3D"Weibo"%20src%3D"/images/weibo.png"%20/></a></li>][file:~/Github/zilongshanren.com/index.html::<li class="weibo"><a href="http://www.weibo.com/zilongshanren" title="weibo" target="_blank" ><img alt="Weibo" src="/images/weibo.png" /></a></li>]]
 
-* DONE [#A]  把浙江大学同学翻译的opengl教程全部搬到opengl.zilongshanren.com上面来. :DREAM:
+* DONE [#A]  把浙江大学同学翻译的 opengl 教程全部搬到 opengl.zilongshanren.com 上面来. :DREAM:
   DEADLINE: <2014-02-18 Tue> SCHEDULED: <2014-02-18 Tue>
   - State "DONE"       from "TODO"       [2014-02-19 Wed 00:02]
   :PROPERTIES:
@@ -2016,7 +2016,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Finish%20the%20new%20render%20article][Finish the new render article]]
 
-* DONE [#A] 背诵GRE单词												  :DREAM:
+* DONE [#A] 背诵 GRE 单词												  :DREAM:
   DEADLINE: <2014-02-18 Tue> SCHEDULED: <2014-02-18 Tue>
   - State "DONE"       from "TODO"       [2014-02-19 Wed 08:56]
   :PROPERTIES:
@@ -2043,7 +2043,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
    [[file:~/Dropbox/org/gtd.org]]
 
-* DONE [#A]  背诵GRE单词											  :DREAM:
+* DONE [#A]  背诵 GRE 单词											  :DREAM:
   DEADLINE: <2014-02-19 Wed> SCHEDULED: <2014-02-19 Wed>
   - State "DONE"       from "TODO"       [2014-02-23 Sun 00:02]
   :PROPERTIES:
@@ -2067,7 +2067,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org]]
 
-* DONE [#A] 完成Packet书籍outline的编写								  :DREAM:
+* DONE [#A] 完成 Packet 书籍 outline 的编写								  :DREAM:
   DEADLINE: <2014-02-19 Wed> SCHEDULED: <2014-02-19 Wed>
   - State "DONE"       from "STARTED"    [2014-02-24 Mon 00:06]
   :PROPERTIES:
@@ -2080,7 +2080,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
 
   [[file:~/Dropbox/org/gtd.org::*Bug%20#3683:%20TestColliderDetector%20and%20AsyncLoading%20test%20not%20working][Bug #3683: TestColliderDetector and AsyncLoading test not working]]
 
-* DONE [#A]  启用wordpress中文博客，								  :DREAM:
+* DONE [#A]  启用 wordpress 中文博客，								  :DREAM:
    DEADLINE: <2014-02-22 Sat> SCHEDULED: <2014-02-20 Thu>
    - State "DONE"       from "TODO"       [2014-02-21 Fri 00:43]
   :PROPERTIES:
@@ -2090,12 +2090,12 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :ARCHIVE_CATEGORY: Tasks
   :ARCHIVE_TODO: DONE
   :END:
-配置emacs发布wordpress博客。把之前博客 的中文教程都搬到wordpress博客 上面来。
+配置 emacs 发布 wordpress 博客。把之前博客 的中文教程都搬到 wordpress 博客 上面来。
 同时使用阿里云服务器来运行我的博客 。
 
    [[file:~/Dropbox/org/gtd.org::*setUserObject%20of%20cocostudio%20is%20not%20compatible%20with%20cocos2d][setUserObject of cocostudio is not compatible with cocos2d]]
 
-* DONE [#A] 去godaddy上面注册一个4gamers.cn域名 .					  :DREAM:
+* DONE [#A] 去 godaddy 上面注册一个 4gamers.cn 域名 .					  :DREAM:
   DEADLINE: <2014-02-20 Thu> SCHEDULED: <2014-02-20 Thu>
   - State "DONE"       from "TODO"       [2014-02-20 Thu 16:23]
   :PROPERTIES:
@@ -2106,7 +2106,7 @@ CLOCK: [2013-11-06 Wed 10:40]--[2013-11-06 Wed 11:08] =>  0:28
   :ARCHIVE_TODO: DONE
   :END:
 
-  [[file:~/Dropbox/org/gtd.org::*%E7%A7%BB%E6%A4%8DCKRunner%E5%88%B0cocos2d-x%203.0][移植CKRunner到cocos2d-x 3.0]]
+  [[file:~/Dropbox/org/gtd.org::*%E7%A7%BB%E6%A4%8DCKRunner%E5%88%B0cocos2d-x%203.0][移植 CKRunner 到 cocos2d-x 3.0]]
 
 * DONE [#B] Write a documentation of all revised advices of cocostuio parser and new gui code :WORK:
   - State "DONE"       from "TODO"       [2014-03-10 Mon 10:09]
@@ -2139,7 +2139,7 @@ http://www.arcsynthesis.org/gltut/index.html
 http://www.opengl-tutorial.org/beginners-tutorials/tutorial-1-opening-a-window/
 Mathmatics for 3D game programming pdf
 
-   [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90vim%E5%9F%BA%E7%A1%80%E8%A7%86%E9%A2%91%E7%9A%84%E5%BD%95%E5%88%B6][完成vim基础视频的录制]]
+   [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90vim%E5%9F%BA%E7%A1%80%E8%A7%86%E9%A2%91%E7%9A%84%E5%BD%95%E5%88%B6][完成 vim 基础视频的录制]]
 
 * DONE [#A]  review opengl tutorial the first chapter				  :DREAM:
   DEADLINE: <2014-02-19 Wed> SCHEDULED: <2014-02-19 Wed>
@@ -2165,7 +2165,7 @@ Mathmatics for 3D game programming pdf
 
   [[file:~/Dropbox/org/gtd.org]]
 
-* DONE [#A]  背诵GRE单词											  :DREAM:
+* DONE [#A]  背诵 GRE 单词											  :DREAM:
   DEADLINE: <2014-02-25 Tue> SCHEDULED: <2014-02-25 Tue>
   - State "DONE"       from "TODO"       [2014-02-26 Wed 09:46]
   :PROPERTIES:
@@ -2178,7 +2178,7 @@ Mathmatics for 3D game programming pdf
 
   [[file:~/Dropbox/org/gtd.org]]
 
-* DONE [#A]  完成FlappyBird的移植工作								  :DREAM:
+* DONE [#A]  完成 FlappyBird 的移植工作								  :DREAM:
   DEADLINE: <2014-02-26 Wed> SCHEDULED: <2014-02-25 Tue>
   - State "DONE"       from "STARTED"    [2014-03-28 Fri 10:00]
   :PROPERTIES:
@@ -2204,7 +2204,7 @@ Mathmatics for 3D game programming pdf
 
   [[file:~/Dropbox/org/gtd.org::*%E5%8F%91%E9%80%81%E4%B8%80%E6%9D%A1%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF][发送一条微信消息]]
 
-* DONE [#A]  背诵GRE单词											  :DREAM:
+* DONE [#A]  背诵 GRE 单词											  :DREAM:
   DEADLINE: <2014-02-26 Wed> SCHEDULED: <2014-02-26 Wed>
   - State "DONE"       from "TODO"       [2014-02-26 Wed 13:52]
   :PROPERTIES:
@@ -2230,7 +2230,7 @@ Mathmatics for 3D game programming pdf
 
   [[file:~/Dropbox/org/gtd.org]]
 
-* DONE [#A]  背诵GRE单词											  :DREAM:
+* DONE [#A]  背诵 GRE 单词											  :DREAM:
   DEADLINE: <2014-02-28 Fri> SCHEDULED: <2014-02-28 Fri>
   - State "DONE"       from "TODO"       [2014-02-28 Fri 09:45]
   :PROPERTIES:
@@ -2267,9 +2267,9 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-  [[file:~/Dropbox/org/gtd.org::*%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84github%E5%B7%A5%E4%BD%9C%E7%AE%A1%E7%90%86%E6%B5%81%E7%A8%8B][建立自己的github工作管理流程]]
+  [[file:~/Dropbox/org/gtd.org::*%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84github%E5%B7%A5%E4%BD%9C%E7%AE%A1%E7%90%86%E6%B5%81%E7%A8%8B][建立自己的 github 工作管理流程]]
 
-* DONE [#A]  完成gltut第6章的学习									  :DREAM:
+* DONE [#A]  完成 gltut 第 6 章的学习									  :DREAM:
   DEADLINE: <2014-03-10 Mon> SCHEDULED: <2014-03-10 Mon>
   - State "DONE"       from "TODO"       [2014-03-13 Thu 18:26]
   :PROPERTIES:
@@ -2280,7 +2280,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A]  周日上午9点半在莲前街道参加党员学习					   :WORK:
+* DONE [#A]  周日上午 9 点半在莲前街道参加党员学习					   :WORK:
   DEADLINE: <2014-03-16 Sun> SCHEDULED: <2014-03-15 Sat>
   - State "DONE"       from "TODO"       [2014-03-17 Mon 10:02]
   :PROPERTIES:
@@ -2291,9 +2291,9 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-  [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90gltut%E7%AC%AC6%E7%AB%A0%E7%9A%84%E5%AD%A6%E4%B9%A0][完成gltut第6章的学习]]
+  [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90gltut%E7%AC%AC6%E7%AB%A0%E7%9A%84%E5%AD%A6%E4%B9%A0][完成 gltut 第 6 章的学习]]
 
-* DONE [#A]  完成Gui HitTest的重构									   :WORK:
+* DONE [#A]  完成 Gui HitTest 的重构									   :WORK:
   DEADLINE: <2014-03-22 Sat> SCHEDULED: <2014-03-17 Mon>
   - State "DONE"       from "STARTED"    [2014-03-28 Fri 10:01]
   :LOGBOOK:
@@ -2308,7 +2308,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A]  编写一篇文章，介绍如何使用Eclipse来编译一个Android项目	   :WORK:
+* DONE [#A]  编写一篇文章，介绍如何使用 Eclipse 来编译一个 Android 项目	   :WORK:
   DEADLINE: <2014-03-26 Wed> SCHEDULED: <2014-03-24 Mon>
   - State "DONE"       from "STARTED"    [2014-03-26 Wed 10:06]
   :LOGBOOK:
@@ -2322,7 +2322,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-  [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90cocos2d-x%E8%8B%B1%E6%96%87%E8%A7%86%E9%A2%91%E7%9A%84%E5%BD%95%E5%88%B6][完成cocos2d-x英文视频的录制]]
+  [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90cocos2d-x%E8%8B%B1%E6%96%87%E8%A7%86%E9%A2%91%E7%9A%84%E5%BD%95%E5%88%B6][完成 cocos2d-x 英文视频的录制]]
 
 * DONE [#A]  #issue 4229. Boolean value could not be written to specified plist filew :WORK:
   DEADLINE: <2014-03-23 Sun> SCHEDULED: <2014-03-18 Tue>
@@ -2347,7 +2347,7 @@ Mathmatics for 3D game programming pdf
 
   [[file:~/Dropbox/org/gtd.org::*%E5%81%9A%E4%B8%80%E4%BA%9B%E8%B0%83%E7%A0%94][做一些调研]]
 
-* CANCELLED [#C] 完成cocos2d-x 3.0 书籍的第二章目录编写
+* CANCELLED [#C] 完成 cocos2d-x 3.0 书籍的第二章目录编写
   SCHEDULED: <2013-12-30 Mon>
   - State "CANCELLED"  from "STARTED"    [2014-03-24 Mon 16:43] \\
 	I don't want to write the book any more
@@ -2362,9 +2362,9 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: CANCELLED
   :END:
 
-  [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90cocos2d-x%203.0%20%E6%96%B0%E7%89%B9%E6%80%A7%E6%BA%90%E7%A0%81%E5%8F%8Atests%E7%9A%84%E9%98%85%E8%AF%BB,review%E5%B7%B2%E7%BB%8F%E5%86%99%E8%BF%87%E7%9A%84%E6%96%87%E7%AB%A0][完成cocos2d-x 3.0 新特性源码及tests的阅读,review已经写过的文章]]
+  [[file:~/Dropbox/org/gtd.org::*%E5%AE%8C%E6%88%90cocos2d-x%203.0%20%E6%96%B0%E7%89%B9%E6%80%A7%E6%BA%90%E7%A0%81%E5%8F%8Atests%E7%9A%84%E9%98%85%E8%AF%BB,review%E5%B7%B2%E7%BB%8F%E5%86%99%E8%BF%87%E7%9A%84%E6%96%87%E7%AB%A0][完成 cocos2d-x 3.0 新特性源码及 tests 的阅读,review 已经写过的文章]]
 
-* DONE 完成coocs2d-x 3.0rc1的测试，ios模拟器						   :WORK:
+* DONE 完成 coocs2d-x 3.0rc1 的测试，ios 模拟器						   :WORK:
   SCHEDULED: <2014-03-28 Fri 13:50-16:00>
   - State "DONE"       from "STARTED"    [2014-03-28 Fri 21:43]
   :LOGBOOK:
@@ -2397,7 +2397,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 修复cocos2d-x引擎bug											   :WORK:
+* DONE 修复 cocos2d-x 引擎 bug											   :WORK:
   SCHEDULED: <2014-03-29 Sat 11:00>
   - State "DONE"       from "TODO"       [2014-03-29 Sat 10:39]
   :PROPERTIES:
@@ -2433,7 +2433,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 查询new render的bug										   :WORK:
+* DONE [#A] 查询 new render 的 bug										   :WORK:
   SCHEDULED: <2014-03-31 Mon 10:20>
   - State "DONE"       from "STARTED"    [2014-03-31 Mon 13:46]
   :LOGBOOK:
@@ -2448,7 +2448,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* CANCELLED [#A]  学习使用cocostudio，了解studio导出的控件的属性以及代码的使用方法 :WORK:
+* CANCELLED [#A]  学习使用 cocostudio，了解 studio 导出的控件的属性以及代码的使用方法 :WORK:
   SCHEDULED: <2014-03-31 Mon 15:00-16:00>
   - State "CANCELLED"  from "STARTED"    [2014-04-06 Sun 12:58] \\
 	I don't want to learn cocostudio do
@@ -2464,7 +2464,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: CANCELLED
   :END:
 
-* DONE 查找2.0分支上面scrollview效率低下的问题						   :WORK:
+* DONE 查找 2.0 分支上面 scrollview 效率低下的问题						   :WORK:
   DEADLINE: <2014-04-18 Fri> SCHEDULED: <2014-04-14 Mon>
   - State "DONE"       from "STARTED"    [2014-04-22 Tue 10:50]
   :LOGBOOK:
@@ -2479,7 +2479,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 看看如何优化2.0版本的scrollview								   :WORK:
+* DONE 看看如何优化 2.0 版本的 scrollview								   :WORK:
   SCHEDULED: <2014-04-01 Tue 11:00>
   - State "DONE"       from "TODO"       [2014-04-03 Thu 16:54]
   :PROPERTIES:
@@ -2490,7 +2490,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A]  修改wiki的目录结构，添加cocos-doc上面的文档			   :WORK:
+* DONE [#A]  修改 wiki 的目录结构，添加 cocos-doc 上面的文档			   :WORK:
   SCHEDULED: <2014-04-01 Tue 17:10>
   - State "DONE"       from "STARTED"    [2014-04-01 Tue 22:25]
   :LOGBOOK:
@@ -2504,7 +2504,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 添加ui控件的带参数的create方法								   :WORK:
+* DONE 添加 ui 控件的带参数的 create 方法								   :WORK:
   SCHEDULED: <2014-04-02 Wed 10:30>
   - State "DONE"       from "STARTED"    [2014-04-05 Sat 19:57]
   - State "STARTED"    from "DONE"       [2014-04-03 Thu 15:26]
@@ -2526,7 +2526,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A]  完成给ui添加create方法									   :WORK:
+* DONE [#A]  完成给 ui 添加 create 方法									   :WORK:
   SCHEDULED: <2014-04-03 Thu 10:10>
   - State "DONE"       from "STARTED"    [2014-04-06 Sun 12:57]
   :LOGBOOK:
@@ -2543,7 +2543,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 完成master分支的带参数的create方法添加						   :WORK:
+* DONE 完成 master 分支的带参数的 create 方法添加						   :WORK:
   SCHEDULED: <2014-04-04 Fri 10:40>
   - State "DONE"       from "STARTED"    [2014-04-04 Fri 23:00]
   :LOGBOOK:
@@ -2560,7 +2560,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 重新邮寄zilongshanren.com的资料，并打印域名证书。
+* DONE 重新邮寄 zilongshanren.com 的资料，并打印域名证书。
   DEADLINE: <2014-04-11 Fri> SCHEDULED: <2014-04-08 Tue>
   - State "DONE"       from "TODO"       [2014-04-08 Tue 20:52]
   :PROPERTIES:
@@ -2571,7 +2571,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 完成gui用户需求的整理工作
+* DONE 完成 gui 用户需求的整理工作
   DEADLINE: <2014-04-11 Fri 18:30> SCHEDULED: <2014-04-11 Fri 15:00>
   - State "DONE"       from "STARTED"    [2014-04-14 Mon 09:38]
   :LOGBOOK:
@@ -2586,7 +2586,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 完成Focus功能的的pr
+* DONE 完成 Focus 功能的的 pr
   DEADLINE: <2014-05-04 Sun> SCHEDULED: <2014-05-04 Sun 10:00>
   - State "DONE"       from "STARTED"    [2014-05-08 Thu 14:05]
   :LOGBOOK:
@@ -2604,7 +2604,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 完成重构所有的ui内部的函数名字和变量名字						   :WORK:
+* DONE 完成重构所有的 ui 内部的函数名字和变量名字						   :WORK:
   DEADLINE: <2014-05-14 Wed 18:00> SCHEDULED: <2014-05-14 Wed 10:45>
   - State "DONE"       from "STARTED"    [2014-05-19 Mon 13:40]
   :LOGBOOK:
@@ -2634,7 +2634,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 移植raywenderlich上面的renderTexture教程						   :WORK:
+* DONE 移植 raywenderlich 上面的 renderTexture 教程						   :WORK:
   DEADLINE: <2014-05-21 Wed 12:00> SCHEDULED: <2014-05-21 Wed 11:11>
   - State "DONE"       from "STARTED"    [2014-05-21 Wed 16:42]
   :LOGBOOK:
@@ -2673,7 +2673,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 统一引擎里面的各种size                                          :WORK:
+* DONE 统一引擎里面的各种 size                                          :WORK:
   DEADLINE: <2014-06-06 Fri 18:00> SCHEDULED: <2014-06-06 Fri 10:15>
   - State "DONE"       from "STARTED"    [2014-07-15 Tue 17:42]
   :LOGBOOK:
@@ -2687,7 +2687,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 重构ui框架的size使用。                                          :WORK:
+* DONE 重构 ui 框架的 size 使用。                                          :WORK:
   DEADLINE: <2014-06-06 Fri> SCHEDULED: <2014-06-04 Wed 10:05>
   - State "DONE"       from "STARTED"    [2014-07-15 Tue 17:42]
   :LOGBOOK:
@@ -2701,7 +2701,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 完成ui二进制格式解析                                            :WORK:
+* DONE 完成 ui 二进制格式解析                                            :WORK:
   DEADLINE: <2014-06-06 Fri> SCHEDULED: <2014-06-04 Wed>
   - State "DONE"       from "STARTED"    [2014-06-23 Mon 11:03]
   :LOGBOOK:
@@ -2715,7 +2715,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 重构PageView                                                    :WORK:
+* DONE 重构 PageView                                                    :WORK:
   DEADLINE: <2014-05-22 Thu 11:40> SCHEDULED: <2014-05-22 Thu 11:04>
   - State "DONE"       from "STARTED"    [2014-06-04 Wed 10:03]
   :LOGBOOK:
@@ -2729,7 +2729,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 把zilongshanren.com上面的所有中文文章搬到4gamers.cn上面来。同时，配置好org2blog，
+* DONE 把 zilongshanren.com 上面的所有中文文章搬到 4gamers.cn 上面来。同时，配置好 org2blog，
    DEADLINE: <2014-05-05 Mon> SCHEDULED: <2014-05-04 Sun>
    - State "DONE"       from "TODO"       [2014-06-04 Wed 10:03]
   :PROPERTIES:
@@ -2739,7 +2739,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_CATEGORY: Daily
   :ARCHIVE_TODO: DONE
   :END:
-使用emacs+org-mode来编译wordpress博客。
+使用 emacs+org-mode 来编译 wordpress 博客。
 
 * CANCELLED 查询成都住房公积金帐号，想办法把钱取出来
   DEADLINE: <2014-07-31 Thu> SCHEDULED: <2014-04-11 Fri>
@@ -2753,7 +2753,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: CANCELLED
   :END:
 
-* DONE [#A]  重新实现scale9Sprite，采用拉伸纹理的方式，让sprite自身就支持. :WORK:
+* DONE [#A]  重新实现 scale9Sprite，采用拉伸纹理的方式，让 sprite 自身就支持. :WORK:
   DEADLINE: <2014-05-02 Fri> SCHEDULED: <2014-04-29 Tue>
   - State "DONE"       from "STARTED"    [2014-06-04 Wed 10:03]
   :LOGBOOK:
@@ -2787,7 +2787,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A]  编写一篇博客 ，介绍如何使用newrender来绘制你自己的opengl命令 :WORK:
+* DONE [#A]  编写一篇博客 ，介绍如何使用 newrender 来绘制你自己的 opengl 命令 :WORK:
   DEADLINE: <2014-05-02 Fri> SCHEDULED: <2014-04-13 Sun>
   - State "DONE"       from "TODO"       [2014-06-04 Wed 10:02]
   :PROPERTIES:
@@ -2798,7 +2798,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 添加outlook.com Android手机客户端，添加公司邮件帐户             :WORK:
+* DONE 添加 outlook.com Android 手机客户端，添加公司邮件帐户             :WORK:
   SCHEDULED: <2014-08-11 Mon 20:00>
   - State "DONE"       from "TODO"       [2014-08-13 Wed 09:49]
   :PROPERTIES:
@@ -2809,9 +2809,9 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-  [[file:~/Dropbox/org/gtd.org::*%E9%80%9B%E8%8B%B1%E6%96%87%E8%AE%BA%E5%9D%9B20%E5%88%86%E9%92%9F%EF%BC%8C%E8%A7%A3%E5%86%B3%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E9%97%AE%E9%A2%98][逛英文论坛20分钟，解决开发者的问题]]
+  [[file:~/Dropbox/org/gtd.org::*%E9%80%9B%E8%8B%B1%E6%96%87%E8%AE%BA%E5%9D%9B20%E5%88%86%E9%92%9F%EF%BC%8C%E8%A7%A3%E5%86%B3%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E9%97%AE%E9%A2%98][逛英文论坛 20 分钟，解决开发者的问题]]
 
-* CANCELLED 重构Widget Class，添加Event Capture & Bubble API           :WORK:
+* CANCELLED 重构 Widget Class，添加 Event Capture & Bubble API           :WORK:
   SCHEDULED: <2014-08-12 Tue 10:40>
   - State "CANCELLED"  from "STARTED"    [2014-08-13 Wed 09:50] \\
     I don't make it very clear how to add these APIs.
@@ -2855,7 +2855,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 学习OpenGL的点光源光照模型
+* DONE 学习 OpenGL 的点光源光照模型
   DEADLINE: <2014-08-17 Sun 18:00> SCHEDULED: <2014-08-17 Sun 15:07>
   - State "DONE"       from "STARTED"    [2014-08-18 Mon 13:32]
   :LOGBOOK:
@@ -2869,7 +2869,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 移植EditBox到UI模块                                             :WORK:
+* DONE 移植 EditBox 到 UI 模块                                             :WORK:
   DEADLINE: <2014-08-18 Mon 18:00> SCHEDULED: <2014-08-18 Mon 13:32>
   - State "DONE"       from "STARTED"    [2014-08-18 Mon 20:01]
   :LOGBOOK:
@@ -2891,7 +2891,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 学习Lua的Metatable
+* DONE 学习 Lua 的 Metatable
   SCHEDULED: <2014-08-18 Mon 21:30>
   - State "DONE"       from "STARTED"    [2014-08-19 Tue 18:41]
   :LOGBOOK:
@@ -2905,7 +2905,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 验证各个平台EditBox控件的效果                                   :WORK:
+* DONE 验证各个平台 EditBox 控件的效果                                   :WORK:
   DEADLINE: <2014-08-19 Tue 18:00> SCHEDULED: <2014-08-19 Tue 09:34>
   - State "DONE"       from "STARTED"    [2014-08-19 Tue 10:10]
   1. win32 works now
@@ -2921,7 +2921,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A]  处理PR两条                                                :WORK:
+* DONE [#A]  处理 PR 两条                                                :WORK:
   CLOSED: [2014-08-20 Wed 15:50] DEADLINE: <2014-08-20 Wed 18:00> SCHEDULED: <2014-08-20 Wed 14:00>
   - State "DONE"       from "STARTED"    [2014-08-20 Wed 15:50]
   :LOGBOOK:
@@ -2944,7 +2944,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* CANCELLED [#A]  跟张成交接UI的新布局问题                             :WORK:
+* CANCELLED [#A]  跟张成交接 UI 的新布局问题                             :WORK:
   CLOSED: [2014-08-20 Wed 16:34] DEADLINE: <2014-08-20 Wed 10:00> SCHEDULED: <2014-08-20 Wed 09:30>
   - State "CANCELLED"  from "TODO"       [2014-08-20 Wed 16:34] \\
     some unknow issues
@@ -2967,7 +2967,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* CANCELLED [#A]  完善EditBox的PR                                      :WORK:
+* CANCELLED [#A]  完善 EditBox 的 PR                                      :WORK:
   CLOSED: [2014-08-20 Wed 16:34] DEADLINE: <2014-08-20 Wed> SCHEDULED: <2014-08-20 Wed 15:52>
   - State "CANCELLED"  from "STARTED"    [2014-08-20 Wed 16:34] \\
     This task should be done later
@@ -2983,7 +2983,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: CANCELLED
   :END:
 
-* DONE 添加click event listener给Widget类，让contentSize默认把ignoreContentSize设置为false,并添加测试例 :WORK:
+* DONE 添加 click event listener 给 Widget 类，让 contentSize 默认把 ignoreContentSize 设置为 false,并添加测试例 :WORK:
   CLOSED: [2014-08-21 Thu 10:38] DEADLINE: <2014-08-21 Thu 10:50> SCHEDULED: <2014-08-21 Thu 09:50>
   - State "DONE"       from "STARTED"    [2014-08-21 Thu 10:38]
   :LOGBOOK:
@@ -3014,7 +3014,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 编写PNG编译到各个平台的静态库                              :WORK:
+* DONE [#A] 编写 PNG 编译到各个平台的静态库                              :WORK:
   CLOSED: [2014-08-27 Wed 09:18] DEADLINE: <2014-08-26 Tue> SCHEDULED: <2014-08-25 Mon>
   - State "DONE"       from "STARTED"    [2014-08-27 Wed 09:18]
   1. Install Linux virtual machine
@@ -3064,7 +3064,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A]   处理webView的PR                                          :WORK:
+* DONE [#A]   处理 webView 的 PR                                          :WORK:
   CLOSED: [2014-08-27 Wed 09:17] SCHEDULED: <2014-08-26 Tue 10:20-18:00>
   - State "DONE"       from "STARTED"    [2014-08-27 Wed 09:17]
   :LOGBOOK:
@@ -3110,9 +3110,9 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-  [[file:~/Dropbox/org/gtd.org::*%E6%95%B4%E7%90%86%E4%B8%80%E5%B0%8F%E6%97%B6wiki%E6%96%87%E6%A1%A3][整理一小时wiki文档]]
+  [[file:~/Dropbox/org/gtd.org::*%E6%95%B4%E7%90%86%E4%B8%80%E5%B0%8F%E6%97%B6wiki%E6%96%87%E6%A1%A3][整理一小时 wiki 文档]]
 
-* DONE 确认场景切换的时候，scrollView是否有题                          :WORK:
+* DONE 确认场景切换的时候，scrollView 是否有题                          :WORK:
   CLOSED: [2014-09-05 Fri 23:21] DEADLINE: <2014-08-29 Fri 12:00> SCHEDULED: <2014-08-29 Fri 10:20>
   - State "DONE"       from "STARTED"    [2014-09-05 Fri 23:21]
   :LOGBOOK:
@@ -3127,7 +3127,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 编译Box2D，Chipmunk和spine为静态库                         :WORK:
+* DONE [#A] 编译 Box2D，Chipmunk 和 spine 为静态库                         :WORK:
   CLOSED: [2014-08-28 Thu 22:00] DEADLINE: <2014-08-27 Wed 18:00> SCHEDULED: <2014-08-28 Thu>
   - State "DONE"       from "STARTED"    [2014-08-28 Thu 22:00]
   :LOGBOOK:
@@ -3149,7 +3149,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 学习org-habit1小时，整理关于org-habit的应用                     :LIFE:
+* DONE 学习 org-habit1 小时，整理关于 org-habit 的应用                     :LIFE:
   CLOSED: [2014-08-29 Fri 13:35] SCHEDULED: <2014-08-25 Mon 22:00-23:00>
   - State "DONE"       from "TODO"       [2014-08-29 Fri 13:35]
   :PROPERTIES:
@@ -3160,7 +3160,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE [#A] 编译jpeg库                                                 :WORK:
+* DONE [#A] 编译 jpeg 库                                                 :WORK:
   CLOSED: [2014-08-28 Thu 22:00] DEADLINE: <2014-08-28 Thu 16:00>
   - State "DONE"       from "STARTED"    [2014-08-28 Thu 22:00]
   ios & mac 2 hours
@@ -3353,7 +3353,7 @@ Mathmatics for 3D game programming pdf
   :ARCHIVE_TODO: DONE
   :END:
 
-* DONE 测试Png库在ios真机(armv7和arm64),编写第三方库的readme           :WORK:
+* DONE 测试 Png 库在 ios 真机(armv7 和 arm64),编写第三方库的 readme           :WORK:
   CLOSED: [2014-11-13 Thu 09:52] SCHEDULED: <2014-11-11 Tue 10:43>
   - State "DONE"       from "STARTED"    [2014-11-13 Thu 09:52]
   :LOGBOOK:  nil
@@ -3411,7 +3411,7 @@ Mathmatics for 3D game programming pdf
   
   [[file:~/Dropbox/org/gtd.org::*Visit%20Cocos2D-x.org,%20visit%20forum][Visit Cocos2D-x.org, visit forum]]
 
-* CANCELLED 使用Docker把目前在阿里云上面托管的东西管理起来             :WORK:
+* CANCELLED 使用 Docker 把目前在阿里云上面托管的东西管理起来             :WORK:
   CLOSED: [2015-03-12 Thu 18:06] SCHEDULED: <2014-12-28 Sun>
   - State "CANCELLED"  from "TODO"       [2015-03-12 Thu 18:06] \\
     Maybe it's not that important, my focus should be Emacs and Unity3D
@@ -3886,7 +3886,7 @@ CLOSED: [2015-06-11 Thu 17:35] SCHEDULED: <2015-06-11 Thu>
 http://lucida.me/blog/levels-on-learning-and-using-technologies/
 
 
-* DONE 阅读spacemacs的Release note.                                    :LIFE:
+* DONE 阅读 spacemacs 的 Release note.                                    :LIFE:
 CLOSED: [2015-06-01 Mon 23:02] SCHEDULED: <2015-06-01 Mon 22:00>
 - State "DONE"       from "STARTED"    [2015-06-01 Mon 23:02]
 :LOGBOOK:  
@@ -3902,7 +3902,7 @@ CLOCK: [2015-06-01 Mon 21:21]--[2015-06-01 Mon 23:04] =>  1:43
 https://github.com/syl20bnr/spacemacs/releases#0-102-x-sec-2
 
 
-* DONE 处理Cocos2D-X Pull Request                                      :WORK:
+* DONE 处理 Cocos2D-X Pull Request                                      :WORK:
 CLOSED: [2015-06-02 Tue 10:49] SCHEDULED: <2015-06-02 Tue 10:12>
 - State "DONE"       from "STARTED"    [2015-06-02 Tue 10:49]
 :LOGBOOK:  
@@ -3948,7 +3948,7 @@ CLOSED: [2015-06-11 Thu 09:59] DEADLINE: <2015-06-08 Mon 00:00> SCHEDULED: <2015
 :END:
 
 
-* DONE 设置Emacs的中文等宽字体                                         :LIFE:
+* DONE 设置 Emacs 的中文等宽字体                                         :LIFE:
 CLOSED: [2015-06-14 Sun 10:29] SCHEDULED: <2015-06-13 Sat>
 - State "DONE"       from "TODO"       [2015-06-14 Sun 10:29]
 :PROPERTIES:
@@ -3982,7 +3982,7 @@ CLOCK: [2015-06-08 Mon 09:40]--[2015-06-08 Mon 10:05] =>  0:25
 :END:
 
 
-* DONE 学习cVim的Chrome插件，同时设置自己的快捷键                   :ENGLISH:
+* DONE 学习 cVim 的 Chrome 插件，同时设置自己的快捷键                   :ENGLISH:
 CLOSED: [2015-06-14 Sun 10:28] SCHEDULED: <2015-06-13 Sat>
 - State "DONE"       from "CANCELLED"  [2015-06-14 Sun 10:29]
 :PROPERTIES:
@@ -3994,7 +3994,7 @@ CLOSED: [2015-06-14 Sun 10:28] SCHEDULED: <2015-06-13 Sat>
 :END:
 
 
-* DONE 把spacemacs的配置整理一下，变成一个zilongshanren Layer，同时简单一些不要的配置。 :LIFE:
+* DONE 把 spacemacs 的配置整理一下，变成一个 zilongshanren Layer，同时简单一些不要的配置。 :LIFE:
 CLOSED: [2015-06-14 Sun 22:58] SCHEDULED: <2015-06-14 Sun>
 - State "DONE"       from "TODO"       [2015-06-14 Sun 22:58]
 :PROPERTIES:
@@ -4006,7 +4006,7 @@ CLOSED: [2015-06-14 Sun 22:58] SCHEDULED: <2015-06-14 Sun>
 :END:
 
 
-* DONE 编写emacser.com的“手术”方案                                     :LIFE:
+* DONE 编写 emacser.com 的“手术”方案                                     :LIFE:
 CLOSED: [2015-06-14 Sun 22:58] SCHEDULED: <2015-06-13 Sat>
 - State "DONE"       from "TODO"       [2015-06-14 Sun 22:58]
 :PROPERTIES:
@@ -4018,7 +4018,7 @@ CLOSED: [2015-06-14 Sun 22:58] SCHEDULED: <2015-06-13 Sat>
 :END:
 
 
-* DONE 处理PR                                                          :WORK:
+* DONE 处理 PR                                                          :WORK:
 CLOSED: [2015-06-12 Fri 10:21] SCHEDULED: <2015-06-12 Fri 09:50>
 - State "DONE"       from "STARTED"    [2015-06-12 Fri 10:21]
 :LOGBOOK:  
@@ -4048,7 +4048,7 @@ CLOCK: [2015-06-12 Fri 15:26]--[2015-06-12 Fri 16:20] =>  0:54
 :END:
 
 
-* DONE 处理Cocos2D-X的PR                                               :WORK:
+* DONE 处理 Cocos2D-X 的 PR                                               :WORK:
 CLOSED: [2015-06-16 Tue 10:42] SCHEDULED: <2015-06-16 Tue 10:10>
 - State "DONE"       from "STARTED"    [2015-06-16 Tue 10:42]
 :LOGBOOK:  
@@ -4063,7 +4063,7 @@ CLOCK: [2015-06-16 Tue 10:08]--[2015-06-16 Tue 10:33] =>  0:25
 :END:
 
 
-* DONE 修复spritePolygon在Linux编译不过的问题。                        :WORK:
+* DONE 修复 spritePolygon 在 Linux 编译不过的问题。                        :WORK:
 CLOSED: [2015-06-17 Wed 13:34] SCHEDULED: <2015-06-17 Wed 10:53>
 - State "DONE"       from "STARTED"    [2015-06-17 Wed 13:34]
 :LOGBOOK:  
@@ -4078,7 +4078,7 @@ CLOCK: [2015-06-17 Wed 10:52]--[2015-06-17 Wed 11:17] =>  0:25
 :END:
 
 
-* DONE 下载三星的cpcEx文档                                             :WORK:
+* DONE 下载三星的 cpcEx 文档                                             :WORK:
 CLOSED: [2015-06-17 Wed 15:59] SCHEDULED: <2015-06-17 Wed 15:00>
 - State "DONE"       from "STARTED"    [2015-06-17 Wed 15:59]
 :LOGBOOK:  
@@ -4168,7 +4168,7 @@ CLOCK: [2015-06-01 Mon 09:24]--[2015-06-01 Mon 09:49] =>  0:25
 :END:
 
 
-* DONE 更新cocos2d-x opengles系列教程，完善webgl系列教程               :LIFE:
+* DONE 更新 cocos2d-x opengles 系列教程，完善 webgl 系列教程               :LIFE:
 CLOSED: [2015-06-17 Wed 19:37] SCHEDULED: <2015-06-16 Tue 16:00>
 - State "DONE"       from "STARTED"    [2015-06-17 Wed 19:37]
 :LOGBOOK:  
@@ -4184,7 +4184,7 @@ CLOCK: [2015-06-16 Tue 16:06]--[2015-06-16 Tue 16:31] =>  0:25
 :END:
 
 
-* DONE 处理PR                                                          :WORK:
+* DONE 处理 PR                                                          :WORK:
 CLOSED: [2015-06-03 Wed 09:54] SCHEDULED: <2015-06-03 Wed 09:20>
 - State "DONE"       from "STARTED"    [2015-06-03 Wed 09:54]
 :LOGBOOK:  
@@ -4199,7 +4199,7 @@ CLOCK: [2015-06-03 Wed 09:19]--[2015-06-03 Wed 09:44] =>  0:25
 :END:
 
 
-* DONE 分享我的spacemacs的使用                                         :LIFE:
+* DONE 分享我的 spacemacs 的使用                                         :LIFE:
 CLOSED: [2015-06-08 Mon 00:25] DEADLINE: <2015-06-07 Sun 23:30> SCHEDULED: <2015-06-07 Sun 22:50>
 - State "DONE"       from "STARTED"    [2015-06-08 Mon 00:25]
 :LOGBOOK:  
@@ -4214,7 +4214,7 @@ CLOCK: [2015-06-07 Sun 22:50]--[2015-06-07 Sun 23:15] =>  0:25
 :END:
 
 
-* DONE 检查中文翻译的PR                                                :WORK:
+* DONE 检查中文翻译的 PR                                                :WORK:
 CLOSED: [2015-06-09 Tue 15:46] SCHEDULED: <2015-06-09 Tue 14:22>
 - State "DONE"       from "STARTED"    [2015-06-09 Tue 15:46]
 :LOGBOOK:  
@@ -4230,7 +4230,7 @@ CLOCK: [2015-06-09 Tue 14:20]--[2015-06-09 Tue 14:45] =>  0:25
 :END:
 
 
-* DONE 给ui::Slider添加按下和释放事件类型。同时，与文海商量，以前的百分比接口怎么修改，要注意兼容性。 :WORK:
+* DONE 给 ui::Slider 添加按下和释放事件类型。同时，与文海商量，以前的百分比接口怎么修改，要注意兼容性。 :WORK:
 CLOSED: [2015-06-16 Tue 10:08] SCHEDULED: <2015-06-15 Mon 10:30>
 - State "DONE"       from "STARTED"    [2015-06-16 Tue 10:08]
 :LOGBOOK:  
@@ -4262,7 +4262,7 @@ CLOCK: [2015-06-12 Fri 10:21]--[2015-06-12 Fri 10:46] =>  0:25
 :END:
 
 
-* DONE 处理PR和邮件                                                    :WORK:
+* DONE 处理 PR 和邮件                                                    :WORK:
 CLOSED: [2015-06-17 Wed 09:57] SCHEDULED: <2015-06-17 Wed 09:27>
 - State "DONE"       from "STARTED"    [2015-06-17 Wed 09:57]
 :LOGBOOK:  
@@ -4277,7 +4277,7 @@ CLOCK: [2015-06-17 Wed 09:26]--[2015-06-17 Wed 09:51] =>  0:25
 :END:
 
 
-* DONE 处理PR和修复引擎的一些 bug                                      :WORK:
+* DONE 处理 PR 和修复引擎的一些 bug                                      :WORK:
 CLOSED: [2015-06-17 Wed 14:53] SCHEDULED: <2015-06-17 Wed 14:10>
 - State "DONE"       from "TODO"       [2015-06-17 Wed 14:53]
 :PROPERTIES:
@@ -4301,7 +4301,7 @@ CLOSED: [2015-05-26 Tue 17:26] SCHEDULED: <2015-05-25 Mon 11:30>
 :END:
 
 
-* DONE 修复引擎C++模板在Windows下面资源有改动不拷贝的问题              :WORK:
+* DONE 修复引擎 C++模板在 Windows 下面资源有改动不拷贝的问题              :WORK:
 CLOSED: [2015-06-01 Mon 21:21] DEADLINE: <2015-06-01 Mon 18:00> SCHEDULED: <2015-06-01 Mon 14:32>
 - State "DONE"       from "STARTED"    [2015-06-01 Mon 21:21]
 :LOGBOOK:  
@@ -4318,7 +4318,7 @@ CLOCK: [2015-06-01 Mon 14:32]--[2015-06-01 Mon 14:57] =>  0:25
 :END:
 
 
-* DONE 我要去下载新的Emacs版本                                         :LIFE:
+* DONE 我要去下载新的 Emacs 版本                                         :LIFE:
 CLOSED: [2015-06-17 Wed 09:25]
 - State "DONE"       from "TODO"       [2015-06-17 Wed 09:25]
 :PROPERTIES:
@@ -4331,7 +4331,7 @@ CLOSED: [2015-06-17 Wed 09:25]
 [[http://emacsformacosx.com/][GNU Emacs For Mac OS X]]
 
 
-* DONE 翻译cocos API,同时修改配置文件                                  :WORK:
+* DONE 翻译 cocos API,同时修改配置文件                                  :WORK:
 CLOSED: [2015-06-17 Wed 19:37] SCHEDULED: <2015-06-17 Wed 16:00>
 - State "DONE"       from "STARTED"    [2015-06-17 Wed 19:37]
 :LOGBOOK:  
@@ -4346,7 +4346,7 @@ CLOCK: [2015-06-17 Wed 15:59]--[2015-06-17 Wed 16:24] =>  0:25
 :END:
 
 
-* DONE 处理PR                                                          :WORK:
+* DONE 处理 PR                                                          :WORK:
 CLOSED: [2015-06-04 Thu 09:58] DEADLINE: <2015-06-04 Thu 12:00> SCHEDULED: <2015-06-04 Thu 09:30>
 - State "DONE"       from "STARTED"    [2015-06-04 Thu 09:58]
 :LOGBOOK:  
@@ -4361,7 +4361,7 @@ CLOCK: [2015-06-04 Thu 09:25]--[2015-06-04 Thu 09:50] =>  0:25
 :END:
 
 
-* DONE Review一些Cocos2D-X的PR，同时修改changelog                      :WORK:
+* DONE Review 一些 Cocos2D-X 的 PR，同时修改 changelog                      :WORK:
 CLOSED: [2015-06-10 Wed 11:04] SCHEDULED: <2015-06-10 Wed 10:40>
 - State "DONE"       from "STARTED"    [2015-06-10 Wed 11:04]
 :LOGBOOK:  
@@ -4379,7 +4379,7 @@ CLOCK: [2015-06-10 Wed 10:36]--[2015-06-10 Wed 11:01] =>  0:25
 * CANCELLED Add functions to translate links in Markdown buffer, use c-u to allow custom text input :LIFE:
 CLOSED: [2015-06-10 Wed 10:33] SCHEDULED: <2015-05-30 Sat>
 - State "CANCELLED"  from "TODO"       [2015-06-10 Wed 10:33] \\
-  这个需求不是很重要，可以使用org-mac-link来代替
+  这个需求不是很重要，可以使用 org-mac-link 来代替
 :PROPERTIES:
 :ARCHIVE_TIME: 2015-06-19 Fri 10:39
 :ARCHIVE_FILE: ~/org-notes/gtd.org
@@ -4447,7 +4447,7 @@ CLOSED: [2015-06-11 Thu 09:57] SCHEDULED: <2015-06-06 Sat>
 :END:
 
 
-* DONE fork eim并且把它提取出一个包，取名ChineseWubi                  :Emacs:
+* DONE fork eim 并且把它提取出一个包，取名 ChineseWubi                  :Emacs:
 CLOSED: [2015-06-23 Tue 13:56] SCHEDULED: <2015-06-20 Sat>
 - State "DONE"       from "TODO"       [2015-06-23 Tue 13:56]
 :PROPERTIES:
@@ -4459,7 +4459,7 @@ CLOSED: [2015-06-23 Tue 13:56] SCHEDULED: <2015-06-20 Sat>
 :END:
 
 
-* DONE 完善三星的 EnhanceAPI的类文档                                   :WORK:
+* DONE 完善三星的 EnhanceAPI 的类文档                                   :WORK:
 CLOSED: [2015-06-21 Sun 13:08] SCHEDULED: <2015-06-18 Thu 16:00>
 - State "DONE"       from "STARTED"    [2015-06-21 Sun 13:08]
 :LOGBOOK:  
@@ -4475,7 +4475,7 @@ CLOCK: [2015-06-18 Thu 16:22]--[2015-06-18 Thu 16:47] =>  0:25
 :END:
 
 
-* DONE 测试Lua 和js-tests                                              :WORK:
+* DONE 测试 Lua 和 js-tests                                              :WORK:
 CLOSED: [2015-06-19 Fri 17:49] SCHEDULED: <2015-06-19 Fri 09:30>
 - State "DONE"       from "STARTED"    [2015-06-19 Fri 17:49]
 :LOGBOOK:  
@@ -4494,7 +4494,7 @@ CLOCK: [2015-06-19 Fri 10:33]--[2015-06-19 Fri 10:58] =>  0:25
 :END:
 
 
-* DONE 修复引擎的Bug                                                   :WORK:
+* DONE 修复引擎的 Bug                                                   :WORK:
 CLOSED: [2015-06-26 Fri 10:22] SCHEDULED: <2015-06-25 Thu 10:30>
 - State "DONE"       from "STARTED"    [2015-06-26 Fri 10:22]
 :LOGBOOK:  
@@ -4515,7 +4515,7 @@ CLOCK: [2015-06-23 Tue 13:55]--[2015-06-23 Tue 14:20] =>  0:25
 :END:
 
 
-* DONE 阅读 c++右值引用和 universal引用                                :WORK:
+* DONE 阅读 c++右值引用和 universal 引用                                :WORK:
 CLOSED: [2015-06-25 Thu 15:42] SCHEDULED: <2015-06-25 Thu 10:27>
 - State "DONE"       from "STARTED"    [2015-06-25 Thu 15:42]
 :LOGBOOK:  
@@ -4751,24 +4751,6 @@ CLOSED: [2015-08-02 Sun 12:02] SCHEDULED: <2015-07-30 Thu>
 :ARCHIVE_CATEGORY: Daily
 :ARCHIVE_TODO: DONE
 :END:
-
-#+BEGIN_SRC C++
-  auto directorInstance = cocos2d::Director::getInstance();
-  auto glView = directorInstance->getOpenGLView();
-  auto frameSize = glView->getFrameSize();
-
-  auto winSize = directorInstance->getWinSize();
-
-  auto leftBottom = this->_webView->convertToWorldSpace(cocos2d::Point::ZERO);
-  auto rightTop = this->_webView->convertToWorldSpace(cocos2d::Point(this->_webView->getContentSize().width,this->_webView->getContentSize().height));
-
-  auto uiLeft = frameSize.width / 2 + (leftBottom.x - winSize.width / 2 ) * glView->getScaleX();
-  auto uiTop = frameSize.height /2 - (rightTop.y - winSize.height / 2) * glView->getScaleY();
-
-  setWebViewRectJNI(_viewTag,uiLeft,uiTop,
-                    (rightTop.x - leftBottom.x) * glView->getScaleX(),
-                    (rightTop.y - leftBottom.y) * glView->getScaleY());
-#+END_SRC
 
 
 * DONE 迁移 Blog 到 Hexo                                               :LIFE:

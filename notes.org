@@ -69,7 +69,7 @@ Discrete Mathematics For Computer Scientists
  [2015-08-14 Fri 10:06]
 
 ** 图形学相关应用                                                    :Dream:
-## [[图形学书籍]]
+## 图形学书籍
 
 [数学在图形学中的应用](http://www.math.zju.edu.cn/ligangliu/resources/graphics/math_for_graphics_Turk_CN.htm)
 
@@ -752,9 +752,15 @@ http://bbs.html5china.com/forum-32-1.html
   
  [2015-08-21 Fri 14:35]
 
-* Blog Ideas
+** TODO [[http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/][Chris Granger - Coding is not the new literacy]]
+  
+ [2015-09-07 Mon 13:15]
 
-** TODO 写一篇博客介绍的的 Mac 上面无鼠标工作流
+* Blog Ideas                                                          :BLOG:
+
+** DONE 写一篇博客介绍的的 Mac 上面无鼠标工作流
+CLOSED: [2015-09-03 Thu 14:12] SCHEDULED: <2015-08-30 Sun 23:00>
+- State "DONE"       from "TODO"       [2015-09-03 Thu 14:12]
 1. 介绍 Tmux + Zsh + Percol + vim + Alfred + ncdu
 
 2. 介绍 keyboard maestro editor, whatpulse 和 Karabiner_AXNotifier
@@ -773,4 +779,14 @@ CLOCK: [2015-08-23 Sun 15:16]--[2015-08-23 Sun 15:41] =>  0:25
 需要修改两个地方.
   
  [2015-08-21 Fri 18:11]
+
+** TODO Blog Idea: 三个 Git 小问题
+
+1. 为何仓库里面添加一些大的二进制文件后，仓库大小增长得特别快。
+2. 为何两个分支修改同一个文件的同一行代码，merge 的时候不会冲突。
+3. 为何把两个针对同一文件同一修改的分支 rebase 后，有一个 commit 会优化掉。
+
+
+  
+ [2015-09-03 Thu 14:09]
 
