@@ -9,10 +9,23 @@
 :CATEGORY: cocos2d-x
 :END:
 
-** TODO ListView 添加 Cell 复用  [0%]                                 :WORK:
-*** TODO [#A]  研究 Android 的 ListView 的实现方式
+** STARTED ListView 添加 Cell 复用  [0%]                              :WORK:
+:LOGBOOK:
+CLOCK: [2015-09-11 Fri 17:37]--[2015-09-11 Fri 18:02] =>  0:25
+CLOCK: [2015-09-11 Fri 17:07]--[2015-09-11 Fri 17:32] =>  0:25
+:END:
+*** STARTED [#A]  研究 Android 的 ListView 的实现方式
+:LOGBOOK:
+CLOCK: [2015-09-11 Fri 15:19]--[2015-09-11 Fri 15:44] =>  0:25
+CLOCK: [2015-09-11 Fri 14:49]--[2015-09-11 Fri 15:14] =>  0:25
+:END:
 *** TODO [#A]  设计 ListView 的接口和实现的功能
 DEADLINE: <2015-09-11 Fri>
+*** 提供一些基础的 Adapter: 比如 Sprite Adapter, Label Adpater 等.
+也可以自定义 Adapter
+public int getItemViewType(int position)
+public int getViewTypeCount()
+getView(int, View, ViewGroup)
   
  [2015-08-25 Tue 17:57]
 
@@ -77,8 +90,10 @@ DEADLINE: <2015-09-16 Wed>
 #+category: Daily
 ** TODO Visit Cocos2D-x.org, visit forum                              :WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-07 Mon 09:50]
+:LAST_REPEAT: [2015-09-11 Fri 11:20]
 :END:
+- State "DONE"       from "STARTED"    [2015-09-11 Fri 11:20]
+- State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
 - State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
 - State "DONE"       from "TODO"       [2015-09-06 Sun 13:44]
 - State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
@@ -98,8 +113,9 @@ DEADLINE: <2015-09-16 Wed>
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-09-08 Tue 09:30-09:50 .+1d>
+SCHEDULED: <2015-09-12 Sat 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-09-11 Fri 11:15]--[2015-09-11 Fri 11:19] =>  0:04
 CLOCK: [2015-09-02 Wed 15:15]--[2015-09-02 Wed 15:40] =>  0:25
 CLOCK: [2015-08-28 Fri 09:28]--[2015-08-28 Fri 09:53] =>  0:25
 CLOCK: [2015-08-14 Fri 09:35]--[2015-08-14 Fri 10:00] =>  0:25
@@ -125,10 +141,12 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
 ** TODO Read RSS half an  hour                                        :LIFE:
-SCHEDULED: <2015-09-08 Tue 13:40 .+1d>
+SCHEDULED: <2015-09-12 Sat 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-07 Mon 09:50]
+:LAST_REPEAT: [2015-09-11 Fri 11:20]
 :END:
+- State "DONE"       from "TODO"       [2015-09-11 Fri 11:20]
+- State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
 - State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
 - State "DONE"       from "TODO"       [2015-09-06 Sun 13:44]
 - State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
@@ -249,12 +267,15 @@ CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 
 ** TODO  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
 
-** STARTED 完成 Tizen 大会的 Keynote                                  :WORK:
-SCHEDULED: <2015-08-27 Thu> DEADLINE: <2015-09-08 Tue>
+** DONE 完成 Tizen 大会的 Keynote                                     :WORK:
+CLOSED: [2015-09-10 Thu 09:41] SCHEDULED: <2015-08-27 Thu> DEADLINE: <2015-09-08 Tue>
 :PROPERTIES:
 :dir:      /root@cocos:
 :END:
+- State "DONE"       from "STARTED"    [2015-09-10 Thu 09:41]
 :LOGBOOK:
+CLOCK: [2015-09-07 Mon 16:22]--[2015-09-07 Mon 16:47] =>  0:25
+CLOCK: [2015-09-07 Mon 15:52]--[2015-09-07 Mon 16:17] =>  0:25
 CLOCK: [2015-09-07 Mon 09:50]--[2015-09-07 Mon 10:15] =>  0:25
 CLOCK: [2015-09-06 Sun 13:44]--[2015-09-07 Mon 09:50] => 20:06
 CLOCK: [2015-08-28 Fri 10:03]--[2015-08-28 Fri 10:28] =>  0:25
@@ -293,7 +314,16 @@ CLOCK: [2015-08-31 Mon 10:32]--[2015-08-31 Mon 10:46] =>  0:14
 CLOCK: [2015-08-31 Mon 10:16]--[2015-08-31 Mon 10:32] =>  0:16
 :END:
 
+** DONE [#A]  完成 Tizen 的 fantasy warrior 的移植                    :WORK:
+CLOSED: [2015-09-11 Fri 11:20] SCHEDULED: <2015-09-10 Thu 09:54>
+- State "DONE"       from "STARTED"    [2015-09-11 Fri 11:20]
+:LOGBOOK:
+CLOCK: [2015-09-10 Thu 09:53]--[2015-09-10 Thu 10:20] =>  0:27
+:END:
 
+** DONE [#B] 实现一个 shadowsocks 的代理 minor mode                  :Emacs:
+CLOSED: [2015-09-12 Sat 14:42]
+- State "DONE"       from "TODO"       [2015-09-12 Sat 14:42]
 * Weekly Tasks
 #+category: Weekly
 ** TODO Write a Blog, no matter English or Chinese                    :LIFE:
@@ -326,10 +356,11 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
 ** TODO Call my mum                                                   :LIFE:
-SCHEDULED: <2015-09-08 Tue 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-09-17 Thu 10:00-10:30 .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-01 Tue 10:33]
+:LAST_REPEAT: [2015-09-10 Thu 09:41]
 :END:
+- State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
 - State "DONE"       from "TODO"       [2015-09-01 Tue 10:33]
 - State "DONE"       from "TODO"       [2015-08-25 Tue 11:37]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]

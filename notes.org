@@ -48,7 +48,7 @@
 ** TODO 必读书单                                                     :Dream:
 
 Code Complete (2nd edition) by Steve McConnell
-The Pragmatic Programmer
+The Pragmatic Programmer (Done: +1)
 Structure and Interpretation of Computer Programs
 The C Programming Language by Kernighan and Ritchie
 Introduction to Algorithms by Cormen, Leiserson, Rivest & Stein
@@ -755,6 +755,13 @@ http://bbs.html5china.com/forum-32-1.html
 ** TODO [[http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/][Chris Granger - Coding is not the new literacy]]
   
  [2015-09-07 Mon 13:15]
+
+** 查看 Linux 某个进程是否运行                                       :Linux:
+#+BEGIN_EXAMPLE
+ps aux | grep ssserver
+#+END_EXAMPLE
+  
+ [2015-09-11 Fri 15:11]
 
 * Blog Ideas                                                          :BLOG:
 
