@@ -763,6 +763,49 @@ ps aux | grep ssserver
   
  [2015-09-11 Fri 15:11]
 
+** TODO 一些好玩的 org babel 示例
+ https://eschulte.github.io/org-scraps/
+ 
+ [2015-09-13 Sun 16:28]
+
+** TODO SICP in clojure
+  
+ [[file:~/org-notes/programming.org::*Read%20books,%20such%20as%20"A%20little%20scheme"%20and%20"SICP][Read books, such as "A little scheme" and "SICP]] 
+ [2015-09-15 Tue 14:35]
+
+** TODO  Read Web Components, Angular.js, polymer, react and  amplesdk
+http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks-react-vs-web-components-polymer
+ https://smthngsmwhr.wordpress.com/2015/04/13/web-components-and-friends-react-angular-polymer/
+ 
+ [2015-09-15 Tue 16:50]
+
+** TODO 一些不错的 js 的 UI 框架
+[[http://phaser.io/news/2015/05/ezgui][Phaser - News - EZGUI: The missing GUI Library for Pixi and Phaser]]
+ https://github.com/brean/gown.js
+ 
+ [2015-09-16 Wed 23:49]
+
+** TODO 一些不错的 Emacs 链接
+ http://tonyballantyne.com/tech/emacs-workout/just-enough-emacs-lisp/
+[[https://github.com/caiorss/Emacs-Elisp-Programming][caiorss/Emacs-Elisp-Programming]]
+[[http://www.reallysoft.de/code/emacs/snippets.html#b4ac23][Real eLisp snippets]]
+[[http://steve-yegge.blogspot.nl/2008/01/emergency-elisp.html][Stevey's Blog Rants: Emergency Elisp]]
+[[http://ergoemacs.org/emacs/emacs.html][Xah Emacs Tutorial]]
+ 
+ [2015-09-18 Fri 00:22]
+
+** TODO Using Page-breaks in emacs                                   :Emacs:
+[[https://github.com/david-christiansen/helm-pages][david-christiansen/helm-pages]]
+[[http://endlessparentheses.com/improving-page-navigation.html][Improving page (section) navigation · Endless Parentheses]]
+[[http://ericjmritz.name/2015/08/29/using-page-breaks-in-gnu-emacs/][Using Page-Breaks in GNU Emacs | One More Game-Dev and Programming Blog]] 
+
+ [2015-09-20 Sun 23:36]
+
+** TODO  如何使用 browserify 来构建模块化的应用                       :nodejs:
+ https://github.com/substack/browserify-handbook
+ 
+ [2015-09-21 Mon 11:42]
+
 * Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍的的 Mac 上面无鼠标工作流
@@ -796,4 +839,12 @@ CLOCK: [2015-08-23 Sun 15:16]--[2015-08-23 Sun 15:41] =>  0:25
 
   
  [2015-09-03 Thu 14:09]
+
+** TODO 写一篇博客介绍 Javascript 的原形继承
+[[http://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript][new operator - What is the 'new' keyword in JavaScript? - Stack Overflow]]
+[[http://ejohn.org/apps/learn/#66][Learning Advanced JavaScript]]
+[[http://stackoverflow.com/questions/7688902/what-is-functions-proto][javascript - What is Function's __proto__? - Stack Overflow]]
+
+  
+ [2015-09-14 Mon 15:02]
 

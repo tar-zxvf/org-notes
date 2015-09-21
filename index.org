@@ -1,5 +1,6 @@
 #+TITLE: 我的 wiki
 
+   + [[file:cocos2d-x.org][Cocos2D-X 相关]]
    + [[file:notes.org][零散笔记]]
    + [[file:tools.org][一些提高效率的工具]]
    + [[file:life.org][程序人生]]
@@ -7,7 +8,6 @@
    + [[file:programming.org][编程语言学习]]
    + [[file:emacs.org][Emacs 相关]]
    + [[file:game.org][游戏开发]]
-   + [[file:cocos2d-x.org][Cocos2D-X 相关]]
    + [[file:resume.org][个人简历]]
    + [[file:journal.org][Journal]]
    + [[file:graphics.org][图形渲染相关]]

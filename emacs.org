@@ -81,6 +81,9 @@ CANCELLED:c
 WAITING --> DONE
 #+end_src
 
+#+RESULTS[61c867b8eb4f49bc47e44ec2b534ac3219d82594]:
+[[file:normal_task_states.png]]
+
 #+begin_src ditaa :file communication.png :cmdline -r -s 0.8 :exports both :cache yes
     +-----------+        +---------+                      
     |    PLC    |        |         |                      
@@ -108,7 +111,7 @@ WAITING --> DONE
 +-----------------+
 #+end_src
 
-#+RESULTS[cce5f629e908a24b141a5250763c3719a4d4680a]:
+#+RESULTS[6a98e3156b0810f168bb2fe2fc6ae284ff581f70]:
 [[file:communication.png]]
 
 
@@ -120,7 +123,7 @@ CLOSED: [2015-08-06 Thu 15:10] SCHEDULED: <2015-08-05 Wed 22:00>
 *** Learn headline
 *** learning org mode basic syntax structures
 *** Cookbook
-[[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][Emacs org-mode examples and cookbook]]
+[[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][Emacs orgsmode examples and cookbook]]
 *** DONE Learn GTD and improve my current workflow
     CLOSED: [2015-04-24 Fri 16:19] SCHEDULED: <2015-03-22 Sun>
     - State "DONE"       from ""           [2015-04-24 Fri 16:19]
@@ -395,3 +398,5 @@ http://steve-yegge.blogspot.com/2008/01/emergency-elisp.html
 *** Tools(Git, Elfeed, Github-star, Youdao, Flyspell, finder, shell)
 [[file:cocos2d-x.org::*modern%20c%2B%2B%20,%20mainly%20about%20c%2B%2B%2011][modern c++ , mainly about c++ 11]]
 [[file:cocos2d-x.org::*cocos2d-x][cocos2d-x]]
+
+

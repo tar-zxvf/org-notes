@@ -9,19 +9,27 @@
 :CATEGORY: cocos2d-x
 :END:
 
-** STARTED ListView 添加 Cell 复用  [0%]                              :WORK:
+** DONE ListView 添加 Cell 复用  [100%]                               :WORK:
+- State "DONE"       from "TODO"       [2015-09-21 Mon 16:54]
+- State "TODO"       from "CANCELLED"  [2015-09-21 Mon 16:54]
+- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
+  move to beijing team
 :LOGBOOK:
 CLOCK: [2015-09-11 Fri 17:37]--[2015-09-11 Fri 18:02] =>  0:25
 CLOCK: [2015-09-11 Fri 17:07]--[2015-09-11 Fri 17:32] =>  0:25
 :END:
-*** STARTED [#A]  研究 Android 的 ListView 的实现方式
+*** CANCELLED [#A]  研究 Android 的 ListView 的实现方式
+CLOSED: [2015-09-21 Mon 16:54]
 :LOGBOOK:
 CLOCK: [2015-09-11 Fri 15:19]--[2015-09-11 Fri 15:44] =>  0:25
 CLOCK: [2015-09-11 Fri 14:49]--[2015-09-11 Fri 15:14] =>  0:25
 :END:
-*** TODO [#A]  设计 ListView 的接口和实现的功能
-DEADLINE: <2015-09-11 Fri>
-*** 提供一些基础的 Adapter: 比如 Sprite Adapter, Label Adpater 等.
+*** CANCELLED [#A]  设计 ListView 的接口和实现的功能
+CLOSED: [2015-09-21 Mon 16:53] DEADLINE: <2015-09-11 Fri>
+- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
+  move to beijing team
+*** CANCELLED 提供一些基础的 Adapter: 比如 Sprite Adapter, Label Adpater 等.
+CLOSED: [2015-09-21 Mon 16:54]
 也可以自定义 Adapter
 public int getItemViewType(int position)
 public int getViewTypeCount()
@@ -29,24 +37,31 @@ getView(int, View, ViewGroup)
   
  [2015-08-25 Tue 17:57]
 
-** TODO PageView 添加 Cell 复用                                       :WORK:
-DEADLINE: <2015-09-18 Fri>
-  
+** CANCELLED PageView 添加 Cell 复用                                  :WORK:
+CLOSED: [2015-09-21 Mon 16:53] DEADLINE: <2015-09-18 Fri>
+- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
+  move to beijing team
  [2015-08-25 Tue 17:59]
 
-** TODO iOS EditBox 支持多行输入                                      :WORK:
-DEADLINE: <2015-09-17 Thu>
+** DONE iOS EditBox 支持多行输入                                      :WORK:
+CLOSED: [2015-09-15 Tue 10:16] DEADLINE: <2015-09-17 Thu>
+- State "DONE"       from "STARTED"    [2015-09-15 Tue 10:16]
+:LOGBOOK:
+CLOCK: [2015-09-14 Mon 11:07]--[2015-09-14 Mon 11:32] =>  0:25
+CLOCK: [2015-09-14 Mon 10:13]--[2015-09-14 Mon 10:38] =>  0:25
+:END:
   
  [2015-08-25 Tue 18:02]
 
-** TODO 完善 PageView 的 childFocusCancelOffset                       :WORK:
-DEADLINE: <2015-09-16 Wed>
-  
+** CANCELLED 完善 PageView 的 childFocusCancelOffset                  :WORK:
+CLOSED: [2015-09-21 Mon 16:52] DEADLINE: <2015-09-16 Wed>
+- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:52] \\
+  move to Beijing team
  [2015-08-25 Tue 18:02]
 
-** TODO Slider 添加点击滑动条能够拖动                                 :WORK:
-DEADLINE: <2015-09-16 Wed>
-  
+** DONE Slider 添加点击滑动条能够拖动                                 :WORK:
+CLOSED: [2015-09-15 Tue 14:22] DEADLINE: <2015-09-16 Wed>
+- State "DONE"       from "TODO"       [2015-09-15 Tue 14:22]
  [2015-08-25 Tue 18:02]
 
 
@@ -90,8 +105,12 @@ DEADLINE: <2015-09-16 Wed>
 #+category: Daily
 ** TODO Visit Cocos2D-x.org, visit forum                              :WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-11 Fri 11:20]
+:LAST_REPEAT: [2015-09-21 Mon 16:47]
 :END:
+- State "DONE"       from "STARTED"    [2015-09-21 Mon 16:47]
+- State "DONE"       from "TODO"       [2015-09-15 Tue 09:25]
+- State "DONE"       from "TODO"       [2015-09-14 Mon 10:12]
+- State "DONE"       from "TODO"       [2015-09-12 Sat 21:17]
 - State "DONE"       from "STARTED"    [2015-09-11 Fri 11:20]
 - State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
 - State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
@@ -113,8 +132,9 @@ DEADLINE: <2015-09-16 Wed>
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-09-12 Sat 09:30-09:50 .+1d>
+SCHEDULED: <2015-09-22 Tue 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-09-21 Mon 16:17]--[2015-09-21 Mon 16:42] =>  0:25
 CLOCK: [2015-09-11 Fri 11:15]--[2015-09-11 Fri 11:19] =>  0:04
 CLOCK: [2015-09-02 Wed 15:15]--[2015-09-02 Wed 15:40] =>  0:25
 CLOCK: [2015-08-28 Fri 09:28]--[2015-08-28 Fri 09:53] =>  0:25
@@ -141,10 +161,13 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
 ** TODO Read RSS half an  hour                                        :LIFE:
-SCHEDULED: <2015-09-12 Sat 13:40 .+1d>
+SCHEDULED: <2015-09-22 Tue 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-11 Fri 11:20]
+:LAST_REPEAT: [2015-09-21 Mon 16:14]
 :END:
+- State "DONE"       from "TODO"       [2015-09-21 Mon 16:14]
+- State "DONE"       from "TODO"       [2015-09-15 Tue 09:25]
+- State "DONE"       from "TODO"       [2015-09-12 Sat 21:17]
 - State "DONE"       from "TODO"       [2015-09-11 Fri 11:20]
 - State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
 - State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
@@ -324,6 +347,18 @@ CLOCK: [2015-09-10 Thu 09:53]--[2015-09-10 Thu 10:20] =>  0:27
 ** DONE [#B] 实现一个 shadowsocks 的代理 minor mode                  :Emacs:
 CLOSED: [2015-09-12 Sat 14:42]
 - State "DONE"       from "TODO"       [2015-09-12 Sat 14:42]
+
+** DONE 移除 zilongshanren/retrieve-chrome-current-tab-url 两边的引号
+CLOSED: [2015-09-14 Mon 10:12] SCHEDULED: <2015-09-14 Mon 14:00>
+- State "DONE"       from "TODO"       [2015-09-14 Mon 10:12]
+** DONE Fix Xcode 7 Linker error                                      :WORK:
+CLOSED: [2015-09-15 Tue 13:50] SCHEDULED: <2015-09-14 Mon 09:30>
+- State "DONE"       from "STARTED"    [2015-09-15 Tue 13:50]
+:LOGBOOK:
+CLOCK: [2015-09-15 Tue 10:20]--[2015-09-15 Tue 10:45] =>  0:25
+CLOCK: [2015-09-14 Mon 09:30]--[2015-09-14 Mon 09:55] =>  0:25
+:END:
+
 * Weekly Tasks
 #+category: Weekly
 ** TODO Write a Blog, no matter English or Chinese                    :LIFE:
@@ -356,10 +391,11 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
 ** TODO Call my mum                                                   :LIFE:
-SCHEDULED: <2015-09-17 Thu 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-09-28 Mon 10:00-10:30 .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-10 Thu 09:41]
+:LAST_REPEAT: [2015-09-21 Mon 16:14]
 :END:
+- State "DONE"       from "TODO"       [2015-09-21 Mon 16:14]
 - State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
 - State "DONE"       from "TODO"       [2015-09-01 Tue 10:33]
 - State "DONE"       from "TODO"       [2015-08-25 Tue 11:37]
@@ -413,10 +449,14 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-06-26 Fri 10:24], for Friday, June 26, 2015.
-| File | Headline         | Time   |
-|------+------------------+--------|
-|      | ALL *Total time* | *0:00* |
+#+CAPTION: Clock summary at [2015-09-12 Sat 21:59], for Saturday, September 12, 2015.
+| File    | Headline                                            | Time   |      |
+|---------+-----------------------------------------------------+--------+------|
+|         | ALL *Total time*                                    | *0:25* |      |
+|---------+-----------------------------------------------------+--------+------|
+| gtd.org | *File time*                                         | *0:25* |      |
+|         | Daily Tasks                                         | 0:25   |      |
+|         | \_  STARTED  写 a 一本关于 Emacs 的书,同时出一些... |        | 0:25 |
 #+END:
 #+BEGIN_SRC emacs-lisp :results value
 ;; (setq week-range (org-clock-special-range 'today nil t))
@@ -429,15 +469,20 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 # The following section is used for Weekly Review
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-07-28 Tue 08:03], for week 2015-W31.
-| File    | Headline                                   | Time      |         |
-|---------+--------------------------------------------+-----------+---------|
-|         | ALL *Total time*                           | *1d 7:51* |         |
-|---------+--------------------------------------------+-----------+---------|
-| gtd.org | *File time*                                | *1d 7:51* |         |
-|         | Daily Tasks                                | 1d 7:51   |         |
-|         | \emsp STARTED [#B] Visit Cocos2D-x.org,... |           |    0:02 |
-|         | \emsp STARTED...                           |           | 1d 7:49 |
+#+CAPTION: Clock summary at [2015-09-12 Sat 21:59], for week 2015-W37.
+| File    | Headline                                             | Time    |       |      |
+|---------+------------------------------------------------------+---------+-------+------|
+|         | ALL *Total time*                                     | *13:41* |       |      |
+|---------+------------------------------------------------------+---------+-------+------|
+| gtd.org | *File time*                                          | *13:41* |       |      |
+|         | Cocos2D-X                                            | 1:40    |       |      |
+|         | \_  TODO ListView 添加 Cell 复用  [0%]               |         |  1:40 |      |
+|         | \_    TODO [#A]  研究 Android 的 ListView 的实现方式 |         |       | 0:50 |
+|         | Daily Tasks                                          | 12:01   |       |      |
+|         | \_  TODO Visit Cocos2D-x.org, visit forum            |         |  0:04 |      |
+|         | \_  DONE 完成 Tizen 大会的 Keynote                   |         | 11:05 |      |
+|         | \_  DONE [#A]  完成 Tizen 的 fantasy warrior...      |         |  0:27 |      |
+|         | \_  STARTED  写 a 一本关于 Emacs 的书,同时出一些...  |         |  0:25 |      |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -453,19 +498,21 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 # The following section is used for Monthly Review
 * Monthly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thismonth :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-08-10 Mon 16:21], for August 2015.
-| File            | Headline                                      | Time      |          |
-|-----------------+-----------------------------------------------+-----------+----------|
-|                 | ALL *Total time*                              | *8d 4:38* |          |
-|-----------------+-----------------------------------------------+-----------+----------|
-| gtd.org         | *File time*                                   | *8d 4:13* |          |
-|                 | Daily Tasks                                   | 8d 4:13   |          |
-|                 | \emsp TODO [#B] Visit Cocos2D-x.org, visit... |           | 3d 9:42  |
-|                 | \emsp STARTED Read RSS half an  hour          |           | 7:58     |
-|                 | \emsp DONE 使用 Gpg 来加密我的文章            |           | 4d 10:33 |
-|-----------------+-----------------------------------------------+-----------+----------|
-| gtd.org_archive | *File time*                                   | *0:25*    |          |
-|                 | DONE 修改完 Editbox, 并且修复完测试提交的 Bug | 0:25      |          |
+#+CAPTION: Clock summary at [2015-09-12 Sat 21:59], for September 2015.
+| File    | Headline                                             | Time       |          |      |
+|---------+------------------------------------------------------+------------+----------+------|
+|         | ALL *Total time*                                     | *2d 15:37* |          |      |
+|---------+------------------------------------------------------+------------+----------+------|
+| gtd.org | *File time*                                          | *2d 15:37* |          |      |
+|         | Cocos2D-X                                            | 1:40       |          |      |
+|         | \_  TODO ListView 添加 Cell 复用  [0%]               |            |     1:40 |      |
+|         | \_    TODO [#A]  研究 Android 的 ListView 的实现方式 |            |          | 0:50 |
+|         | Daily Tasks                                          | 2d 13:57   |          |      |
+|         | \_  TODO Visit Cocos2D-x.org, visit forum            |            |     0:29 |      |
+|         | \_  DONE 完成 Tizen 大会的 Keynote                   |            |    21:21 |      |
+|         | \_  DONE 修复 Android EditBox 的若干 Bug             |            | 1d 15:15 |      |
+|         | \_  DONE [#A]  完成 Tizen 的 fantasy warrior...      |            |     0:27 |      |
+|         | \_  STARTED  写 a 一本关于 Emacs 的书,同时出一些...  |            |     0:25 |      |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -479,5 +526,4 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 : [-WRITING-] 01:56
 : [-LIFE-] 243:35
 : [-PROJECT-] 00:50
-
 
