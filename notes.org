@@ -5,7 +5,7 @@
 #+LATEX_HEADER: \setmainfont{FangSong}
 #+LATEX_HEADER: \usepackage{seqsplit}
 #+TITLE: 零散笔记
-#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
+#+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil  title:t
 #+TAGS: { WORK(w) Emacs(e)  DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
 
 
@@ -806,6 +806,73 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
  
  [2015-09-21 Mon 11:42]
 
+** TODO 使用 Org-mode 绘图                                             :Emacs:
+ http://acaird.github.io/2015/09/04/plots-from-org-mode-tables/
+ 
+ [2015-09-21 Mon 22:25]
+
+** DONE Editor Framework 培训                                     :Fireball:
+CLOSED: [2015-09-22 Tue 16:50]
+- State "DONE"       from "TODO"       [2015-09-22 Tue 16:50]
+ 1. C+Lua 的解决方案 (研究 HTML5 的排版，方案时间太长）
+ 2. RenderProcess 和 MainProcess 通过 ipc 进行通信。
+3. 通过封装 ipc 操作，在窗口管理的基础之上实现了一些方便的函数。
+ [2015-09-22 Tue 14:03]
+
+** TODO  best way to learn javascript
+ https://www.reddit.com/r/javascript/comments/2upyol/learning_js_feedback_or_questions_about_the_sub/
+ 
+ [2015-09-22 Tue 22:10]
+
+** TODO Use org-mode to write a book                                 :Emacs:
+ http://irreal.org/blog/?p=4429
+ 
+ [2015-09-23 Wed 08:56]
+
+** TODO  Js2-mode with Emacs
+ http://mihai.bazon.net/projects/editing-javascript-with-emacs-js2-mode
+ 
+ [2015-09-24 Thu 17:28]
+
+** TODO Create reusable elements with Ploymer                         :WORK:
+SCHEDULED: <2015-10-12 Mon>
+ https://www.polymer-project.org/1.0/docs/start/reusableelements.html
+ 
+ [2015-10-08 Thu 08:16]
+
+** TODO  Learn mocha node.js test framework                           :WORK:
+SCHEDULED: <2015-10-11 Sun>
+ https://mochajs.org/
+http://code.tutsplus.com/tutorials/testing-in-nodejs--net-35018
+http://dailyjs.com/2011/12/08/mocha/
+ 
+ [2015-10-08 Thu 13:36]
+
+** TODO  Learn node.js yeoman framework                               :WORK:
+SCHEDULED: <2015-11-03 Tue>
+ https://github.com/yeoman/yeoman
+ 
+ [2015-10-08 Thu 13:38]
+
+** TODO  Learn Unity UI                                              :Emacs:
+SCHEDULED: <2015-10-08 Thu>
+http://www.raywenderlich.com/category/unity 
+
+ [2015-10-08 Thu 23:38]
+
+** TODO  Learn modern C++ 14 by default                               :WORK:
+https://github.com/isocpp/CppCoreGuidelines
+https://www.youtube.com/watch?v=1OEu9C51K2A
+https://www.youtube.com/watch?v=hEx5DNLWGgA
+ https://isocpp.org/blog/2015/09/bjarne-stroustrup-announces-cpp-core-guidelines
+ 
+ [2015-10-08 Thu 23:49]
+
+** TODO  How to make a pacman with Javscript                         :DREAM:
+ http://www.masswerk.at/JavaPac/pacman-howto.html
+ 
+ [2015-10-08 Thu 23:56]
+
 * Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍的的 Mac 上面无鼠标工作流
@@ -830,8 +897,9 @@ CLOCK: [2015-08-23 Sun 15:16]--[2015-08-23 Sun 15:41] =>  0:25
   
  [2015-08-21 Fri 18:11]
 
-** TODO Blog Idea: 三个 Git 小问题
-
+** DONE Blog Idea: 三个 Git 小问题
+CLOSED: [2015-09-23 Wed 08:57]
+- State "DONE"       from "TODO"       [2015-09-23 Wed 08:57]
 1. 为何仓库里面添加一些大的二进制文件后，仓库大小增长得特别快。
 2. 为何两个分支修改同一个文件的同一行代码，merge 的时候不会冲突。
 3. 为何把两个针对同一文件同一修改的分支 rebase 后，有一个 commit 会优化掉。

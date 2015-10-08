@@ -1,69 +1,30 @@
 #+TITLE: GTD
 #+AUTHOR: guanghui
 #+TAGS: { WORK(w) Emacs(e)  DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
-#+PRIORITIES: A C B
 
-
-* Cocos2D-X                                                    :PROJECT:
+* FireBall                                                          :PROJECT:
 :PROPERTIES:
 :CATEGORY: cocos2d-x
 :END:
 
-** DONE ListView 添加 Cell 复用  [100%]                               :WORK:
-- State "DONE"       from "TODO"       [2015-09-21 Mon 16:54]
-- State "TODO"       from "CANCELLED"  [2015-09-21 Mon 16:54]
-- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
-  move to beijing team
+** TODO  Learn basic Gulp                                             :WORK:
+SCHEDULED: <2015-09-22 Tue 22:00>
+** DONE 制作 cocos2d-runtime-js 的一个 wrapper  [0%]                  :WORK:
+CLOSED: [2015-10-06 Tue 20:43] DEADLINE: <2015-09-25 Fri> SCHEDULED: <2015-09-22 Tue 17:00>
+- State "DONE"       from "STARTED"    [2015-10-06 Tue 20:43]
 :LOGBOOK:
-CLOCK: [2015-09-11 Fri 17:37]--[2015-09-11 Fri 18:02] =>  0:25
-CLOCK: [2015-09-11 Fri 17:07]--[2015-09-11 Fri 17:32] =>  0:25
+CLOCK: [2015-09-25 Fri 14:19]--[2015-09-25 Fri 14:44] =>  0:25
+CLOCK: [2015-09-23 Wed 15:47]--[2015-09-23 Wed 16:12] =>  0:25
 :END:
-*** CANCELLED [#A]  研究 Android 的 ListView 的实现方式
-CLOSED: [2015-09-21 Mon 16:54]
+*** STARTED [#A] 学习 electron
 :LOGBOOK:
-CLOCK: [2015-09-11 Fri 15:19]--[2015-09-11 Fri 15:44] =>  0:25
-CLOCK: [2015-09-11 Fri 14:49]--[2015-09-11 Fri 15:14] =>  0:25
+CLOCK: [2015-09-22 Tue 17:06]--[2015-09-22 Tue 17:31] =>  0:25
 :END:
-*** CANCELLED [#A]  设计 ListView 的接口和实现的功能
-CLOSED: [2015-09-21 Mon 16:53] DEADLINE: <2015-09-11 Fri>
-- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
-  move to beijing team
-*** CANCELLED 提供一些基础的 Adapter: 比如 Sprite Adapter, Label Adpater 等.
-CLOSED: [2015-09-21 Mon 16:54]
-也可以自定义 Adapter
-public int getItemViewType(int position)
-public int getViewTypeCount()
-getView(int, View, ViewGroup)
-  
- [2015-08-25 Tue 17:57]
+[[http://electron.atom.io/docs/latest/tutorial/quick-start/][Quick Start]]
+[[https://github.com/ilyavorobiev/atom-docs/blob/master/atom-shell/Architecture.md][atom-docs/Architecture.md at master · ilyavorobiev/atom-docs]]
+http://electron.atom.io/docs/v0.33.0/
 
-** CANCELLED PageView 添加 Cell 复用                                  :WORK:
-CLOSED: [2015-09-21 Mon 16:53] DEADLINE: <2015-09-18 Fri>
-- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
-  move to beijing team
- [2015-08-25 Tue 17:59]
-
-** DONE iOS EditBox 支持多行输入                                      :WORK:
-CLOSED: [2015-09-15 Tue 10:16] DEADLINE: <2015-09-17 Thu>
-- State "DONE"       from "STARTED"    [2015-09-15 Tue 10:16]
-:LOGBOOK:
-CLOCK: [2015-09-14 Mon 11:07]--[2015-09-14 Mon 11:32] =>  0:25
-CLOCK: [2015-09-14 Mon 10:13]--[2015-09-14 Mon 10:38] =>  0:25
-:END:
-  
- [2015-08-25 Tue 18:02]
-
-** CANCELLED 完善 PageView 的 childFocusCancelOffset                  :WORK:
-CLOSED: [2015-09-21 Mon 16:52] DEADLINE: <2015-09-16 Wed>
-- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:52] \\
-  move to Beijing team
- [2015-08-25 Tue 18:02]
-
-** DONE Slider 添加点击滑动条能够拖动                                 :WORK:
-CLOSED: [2015-09-15 Tue 14:22] DEADLINE: <2015-09-16 Wed>
-- State "DONE"       from "TODO"       [2015-09-15 Tue 14:22]
- [2015-08-25 Tue 18:02]
-
+*** TODO 学习 Wrapper 的原理并且制作出 cc.Editbox 的 wrapper
 
 * Zilongshanren                                                     :PROJECT:
 ** Reading                                                         
@@ -105,8 +66,12 @@ CLOSED: [2015-09-15 Tue 14:22] DEADLINE: <2015-09-16 Wed>
 #+category: Daily
 ** TODO Visit Cocos2D-x.org, visit forum                              :WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-21 Mon 16:47]
+:LAST_REPEAT: [2015-10-08 Thu 00:39]
 :END:
+- State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
+- State "DONE"       from "TODO"       [2015-09-25 Fri 14:19]
+- State "DONE"       from "STARTED"    [2015-09-23 Wed 11:54]
+- State "DONE"       from "TODO"       [2015-09-22 Tue 14:06]
 - State "DONE"       from "STARTED"    [2015-09-21 Mon 16:47]
 - State "DONE"       from "TODO"       [2015-09-15 Tue 09:25]
 - State "DONE"       from "TODO"       [2015-09-14 Mon 10:12]
@@ -132,8 +97,9 @@ CLOSED: [2015-09-15 Tue 14:22] DEADLINE: <2015-09-16 Wed>
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-09-22 Tue 09:30-09:50 .+1d>
+SCHEDULED: <2015-10-09 Fri 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-09-23 Wed 11:36]--[2015-09-23 Wed 11:54] =>  0:18
 CLOCK: [2015-09-21 Mon 16:17]--[2015-09-21 Mon 16:42] =>  0:25
 CLOCK: [2015-09-11 Fri 11:15]--[2015-09-11 Fri 11:19] =>  0:04
 CLOCK: [2015-09-02 Wed 15:15]--[2015-09-02 Wed 15:40] =>  0:25
@@ -160,11 +126,16 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :PROPERTIES:
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
-** TODO Read RSS half an  hour                                        :LIFE:
-SCHEDULED: <2015-09-22 Tue 13:40 .+1d>
+** TODO  Read RSS half an  hour                                   :LIFE:
+SCHEDULED: <2015-10-09 Fri 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-21 Mon 16:14]
+:LAST_REPEAT: [2015-10-08 Thu 00:39]
 :END:
+- State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
+- State "DONE"       from "TODO"       [2015-10-06 Tue 20:43]
+- State "DONE"       from "TODO"       [2015-09-25 Fri 14:19]
+- State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
+- State "DONE"       from "TODO"       [2015-09-22 Tue 14:06]
 - State "DONE"       from "TODO"       [2015-09-21 Mon 16:14]
 - State "DONE"       from "TODO"       [2015-09-15 Tue 09:25]
 - State "DONE"       from "TODO"       [2015-09-12 Sat 21:17]
@@ -254,7 +225,7 @@ SCHEDULED: <2015-10-28 Wed>
 [[http://blog.binchen.org/posts/why-emacs-is-better-editor.html][Why Emacs is better editor - a case study for javascript developer | Chen's blog]]
 [[http://blog.binchen.org/posts/use-which-func-mode-with-js2-mode.html][Use which-func-mode with js2-mode | Chen's blog]]
 
-** STARTED [#B] 修复 Scale9Sprite 进度条缩放的问题                    :WORK:
+** STARTED [#B]  修复 Scale9Sprite 进度条缩放的问题                    :WORK:
 :LOGBOOK:  
 CLOCK: [2015-08-11 Tue 13:55]--[2015-08-11 Tue 14:20] =>  0:25
 CLOCK: [2015-08-10 Mon 17:13]--[2015-08-10 Mon 17:38] =>  0:25
@@ -272,7 +243,7 @@ CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
 [[http://xlambda.com/blog/2010/01/11/customize-calendar-in-emacs/][在 emacs calendar 中定制中国农历节日 - X lambda]]
 
 
-** TODO [#C]  阅读[[http://sachachua.com/blog/2008/01/projects-in-emacs-org/][Projects in Emacs Org - sacha chua :: living an awesome life]]
+** TODO [#B]  阅读[[http://sachachua.com/blog/2008/01/projects-in-emacs-org/][Projects in Emacs Org - sacha chua :: living an awesome life]]
 
 ** TODO Org Custom command 支持过滤掉一些 habit 的任务.                :Emacs:
 比如重要且非常紧急的任务,应该是已经 schedule 的,但是不是 habit 任务
@@ -290,82 +261,78 @@ CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 
 ** TODO  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
 
-** DONE 完成 Tizen 大会的 Keynote                                     :WORK:
-CLOSED: [2015-09-10 Thu 09:41] SCHEDULED: <2015-08-27 Thu> DEADLINE: <2015-09-08 Tue>
-:PROPERTIES:
-:dir:      /root@cocos:
-:END:
-- State "DONE"       from "STARTED"    [2015-09-10 Thu 09:41]
-:LOGBOOK:
-CLOCK: [2015-09-07 Mon 16:22]--[2015-09-07 Mon 16:47] =>  0:25
-CLOCK: [2015-09-07 Mon 15:52]--[2015-09-07 Mon 16:17] =>  0:25
-CLOCK: [2015-09-07 Mon 09:50]--[2015-09-07 Mon 10:15] =>  0:25
-CLOCK: [2015-09-06 Sun 13:44]--[2015-09-07 Mon 09:50] => 20:06
-CLOCK: [2015-08-28 Fri 10:03]--[2015-08-28 Fri 10:28] =>  0:25
-:END:
- mailto:tdc.session@cheil.com
-- Tizen Open Sourced 
-- primarily focused on mobile and in-vehicle infotainment the past few years.
-- 会议主题: Tizen, The Best Way to Connect Everything (Internet of Things)
-- Other speakers:
-Breakthrough Games with Tizen
-Qingli Wang (Samsung)
-Location: Auditorium
-Track: Game
-DETAILS AND MEDIA
-Games enable developers to see what potential can hardware, software, and platforms can do.
- The game app market is also a main source of profit for some 3rd party companies.
- In this session, the basics of Game Development using Tizen will be discussed.
- This would also include Game Porting Solutions, Review Rendering Architecture, Performance Enhancement, and monetization.
-
-
-Session 题目/简要，发表人信息，履历，相片
-
-
-** TODO  订回厦门的火车票                                            :OTHER:
-SCHEDULED: <2015-09-18 Fri>
-
 ** TODO  Read the Book <The Art of Unix Programming>
 [[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
 
-** DONE 修复 Android EditBox 的若干 Bug                               :WORK:
-CLOSED: [2015-09-02 Wed 15:14] SCHEDULED: <2015-08-31 Mon 10:20>
-- State "DONE"       from "STARTED"    [2015-09-02 Wed 15:14]
+** TODO  Learn Javascript                                             :WORK:
+SCHEDULED: <2015-10-10 Sat>
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+http://eloquentjavascript.net/
+https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
+https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
+http://exploringjs.com/es6/
+
+** DONE Learn JS scope chain and closures workshop                    :WORK:
+CLOSED: [2015-09-23 Wed 15:42] SCHEDULED: <2015-09-23 Wed 13:30>
+- State "DONE"       from "STARTED"    [2015-09-23 Wed 15:42]
 :LOGBOOK:
-CLOCK: [2015-08-31 Mon 10:46]--[2015-09-02 Wed 15:15] => 52:29
-CLOCK: [2015-08-31 Mon 10:32]--[2015-08-31 Mon 10:46] =>  0:14
-CLOCK: [2015-08-31 Mon 10:16]--[2015-08-31 Mon 10:32] =>  0:16
+CLOCK: [2015-09-23 Wed 14:41]--[2015-09-23 Wed 15:06] =>  0:25
+CLOCK: [2015-09-23 Wed 14:04]--[2015-09-23 Wed 14:29] =>  0:25
+CLOCK: [2015-09-23 Wed 13:27]--[2015-09-23 Wed 13:52] =>  0:25
 :END:
 
-** DONE [#A]  完成 Tizen 的 fantasy warrior 的移植                    :WORK:
-CLOSED: [2015-09-11 Fri 11:20] SCHEDULED: <2015-09-10 Thu 09:54>
-- State "DONE"       from "STARTED"    [2015-09-11 Fri 11:20]
+** TODO  Add Evil visual mark mode and related toggles               :Emacs:
+
+** TODO  Learn Javascript command line API.                           :WORK:
+
+** TODO  Learn Ploymer Starter Kit                                    :WORK:
+https://developers.google.com/web/tools/polymer-starter-kit/
+SCHEDULED: <2015-10-10 Sat>
+
+** DONE Add Chrome refresh function from browser refresh             :Emacs:
+CLOSED: [2015-10-08 Thu 21:10] SCHEDULED: <2015-10-08 Thu 22:00>
+- State "DONE"       from "STARTED"    [2015-10-08 Thu 21:10]
 :LOGBOOK:
-CLOCK: [2015-09-10 Thu 09:53]--[2015-09-10 Thu 10:20] =>  0:27
+CLOCK: [2015-10-08 Thu 19:43]--[2015-10-08 Thu 20:08] =>  0:25
 :END:
 
-** DONE [#B] 实现一个 shadowsocks 的代理 minor mode                  :Emacs:
-CLOSED: [2015-09-12 Sat 14:42]
-- State "DONE"       from "TODO"       [2015-09-12 Sat 14:42]
-
-** DONE 移除 zilongshanren/retrieve-chrome-current-tab-url 两边的引号
-CLOSED: [2015-09-14 Mon 10:12] SCHEDULED: <2015-09-14 Mon 14:00>
-- State "DONE"       from "TODO"       [2015-09-14 Mon 10:12]
-** DONE Fix Xcode 7 Linker error                                      :WORK:
-CLOSED: [2015-09-15 Tue 13:50] SCHEDULED: <2015-09-14 Mon 09:30>
-- State "DONE"       from "STARTED"    [2015-09-15 Tue 13:50]
+** STARTED Create a file-browser package                              :WORK:
+SCHEDULED: <2015-10-08 Thu 09:30>
 :LOGBOOK:
-CLOCK: [2015-09-15 Tue 10:20]--[2015-09-15 Tue 10:45] =>  0:25
-CLOCK: [2015-09-14 Mon 09:30]--[2015-09-14 Mon 09:55] =>  0:25
+CLOCK: [2015-10-08 Thu 18:11]--[2015-10-08 Thu 18:36] =>  0:25
+CLOCK: [2015-10-08 Thu 17:14]--[2015-10-08 Thu 17:39] =>  0:25
+CLOCK: [2015-10-08 Thu 15:08]--[2015-10-08 Thu 15:33] =>  0:25
+CLOCK: [2015-10-08 Thu 09:24]--[2015-10-08 Thu 09:49] =>  0:25
 :END:
+
+** DONE Tweak the projectile find file with multiple git repositories. :Emacs:
+CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:30>
+- State "DONE"       from "TODO"       [2015-10-08 Thu 23:32]
+** DONE Do exercise for 30 minutes                                    :LIFE:
+CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:15>
+- State "DONE"       from "STARTED"    [2015-10-08 Thu 23:32]
+:LOGBOOK:
+CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
+:END:
+
 
 * Weekly Tasks
 #+category: Weekly
-** TODO Write a Blog, no matter English or Chinese                    :LIFE:
-SCHEDULED: <2015-09-11 Fri .+7d/8d>
+** TODO Update upstream from Spacemacs and update all the packages from melpa and fix possible issues
+SCHEDULED: <2015-10-15 Thu .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-04 Fri 11:51]
+:LAST_REPEAT: [2015-10-08 Thu 11:39]
 :END:
+- State "DONE"       from "TODO"       [2015-10-08 Thu 11:39]
+** TODO Write a Blog, no matter English or Chinese                    :LIFE:
+SCHEDULED: <2015-09-30 Wed .+7d/8d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-09-23 Wed 11:54]
+:END:
+- State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
+- State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
+- State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
+- State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
 - State "DONE"       from "STARTED"    [2015-09-04 Fri 11:51]
 - State "DONE"       from "TODO"       [2015-08-25 Tue 16:57]
 - State "DONE"       from "TODO"       [2015-08-18 Tue 13:36]
@@ -391,10 +358,11 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
 ** TODO Call my mum                                                   :LIFE:
-SCHEDULED: <2015-09-28 Mon 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-10-13 Tue 10:00-10:30 .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-21 Mon 16:14]
+:LAST_REPEAT: [2015-10-06 Tue 20:43]
 :END:
+- State "DONE"       from "TODO"       [2015-10-06 Tue 20:43]
 - State "DONE"       from "TODO"       [2015-09-21 Mon 16:14]
 - State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
 - State "DONE"       from "TODO"       [2015-09-01 Tue 10:33]
@@ -449,14 +417,10 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-09-12 Sat 21:59], for Saturday, September 12, 2015.
-| File    | Headline                                            | Time   |      |
-|---------+-----------------------------------------------------+--------+------|
-|         | ALL *Total time*                                    | *0:25* |      |
-|---------+-----------------------------------------------------+--------+------|
-| gtd.org | *File time*                                         | *0:25* |      |
-|         | Daily Tasks                                         | 0:25   |      |
-|         | \_  STARTED  写 a 一本关于 Emacs 的书,同时出一些... |        | 0:25 |
+#+CAPTION: Clock summary at [2015-09-22 Tue 16:56], for Tuesday, September 22, 2015.
+| File | Headline         | Time   |
+|------+------------------+--------|
+|      | ALL *Total time* | *0:00* |
 #+END:
 #+BEGIN_SRC emacs-lisp :results value
 ;; (setq week-range (org-clock-special-range 'today nil t))

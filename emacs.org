@@ -144,7 +144,6 @@ CLOSED: [2015-08-06 Thu 15:10] SCHEDULED: <2015-08-05 Wed 22:00>
 *** Use Emacs as an Git conflicts resolving tools.
 [[http://emacsclub.github.io/html/emerge.html][Use Emerge]] to resolve conflicts.
 
-** read pdf
 ** STARTED read email [50%]
 
    :LOGBOOK:
@@ -238,7 +237,7 @@ Entered on [2013-11-02 Sat 22:30]
 [[https://www.youtube.com/watch?v%3DRvPFZL6NJNQ#t%3D15][Emacs Lisp Development - John Wiegley - Emacs Conference 2013 - YouTube]]
 * Quick notes
 
-** TODO Add Unity3D C# support
+** TODO Add Unity3D C# support                                       :Emacs:
 
     [[https://bbbscarter.wordpress.com/2013/08/17/c-autocompletion-in-emacs/][C# autocompletion in Emacs | Nerdgasm]]
 [[https://bbbscarter.wordpress.com/][Nerdgasm | Brainfarts from an ageing games coder]]
