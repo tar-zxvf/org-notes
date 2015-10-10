@@ -7,6 +7,14 @@
 :CATEGORY: cocos2d-x
 :END:
 
+** TODO [#B]  Learn some how to extend Unity new GUI.                 :WORK:
+SCHEDULED: <2015-10-10 Sat .+1d>
+
+1. Understand the source code 
+
+2. Tweak the Source code 
+
+3. Learn how to extend the editor.
 ** TODO  Learn Typescript and Egret GUI and Pixi GUI                  :WORK:
 1. Learn some basic Typescript and set Emacs MacOS X dev env
 
@@ -16,8 +24,6 @@
 SCHEDULED: <2015-10-10 Sat 21:00 .+1d>
 
 
-** TODO  Learn basic Gulp                                             :WORK:
-SCHEDULED: <2015-09-22 Tue 22:00>
 * Zilongshanren                                                     :PROJECT:
 ** Reading                                                         
 *** TODO   Read <<SCIP>> books                           
@@ -56,10 +62,12 @@ SCHEDULED: <2015-09-22 Tue 22:00>
 :END:
 * Daily Tasks
 #+category: Daily
+** TODO  Learn basic Gulp                                             :WORK:
 ** TODO Visit Cocos2D-x.org, visit forum                              :WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-09 Fri 09:30]
+:LAST_REPEAT: [2015-10-10 Sat 14:40]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-10 Sat 14:40]
 - State "DONE"       from "STARTED"    [2015-10-09 Fri 09:30]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
 - State "DONE"       from "TODO"       [2015-09-25 Fri 14:19]
@@ -90,8 +98,9 @@ SCHEDULED: <2015-09-22 Tue 22:00>
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-10-10 Sat 09:30-09:50 .+1d>
+SCHEDULED: <2015-10-11 Sun 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-10-10 Sat 13:43]--[2015-10-10 Sat 14:08] =>  0:25
 CLOCK: [2015-10-09 Fri 08:14]--[2015-10-09 Fri 08:39] =>  0:25
 CLOCK: [2015-09-23 Wed 11:36]--[2015-09-23 Wed 11:54] =>  0:18
 CLOCK: [2015-09-21 Mon 16:17]--[2015-09-21 Mon 16:42] =>  0:25
@@ -121,10 +130,11 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
 ** TODO Read RSS half an  hour                                        :LIFE:
-SCHEDULED: <2015-10-10 Sat 13:40 .+1d>
+SCHEDULED: <2015-10-11 Sun 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-09 Fri 09:30]
+:LAST_REPEAT: [2015-10-10 Sat 11:08]
 :END:
+- State "DONE"       from "TODO"       [2015-10-10 Sat 11:08]
 - State "DONE"       from "TODO"       [2015-10-09 Fri 09:30]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
 - State "DONE"       from "TODO"       [2015-10-06 Tue 20:43]
@@ -259,7 +269,7 @@ CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 ** TODO  Read the Book <The Art of Unix Programming>
 [[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
 
-** TODO  Learn Javascript                                             :WORK:
+** TODO [#B]  Learn Javascript                                        :WORK:
 SCHEDULED: <2015-10-10 Sat>
 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
 http://eloquentjavascript.net/
@@ -273,9 +283,8 @@ http://exploringjs.com/es6/
 
 ** TODO  Learn Ploymer Starter Kit                                    :WORK:
 https://developers.google.com/web/tools/polymer-starter-kit/
-SCHEDULED: <2015-10-10 Sat>
 
-** STARTED Create a file-browser package                              :WORK:
+** STARTED [#B] Create a file-browser package                         :WORK:
 SCHEDULED: <2015-10-08 Thu 09:30>
 :LOGBOOK:
 CLOCK: [2015-10-09 Fri 11:53]--[2015-10-09 Fri 12:18] =>  0:25
@@ -295,13 +304,15 @@ CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:15>
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
+** TODO [#A]  讨论并定义新的 UI 框架的核心组件和功能组件是哪些？      :WORK:
+
 * Weekly Tasks
 #+category: Weekly
-** TODO  Record a Spacemacs rocks video.                             :Emacs:
+** TODO [#B]  Record a Spacemacs rocks video.                        :Emacs:
+SCHEDULED: <2015-10-10 Sat .+6d/7d>
 1. The video should be within 5 min.
 
 2. It should demo a specific feature of Spacemacs
-SCHEDULED: <2015-10-10 Sat .+6d/7d>
 
 
 
@@ -404,11 +415,20 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-09-22 Tue 16:56], for Tuesday, September 22, 2015.
-| File | Headline         | Time   |
-|------+------------------+--------|
-|      | ALL *Total time* | *0:00* |
+#+CAPTION: Clock summary at [2015-10-10 Sat 18:32], for Saturday, October 10, 2015.
+| File      | Headline                                  | Time   |      |
+|-----------+-------------------------------------------+--------+------|
+|           | ALL *Total time*                          | *2:55* |      |
+|-----------+-------------------------------------------+--------+------|
+| gtd.org   | *File time*                               | *0:25* |      |
+|           | Daily Tasks                               | 0:25   |      |
+|           | \_  TODO Visit Cocos2D-x.org, visit forum |        | 0:25 |
+|-----------+-------------------------------------------+--------+------|
+| notes.org | *File time*                               | *2:30* |      |
+|           | Quick notes                               | 2:30   |      |
+|           | \_  DONE Learn Unity UI                   |        | 2:30 |
 #+END:
+
 #+BEGIN_SRC emacs-lisp :results value
 ;; (setq week-range (org-clock-special-range 'today nil t))
 ;; (org-clock-sum-today-by-tags nil (nth 0 week-range) (nth 1 week-range) t)
@@ -420,20 +440,23 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 # The following section is used for Weekly Review
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-09-12 Sat 21:59], for week 2015-W37.
-| File    | Headline                                             | Time    |       |      |
-|---------+------------------------------------------------------+---------+-------+------|
-|         | ALL *Total time*                                     | *13:41* |       |      |
-|---------+------------------------------------------------------+---------+-------+------|
-| gtd.org | *File time*                                          | *13:41* |       |      |
-|         | Cocos2D-X                                            | 1:40    |       |      |
-|         | \_  TODO ListView 添加 Cell 复用  [0%]               |         |  1:40 |      |
-|         | \_    TODO [#A]  研究 Android 的 ListView 的实现方式 |         |       | 0:50 |
-|         | Daily Tasks                                          | 12:01   |       |      |
-|         | \_  TODO Visit Cocos2D-x.org, visit forum            |         |  0:04 |      |
-|         | \_  DONE 完成 Tizen 大会的 Keynote                   |         | 11:05 |      |
-|         | \_  DONE [#A]  完成 Tizen 的 fantasy warrior...      |         |  0:27 |      |
-|         | \_  STARTED  写 a 一本关于 Emacs 的书,同时出一些...  |         |  0:25 |      |
+#+CAPTION: Clock summary at [2015-10-10 Sat 18:30], for week 2015-W41.
+| File            | Headline                                  | Time   |      |
+|-----------------+-------------------------------------------+--------+------|
+|                 | ALL *Total time*                          | *9:11* |      |
+|-----------------+-------------------------------------------+--------+------|
+| gtd.org         | *File time*                               | *4:36* |      |
+|                 | Daily Tasks                               | 4:36   |      |
+|                 | \_  TODO Visit Cocos2D-x.org, visit forum |        | 0:50 |
+|                 | \_  STARTED [#B] Create a file-browser... |        | 3:21 |
+|                 | \_  DONE Do exercise for 30 minutes       |        | 0:25 |
+|-----------------+-------------------------------------------+--------+------|
+| gtd.org_archive | *File time*                               | *0:25* |      |
+|                 | DONE Add Chrome refresh function from...  | 0:25   |      |
+|-----------------+-------------------------------------------+--------+------|
+| notes.org       | *File time*                               | *4:10* |      |
+|                 | Quick notes                               | 4:10   |      |
+|                 | \_  DONE Learn Unity UI                   |        | 4:10 |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -442,39 +465,38 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 #+END_SRC
 
 #+RESULTS:
-: [-WORK-] 00:02
-: [-LIFE-] 31:49
+: [-WORK-] 04:11
+: [-LIFE-] 00:25
 
 
 # The following section is used for Monthly Review
 * Monthly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thismonth :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-09-12 Sat 21:59], for September 2015.
-| File    | Headline                                             | Time       |          |      |
-|---------+------------------------------------------------------+------------+----------+------|
-|         | ALL *Total time*                                     | *2d 15:37* |          |      |
-|---------+------------------------------------------------------+------------+----------+------|
-| gtd.org | *File time*                                          | *2d 15:37* |          |      |
-|         | Cocos2D-X                                            | 1:40       |          |      |
-|         | \_  TODO ListView 添加 Cell 复用  [0%]               |            |     1:40 |      |
-|         | \_    TODO [#A]  研究 Android 的 ListView 的实现方式 |            |          | 0:50 |
-|         | Daily Tasks                                          | 2d 13:57   |          |      |
-|         | \_  TODO Visit Cocos2D-x.org, visit forum            |            |     0:29 |      |
-|         | \_  DONE 完成 Tizen 大会的 Keynote                   |            |    21:21 |      |
-|         | \_  DONE 修复 Android EditBox 的若干 Bug             |            | 1d 15:15 |      |
-|         | \_  DONE [#A]  完成 Tizen 的 fantasy warrior...      |            |     0:27 |      |
-|         | \_  STARTED  写 a 一本关于 Emacs 的书,同时出一些...  |            |     0:25 |      |
+#+CAPTION: Clock summary at [2015-10-10 Sat 18:30], for October 2015.
+| File            | Headline                                  | Time   |      |
+|-----------------+-------------------------------------------+--------+------|
+|                 | ALL *Total time*                          | *9:11* |      |
+|-----------------+-------------------------------------------+--------+------|
+| gtd.org         | *File time*                               | *4:36* |      |
+|                 | Daily Tasks                               | 4:36   |      |
+|                 | \_  TODO Visit Cocos2D-x.org, visit forum |        | 0:50 |
+|                 | \_  STARTED [#B] Create a file-browser... |        | 3:21 |
+|                 | \_  DONE Do exercise for 30 minutes       |        | 0:25 |
+|-----------------+-------------------------------------------+--------+------|
+| gtd.org_archive | *File time*                               | *0:25* |      |
+|                 | DONE Add Chrome refresh function from...  | 0:25   |      |
+|-----------------+-------------------------------------------+--------+------|
+| notes.org       | *File time*                               | *4:10* |      |
+|                 | Quick notes                               | 4:10   |      |
+|                 | \_  DONE Learn Unity UI                   |        | 4:10 |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
-(setq week-range (org-clock-special-range 'thisyear nil t))
+(setq week-range (org-clock-special-range 'thismonth nil t))
 (org-clock-sum-today-by-tags nil (nth 0 week-range) (nth 1 week-range) t)
 #+END_SRC
 
 #+RESULTS:
-: [-WORK-] 1059:35
-: [-DREAM-] 01:40
-: [-WRITING-] 01:56
-: [-LIFE-] 243:35
-: [-PROJECT-] 00:50
+: [-WORK-] 04:11
+: [-LIFE-] 00:25
 

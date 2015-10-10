@@ -854,9 +854,14 @@ SCHEDULED: <2015-11-03 Tue>
  
  [2015-10-08 Thu 13:38]
 
-** STARTED Learn Unity UI                                            :Emacs:
-SCHEDULED: <2015-10-08 Thu>
+** DONE Learn Unity UI                                               :Emacs:
+CLOSED: [2015-10-10 Sat 16:47] SCHEDULED: <2015-10-08 Thu>
+- State "DONE"       from "STARTED"    [2015-10-10 Sat 16:47]
 :LOGBOOK:
+CLOCK: [2015-10-10 Sat 15:45]--[2015-10-10 Sat 16:10] =>  0:25
+CLOCK: [2015-10-10 Sat 15:11]--[2015-10-10 Sat 15:36] =>  0:25
+CLOCK: [2015-10-10 Sat 14:41]--[2015-10-10 Sat 15:06] =>  0:25
+CLOCK: [2015-10-10 Sat 11:11]--[2015-10-10 Sat 11:36] =>  0:25
 CLOCK: [2015-10-10 Sat 10:03]--[2015-10-10 Sat 10:28] =>  0:25
 CLOCK: [2015-10-10 Sat 09:20]--[2015-10-10 Sat 09:45] =>  0:25
 CLOCK: [2015-10-09 Fri 20:18]--[2015-10-09 Fri 20:43] =>  0:25
@@ -887,10 +892,16 @@ SCHEDULED: <2015-10-09 Fri 21:00-24:00>
  
  [2015-10-09 Fri 17:39]
 
-** TODO Learn more Unity GUI tutorials                                :WORK:
+** TODO [#A] Learn more Unity GUI tutorials                           :WORK:
+SCHEDULED: <2015-10-10 Sat>
  http://www.thegamecontriver.com/p/ugui.html
  
  [2015-10-10 Sat 10:44]
+
+** TODO [#A]  Learn some basic NGUI usage                             :WORK:
+SCHEDULED: <2015-10-10 Sat>
+http://www.tasharen.com/forum/index.php?topic=6754 
+ [2015-10-10 Sat 14:57]
 
 * Blog Ideas                                                          :BLOG:
 
