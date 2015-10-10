@@ -7,25 +7,17 @@
 :CATEGORY: cocos2d-x
 :END:
 
+** TODO  Learn Typescript and Egret GUI and Pixi GUI                  :WORK:
+1. Learn some basic Typescript and set Emacs MacOS X dev env
+
+2. Learn Egret GUI and write some code.
+
+3. Learn Pixi GUI and write some code
+SCHEDULED: <2015-10-10 Sat 21:00 .+1d>
+
+
 ** TODO  Learn basic Gulp                                             :WORK:
 SCHEDULED: <2015-09-22 Tue 22:00>
-** DONE 制作 cocos2d-runtime-js 的一个 wrapper  [0%]                  :WORK:
-CLOSED: [2015-10-06 Tue 20:43] DEADLINE: <2015-09-25 Fri> SCHEDULED: <2015-09-22 Tue 17:00>
-- State "DONE"       from "STARTED"    [2015-10-06 Tue 20:43]
-:LOGBOOK:
-CLOCK: [2015-09-25 Fri 14:19]--[2015-09-25 Fri 14:44] =>  0:25
-CLOCK: [2015-09-23 Wed 15:47]--[2015-09-23 Wed 16:12] =>  0:25
-:END:
-*** STARTED [#A] 学习 electron
-:LOGBOOK:
-CLOCK: [2015-09-22 Tue 17:06]--[2015-09-22 Tue 17:31] =>  0:25
-:END:
-[[http://electron.atom.io/docs/latest/tutorial/quick-start/][Quick Start]]
-[[https://github.com/ilyavorobiev/atom-docs/blob/master/atom-shell/Architecture.md][atom-docs/Architecture.md at master · ilyavorobiev/atom-docs]]
-http://electron.atom.io/docs/v0.33.0/
-
-*** TODO 学习 Wrapper 的原理并且制作出 cc.Editbox 的 wrapper
-
 * Zilongshanren                                                     :PROJECT:
 ** Reading                                                         
 *** TODO   Read <<SCIP>> books                           
@@ -66,8 +58,9 @@ http://electron.atom.io/docs/v0.33.0/
 #+category: Daily
 ** TODO Visit Cocos2D-x.org, visit forum                              :WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-08 Thu 00:39]
+:LAST_REPEAT: [2015-10-09 Fri 09:30]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-09 Fri 09:30]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
 - State "DONE"       from "TODO"       [2015-09-25 Fri 14:19]
 - State "DONE"       from "STARTED"    [2015-09-23 Wed 11:54]
@@ -97,8 +90,9 @@ http://electron.atom.io/docs/v0.33.0/
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 http://www.cocos2d-x.org
-SCHEDULED: <2015-10-09 Fri 09:30-09:50 .+1d>
+SCHEDULED: <2015-10-10 Sat 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-10-09 Fri 08:14]--[2015-10-09 Fri 08:39] =>  0:25
 CLOCK: [2015-09-23 Wed 11:36]--[2015-09-23 Wed 11:54] =>  0:18
 CLOCK: [2015-09-21 Mon 16:17]--[2015-09-21 Mon 16:42] =>  0:25
 CLOCK: [2015-09-11 Fri 11:15]--[2015-09-11 Fri 11:19] =>  0:04
@@ -126,11 +120,12 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :PROPERTIES:
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
-** TODO  Read RSS half an  hour                                   :LIFE:
-SCHEDULED: <2015-10-09 Fri 13:40 .+1d>
+** TODO Read RSS half an  hour                                        :LIFE:
+SCHEDULED: <2015-10-10 Sat 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-08 Thu 00:39]
+:LAST_REPEAT: [2015-10-09 Fri 09:30]
 :END:
+- State "DONE"       from "TODO"       [2015-10-09 Fri 09:30]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
 - State "DONE"       from "TODO"       [2015-10-06 Tue 20:43]
 - State "DONE"       from "TODO"       [2015-09-25 Fri 14:19]
@@ -272,15 +267,6 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.m
 https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
 http://exploringjs.com/es6/
 
-** DONE Learn JS scope chain and closures workshop                    :WORK:
-CLOSED: [2015-09-23 Wed 15:42] SCHEDULED: <2015-09-23 Wed 13:30>
-- State "DONE"       from "STARTED"    [2015-09-23 Wed 15:42]
-:LOGBOOK:
-CLOCK: [2015-09-23 Wed 14:41]--[2015-09-23 Wed 15:06] =>  0:25
-CLOCK: [2015-09-23 Wed 14:04]--[2015-09-23 Wed 14:29] =>  0:25
-CLOCK: [2015-09-23 Wed 13:27]--[2015-09-23 Wed 13:52] =>  0:25
-:END:
-
 ** TODO  Add Evil visual mark mode and related toggles               :Emacs:
 
 ** TODO  Learn Javascript command line API.                           :WORK:
@@ -289,25 +275,19 @@ CLOCK: [2015-09-23 Wed 13:27]--[2015-09-23 Wed 13:52] =>  0:25
 https://developers.google.com/web/tools/polymer-starter-kit/
 SCHEDULED: <2015-10-10 Sat>
 
-** DONE Add Chrome refresh function from browser refresh             :Emacs:
-CLOSED: [2015-10-08 Thu 21:10] SCHEDULED: <2015-10-08 Thu 22:00>
-- State "DONE"       from "STARTED"    [2015-10-08 Thu 21:10]
-:LOGBOOK:
-CLOCK: [2015-10-08 Thu 19:43]--[2015-10-08 Thu 20:08] =>  0:25
-:END:
-
 ** STARTED Create a file-browser package                              :WORK:
 SCHEDULED: <2015-10-08 Thu 09:30>
 :LOGBOOK:
+CLOCK: [2015-10-09 Fri 11:53]--[2015-10-09 Fri 12:18] =>  0:25
+CLOCK: [2015-10-09 Fri 11:08]--[2015-10-09 Fri 11:33] =>  0:25
+CLOCK: [2015-10-09 Fri 10:22]--[2015-10-09 Fri 10:48] =>  0:26
+CLOCK: [2015-10-09 Fri 09:30]--[2015-10-09 Fri 09:55] =>  0:25
 CLOCK: [2015-10-08 Thu 18:11]--[2015-10-08 Thu 18:36] =>  0:25
 CLOCK: [2015-10-08 Thu 17:14]--[2015-10-08 Thu 17:39] =>  0:25
 CLOCK: [2015-10-08 Thu 15:08]--[2015-10-08 Thu 15:33] =>  0:25
 CLOCK: [2015-10-08 Thu 09:24]--[2015-10-08 Thu 09:49] =>  0:25
 :END:
 
-** DONE Tweak the projectile find file with multiple git repositories. :Emacs:
-CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:30>
-- State "DONE"       from "TODO"       [2015-10-08 Thu 23:32]
 ** DONE Do exercise for 30 minutes                                    :LIFE:
 CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:15>
 - State "DONE"       from "STARTED"    [2015-10-08 Thu 23:32]
@@ -315,9 +295,16 @@ CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:15>
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
-
 * Weekly Tasks
 #+category: Weekly
+** TODO  Record a Spacemacs rocks video.                             :Emacs:
+1. The video should be within 5 min.
+
+2. It should demo a specific feature of Spacemacs
+SCHEDULED: <2015-10-10 Sat .+6d/7d>
+
+
+
 ** TODO Update upstream from Spacemacs and update all the packages from melpa and fix possible issues
 SCHEDULED: <2015-10-15 Thu .+7d/8d>
 :PROPERTIES:

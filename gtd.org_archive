@@ -5295,3 +5295,72 @@ CLOSED: [2015-09-23 Wed 10:11] SCHEDULED: <2015-09-23 Wed>
 :ARCHIVE_TODO: DONE
 :END:
 - State "DONE"       from "TODO"       [2015-09-23 Wed 10:11]
+
+* DONE 制作 cocos2d-runtime-js 的一个 wrapper  [0%]                    :WORK:
+CLOSED: [2015-10-06 Tue 20:43] DEADLINE: <2015-09-25 Fri> SCHEDULED: <2015-09-22 Tue 17:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-10 Sat 11:01
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: FireBall
+:ARCHIVE_CATEGORY: cocos2d-x
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: PROJECT
+:END:
+- State "DONE"       from "STARTED"    [2015-10-06 Tue 20:43]
+:LOGBOOK:
+CLOCK: [2015-09-25 Fri 14:19]--[2015-09-25 Fri 14:44] =>  0:25
+CLOCK: [2015-09-23 Wed 15:47]--[2015-09-23 Wed 16:12] =>  0:25
+:END:
+** STARTED [#A] 学习 electron
+:LOGBOOK:
+CLOCK: [2015-09-22 Tue 17:06]--[2015-09-22 Tue 17:31] =>  0:25
+:END:
+[[http://electron.atom.io/docs/latest/tutorial/quick-start/][Quick Start]]
+[[https://github.com/ilyavorobiev/atom-docs/blob/master/atom-shell/Architecture.md][atom-docs/Architecture.md at master · ilyavorobiev/atom-docs]]
+http://electron.atom.io/docs/v0.33.0/
+
+** TODO 学习 Wrapper 的原理并且制作出 cc.Editbox 的 wrapper
+
+
+* DONE Learn JS scope chain and closures workshop                      :WORK:
+CLOSED: [2015-09-23 Wed 15:42] SCHEDULED: <2015-09-23 Wed 13:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-10 Sat 11:01
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-09-23 Wed 15:42]
+:LOGBOOK:
+CLOCK: [2015-09-23 Wed 14:41]--[2015-09-23 Wed 15:06] =>  0:25
+CLOCK: [2015-09-23 Wed 14:04]--[2015-09-23 Wed 14:29] =>  0:25
+CLOCK: [2015-09-23 Wed 13:27]--[2015-09-23 Wed 13:52] =>  0:25
+:END:
+
+
+* DONE Add Chrome refresh function from browser refresh               :Emacs:
+CLOSED: [2015-10-08 Thu 21:10] SCHEDULED: <2015-10-08 Thu 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-10 Sat 11:01
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-08 Thu 21:10]
+:LOGBOOK:
+CLOCK: [2015-10-08 Thu 19:43]--[2015-10-08 Thu 20:08] =>  0:25
+:END:
+
+
+* DONE Tweak the projectile find file with multiple git repositories. :Emacs:
+CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-10 Sat 11:01
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "TODO"       [2015-10-08 Thu 23:32]

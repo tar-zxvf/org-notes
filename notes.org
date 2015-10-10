@@ -854,8 +854,16 @@ SCHEDULED: <2015-11-03 Tue>
  
  [2015-10-08 Thu 13:38]
 
-** TODO  Learn Unity UI                                              :Emacs:
+** STARTED Learn Unity UI                                            :Emacs:
 SCHEDULED: <2015-10-08 Thu>
+:LOGBOOK:
+CLOCK: [2015-10-10 Sat 10:03]--[2015-10-10 Sat 10:28] =>  0:25
+CLOCK: [2015-10-10 Sat 09:20]--[2015-10-10 Sat 09:45] =>  0:25
+CLOCK: [2015-10-09 Fri 20:18]--[2015-10-09 Fri 20:43] =>  0:25
+CLOCK: [2015-10-09 Fri 19:27]--[2015-10-09 Fri 19:52] =>  0:25
+CLOCK: [2015-10-09 Fri 17:40]--[2015-10-09 Fri 18:05] =>  0:25
+CLOCK: [2015-10-09 Fri 13:51]--[2015-10-09 Fri 14:16] =>  0:25
+:END:
 http://www.raywenderlich.com/category/unity 
 
  [2015-10-08 Thu 23:38]
@@ -870,8 +878,19 @@ https://www.youtube.com/watch?v=hEx5DNLWGgA
 
 ** TODO  How to make a pacman with Javscript                         :DREAM:
  http://www.masswerk.at/JavaPac/pacman-howto.html
- 
+http://home.comcast.net/~jpittman2/pacman/pacmandossier.html 
  [2015-10-08 Thu 23:56]
+
+** TODO  Finish A Unity tutorial 
+SCHEDULED: <2015-10-09 Fri 21:00-24:00>
+ http://www.raywenderlich.com/79031/unity-new-gui-tutorial-part-2
+ 
+ [2015-10-09 Fri 17:39]
+
+** TODO Learn more Unity GUI tutorials                                :WORK:
+ http://www.thegamecontriver.com/p/ugui.html
+ 
+ [2015-10-10 Sat 10:44]
 
 * Blog Ideas                                                          :BLOG:
 
