@@ -835,13 +835,11 @@ CLOSED: [2015-09-22 Tue 16:50]
  [2015-09-24 Thu 17:28]
 
 ** TODO Create reusable elements with Ploymer                         :WORK:
-SCHEDULED: <2015-10-12 Mon>
  https://www.polymer-project.org/1.0/docs/start/reusableelements.html
  
  [2015-10-08 Thu 08:16]
 
 ** TODO  Learn mocha node.js test framework                           :WORK:
-SCHEDULED: <2015-10-11 Sun>
  https://mochajs.org/
 http://code.tutsplus.com/tutorials/testing-in-nodejs--net-35018
 http://dailyjs.com/2011/12/08/mocha/
@@ -886,22 +884,24 @@ https://www.youtube.com/watch?v=hEx5DNLWGgA
 http://home.comcast.net/~jpittman2/pacman/pacmandossier.html 
  [2015-10-08 Thu 23:56]
 
-** TODO  Finish A Unity tutorial 
-SCHEDULED: <2015-10-09 Fri 21:00-24:00>
+** TODO [#B]  Finish A Unity tutorial 
  http://www.raywenderlich.com/79031/unity-new-gui-tutorial-part-2
  
  [2015-10-09 Fri 17:39]
 
 ** TODO [#A] Learn more Unity GUI tutorials                           :WORK:
-SCHEDULED: <2015-10-10 Sat>
  http://www.thegamecontriver.com/p/ugui.html
  
  [2015-10-10 Sat 10:44]
 
 ** TODO [#A]  Learn some basic NGUI usage                             :WORK:
-SCHEDULED: <2015-10-10 Sat>
 http://www.tasharen.com/forum/index.php?topic=6754 
  [2015-10-10 Sat 14:57]
+
+** TODO  Best Resources to learn javascript                           :WORK:
+ http://conceptf1.blogspot.hk/2013/11/best-resources-to-learn-javascript.html
+ 
+ [2015-10-11 Sun 16:47]
 
 * Blog Ideas                                                          :BLOG:
 

@@ -3,61 +3,21 @@
 #+TAGS: { cocos2d-x(c) work(w) }
 #+TITLE: Cocos2D-X 相关
 *  cocos2d-x                                                   :cocos2d:
-** 骨骼动画评审
-*** CCBone 和 CCBoneNode 是什么关系？同样的逻辑代码在一个仓库里面出现两次是否合理？
-*** CCBoneNode 继承至 Node 有点太重度了，可以考虑继承至 Ref, 具体可以参考 CCBone3D 的实现
-*** static BoneNode* create(const int &length);  基本数据类型不需要 const int&
-*** 有问题的 API
-**** 含义不明
-    virtual void display(SkinNode* skin, bool hideOthers = false);
-    virtual cocos2d::Vector<SkinNode*> getDisplaying() const;
-*** 缺少 doxgen 文档注释
-*** 暴露的接口是否完整，接口意义是否清晰，use-case 是怎样的？
-*** Bone 的 length, width, rackShow 是什么意思？
-*** 是否考虑了多个摄相机以及在 3D 场景里面的显示。
-*** CustomCommand 是不被推荐使用的，能否在 UI 的容器里面正确使用，是否被正确 clipping
-*** 代码里面应该要移除 EMSCRIPTEN 的宏
-*** _groupCommand 在 CCSkeletonNode 里面并没有被使用到。
+** Native Framework
+** H5 Framework
+** FireBall
+** UI Framework
+***   讨论并定义新的 UI 框架的核心组件和功能组件是哪些？             :WORK:
+1. UIRoot -> 它是一个 node,它的大小等于 visible size. 所有的元素都需要添加在这个节点下面。
+用来进行多分辨率适配和元素对齐。
 
+2. 使用 UIWidget,它带有 anchor 和 stretch 属性,通过对设置它的 entity 开启自动对齐和 resize 功能.
+同时此组件可以支持 hittest, 然后产生事件.
 
-** cocos2d-x 3.0 c++11
-*** modern c++ , mainly about c++ 11
-:PROPERTIES:
-:ID: xx
+3. 完成 UIRoot + Node + UIWidget + Component 的架构
+
+4. 完成 mask 和 panel, 支持 scrollview 和 listview. 
+:LOGBOOK:
+CLOCK: [2015-10-12 Mon 14:03]--[2015-10-12 Mon 14:28] =>  0:25
 :END:
-*** cocos2d-x 3.0 best practice
-*** cocos2-dx 3.0 examples
 
-** cocos2d-x 3.0 js vs lua                                              :ol:
-*** focus on usage samples
-*** focus on how to binding for each other, how to manage memory , how to interative with each other
-
-** cocostudio
-*** UI editor
-*** Animation editor
-*** Scene editor
-*** Data editor
-
-** game play framework
-
-** gui framework
-
-** backend service framework ( golang or ruby)
-
-** multi-thread, json, opengles
-
-** some game algorithm ( A* etc)
-
-** plugin-x (many kinds of SDKs)
-
-** box2d vs chipmunk
-
-** cocodenshion
-
-** socket & network programming
-
-** plist, xml, json, sqlite, user defined data structure parse
-
-** crack & anti-crack
-
-** memory management & mutiple resolution adpation

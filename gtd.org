@@ -8,20 +8,18 @@
 :END:
 
 ** TODO [#B]  Learn some how to extend Unity new GUI.                 :WORK:
-SCHEDULED: <2015-10-10 Sat .+1d>
 
 1. Understand the source code 
 
 2. Tweak the Source code 
 
 3. Learn how to extend the editor.
-** TODO  Learn Typescript and Egret GUI and Pixi GUI                  :WORK:
+** TODO [#A]  Learn Typescript and Egret GUI and Pixi GUI             :WORK:
 1. Learn some basic Typescript and set Emacs MacOS X dev env
 
 2. Learn Egret GUI and write some code.
 
 3. Learn Pixi GUI and write some code
-SCHEDULED: <2015-10-10 Sat 21:00 .+1d>
 
 
 * Zilongshanren                                                     :PROJECT:
@@ -63,10 +61,11 @@ SCHEDULED: <2015-10-10 Sat 21:00 .+1d>
 * Daily Tasks
 #+category: Daily
 ** TODO  Learn basic Gulp                                             :WORK:
-** TODO Visit Cocos2D-x.org, visit forum                              :WORK:
+** STARTED Visit Reddit                                               :WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-10 Sat 14:40]
+:LAST_REPEAT: [2015-10-11 Sun 17:12]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-11 Sun 17:12]
 - State "DONE"       from "STARTED"    [2015-10-10 Sat 14:40]
 - State "DONE"       from "STARTED"    [2015-10-09 Fri 09:30]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
@@ -97,9 +96,11 @@ SCHEDULED: <2015-10-10 Sat 21:00 .+1d>
 - State "DONE"       from "TODO"       [2015-08-12 Wed 17:08]
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
-http://www.cocos2d-x.org
-SCHEDULED: <2015-10-11 Sun 09:30-09:50 .+1d>
+
+SCHEDULED: <2015-10-12 Mon 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-10-12 Mon 13:31]--[2015-10-12 Mon 13:56] =>  0:25
+CLOCK: [2015-10-11 Sun 16:40]--[2015-10-11 Sun 17:05] =>  0:25
 CLOCK: [2015-10-10 Sat 13:43]--[2015-10-10 Sat 14:08] =>  0:25
 CLOCK: [2015-10-09 Fri 08:14]--[2015-10-09 Fri 08:39] =>  0:25
 CLOCK: [2015-09-23 Wed 11:36]--[2015-09-23 Wed 11:54] =>  0:18
@@ -130,10 +131,12 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
 ** TODO Read RSS half an  hour                                        :LIFE:
-SCHEDULED: <2015-10-11 Sun 13:40 .+1d>
+SCHEDULED: <2015-10-13 Tue 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-10 Sat 11:08]
+:LAST_REPEAT: [2015-10-12 Mon 13:43]
 :END:
+- State "DONE"       from "TODO"       [2015-10-12 Mon 13:43]
+- State "DONE"       from "STARTED"    [2015-10-11 Sun 17:50]
 - State "DONE"       from "TODO"       [2015-10-10 Sat 11:08]
 - State "DONE"       from "TODO"       [2015-10-09 Fri 09:30]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
@@ -173,6 +176,7 @@ SCHEDULED: <2015-10-11 Sun 13:40 .+1d>
 - State "DONE"       from "TODO"       [2015-07-02 Thu 14:30]
 - State "DONE"       from "STARTED"    [2015-06-26 Fri 11:59]
 :LOGBOOK:  
+CLOCK: [2015-10-11 Sun 17:12]--[2015-10-11 Sun 17:37] =>  0:25
 CLOCK: [2015-08-05 Wed 15:39]--[2015-08-05 Wed 23:37] =>  7:58
 CLOCK: [2015-07-18 Sat 15:49]--[2015-07-18 Sat 18:34] =>  2:45
 CLOCK: [2015-07-06 Mon 13:36]--[2015-07-06 Mon 14:01] =>  0:25
@@ -270,7 +274,14 @@ CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 [[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
 
 ** TODO [#B]  Learn Javascript                                        :WORK:
-SCHEDULED: <2015-10-10 Sat>
+SCHEDULED: <2015-10-13 Tue .+2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-11 Sun 18:15]
+:END:
+- State "DONE"       from "STARTED"    [2015-10-11 Sun 18:15]
+:LOGBOOK:
+CLOCK: [2015-10-11 Sun 17:50]--[2015-10-12 Mon 13:31] => 19:41
+:END:
 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
 http://eloquentjavascript.net/
 https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
@@ -284,8 +295,7 @@ http://exploringjs.com/es6/
 ** TODO  Learn Ploymer Starter Kit                                    :WORK:
 https://developers.google.com/web/tools/polymer-starter-kit/
 
-** STARTED [#B] Create a file-browser package                         :WORK:
-SCHEDULED: <2015-10-08 Thu 09:30>
+** STARTED [#A] Create a file-browser package                         :WORK:
 :LOGBOOK:
 CLOCK: [2015-10-09 Fri 11:53]--[2015-10-09 Fri 12:18] =>  0:25
 CLOCK: [2015-10-09 Fri 11:08]--[2015-10-09 Fri 11:33] =>  0:25
@@ -304,15 +314,21 @@ CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:15>
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
-** TODO [#A]  讨论并定义新的 UI 框架的核心组件和功能组件是哪些？      :WORK:
+** TODO  Learn the little scheme with javascript.                    :DREAM:
 
 * Weekly Tasks
 #+category: Weekly
 ** TODO [#B]  Record a Spacemacs rocks video.                        :Emacs:
-SCHEDULED: <2015-10-10 Sat .+6d/7d>
-1. The video should be within 5 min.
+SCHEDULED: <2015-10-17 Sat .+6d/7d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-11 Sun 01:09]
+:END:
+- State "DONE"       from "TODO"       [2015-10-11 Sun 01:09]
+- The video should be within 5 min.
+- It should demo a specific feature of Spacemacs
 
-2. It should demo a specific feature of Spacemacs
+1. navigate your lisp code faster.
+2. navigate your source code faster
 
 
 
