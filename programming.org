@@ -57,9 +57,6 @@ http://www.flyingmachinestudios.com/programming/building-a-forum-with-clojure-da
 ** 封装而不失效率
   
  [2015-08-09 Sun 13:21]
-* Objective-C
-
-* Java
 
 * Lua
 ** DONE Write a DSL in Lua
@@ -71,7 +68,6 @@ CLOSED: [2015-08-23 Sun 16:12]
 [[http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts][Lua: Good, bad, and ugly parts - ZeroBrane]]
 
 
-* C#
 
 * Javascript
 
@@ -89,3 +85,23 @@ CLOSED: [2015-08-23 Sun 16:12]
 
 * Ruby
 
+
+* Ten years to mastering programming.
+** From crappy to good.
+*** Learn C++ and JavaScript.
+*** Learn Emacs and lisp(the little schemer, sicp)
+*** Basic clojure  & clojurescript
+*** Basic Haskell
+*** GTD, DDD, RDD, TDD/BDD
+*** Game programming and WebGL
+*** 3D math, algorithms
+*** Learn Erlang, GO, Rust, Scala, F#
+*** Learn Typescript, coffee, SASS, LESS
+*** Learn python, ruby and php
+*** Clean Code and Code complete
+** From good to great 
+*** Mastering Clojure 
+*** Mastering Haskell
+*** Learn compiler
+*** Learn Network , OS and DB
+*** Learn Architecture

@@ -7,8 +7,43 @@
 :CATEGORY: cocos2d-x
 :END:
 ** STARTED [#A] 融合 Sale9Sprite 到 Sprite 中                         :WORK:
+:LOGBOOK:
+CLOCK: [2015-10-14 Wed 14:46]--[2015-10-14 Wed 15:11] =>  0:25
+:END:
+*** API Changs?
+1. Add some APIs :
+   - create(filename, capInsets);
+   - create(texture, capInsets);
+   - create(spriteFrame, capInsets);
+2. create(spriteFrameName, capInsets);
+
+3. Enable Sprite Effects:  setState / getState
+   
+4. Add a new API:  setPreferredSize
+
+5. capInsets could be set individually
+
+6. Add a Sprite type. All the renderer commands are selected based on the type.
+   Sprite Type could be: Simple, Sliced, Tiled, Filled(ProgressTimer).
+
+7. The flip behavior should be all the same? only flip the texture but not transforms?
+
+*** STARTED Sprite Rendering Process.
+- All the APIs change some data related to triangles commands
+- For every data change, don't try to reset the triangles, just keep the value.
+- Only before changing the Sprite type then compute all the triangles 
+- Compute each vertex's transforms, color and texture's coordinate
+- Triangles Array (Vertex, Color, Texture Coordinate)
+
+*** STARTED Hacking the draw method.
+1. convert two triangles to 9 triangles according to Sprite::Type and other sliced sprite infor.
+
+
 SCHEDULED: <2015-10-14 Wed 11:10>
 :LOGBOOK:
+CLOCK: [2015-10-14 Wed 16:19]
+CLOCK: [2015-10-14 Wed 15:17]--[2015-10-14 Wed 15:42] =>  0:25
+CLOCK: [2015-10-14 Wed 14:18]--[2015-10-14 Wed 14:46] =>  0:28
 CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
 :END:
 
@@ -140,11 +175,12 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :PROPERTIES:
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
-** STARTED Read RSS half an  hour                                     :LIFE:
-SCHEDULED: <2015-10-14 Wed 13:40 .+1d>
+** TODO Read RSS half an  hour                                        :LIFE:
+SCHEDULED: <2015-10-15 Thu 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-13 Tue 10:39]
+:LAST_REPEAT: [2015-10-14 Wed 14:18]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-14 Wed 14:18]
 - State "DONE"       from "STARTED"    [2015-10-13 Tue 10:39]
 - State "DONE"       from "TODO"       [2015-10-12 Mon 13:43]
 - State "DONE"       from "STARTED"    [2015-10-11 Sun 17:50]
@@ -496,18 +532,21 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-10-10 Sat 18:32], for Saturday, October 10, 2015.
-| File      | Headline                                  | Time   |      |
-|-----------+-------------------------------------------+--------+------|
-|           | ALL *Total time*                          | *2:55* |      |
-|-----------+-------------------------------------------+--------+------|
-| gtd.org   | *File time*                               | *0:25* |      |
-|           | Daily Tasks                               | 0:25   |      |
-|           | \_  TODO Visit Cocos2D-x.org, visit forum |        | 0:25 |
-|-----------+-------------------------------------------+--------+------|
-| notes.org | *File time*                               | *2:30* |      |
-|           | Quick notes                               | 2:30   |      |
-|           | \_  DONE Learn Unity UI                   |        | 2:30 |
+#+CAPTION: Clock summary at [2015-10-14 Wed 15:18], for Wednesday, October 14, 2015.
+| File    | Headline                                       | Time    |      |      |
+|---------+------------------------------------------------+---------+------+------|
+|         | ALL *Total time*                               | *12:27* |      |      |
+|---------+------------------------------------------------+---------+------+------|
+| gtd.org | *File time*                                    | *12:27* |      |      |
+|         | FireBall                                       | 1:18    |      |      |
+|         | \_  STARTED [#A] 融合 Sale9Sprite 到 Sprite 中 |         | 1:18 |      |
+|         | \_    STARTED Sprite Rendering Process.        |         |      | 0:53 |
+|         | Daily Tasks                                    | 11:09   |      |      |
+|         | \_  TODO Visit Reddit                          |         | 0:25 |      |
+|         | \_  TODO Read RSS half an  hour                |         | 0:25 |      |
+|         | \_  STARTED Do exercise for 30 minutes         |         | 9:29 |      |
+|         | \_  TODO Do exercise for 30 minutes            |         | 0:25 |      |
+|         | \_  DONE Learn literal programming of...       |         | 0:25 |      |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
