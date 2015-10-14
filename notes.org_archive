@@ -1,0 +1,109 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/guanghui/org-notes/notes.org
+
+
+* DONE Editor Framework 培训                                       :Fireball:
+CLOSED: [2015-09-22 Tue 16:50]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-14 Wed 14:13
+:ARCHIVE_FILE: ~/org-notes/notes.org
+:ARCHIVE_OLPATH: Quick notes
+:ARCHIVE_CATEGORY: notes
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "TODO"       [2015-09-22 Tue 16:50]
+ 1. C+Lua 的解决方案 (研究 HTML5 的排版，方案时间太长）
+ 2. RenderProcess 和 MainProcess 通过 ipc 进行通信。
+3. 通过封装 ipc 操作，在窗口管理的基础之上实现了一些方便的函数。
+ [2015-09-22 Tue 14:03]
+
+
+* DONE Learn mocha node.js test framework [100%]                       :WORK:
+CLOSED: [2015-10-13 Tue 21:59] SCHEDULED: <2015-10-13 Tue 09:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-14 Wed 14:13
+:ARCHIVE_FILE: ~/org-notes/notes.org
+:ARCHIVE_OLPATH: Quick notes
+:ARCHIVE_CATEGORY: notes
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-13 Tue 21:59]
+:LOGBOOK:
+CLOCK: [2015-10-13 Tue 16:48]--[2015-10-13 Tue 17:13] =>  0:25
+CLOCK: [2015-10-13 Tue 13:44]--[2015-10-13 Tue 14:09] =>  0:25
+CLOCK: [2015-10-13 Tue 11:13]--[2015-10-13 Tue 11:38] =>  0:25
+CLOCK: [2015-10-13 Tue 10:43]--[2015-10-13 Tue 11:08] =>  0:25
+:END:
+- [X] https://mochajs.org/
+- [X] http://code.tutsplus.com/tutorials/testing-in-nodejs--net-35018
+- [X] http://dailyjs.com/2011/12/08/mocha/
+ 
+ [2015-10-08 Thu 13:36]
+
+
+* DONE Learn Unity UI                                                 :Emacs:
+CLOSED: [2015-10-10 Sat 16:47] SCHEDULED: <2015-10-08 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-14 Wed 14:13
+:ARCHIVE_FILE: ~/org-notes/notes.org
+:ARCHIVE_OLPATH: Quick notes
+:ARCHIVE_CATEGORY: notes
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-10 Sat 16:47]
+:LOGBOOK:
+CLOCK: [2015-10-10 Sat 15:45]--[2015-10-10 Sat 16:10] =>  0:25
+CLOCK: [2015-10-10 Sat 15:11]--[2015-10-10 Sat 15:36] =>  0:25
+CLOCK: [2015-10-10 Sat 14:41]--[2015-10-10 Sat 15:06] =>  0:25
+CLOCK: [2015-10-10 Sat 11:11]--[2015-10-10 Sat 11:36] =>  0:25
+CLOCK: [2015-10-10 Sat 10:03]--[2015-10-10 Sat 10:28] =>  0:25
+CLOCK: [2015-10-10 Sat 09:20]--[2015-10-10 Sat 09:45] =>  0:25
+CLOCK: [2015-10-09 Fri 20:18]--[2015-10-09 Fri 20:43] =>  0:25
+CLOCK: [2015-10-09 Fri 19:27]--[2015-10-09 Fri 19:52] =>  0:25
+CLOCK: [2015-10-09 Fri 17:40]--[2015-10-09 Fri 18:05] =>  0:25
+CLOCK: [2015-10-09 Fri 13:51]--[2015-10-09 Fri 14:16] =>  0:25
+:END:
+http://www.raywenderlich.com/category/unity 
+
+ [2015-10-08 Thu 23:38]
+
+
+* DONE 写一篇博客介绍的的 Mac 上面无鼠标工作流
+CLOSED: [2015-09-03 Thu 14:12] SCHEDULED: <2015-08-30 Sun 23:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-14 Wed 14:13
+:ARCHIVE_FILE: ~/org-notes/notes.org
+:ARCHIVE_OLPATH: Blog Ideas
+:ARCHIVE_CATEGORY: notes
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: BLOG
+:END:
+- State "DONE"       from "TODO"       [2015-09-03 Thu 14:12]
+1. 介绍 Tmux + Zsh + Percol + vim + Alfred + ncdu
+
+2. 介绍 keyboard maestro editor, whatpulse 和 Karabiner_AXNotifier
+  
+ [2015-08-18 Tue 13:45]
+
+
+* DONE Blog Idea: 三个 Git 小问题
+CLOSED: [2015-09-23 Wed 08:57]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-14 Wed 14:13
+:ARCHIVE_FILE: ~/org-notes/notes.org
+:ARCHIVE_OLPATH: Blog Ideas
+:ARCHIVE_CATEGORY: notes
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: BLOG
+:END:
+- State "DONE"       from "TODO"       [2015-09-23 Wed 08:57]
+1. 为何仓库里面添加一些大的二进制文件后，仓库大小增长得特别快。
+2. 为何两个分支修改同一个文件的同一行代码，merge 的时候不会冲突。
+3. 为何把两个针对同一文件同一修改的分支 rebase 后，有一个 commit 会优化掉。
+
+
+  
+ [2015-09-03 Thu 14:09]
+

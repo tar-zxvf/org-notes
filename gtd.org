@@ -6,6 +6,11 @@
 :PROPERTIES:
 :CATEGORY: cocos2d-x
 :END:
+** STARTED [#A] 融合 Sale9Sprite 到 Sprite 中                         :WORK:
+SCHEDULED: <2015-10-14 Wed 11:10>
+:LOGBOOK:
+CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
+:END:
 
 ** TODO [#B]  Learn some how to extend Unity new GUI.                 :WORK:
 
@@ -61,10 +66,13 @@
 * Daily Tasks
 #+category: Daily
 ** TODO  Learn basic Gulp                                             :WORK:
-** STARTED Visit Reddit                                               :WORK:
+** TODO Visit Reddit                                                  :WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-11 Sun 17:12]
+:LAST_REPEAT: [2015-10-14 Wed 09:59]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-14 Wed 09:59]
+- State "DONE"       from "STARTED"    [2015-10-13 Tue 09:59]
+- State "DONE"       from "STARTED"    [2015-10-12 Mon 16:04]
 - State "DONE"       from "STARTED"    [2015-10-11 Sun 17:12]
 - State "DONE"       from "STARTED"    [2015-10-10 Sat 14:40]
 - State "DONE"       from "STARTED"    [2015-10-09 Fri 09:30]
@@ -97,8 +105,10 @@
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 
-SCHEDULED: <2015-10-12 Mon 09:30-09:50 .+1d>
+SCHEDULED: <2015-10-15 Thu 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-10-14 Wed 09:29]--[2015-10-14 Wed 09:54] =>  0:25
+CLOCK: [2015-10-13 Tue 09:27]--[2015-10-13 Tue 09:52] =>  0:25
 CLOCK: [2015-10-12 Mon 13:31]--[2015-10-12 Mon 13:56] =>  0:25
 CLOCK: [2015-10-11 Sun 16:40]--[2015-10-11 Sun 17:05] =>  0:25
 CLOCK: [2015-10-10 Sat 13:43]--[2015-10-10 Sat 14:08] =>  0:25
@@ -130,11 +140,12 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :PROPERTIES:
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
-** TODO Read RSS half an  hour                                        :LIFE:
-SCHEDULED: <2015-10-13 Tue 13:40 .+1d>
+** STARTED Read RSS half an  hour                                     :LIFE:
+SCHEDULED: <2015-10-14 Wed 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-12 Mon 13:43]
+:LAST_REPEAT: [2015-10-13 Tue 10:39]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-13 Tue 10:39]
 - State "DONE"       from "TODO"       [2015-10-12 Mon 13:43]
 - State "DONE"       from "STARTED"    [2015-10-11 Sun 17:50]
 - State "DONE"       from "TODO"       [2015-10-10 Sat 11:08]
@@ -176,6 +187,8 @@ SCHEDULED: <2015-10-13 Tue 13:40 .+1d>
 - State "DONE"       from "TODO"       [2015-07-02 Thu 14:30]
 - State "DONE"       from "STARTED"    [2015-06-26 Fri 11:59]
 :LOGBOOK:  
+CLOCK: [2015-10-14 Wed 13:33]--[2015-10-14 Wed 13:58] =>  0:25
+CLOCK: [2015-10-13 Tue 09:59]--[2015-10-13 Tue 10:24] =>  0:25
 CLOCK: [2015-10-11 Sun 17:12]--[2015-10-11 Sun 17:37] =>  0:25
 CLOCK: [2015-08-05 Wed 15:39]--[2015-08-05 Wed 23:37] =>  7:58
 CLOCK: [2015-07-18 Sat 15:49]--[2015-07-18 Sat 18:34] =>  2:45
@@ -258,7 +271,9 @@ CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
 比如重要且非常紧急的任务,应该是已经 schedule 的,但是不是 habit 任务
 [[http://headhole.org/organisation/2012/08/22/org-mode-gtd-and-the-pomodoro-technique/][Headhole - Org-mode, GTD and the Pomodoro technique]]
 
-** STARTED [#B] 阅读<搞定 1>,然后用 Org-mode 来实现之                :Emacs:
+** DONE [#B] 阅读<搞定 1>,然后用 Org-mode 来实现之                   :Emacs:
+CLOSED: [2015-10-13 Tue 11:21]
+- State "DONE"       from "STARTED"    [2015-10-13 Tue 11:21]
 :LOGBOOK:  
 CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 :END:      
@@ -273,8 +288,13 @@ CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 ** TODO  Read the Book <The Art of Unix Programming>
 [[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
 
-** TODO [#B]  Learn Javascript                                        :WORK:
-SCHEDULED: <2015-10-13 Tue .+2d/3d>
+** TODO [#B]  Learn Javascript [0%]                                    :WORK:
+SCHEDULED: <2015-10-12 Mon 21:00 .+1d>
+- [ ] http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+- [ ] http://eloquentjavascript.net/
+- [ ] https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
+- [ ] https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
+- [ ] http://exploringjs.com/es6/
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-11 Sun 18:15]
 :END:
@@ -282,11 +302,6 @@ SCHEDULED: <2015-10-13 Tue .+2d/3d>
 :LOGBOOK:
 CLOCK: [2015-10-11 Sun 17:50]--[2015-10-12 Mon 13:31] => 19:41
 :END:
-http://addyosmani.com/resources/essentialjsdesignpatterns/book/
-http://eloquentjavascript.net/
-https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
-https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
-http://exploringjs.com/es6/
 
 ** TODO  Add Evil visual mark mode and related toggles               :Emacs:
 
@@ -295,8 +310,13 @@ http://exploringjs.com/es6/
 ** TODO  Learn Ploymer Starter Kit                                    :WORK:
 https://developers.google.com/web/tools/polymer-starter-kit/
 
-** STARTED [#A] Create a file-browser package                         :WORK:
+** DONE [#A] Create a file-browser package                            :WORK:
+CLOSED: [2015-10-13 Tue 09:25] SCHEDULED: <2015-10-12 Mon 21:00>
+- State "DONE"       from "STARTED"    [2015-10-13 Tue 09:25]
 :LOGBOOK:
+CLOCK: [2015-10-12 Mon 21:39]--[2015-10-12 Mon 22:04] =>  0:25
+CLOCK: [2015-10-12 Mon 20:52]--[2015-10-12 Mon 21:17] =>  0:25
+CLOCK: [2015-10-12 Mon 15:05]--[2015-10-12 Mon 15:30] =>  0:25
 CLOCK: [2015-10-09 Fri 11:53]--[2015-10-09 Fri 12:18] =>  0:25
 CLOCK: [2015-10-09 Fri 11:08]--[2015-10-09 Fri 11:33] =>  0:25
 CLOCK: [2015-10-09 Fri 10:22]--[2015-10-09 Fri 10:48] =>  0:26
@@ -307,14 +327,53 @@ CLOCK: [2015-10-08 Thu 15:08]--[2015-10-08 Thu 15:33] =>  0:25
 CLOCK: [2015-10-08 Thu 09:24]--[2015-10-08 Thu 09:49] =>  0:25
 :END:
 
-** DONE Do exercise for 30 minutes                                    :LIFE:
-CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:15>
-- State "DONE"       from "STARTED"    [2015-10-08 Thu 23:32]
+** STARTED Do exercise for 30 minutes                                 :LIFE:
+SCHEDULED: <2015-10-13 Wed 21:00-21:30 .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-13 Tue 11:22]
+:END:
+- State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
+CLOCK: [2015-10-13 Tue 22:05]--[2015-10-14 Wed 09:29] => 11:24
+CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
+:END:
+
+** TODO Do exercise for 30 minutes                                    :LIFE:
+SCHEDULED: <2015-10-15 Thu 08:00 .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-14 Wed 11:01]
+:END:
+- State "DONE"       from "STARTED"    [2015-10-14 Wed 11:01]
+- State "DONE"       from "TODO"       [2015-10-13 Tue 11:24]
+- State "DONE"       from "TODO"       [2015-10-13 Tue 11:24]
+- State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
+:LOGBOOK:
+CLOCK: [2015-10-14 Wed 10:27]--[2015-10-14 Wed 10:52] =>  0:25
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
 ** TODO  Learn the little scheme with javascript.                    :DREAM:
+
+** DONE Discuss with Wannan about the new GUI development
+CLOSED: [2015-10-13 Tue 18:21] SCHEDULED: <2015-10-13 Tue 15:00>
+- State "DONE"       from "TODO"       [2015-10-13 Tue 18:21]
+** TODO [#C]  Make Emacs Javascript TDD more convenient 
+http://eigenhombre.com/clojure/2014/07/20/a-worfklow-tdd-rdd-and-ddd/
+https://github.com/jorgenschaefer/emacs-tdd
+
+** DONE Learn literal programming of node js. Use REPL and org-mode to understand the program better.
+CLOSED: [2015-10-14 Wed 10:27] SCHEDULED: <2015-10-14 Wed 10:00>
+- State "DONE"       from "STARTED"    [2015-10-14 Wed 10:27]
+:LOGBOOK:
+CLOCK: [2015-10-14 Wed 09:59]--[2015-10-14 Wed 10:24] =>  0:25
+:END:
+1. import node modules and play with it.
+http://www.kirubakaran.com/articles/javascript-org-mode-babel.html
+
+2. draw math symbols(latex) and charts(d3.js).
+
+3. export it in html or pdf for review.
+
 
 * Weekly Tasks
 #+category: Weekly
@@ -372,6 +431,7 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
 ** TODO Call my mum                                                   :LIFE:
+
 SCHEDULED: <2015-10-13 Tue 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-06 Tue 20:43]
@@ -401,6 +461,11 @@ SCHEDULED: <2015-10-13 Tue 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 11:37]
 :END:
+** TODO Review the TODO items, move C to B, Move B to A. 
+SCHEDULED: <2015-10-17 14:00-14:30 Sat .6d/7d>
+** TODO Archive all the done things and write the wiki page of the valuable things
+SCHEDULED: <2015-10-18 15:00-15:30 Sun .6d/7d>
+
 * Monthly Tasks
 #+category: Monthly
 ** TODO Write a article to summary the fruit of a month               :LIFE:

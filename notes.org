@@ -811,14 +811,6 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
  
  [2015-09-21 Mon 22:25]
 
-** DONE Editor Framework 培训                                     :Fireball:
-CLOSED: [2015-09-22 Tue 16:50]
-- State "DONE"       from "TODO"       [2015-09-22 Tue 16:50]
- 1. C+Lua 的解决方案 (研究 HTML5 的排版，方案时间太长）
- 2. RenderProcess 和 MainProcess 通过 ipc 进行通信。
-3. 通过封装 ipc 操作，在窗口管理的基础之上实现了一些方便的函数。
- [2015-09-22 Tue 14:03]
-
 ** TODO  best way to learn javascript
  https://www.reddit.com/r/javascript/comments/2upyol/learning_js_feedback_or_questions_about_the_sub/
  
@@ -839,37 +831,11 @@ CLOSED: [2015-09-22 Tue 16:50]
  
  [2015-10-08 Thu 08:16]
 
-** TODO  Learn mocha node.js test framework                           :WORK:
- https://mochajs.org/
-http://code.tutsplus.com/tutorials/testing-in-nodejs--net-35018
-http://dailyjs.com/2011/12/08/mocha/
- 
- [2015-10-08 Thu 13:36]
-
 ** TODO  Learn node.js yeoman framework                               :WORK:
 SCHEDULED: <2015-11-03 Tue>
  https://github.com/yeoman/yeoman
  
  [2015-10-08 Thu 13:38]
-
-** DONE Learn Unity UI                                               :Emacs:
-CLOSED: [2015-10-10 Sat 16:47] SCHEDULED: <2015-10-08 Thu>
-- State "DONE"       from "STARTED"    [2015-10-10 Sat 16:47]
-:LOGBOOK:
-CLOCK: [2015-10-10 Sat 15:45]--[2015-10-10 Sat 16:10] =>  0:25
-CLOCK: [2015-10-10 Sat 15:11]--[2015-10-10 Sat 15:36] =>  0:25
-CLOCK: [2015-10-10 Sat 14:41]--[2015-10-10 Sat 15:06] =>  0:25
-CLOCK: [2015-10-10 Sat 11:11]--[2015-10-10 Sat 11:36] =>  0:25
-CLOCK: [2015-10-10 Sat 10:03]--[2015-10-10 Sat 10:28] =>  0:25
-CLOCK: [2015-10-10 Sat 09:20]--[2015-10-10 Sat 09:45] =>  0:25
-CLOCK: [2015-10-09 Fri 20:18]--[2015-10-09 Fri 20:43] =>  0:25
-CLOCK: [2015-10-09 Fri 19:27]--[2015-10-09 Fri 19:52] =>  0:25
-CLOCK: [2015-10-09 Fri 17:40]--[2015-10-09 Fri 18:05] =>  0:25
-CLOCK: [2015-10-09 Fri 13:51]--[2015-10-09 Fri 14:16] =>  0:25
-:END:
-http://www.raywenderlich.com/category/unity 
-
- [2015-10-08 Thu 23:38]
 
 ** TODO  Learn modern C++ 14 by default                               :WORK:
 https://github.com/isocpp/CppCoreGuidelines
@@ -903,16 +869,66 @@ http://www.tasharen.com/forum/index.php?topic=6754
  
  [2015-10-11 Sun 16:47]
 
-* Blog Ideas                                                          :BLOG:
+** TODO Learn DOM manipulate [16%]                                   :DREAM:
+SCHEDULED: <2015-10-15 Thu 16:10 .+3d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-12 Mon 18:25]
+:END:
+- State "DONE"       from "STARTED"    [2015-10-12 Mon 18:25]
+:LOGBOOK:
+CLOCK: [2015-10-12 Mon 18:02]--[2015-10-12 Mon 18:25] =>  0:23
+CLOCK: [2015-10-12 Mon 17:31]--[2015-10-12 Mon 17:56] =>  0:25
+CLOCK: [2015-10-12 Mon 16:55]--[2015-10-12 Mon 17:20] =>  0:25
+CLOCK: [2015-10-12 Mon 16:23]--[2015-10-12 Mon 16:48] =>  0:25
+CLOCK: [2015-10-12 Mon 16:14]--[2015-10-12 Mon 16:23] =>  0:09
+:END:
+ - [X] https://dom-tutorials.appspot.com/static/1.html
+ - [ ] http://code.tutsplus.com/tutorials/javascript-and-the-dom-series-lesson-1--net-3134 
+ - [ ]http://code.tutsplus.com/tutorials/javascript-and-the-dom-lesson-2--net-3669
+ - [ ] http://javascript.info/tutorial/dom-nodes
+ - [ ] http://yuiblog.com/blog/2006/10/20/video-crockford-domtheory/
+ - [ ] http://www.elated.com/articles/javascript-dom-intro/
+ - [ ] http://callmenick.com/post/basics-javascript-dom-manipulation
 
-** DONE 写一篇博客介绍的的 Mac 上面无鼠标工作流
-CLOSED: [2015-09-03 Thu 14:12] SCHEDULED: <2015-08-30 Sun 23:00>
-- State "DONE"       from "TODO"       [2015-09-03 Thu 14:12]
-1. 介绍 Tmux + Zsh + Percol + vim + Alfred + ncdu
+ [2015-10-12 Mon 15:51]
 
-2. 介绍 keyboard maestro editor, whatpulse 和 Karabiner_AXNotifier
+** TODO [#C] Teaching Geek-fu to all the Chinese                     :DREAM:
   
- [2015-08-18 Tue 13:45]
+ [2015-10-12 Mon 15:55]
+
+** TODO [#C] Visualization sort algorithm 
+ http://sorting.at/
+ 
+ [2015-10-13 Tue 09:40]
+
+** TODO Learn Y combinator 
+Write Y combinator in javascript.
+
+https://noeit.wordpress.com/2009/04/28/how-i-finally-understood-the-y-combinator-and-blew-my-damn-mind/
+
+ http://blog.tomtung.com/2012/10/yet-another-y-combinator-tutorial/
+ 
+http://mvanier.livejournal.com/2897.html
+
+http://stackoverflow.com/questions/93526/what-is-a-y-combinator
+
+http://cestdiego.github.io/blog/2015/10/12/y-combinator-in-emacs-lisp/
+
+https://news.ycombinator.com/item?id=582786 
+ [2015-10-14 Wed 13:50]
+
+** TODO  Learn Haskell
+http://learnyouahaskell.com/chapters
+http://book.realworldhaskell.org/
+ [2015-10-14 Wed 14:02]
+
+** TODO  Why learn functional programming
+http://www.defmacro.org/ramblings/fp.html 
+
+http://weblog.raganwald.com/2007/03/why-why-functional-programming-matters.html
+ [2015-10-14 Wed 14:11]
+
+* Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍 Mac 使用 efi 安装双系统.
 CLOSED: [2015-08-23 Sun 16:12] SCHEDULED: <2015-08-23 Sun 15:15>
@@ -927,22 +943,26 @@ CLOCK: [2015-08-23 Sun 15:16]--[2015-08-23 Sun 15:41] =>  0:25
   
  [2015-08-21 Fri 18:11]
 
-** DONE Blog Idea: 三个 Git 小问题
-CLOSED: [2015-09-23 Wed 08:57]
-- State "DONE"       from "TODO"       [2015-09-23 Wed 08:57]
-1. 为何仓库里面添加一些大的二进制文件后，仓库大小增长得特别快。
-2. 为何两个分支修改同一个文件的同一行代码，merge 的时候不会冲突。
-3. 为何把两个针对同一文件同一修改的分支 rebase 后，有一个 commit 会优化掉。
-
-
-  
- [2015-09-03 Thu 14:09]
-
 ** TODO 写一篇博客介绍 Javascript 的原形继承
 [[http://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript][new operator - What is the 'new' keyword in JavaScript? - Stack Overflow]]
 [[http://ejohn.org/apps/learn/#66][Learning Advanced JavaScript]]
 [[http://stackoverflow.com/questions/7688902/what-is-functions-proto][javascript - What is Function's __proto__? - Stack Overflow]]
-
+http://gistdeck.github.io/jcouyang/03121932d18eba44088e#1
   
  [2015-09-14 Mon 15:02]
+
+** TODO  You can't do anything until the GTD system tells you to do 
+  
+ [2015-10-13 Tue 11:10]
+
+** TODO Make Emacs Regex workflow. 
+1. use c-r to construct the pcre style regex.
+2. use SPC R p e to convert to elisp style
+3. open regex-builder and escape the (, " \ symbols.
+
+or you could directly use regex-builder to construct the lisp style. but it may not be intuitive 
+
+regex-builder tips:  c-c c-q : quit
+http://irreal.org/blog/?p=254  
+ [2015-10-14 Wed 08:35]
 

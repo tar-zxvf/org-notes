@@ -17,7 +17,4 @@
 3. 完成 UIRoot + Node + UIWidget + Component 的架构
 
 4. 完成 mask 和 panel, 支持 scrollview 和 listview. 
-:LOGBOOK:
-CLOCK: [2015-10-12 Mon 14:03]--[2015-10-12 Mon 14:28] =>  0:25
-:END:
 
