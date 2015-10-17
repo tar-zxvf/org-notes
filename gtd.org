@@ -1,13 +1,21 @@
 #+TITLE: GTD
 #+AUTHOR: guanghui
-#+TAGS: { WORK(w) Emacs(e)  DREAM(d) OTHER(o)  PROJECT(p) MEETING(m)}
+#+TAGS: { WORK(w) Emacs(e)  DREAM(d) OTHER(o)  PROJECT(p) MEETING(m) Daily(y) Weekly(x) Monthly(z)}
 
 * FireBall                                                          :PROJECT:
 :PROPERTIES:
 :CATEGORY: cocos2d-x
 :END:
 ** STARTED [#A] 融合 Sale9Sprite 到 Sprite 中                         :WORK:
+SCHEDULED: <2015-10-16 Thu 09:50>
 :LOGBOOK:
+CLOCK: [2015-10-16 Fri 20:12]--[2015-10-16 Fri 20:37] =>  0:25
+CLOCK: [2015-10-16 Fri 17:25]--[2015-10-16 Fri 17:50] =>  0:25
+CLOCK: [2015-10-16 Fri 16:49]--[2015-10-16 Fri 17:14] =>  0:25
+CLOCK: [2015-10-16 Fri 14:09]--[2015-10-16 Fri 14:34] =>  0:25
+CLOCK: [2015-10-16 Fri 10:10]--[2015-10-16 Fri 10:35] =>  0:25
+CLOCK: [2015-10-15 Thu 10:52]--[2015-10-15 Thu 11:17] =>  0:25
+CLOCK: [2015-10-15 Thu 10:17]--[2015-10-15 Thu 10:42] =>  0:25
 CLOCK: [2015-10-14 Wed 14:46]--[2015-10-14 Wed 15:11] =>  0:25
 :END:
 *** API Changs?
@@ -28,20 +36,21 @@ CLOCK: [2015-10-14 Wed 14:46]--[2015-10-14 Wed 15:11] =>  0:25
 
 7. The flip behavior should be all the same? only flip the texture but not transforms?
 
-*** STARTED Sprite Rendering Process.
+*** Sprite Rendering Process.
 - All the APIs change some data related to triangles commands
 - For every data change, don't try to reset the triangles, just keep the value.
 - Only before changing the Sprite type then compute all the triangles 
 - Compute each vertex's transforms, color and texture's coordinate
 - Triangles Array (Vertex, Color, Texture Coordinate)
 
-*** STARTED Hacking the draw method.
+*** Hacking the draw method.
 1. convert two triangles to 9 triangles according to Sprite::Type and other sliced sprite infor.
 
 
-SCHEDULED: <2015-10-14 Wed 11:10>
 :LOGBOOK:
-CLOCK: [2015-10-14 Wed 16:19]
+CLOCK: [2015-10-14 Wed 17:10]--[2015-10-14 Wed 17:35] =>  0:25
+CLOCK: [2015-10-14 Wed 16:33]--[2015-10-14 Wed 16:58] =>  0:25
+CLOCK: [2015-10-14 Wed 16:19]--[2015-10-14 Wed 16:33] =>  0:14
 CLOCK: [2015-10-14 Wed 15:17]--[2015-10-14 Wed 15:42] =>  0:25
 CLOCK: [2015-10-14 Wed 14:18]--[2015-10-14 Wed 14:46] =>  0:28
 CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
@@ -62,8 +71,57 @@ CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
 3. Learn Pixi GUI and write some code
 
 
-* Zilongshanren                                                     :PROJECT:
+* Zilongshanren                                               :DREAM:PROJECT:
+:PROPERTIES:
+:CATEGORY: zilongshanren
+:END:
 ** Reading                                                         
+*** STARTED [#B]  Learn Javascript [0%]                       :Daily:DREAM:
+SCHEDULED: <2015-10-12 Mon 21:00 .+1d>
+:PROPERTIES:
+:CATEGORY: zilongshanren
+:END:
+- [ ] https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+- [ ] http://tagtree.io/courses/expert-es6/do
+- [ ] http://eloquentjavascript.net/
+- [ ] http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+- [ ] https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
+- [ ] https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
+- [ ] http://exploringjs.com/es6/
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-11 Sun 18:15]
+:END:
+- State "DONE"       from "STARTED"    [2015-10-11 Sun 18:15]
+:LOGBOOK:
+CLOCK: [2015-10-14 Wed 21:20]--[2015-10-14 Wed 21:45] =>  0:25
+CLOCK: [2015-10-14 Wed 20:38]--[2015-10-14 Wed 21:03] =>  0:25
+CLOCK: [2015-10-14 Wed 20:04]--[2015-10-14 Wed 20:29] =>  0:25
+CLOCK: [2015-10-11 Sun 17:50]--[2015-10-12 Mon 13:31] => 19:41
+:END:
+
+*** TODO Learn WebGL and Graphics [0%]                        :Daily:DREAM:
+:PROPERTIES:
+:CATEGORY: zilongshanren
+:LAST_REPEAT: [2015-10-17 Sat 10:06]
+:END:
+- State "DONE"       from "STARTED"    [2015-10-17 Sat 10:06]
+:LOGBOOK:
+CLOCK: [2015-10-15 Thu 23:32]--[2015-10-15 Thu 23:57] =>  0:25
+:END:
+- [ ] https://www.udacity.com/course/interactive-3d-graphics--cs291
+- [ ] [[file:~/Documents/WebGL%20Programming%20Guide.pdf][WebGL programming Guide]] 
+- [ ] http://learningwebgl.com/blog/?page_id=1217
+- [ ] http://www.webglacademy.com/courses.php
+- [ ][[file:~/Documents/3D+Math+Primer+for+graphics+and+game+development.pdf][ Learn 3D Math]]
+- [ ][[ file:~/Documents/Interactive%20Computer%20Graphics%206th.pdf]] 
+- [ ] http://www.realtimerendering.com/blog/webgl-debugging-and-profiling-tools/
+
+Reference:
+https://tsherif.wordpress.com/2015/10/05/from-web-to-webgl-a-guide-for-web-developers-entering-the-third-dimension/
+
+
+SCHEDULED: <2015-10-18 Sun 07:00 .+1d/2d>
+
 *** TODO   Read <<SCIP>> books                           
 :PROPERTIES:
 :END:
@@ -94,17 +152,26 @@ CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
 :CATEGORY: zilongshanren
 :END:
 ** Side Project(非正式项目）                              
-*** TODO Emacs Chinese Wubi Input Method                                 
+*** TODO [#C] Emacs Chinese Wubi Input Method                                 
 :PROPERTIES:
 :CATEGORY: zilongshanren
 :END:
 * Daily Tasks
 #+category: Daily
-** TODO  Learn basic Gulp                                             :WORK:
-** TODO Visit Reddit                                                  :WORK:
-:PROPERTIES:
-:LAST_REPEAT: [2015-10-14 Wed 09:59]
+** DONE c/c++ enable ycmd and binding "s-." as company-ycmd
+CLOSED: [2015-10-15 Thu 22:33] SCHEDULED: <2015-10-15 Thu 13:35>
+- State "DONE"       from "STARTED"    [2015-10-15 Thu 22:33]
+:LOGBOOK:
+CLOCK: [2015-10-15 Thu 13:35]--[2015-10-15 Thu 14:02] =>  0:27
 :END:
+
+** TODO  Learn basic Gulp                                             :WORK:
+** TODO Visit Reddit                                            :Daily:WORK:
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-16 Fri 10:07]
+:END:
+- State "DONE"       from "STARTED"    [2015-10-16 Fri 10:07]
+- State "DONE"       from "STARTED"    [2015-10-15 Thu 10:16]
 - State "DONE"       from "STARTED"    [2015-10-14 Wed 09:59]
 - State "DONE"       from "STARTED"    [2015-10-13 Tue 09:59]
 - State "DONE"       from "STARTED"    [2015-10-12 Mon 16:04]
@@ -140,8 +207,10 @@ CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 
-SCHEDULED: <2015-10-15 Thu 09:30-09:50 .+1d>
+SCHEDULED: <2015-10-17 Sat 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-10-16 Fri 09:35]--[2015-10-16 Fri 10:00] =>  0:25
+CLOCK: [2015-10-15 Thu 09:29]--[2015-10-15 Thu 09:56] =>  0:27
 CLOCK: [2015-10-14 Wed 09:29]--[2015-10-14 Wed 09:54] =>  0:25
 CLOCK: [2015-10-13 Tue 09:27]--[2015-10-13 Tue 09:52] =>  0:25
 CLOCK: [2015-10-12 Mon 13:31]--[2015-10-12 Mon 13:56] =>  0:25
@@ -175,11 +244,13 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :PROPERTIES:
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
-** TODO Read RSS half an  hour                                        :LIFE:
-SCHEDULED: <2015-10-15 Thu 13:40 .+1d>
+** TODO Read RSS half an  hour                                  :Daily:LIFE:
+SCHEDULED: <2015-10-17 Sat 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-14 Wed 14:18]
+:LAST_REPEAT: [2015-10-16 Fri 14:08]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-16 Fri 14:08]
+- State "DONE"       from "TODO"       [2015-10-15 Thu 13:34]
 - State "DONE"       from "STARTED"    [2015-10-14 Wed 14:18]
 - State "DONE"       from "STARTED"    [2015-10-13 Tue 10:39]
 - State "DONE"       from "TODO"       [2015-10-12 Mon 13:43]
@@ -223,6 +294,7 @@ SCHEDULED: <2015-10-15 Thu 13:40 .+1d>
 - State "DONE"       from "TODO"       [2015-07-02 Thu 14:30]
 - State "DONE"       from "STARTED"    [2015-06-26 Fri 11:59]
 :LOGBOOK:  
+CLOCK: [2015-10-16 Fri 13:34]
 CLOCK: [2015-10-14 Wed 13:33]--[2015-10-14 Wed 13:58] =>  0:25
 CLOCK: [2015-10-13 Tue 09:59]--[2015-10-13 Tue 10:24] =>  0:25
 CLOCK: [2015-10-11 Sun 17:12]--[2015-10-11 Sun 17:37] =>  0:25
@@ -245,10 +317,10 @@ CLOCK: [2015-05-04 Mon 14:29]--[2015-05-04 Mon 14:54] =>  0:25
 :END:
 ** STARTED [#B] Fix node and scrollview nested issue                  :WORK:
 
-** TODO  使用 Clojure 搭建一个 Emacs 社区                                 :LIFE:
+** TODO [#C]  使用 Clojure 搭建一个 Emacs 社区                        :LIFE:
 SCHEDULED: <2015-10-28 Wed>
 
-** TODO  替换 oh-my-zsh 为 antigen,同时为 cocos-console 编写一个 zsh 插件    :LIFE:
+** TODO [#C]  替换 oh-my-zsh 为 antigen,同时为 cocos-console 编写一个 zsh 插件 :LIFE:
 "https://github.com/shengyou/codeception-zsh-plugin/blob/master/codeception.plugin.zsh"
 "https://askql.wordpress.com/2011/01/11/zsh-writing-own-completion/"
 "https://joshldavis.com/2014/07/26/oh-my-zsh-is-a-disease-antigen-is-the-vaccine/"
@@ -260,7 +332,7 @@ SCHEDULED: <2015-10-28 Wed>
 ** TODO [#C] 学习 demo-it package 的用法，同时为我的 git 培训写一个 ppt :Emacs:
 [[https://github.com/howardabrams/demo-it][howardabrams/demo-it]]
 
-** TODO [#C]  使用 Emacs 进行项目管理                                :Emacs:
+** TODO [#C]  使用 Emacs 进行项目管理                                 :Emacs:
 "https://leiyue.wordpress.com/2012/07/04/use-org-mode-and-taskjuggler-to-manage-to-project-information/"
 "http://www.devalot.com/articles/2008/07/project-planning"
 "http://doc.norang.ca/org-mode.html"
@@ -277,7 +349,7 @@ SCHEDULED: <2015-10-28 Wed>
 [[http://www.win32developer.com/tutorial/windows/windows_tutorial_3.shtm][Win32 Developer - Tutorial 3 Using edit boxes, buttons, and other window asset using the Win32 API]]
 [[https://msdn.microsoft.com/en-us/library/bb773169(VS.85).aspx][Control Library (Windows)]]
 
-** TODO [#B]  Add Travis CI to my website                             :LIFE:
+** TODO [#C]  Add Travis CI to my website                             :LIFE:
 
 ** TODO [#C] 研究 js2-mode 的各种妙用                                :Emacs:
 [[http://blog.binchen.org/posts/why-emacs-is-better-editor.html][Why Emacs is better editor - a case study for javascript developer | Chen's blog]]
@@ -303,8 +375,10 @@ CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
 
 ** TODO [#B]  阅读[[http://sachachua.com/blog/2008/01/projects-in-emacs-org/][Projects in Emacs Org - sacha chua :: living an awesome life]]
 
-** TODO Org Custom command 支持过滤掉一些 habit 的任务.                :Emacs:
-比如重要且非常紧急的任务,应该是已经 schedule 的,但是不是 habit 任务
+** DONE Org Custom command 支持过滤掉一些 habit 的任务.              :Emacs:
+CLOSED: [2015-10-17 Sat 10:22]
+- State "DONE"       from "TODO"       [2015-10-17 Sat 10:22]
+比如重要且非常紧急的任务,应该是已经 schedule 的,但是需要过滤 habit 任务
 [[http://headhole.org/organisation/2012/08/22/org-mode-gtd-and-the-pomodoro-technique/][Headhole - Org-mode, GTD and the Pomodoro technique]]
 
 ** DONE [#B] 阅读<搞定 1>,然后用 Org-mode 来实现之                   :Emacs:
@@ -314,34 +388,17 @@ CLOSED: [2015-10-13 Tue 11:21]
 CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 :END:      
 
-** TODO Learn Phaser and Clojure
+** TODO [#C] Learn Phaser and Clojure
 [[http://phaser.io/][Phaser - A fast, fun and free open source HTML5 game framework]]
 [[https://github.com/dparis/phzr][dparis/phzr]]
 [[https://www.reddit.com/r/Clojure/comments/3h6gso/phzr_a_clojurescript_wrapper_for_the_phaser_html5/][phzr - A ClojureScript wrapper for the Phaser HTML5 game framework : Clojure]]
 
-** TODO  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
+** TODO [#C]  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
 
 ** TODO  Read the Book <The Art of Unix Programming>
 [[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
 
-** TODO [#B]  Learn Javascript [0%]                                    :WORK:
-SCHEDULED: <2015-10-12 Mon 21:00 .+1d>
-- [ ] http://addyosmani.com/resources/essentialjsdesignpatterns/book/
-- [ ] http://eloquentjavascript.net/
-- [ ] https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
-- [ ] https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
-- [ ] http://exploringjs.com/es6/
-:PROPERTIES:
-:LAST_REPEAT: [2015-10-11 Sun 18:15]
-:END:
-- State "DONE"       from "STARTED"    [2015-10-11 Sun 18:15]
-:LOGBOOK:
-CLOCK: [2015-10-11 Sun 17:50]--[2015-10-12 Mon 13:31] => 19:41
-:END:
-
-** TODO  Add Evil visual mark mode and related toggles               :Emacs:
-
-** TODO  Learn Javascript command line API.                           :WORK:
+** TODO [#C]  Add Evil visual mark mode and related toggles          :Emacs:
 
 ** TODO  Learn Ploymer Starter Kit                                    :WORK:
 https://developers.google.com/web/tools/polymer-starter-kit/
@@ -363,32 +420,41 @@ CLOCK: [2015-10-08 Thu 15:08]--[2015-10-08 Thu 15:33] =>  0:25
 CLOCK: [2015-10-08 Thu 09:24]--[2015-10-08 Thu 09:49] =>  0:25
 :END:
 
-** STARTED Do exercise for 30 minutes                                 :LIFE:
-SCHEDULED: <2015-10-13 Wed 21:00-21:30 .+1d>
+** TODO Do exercise for 30 minutes                              :Daily:LIFE:
+SCHEDULED: <2015-10-16 Fri 21:00-21:30 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-13 Tue 11:22]
+:LAST_REPEAT: [2015-10-15 Thu 22:33]
+:CATEGORY: daily
 :END:
+- State "DONE"       from "STARTED"    [2015-10-15 Thu 22:33]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
 CLOCK: [2015-10-13 Tue 22:05]--[2015-10-14 Wed 09:29] => 11:24
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
-** TODO Do exercise for 30 minutes                                    :LIFE:
-SCHEDULED: <2015-10-15 Thu 08:00 .+1d>
+** TODO Do exercise for 30 minutes                              :Daily:LIFE:
+SCHEDULED: <2015-10-18 Sun 08:00 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-14 Wed 11:01]
+:LAST_REPEAT: [2015-10-17 Sat 10:32]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-17 Sat 10:32]
+- State "DONE"       from "STARTED"    [2015-10-16 Fri 09:29]
+- State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "STARTED"    [2015-10-14 Wed 11:01]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:24]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:24]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
+CLOCK: [2015-10-17 Sat 09:37]--[2015-10-17 Sat 10:02] =>  0:25
+CLOCK: [2015-10-16 Fri 08:32]--[2015-10-16 Fri 09:29] =>  0:57
+CLOCK: [2015-10-16 Fri 08:07]--[2015-10-16 Fri 08:32] =>  0:25
 CLOCK: [2015-10-14 Wed 10:27]--[2015-10-14 Wed 10:52] =>  0:25
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
-** TODO  Learn the little scheme with javascript.                    :DREAM:
+** TODO  Learn 《the little scheme》 with javascript.                 :DREAM:
+use javascript to finish the exercises of the book.
 
 ** DONE Discuss with Wannan about the new GUI development
 CLOSED: [2015-10-13 Tue 18:21] SCHEDULED: <2015-10-13 Tue 15:00>
@@ -410,10 +476,25 @@ http://www.kirubakaran.com/articles/javascript-org-mode-babel.html
 
 3. export it in html or pdf for review.
 
+** DONE Configure regex-tool for regex building
+Not very useful
+CLOSED: [2015-10-17 Sat 10:12]
+- State "DONE"       from "TODO"       [2015-10-17 Sat 10:12]
+https://github.com/jwiegley/regex-tool/blob/master/regex-tool.el
 
-* Weekly Tasks
+** DONE Read a article about how to learn WebGL                      :DREAM:
+CLOSED: [2015-10-16 Fri 08:02] SCHEDULED: <2015-10-15 Thu 22:48>
+- State "DONE"       from "STARTED"    [2015-10-16 Fri 08:02]
+:LOGBOOK:
+CLOCK: [2015-10-15 Thu 22:47]--[2015-10-15 Thu 23:12] =>  0:25
+:END:
+
+** TODO  Javascript Recursive exercises 
+http://roman01la.github.io/recursion-exercises/
+
+* Weekly Tasks                                                       :Weekly:
 #+category: Weekly
-** TODO [#B]  Record a Spacemacs rocks video.                        :Emacs:
+** TODO [#B]  Record a Spacemacs rocks video.                 :Emacs:Weekly:
 SCHEDULED: <2015-10-17 Sat .+6d/7d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-11 Sun 01:09]
@@ -428,16 +509,18 @@ SCHEDULED: <2015-10-17 Sat .+6d/7d>
 
 
 ** TODO Update upstream from Spacemacs and update all the packages from melpa and fix possible issues
-SCHEDULED: <2015-10-15 Thu .+7d/8d>
+SCHEDULED: <2015-10-22 Thu .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-08 Thu 11:39]
+:LAST_REPEAT: [2015-10-15 Thu 09:29]
 :END:
+- State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 11:39]
 ** TODO Write a Blog, no matter English or Chinese                    :LIFE:
-SCHEDULED: <2015-09-30 Wed .+7d/8d>
+SCHEDULED: <2015-10-17 Thu .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-23 Wed 11:54]
+:LAST_REPEAT: [2015-10-15 Thu 09:29]
 :END:
+- State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
 - State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
 - State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
@@ -467,8 +550,11 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
 ** TODO Call my mum                                                   :LIFE:
-
-SCHEDULED: <2015-10-13 Tue 10:00-10:30 .+7d/8d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-15 Thu 09:29]
+:END:
+- State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
+SCHEDULED: <2015-10-22 Thu 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-06 Tue 20:43]
 :END:
@@ -497,18 +583,23 @@ SCHEDULED: <2015-10-13 Tue 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 11:37]
 :END:
-** TODO Review the TODO items, move C to B, Move B to A. 
-SCHEDULED: <2015-10-17 14:00-14:30 Sat .6d/7d>
+** DONE Review the TODO items, move C to B, Move B to A. 
+CLOSED: [2015-10-17 Sat 10:32] SCHEDULED: <2015-10-17 14:00-14:30 Sat .6d/7d>
+- State "DONE"       from "STARTED"    [2015-10-17 Sat 10:32]
+:LOGBOOK:
+CLOCK: [2015-10-17 Sat 10:13]
+:END:
 ** TODO Archive all the done things and write the wiki page of the valuable things
 SCHEDULED: <2015-10-18 15:00-15:30 Sun .6d/7d>
 
-* Monthly Tasks
+* Monthly Tasks                                                     :Monthly:
 #+category: Monthly
 ** TODO Write a article to summary the fruit of a month               :LIFE:
-SCHEDULED: <2015-10-05 Mon .+30d/31d>
+SCHEDULED: <2015-11-14 Sat .+30d/31d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-09-05 Sat 23:39]
+:LAST_REPEAT: [2015-10-15 Thu 22:33]
 :END:
+- State "DONE"       from "TODO"       [2015-10-15 Thu 22:33]
 - State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
 - State "DONE"       from "TODO"       [2015-08-12 Wed 11:31]
 - State "DONE"       from "TODO"       [2015-07-13 Mon 09:31]
@@ -560,23 +651,35 @@ SCHEDULED: <2015-10-05 Mon .+30d/31d>
 # The following section is used for Weekly Review
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-10-10 Sat 18:30], for week 2015-W41.
-| File            | Headline                                  | Time   |      |
-|-----------------+-------------------------------------------+--------+------|
-|                 | ALL *Total time*                          | *9:11* |      |
-|-----------------+-------------------------------------------+--------+------|
-| gtd.org         | *File time*                               | *4:36* |      |
-|                 | Daily Tasks                               | 4:36   |      |
-|                 | \_  TODO Visit Cocos2D-x.org, visit forum |        | 0:50 |
-|                 | \_  STARTED [#B] Create a file-browser... |        | 3:21 |
-|                 | \_  DONE Do exercise for 30 minutes       |        | 0:25 |
-|-----------------+-------------------------------------------+--------+------|
-| gtd.org_archive | *File time*                               | *0:25* |      |
-|                 | DONE Add Chrome refresh function from...  | 0:25   |      |
-|-----------------+-------------------------------------------+--------+------|
-| notes.org       | *File time*                               | *4:10* |      |
-|                 | Quick notes                               | 4:10   |      |
-|                 | \_  DONE Learn Unity UI                   |        | 4:10 |
+#+CAPTION: Clock summary at [2015-10-16 Fri 09:31], for week 2015-W42.
+| File              | Headline                                    |       Time |       |       |
+|-------------------+---------------------------------------------+------------+-------+-------|
+|                   | ALL *Total time*                            | *1d 16:30* |       |       |
+|-------------------+---------------------------------------------+------------+-------+-------|
+| gtd.org           | *File time*                                 | *1d 13:03* |       |       |
+|                   | FireBall                                    |       3:37 |       |       |
+|                   | \_  STARTED 融合 Sale9Sprite 到 Sprite 中   |            |  3:37 |       |
+|                   | \_    Hacking the draw method.              |            |       |  2:22 |
+|                   | Zilongshanren                               |      15:11 |       |       |
+|                   | \_  Reading                                 |            | 15:11 |       |
+|                   | \_    STARTED [#B]  Learn Javascript [0%]   |            |       | 14:46 |
+|                   | \_    STARTED Learn WebGL and Graphics [%]  |            |       |  0:25 |
+|                   | Daily Tasks                                 |      18:15 |       |       |
+|                   | \_  DONE c/c++ enable ycmd and binding...   |            |  0:27 |       |
+|                   | \_  TODO Visit Reddit                       |            |  1:42 |       |
+|                   | \_  TODO Read RSS half an  hour             |            |  0:50 |       |
+|                   | \_  DONE [#A] Create a file-browser package |            |  1:15 |       |
+|                   | \_  TODO Do exercise for 30 minutes         |            | 11:24 |       |
+|                   | \_  TODO Do exercise for 30 minutes         |            |  1:47 |       |
+|                   | \_  DONE Learn literal programming of...    |            |  0:25 |       |
+|                   | \_  DONE Read a article about how to...     |            |  0:25 |       |
+|-------------------+---------------------------------------------+------------+-------+-------|
+| notes.org         | *File time*                                 |     *1:47* |       |       |
+|                   | Quick notes                                 |       1:47 |       |       |
+|                   | \_  TODO Learn DOM manipulate [16%]         |            |  1:47 |       |
+|-------------------+---------------------------------------------+------------+-------+-------|
+| notes.org_archive | *File time*                                 |     *1:40* |       |       |
+|                   | DONE Learn mocha node.js test...            |       1:40 |       |       |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value

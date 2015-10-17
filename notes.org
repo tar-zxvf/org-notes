@@ -45,7 +45,7 @@
   
  [2015-08-10 Mon 17:53]
 
-** TODO 必读书单                                                     :Dream:
+** TODO [#C] 必读书单                                                :Dream:
 
 Code Complete (2nd edition) by Steve McConnell
 The Pragmatic Programmer (Done: +1)
@@ -752,7 +752,7 @@ http://bbs.html5china.com/forum-32-1.html
   
  [2015-08-21 Fri 14:35]
 
-** TODO [[http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/][Chris Granger - Coding is not the new literacy]]
+** TODO [#C] [[http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/][Chris Granger - Coding is not the new literacy]]
   
  [2015-09-07 Mon 13:15]
 
@@ -763,7 +763,7 @@ ps aux | grep ssserver
   
  [2015-09-11 Fri 15:11]
 
-** TODO 一些好玩的 org babel 示例
+** TODO [#C] 一些好玩的 org babel 示例
  https://eschulte.github.io/org-scraps/
  
  [2015-09-13 Sun 16:28]
@@ -779,13 +779,13 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
  
  [2015-09-15 Tue 16:50]
 
-** TODO 一些不错的 js 的 UI 框架
+** TODO [#C] 一些不错的 js 的 UI 框架
 [[http://phaser.io/news/2015/05/ezgui][Phaser - News - EZGUI: The missing GUI Library for Pixi and Phaser]]
  https://github.com/brean/gown.js
  
  [2015-09-16 Wed 23:49]
 
-** TODO 一些不错的 Emacs 链接
+** TODO [#C] 一些不错的 Emacs 链接
  http://tonyballantyne.com/tech/emacs-workout/just-enough-emacs-lisp/
 [[https://github.com/caiorss/Emacs-Elisp-Programming][caiorss/Emacs-Elisp-Programming]]
 [[http://www.reallysoft.de/code/emacs/snippets.html#b4ac23][Real eLisp snippets]]
@@ -801,12 +801,12 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
 
  [2015-09-20 Sun 23:36]
 
-** TODO  如何使用 browserify 来构建模块化的应用                       :nodejs:
+** TODO [#C]  如何使用 browserify 来构建模块化的应用                :nodejs:
  https://github.com/substack/browserify-handbook
  
  [2015-09-21 Mon 11:42]
 
-** TODO 使用 Org-mode 绘图                                             :Emacs:
+** TODO [#C] 使用 Org-mode 绘图                                      :Emacs:
  http://acaird.github.io/2015/09/04/plots-from-org-mode-tables/
  
  [2015-09-21 Mon 22:25]
@@ -816,7 +816,7 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
  
  [2015-09-22 Tue 22:10]
 
-** TODO Use org-mode to write a book                                 :Emacs:
+** TODO [#C] Use org-mode to write a book                            :Emacs:
  http://irreal.org/blog/?p=4429
  
  [2015-09-23 Wed 08:56]
@@ -831,13 +831,13 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
  
  [2015-10-08 Thu 08:16]
 
-** TODO  Learn node.js yeoman framework                               :WORK:
+** TODO [#C]  Learn node.js yeoman framework                          :WORK:
 SCHEDULED: <2015-11-03 Tue>
  https://github.com/yeoman/yeoman
  
  [2015-10-08 Thu 13:38]
 
-** TODO  Learn modern C++ 14 by default                               :WORK:
+** TODO [#C]  Learn modern C++ 14 by default                          :WORK:
 https://github.com/isocpp/CppCoreGuidelines
 https://www.youtube.com/watch?v=1OEu9C51K2A
 https://www.youtube.com/watch?v=hEx5DNLWGgA
@@ -845,7 +845,7 @@ https://www.youtube.com/watch?v=hEx5DNLWGgA
  
  [2015-10-08 Thu 23:49]
 
-** TODO  How to make a pacman with Javscript                         :DREAM:
+** TODO [#C]  How to make a pacman with Javscript                    :DREAM:
  http://www.masswerk.at/JavaPac/pacman-howto.html
 http://home.comcast.net/~jpittman2/pacman/pacmandossier.html 
  [2015-10-08 Thu 23:56]
@@ -870,7 +870,6 @@ http://www.tasharen.com/forum/index.php?topic=6754
  [2015-10-11 Sun 16:47]
 
 ** TODO Learn DOM manipulate [16%]                                   :DREAM:
-SCHEDULED: <2015-10-15 Thu 16:10 .+3d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-12 Mon 18:25]
 :END:
@@ -901,7 +900,7 @@ CLOCK: [2015-10-12 Mon 16:14]--[2015-10-12 Mon 16:23] =>  0:09
  
  [2015-10-13 Tue 09:40]
 
-** TODO Learn Y combinator 
+** TODO [#C] Learn Y combinator 
 Write Y combinator in javascript.
 
 https://noeit.wordpress.com/2009/04/28/how-i-finally-understood-the-y-combinator-and-blew-my-damn-mind/
@@ -917,16 +916,70 @@ http://cestdiego.github.io/blog/2015/10/12/y-combinator-in-emacs-lisp/
 https://news.ycombinator.com/item?id=582786 
  [2015-10-14 Wed 13:50]
 
-** TODO  Learn Haskell
+** TODO [#C]  Learn Haskell
 http://learnyouahaskell.com/chapters
 http://book.realworldhaskell.org/
  [2015-10-14 Wed 14:02]
 
-** TODO  Why learn functional programming
+** TODO [#C]  Why learn functional programming
 http://www.defmacro.org/ramblings/fp.html 
 
 http://weblog.raganwald.com/2007/03/why-why-functional-programming-matters.html
  [2015-10-14 Wed 14:11]
+
+** TODO [#C]  How To Make A "MEAN" AngularJS App In 10 minutes.
+https://www.youtube.com/watch?v=lXo6nDZv8OM 
+ [2015-10-14 Wed 18:17]
+
+** TODO  Javascript ES6 interactive guide
+ http://projects.formidablelabs.com/es6-interactive-guide/#/classes
+ 
+ [2015-10-14 Wed 18:18]
+
+** TODO  Wirte fast memory efficient javascript
+ http://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/
+ 
+ [2015-10-15 Thu 09:56]
+
+** TODO [#C]  Use Python or R for data analysis
+ https://www.dataquest.io/blog/python-vs-r/
+ 
+ [2015-10-15 Thu 10:15]
+
+** TODO [#C]  Getting started with Haskell, stack and spacemacs
+ http://www.rnowak.info/2015/10/getting-started-with-haskell-stack-and.html
+ 
+ [2015-10-15 Thu 11:24]
+
+** TODO [#C]  Create applications with angularjs and electron
+ https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron?utm_source=nodeweekly&utm_medium=email
+ 
+ [2015-10-15 Thu 21:05]
+
+** TODO [#C]  Org basics -- star.bris.ac.uk
+ http://www.star.bris.ac.uk/bjm/org-basics.html
+ 
+ [2015-10-16 Fri 09:38]
+
+** TODO  Classes in JavaScript ES6
+ http://www.2ality.com/2015/02/es6-classes-final.html
+ 
+ [2015-10-16 Fri 10:05]
+
+** TODO  How to learn JavaScript ES6
+ https://www.reddit.com/r/learnjavascript/comments/38ifs0/where_to_learn_es67/
+ 
+ [2015-10-16 Fri 10:06]
+
+** TODO [#C]  minibuffer at the top or at the center                 :Emacs:
+ http://emacsist.com/10487
+ 
+ [2015-10-16 Fri 13:45]
+
+** TODO [#C]  autoconf tutorial
+ http://www.emacswiki.org/emacs/HackerGuide#toc8
+ 
+ [2015-10-16 Fri 22:24]
 
 * Blog Ideas                                                          :BLOG:
 
@@ -965,4 +1018,9 @@ or you could directly use regex-builder to construct the lisp style. but it may 
 regex-builder tips:  c-c c-q : quit
 http://irreal.org/blog/?p=254  
  [2015-10-14 Wed 08:35]
+
+** TODO  Emacs 当前项目快速查找内容
+按 git 划分的项目和目录内查找。
+  
+ [2015-10-15 Thu 22:34]
 

@@ -95,9 +95,6 @@ CLOSED: [2015-08-23 Sun 16:12]
 *** GTD, DDD, RDD, TDD/BDD
 *** Game programming and WebGL
 *** 3D math, algorithms
-*** Learn Erlang, GO, Rust, Scala, F#
-*** Learn Typescript, coffee, SASS, LESS
-*** Learn python, ruby and php
 *** Clean Code and Code complete
 ** From good to great 
 *** Mastering Clojure 
