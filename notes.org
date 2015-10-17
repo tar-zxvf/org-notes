@@ -860,7 +860,7 @@ http://home.comcast.net/~jpittman2/pacman/pacmandossier.html
  
  [2015-10-10 Sat 10:44]
 
-** TODO [#A]  Learn some basic NGUI usage                             :WORK:
+** TODO [#B]  Learn some basic NGUI usage                             :WORK:
 http://www.tasharen.com/forum/index.php?topic=6754 
  [2015-10-10 Sat 14:57]
 
@@ -981,6 +981,10 @@ https://www.youtube.com/watch?v=lXo6nDZv8OM
  
  [2015-10-16 Fri 22:24]
 
+** TODO [#C]  The  little book of OS development
+https://littleosbook.github.io/
+ [2015-10-17 Sat 11:19]
+
 * Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍 Mac 使用 efi 安装双系统.
@@ -1023,4 +1027,5 @@ http://irreal.org/blog/?p=254
 按 git 划分的项目和目录内查找。
   
  [2015-10-15 Thu 22:34]
+
 
