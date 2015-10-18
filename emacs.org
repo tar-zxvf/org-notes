@@ -5,6 +5,10 @@
 [[https://github.com/hick/emacs-chinese][hick/emacs-chinese]]  
  [2015-08-11 Tue 08:58]
 * Learning Emacs
+** TODO [#C]  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
+
+** TODO [#B]  阅读[[http://sachachua.com/blog/2008/01/projects-in-emacs-org/][Projects in Emacs Org - sacha chua :: living an awesome life]]
+
 ** Learn Spacemacs
 *** Install Spacemacs
 1. 安装跟平台相关的 Emacs 版本

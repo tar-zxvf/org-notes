@@ -5364,3 +5364,148 @@ CLOSED: [2015-10-08 Thu 23:32] SCHEDULED: <2015-10-08 Thu 21:30>
 :ARCHIVE_TODO: DONE
 :END:
 - State "DONE"       from "TODO"       [2015-10-08 Thu 23:32]
+
+* DONE c/c++ enable ycmd and binding "s-." as company-ycmd
+CLOSED: [2015-10-15 Thu 22:33] SCHEDULED: <2015-10-15 Thu 13:35>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-15 Thu 22:33]
+:LOGBOOK:
+CLOCK: [2015-10-15 Thu 13:35]--[2015-10-15 Thu 14:02] =>  0:27
+:END:
+
+
+* DONE Org Custom command 支持过滤掉一些 habit 的任务.                :Emacs:
+CLOSED: [2015-10-17 Sat 10:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "TODO"       [2015-10-17 Sat 10:22]
+比如重要且非常紧急的任务,应该是已经 schedule 的,但是需要过滤 habit 任务
+[[http://headhole.org/organisation/2012/08/22/org-mode-gtd-and-the-pomodoro-technique/][Headhole - Org-mode, GTD and the Pomodoro technique]]
+
+
+* DONE [#A] Create a file-browser package                              :WORK:
+CLOSED: [2015-10-13 Tue 09:25] SCHEDULED: <2015-10-12 Mon 21:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-13 Tue 09:25]
+:LOGBOOK:
+CLOCK: [2015-10-12 Mon 21:39]--[2015-10-12 Mon 22:04] =>  0:25
+CLOCK: [2015-10-12 Mon 20:52]--[2015-10-12 Mon 21:17] =>  0:25
+CLOCK: [2015-10-12 Mon 15:05]--[2015-10-12 Mon 15:30] =>  0:25
+CLOCK: [2015-10-09 Fri 11:53]--[2015-10-09 Fri 12:18] =>  0:25
+CLOCK: [2015-10-09 Fri 11:08]--[2015-10-09 Fri 11:33] =>  0:25
+CLOCK: [2015-10-09 Fri 10:22]--[2015-10-09 Fri 10:48] =>  0:26
+CLOCK: [2015-10-09 Fri 09:30]--[2015-10-09 Fri 09:55] =>  0:25
+CLOCK: [2015-10-08 Thu 18:11]--[2015-10-08 Thu 18:36] =>  0:25
+CLOCK: [2015-10-08 Thu 17:14]--[2015-10-08 Thu 17:39] =>  0:25
+CLOCK: [2015-10-08 Thu 15:08]--[2015-10-08 Thu 15:33] =>  0:25
+CLOCK: [2015-10-08 Thu 09:24]--[2015-10-08 Thu 09:49] =>  0:25
+:END:
+
+
+* DONE Discuss with Wannan about the new GUI development
+CLOSED: [2015-10-13 Tue 18:21] SCHEDULED: <2015-10-13 Tue 15:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "TODO"       [2015-10-13 Tue 18:21]
+
+* DONE Learn literal programming of node js. Use REPL and org-mode to understand the program better.
+CLOSED: [2015-10-14 Wed 10:27] SCHEDULED: <2015-10-14 Wed 10:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-14 Wed 10:27]
+:LOGBOOK:
+CLOCK: [2015-10-14 Wed 09:59]--[2015-10-14 Wed 10:24] =>  0:25
+:END:
+1. import node modules and play with it.
+http://www.kirubakaran.com/articles/javascript-org-mode-babel.html
+
+2. draw math symbols(latex) and charts(d3.js).
+
+3. export it in html or pdf for review.
+
+
+* DONE Read a article about how to learn WebGL                        :DREAM:
+CLOSED: [2015-10-16 Fri 08:02] SCHEDULED: <2015-10-15 Thu 22:48>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-16 Fri 08:02]
+:LOGBOOK:
+CLOCK: [2015-10-15 Thu 22:47]--[2015-10-15 Thu 23:12] =>  0:25
+:END:
+
+
+* DONE Review the TODO items, move C to B, Move B to A. 
+CLOSED: [2015-10-17 Sat 10:32] SCHEDULED: <2015-10-17 14:00-14:30 Sat .6d/7d>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Weekly Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Weekly
+:END:
+- State "DONE"       from "STARTED"    [2015-10-17 Sat 10:32]
+:LOGBOOK:
+CLOCK: [2015-10-17 Sat 10:13]--[2015-10-17 Sat 11:11] =>  0:58
+:END:
+
+* DONE [#B] 阅读<搞定 1>,然后用 Org-mode 来实现之                     :Emacs:
+CLOSED: [2015-10-13 Tue 11:21]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+- State "DONE"       from "STARTED"    [2015-10-13 Tue 11:21]
+:LOGBOOK:  
+CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
+:END:      
+
+
+* DONE Configure regex-tool for regex building
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-18 Sun 13:47
+:ARCHIVE_FILE: ~/org-notes/gtd.org
+:ARCHIVE_OLPATH: Daily Tasks
+:ARCHIVE_CATEGORY: Monthly
+:ARCHIVE_TODO: DONE
+:END:
+Not very useful
+CLOSED: [2015-10-17 Sat 10:12]
+- State "DONE"       from "TODO"       [2015-10-17 Sat 10:12]
+https://github.com/jwiegley/regex-tool/blob/master/regex-tool.el
+

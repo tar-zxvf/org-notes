@@ -84,10 +84,12 @@ SCHEDULED: <2015-10-12 Mon 21:00 .+1d>
 - [ ] https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 - [ ] http://tagtree.io/courses/expert-es6/do
 - [ ] http://eloquentjavascript.net/
+- [ ] https://watchandcode.com/courses/eloquent-javascript-the-annotated-version/lectures/292229
 - [ ] http://addyosmani.com/resources/essentialjsdesignpatterns/book/
 - [ ] https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
 - [ ] https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
 - [ ] http://exploringjs.com/es6/
+- [ ] https://github.com/MostlyAdequate/mostly-adequate-guide
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-11 Sun 18:15]
 :END:
@@ -158,18 +160,19 @@ SCHEDULED: <2015-10-18 Sun 07:00 .+1d/2d>
 :END:
 * Daily Tasks
 #+category: Daily
-** DONE c/c++ enable ycmd and binding "s-." as company-ycmd
-CLOSED: [2015-10-15 Thu 22:33] SCHEDULED: <2015-10-15 Thu 13:35>
-- State "DONE"       from "STARTED"    [2015-10-15 Thu 22:33]
-:LOGBOOK:
-CLOCK: [2015-10-15 Thu 13:35]--[2015-10-15 Thu 14:02] =>  0:27
-:END:
-
+** TODO Learning  Clojure                                          :clojure:
+SCHEDULED: <2015-10-18 Sun 21:00 .+1d>
+[[http://www.flyingmachinestudios.com/programming/to-the-printers/][Clojure for the Brave and True Is Off to the Printers!]]
+https://github.com/kovasb/gamma-driver
+https://github.com/sgrove/gamma-playground
+  
+ [2015-08-14 Fri 09:44]
 ** TODO  Learn basic Gulp                                             :WORK:
 ** TODO Visit Reddit                                            :Daily:WORK:
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-17 Sat 11:43]
+:LAST_REPEAT: [2015-10-18 Sun 13:13]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-18 Sun 13:13]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 11:43]
 - State "DONE"       from "STARTED"    [2015-10-16 Fri 10:07]
 - State "DONE"       from "STARTED"    [2015-10-15 Thu 10:16]
@@ -208,8 +211,9 @@ CLOCK: [2015-10-15 Thu 13:35]--[2015-10-15 Thu 14:02] =>  0:27
 - State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
 - State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
 
-SCHEDULED: <2015-10-18 Sun 09:30-09:50 .+1d>
+SCHEDULED: <2015-10-19 Mon 09:30-09:50 .+1d>
 :LOGBOOK:  
+CLOCK: [2015-10-18 Sun 11:38]--[2015-10-18 Sun 12:03] =>  0:25
 CLOCK: [2015-10-17 Sat 11:11]--[2015-10-17 Sat 11:36] =>  0:25
 CLOCK: [2015-10-16 Fri 09:35]--[2015-10-16 Fri 10:00] =>  0:25
 CLOCK: [2015-10-15 Thu 09:29]--[2015-10-15 Thu 09:56] =>  0:27
@@ -247,10 +251,11 @@ CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
    :LAST_REPEAT: [2015-08-25 Tue 16:58]
    :END:
 ** TODO Read RSS half an  hour                                  :Daily:LIFE:
-SCHEDULED: <2015-10-18 Sun 13:40 .+1d>
+SCHEDULED: <2015-10-19 Mon 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-17 Sat 12:25]
+:LAST_REPEAT: [2015-10-18 Sun 13:46]
 :END:
+- State "DONE"       from "TODO"       [2015-10-18 Sun 13:46]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 12:25]
 - State "DONE"       from "STARTED"    [2015-10-16 Fri 14:08]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 13:34]
@@ -347,25 +352,11 @@ SCHEDULED: <2015-10-28 Wed>
 [[http://www.gnu.org/software/emacs/manual/html_node/ert/index.html][Emacs Lisp Regression Testing: Top]]
 "http://www.gnu.org/software/emacs/manual/html_node/ert/index.html"
 
-** TODO [#B] 重写 Win32 的 EditBox                                    :WORK:
-[[http://stackoverflow.com/questions/978632/how-do-i-create-a-normal-win32-edit-control][c - How do I create a normal win32 edit control? - Stack Overflow]]
-[[https://msdn.microsoft.com/en-us/library/windows/desktop/hh298433(v%3Dvs.85).aspx][How to Create a Multiline Edit Control (Windows)]]
-[[http://www.win32developer.com/tutorial/windows/windows_tutorial_3.shtm][Win32 Developer - Tutorial 3 Using edit boxes, buttons, and other window asset using the Win32 API]]
-[[https://msdn.microsoft.com/en-us/library/bb773169(VS.85).aspx][Control Library (Windows)]]
-
 ** TODO [#C]  Add Travis CI to my website                             :LIFE:
 
 ** TODO [#C] 研究 js2-mode 的各种妙用                                :Emacs:
 [[http://blog.binchen.org/posts/why-emacs-is-better-editor.html][Why Emacs is better editor - a case study for javascript developer | Chen's blog]]
 [[http://blog.binchen.org/posts/use-which-func-mode-with-js2-mode.html][Use which-func-mode with js2-mode | Chen's blog]]
-
-** STARTED [#B]  修复 Scale9Sprite 进度条缩放的问题                    :WORK:
-:LOGBOOK:  
-CLOCK: [2015-08-11 Tue 13:55]--[2015-08-11 Tue 14:20] =>  0:25
-CLOCK: [2015-08-10 Mon 17:13]--[2015-08-10 Mon 17:38] =>  0:25
-CLOCK: [2015-08-10 Mon 17:11]--[2015-08-10 Mon 17:13] =>  0:02
-CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
-:END:      
 
 ** TODO [#B]  给 Org-insert-link 添加 Helm 接口,可以从所有的 Agenda Files 里面选择一个 Headline 并插件链接 :Emacs:
 
@@ -377,27 +368,10 @@ CLOCK: [2015-08-10 Mon 16:38]--[2015-08-10 Mon 17:03] =>  0:25
 [[http://xlambda.com/blog/2010/01/11/customize-calendar-in-emacs/][在 emacs calendar 中定制中国农历节日 - X lambda]]
 
 
-** TODO [#B]  阅读[[http://sachachua.com/blog/2008/01/projects-in-emacs-org/][Projects in Emacs Org - sacha chua :: living an awesome life]]
-
-** DONE Org Custom command 支持过滤掉一些 habit 的任务.              :Emacs:
-CLOSED: [2015-10-17 Sat 10:22]
-- State "DONE"       from "TODO"       [2015-10-17 Sat 10:22]
-比如重要且非常紧急的任务,应该是已经 schedule 的,但是需要过滤 habit 任务
-[[http://headhole.org/organisation/2012/08/22/org-mode-gtd-and-the-pomodoro-technique/][Headhole - Org-mode, GTD and the Pomodoro technique]]
-
-** DONE [#B] 阅读<搞定 1>,然后用 Org-mode 来实现之                   :Emacs:
-CLOSED: [2015-10-13 Tue 11:21]
-- State "DONE"       from "STARTED"    [2015-10-13 Tue 11:21]
-:LOGBOOK:  
-CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
-:END:      
-
 ** TODO [#C] Learn Phaser and Clojure
 [[http://phaser.io/][Phaser - A fast, fun and free open source HTML5 game framework]]
 [[https://github.com/dparis/phzr][dparis/phzr]]
 [[https://www.reddit.com/r/Clojure/comments/3h6gso/phzr_a_clojurescript_wrapper_for_the_phaser_html5/][phzr - A ClojureScript wrapper for the Phaser HTML5 game framework : Clojure]]
-
-** TODO [#C]  阅读[[http://www.nhplace.com/kent/Papers/Technical-Issues.html][Technical Issues of Separation in Function Cells and Value Cells]]
 
 ** TODO  Read the Book <The Art of Unix Programming>
 [[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
@@ -406,23 +380,6 @@ CLOCK: [2015-08-14 Fri 07:49]--[2015-08-14 Fri 09:34] =>  1:45
 
 ** TODO  Learn Ploymer Starter Kit                                    :WORK:
 https://developers.google.com/web/tools/polymer-starter-kit/
-
-** DONE [#A] Create a file-browser package                            :WORK:
-CLOSED: [2015-10-13 Tue 09:25] SCHEDULED: <2015-10-12 Mon 21:00>
-- State "DONE"       from "STARTED"    [2015-10-13 Tue 09:25]
-:LOGBOOK:
-CLOCK: [2015-10-12 Mon 21:39]--[2015-10-12 Mon 22:04] =>  0:25
-CLOCK: [2015-10-12 Mon 20:52]--[2015-10-12 Mon 21:17] =>  0:25
-CLOCK: [2015-10-12 Mon 15:05]--[2015-10-12 Mon 15:30] =>  0:25
-CLOCK: [2015-10-09 Fri 11:53]--[2015-10-09 Fri 12:18] =>  0:25
-CLOCK: [2015-10-09 Fri 11:08]--[2015-10-09 Fri 11:33] =>  0:25
-CLOCK: [2015-10-09 Fri 10:22]--[2015-10-09 Fri 10:48] =>  0:26
-CLOCK: [2015-10-09 Fri 09:30]--[2015-10-09 Fri 09:55] =>  0:25
-CLOCK: [2015-10-08 Thu 18:11]--[2015-10-08 Thu 18:36] =>  0:25
-CLOCK: [2015-10-08 Thu 17:14]--[2015-10-08 Thu 17:39] =>  0:25
-CLOCK: [2015-10-08 Thu 15:08]--[2015-10-08 Thu 15:33] =>  0:25
-CLOCK: [2015-10-08 Thu 09:24]--[2015-10-08 Thu 09:49] =>  0:25
-:END:
 
 ** STARTED Do exercise for 30 minutes                           :Daily:LIFE:
 SCHEDULED: <2015-10-16 Fri 21:00-21:30 .+1d>
@@ -433,16 +390,18 @@ SCHEDULED: <2015-10-16 Fri 21:00-21:30 .+1d>
 - State "DONE"       from "STARTED"    [2015-10-15 Thu 22:33]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
+CLOCK: [2015-10-17 Sat 23:06]--[2015-10-17 Sat 23:31] =>  0:25
 CLOCK: [2015-10-17 Sat 21:35]--[2015-10-17 Sat 21:38] =>  0:03
 CLOCK: [2015-10-13 Tue 22:05]--[2015-10-14 Wed 09:29] => 11:24
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
 ** TODO Do exercise for 30 minutes                              :Daily:LIFE:
-SCHEDULED: <2015-10-18 Sun 08:00 .+1d>
+SCHEDULED: <2015-10-19 Mon 08:00 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-17 Sat 10:32]
+:LAST_REPEAT: [2015-10-18 Sun 11:38]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-18 Sun 11:38]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 10:32]
 - State "DONE"       from "STARTED"    [2015-10-16 Fri 09:29]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
@@ -451,6 +410,7 @@ SCHEDULED: <2015-10-18 Sun 08:00 .+1d>
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:24]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
+CLOCK: [2015-10-18 Sun 11:06]--[2015-10-18 Sun 11:31] =>  0:25
 CLOCK: [2015-10-17 Sat 09:37]--[2015-10-17 Sat 10:02] =>  0:25
 CLOCK: [2015-10-16 Fri 08:32]--[2015-10-16 Fri 09:29] =>  0:57
 CLOCK: [2015-10-16 Fri 08:07]--[2015-10-16 Fri 08:32] =>  0:25
@@ -461,38 +421,9 @@ CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 ** TODO [#A]  Learn 《the little scheme》 with javascript.           :DREAM:
 use javascript to finish the exercises of the book.
 
-** DONE Discuss with Wannan about the new GUI development
-CLOSED: [2015-10-13 Tue 18:21] SCHEDULED: <2015-10-13 Tue 15:00>
-- State "DONE"       from "TODO"       [2015-10-13 Tue 18:21]
 ** TODO [#C]  Make Emacs Javascript TDD more convenient 
 http://eigenhombre.com/clojure/2014/07/20/a-worfklow-tdd-rdd-and-ddd/
 https://github.com/jorgenschaefer/emacs-tdd
-
-** DONE Learn literal programming of node js. Use REPL and org-mode to understand the program better.
-CLOSED: [2015-10-14 Wed 10:27] SCHEDULED: <2015-10-14 Wed 10:00>
-- State "DONE"       from "STARTED"    [2015-10-14 Wed 10:27]
-:LOGBOOK:
-CLOCK: [2015-10-14 Wed 09:59]--[2015-10-14 Wed 10:24] =>  0:25
-:END:
-1. import node modules and play with it.
-http://www.kirubakaran.com/articles/javascript-org-mode-babel.html
-
-2. draw math symbols(latex) and charts(d3.js).
-
-3. export it in html or pdf for review.
-
-** DONE Configure regex-tool for regex building
-Not very useful
-CLOSED: [2015-10-17 Sat 10:12]
-- State "DONE"       from "TODO"       [2015-10-17 Sat 10:12]
-https://github.com/jwiegley/regex-tool/blob/master/regex-tool.el
-
-** DONE Read a article about how to learn WebGL                      :DREAM:
-CLOSED: [2015-10-16 Fri 08:02] SCHEDULED: <2015-10-15 Thu 22:48>
-- State "DONE"       from "STARTED"    [2015-10-16 Fri 08:02]
-:LOGBOOK:
-CLOCK: [2015-10-15 Thu 22:47]--[2015-10-15 Thu 23:12] =>  0:25
-:END:
 
 ** TODO  Javascript Recursive exercises 
 http://roman01la.github.io/recursion-exercises/
@@ -564,7 +495,7 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
-** TODO Call my mum                                                   :LIFE:
+** TODO Keep in touch with family                                      :LIFE:
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-15 Thu 09:29]
 :END:
@@ -597,12 +528,6 @@ SCHEDULED: <2015-10-22 Thu 10:00-10:30 .+7d/8d>
 - State "DONE"       from "STARTED"    [2014-03-29 Sat 10:11]
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 11:37]
-:END:
-** DONE Review the TODO items, move C to B, Move B to A. 
-CLOSED: [2015-10-17 Sat 10:32] SCHEDULED: <2015-10-17 14:00-14:30 Sat .6d/7d>
-- State "DONE"       from "STARTED"    [2015-10-17 Sat 10:32]
-:LOGBOOK:
-CLOCK: [2015-10-17 Sat 10:13]--[2015-10-17 Sat 11:11] =>  0:58
 :END:
 ** TODO Archive all the done things and write the wiki page of the valuable things
 SCHEDULED: <2015-10-18 15:00-15:30 Sun .6d/7d>
@@ -762,3 +687,10 @@ SCHEDULED: <2015-11-14 Sat .+30d/31d>
 * Cocos2D-X
 
 
+** STARTED [#B]  修复 Scale9Sprite 进度条缩放的问题                   :WORK:
+
+** TODO [#B] 重写 Win32 的 EditBox                                    :WORK:
+[[http://stackoverflow.com/questions/978632/how-do-i-create-a-normal-win32-edit-control][c - How do I create a normal win32 edit control? - Stack Overflow]]
+[[https://msdn.microsoft.com/en-us/library/windows/desktop/hh298433(v%3Dvs.85).aspx][How to Create a Multiline Edit Control (Windows)]]
+[[http://www.win32developer.com/tutorial/windows/windows_tutorial_3.shtm][Win32 Developer - Tutorial 3 Using edit boxes, buttons, and other window asset using the Win32 API]]
+[[https://msdn.microsoft.com/en-us/library/bb773169(VS.85).aspx][Control Library (Windows)]]

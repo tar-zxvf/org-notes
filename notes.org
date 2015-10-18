@@ -985,6 +985,11 @@ https://www.youtube.com/watch?v=lXo6nDZv8OM
 https://littleosbook.github.io/
  [2015-10-17 Sat 11:19]
 
+** TODO  Functors, Applicatives, And Monads In Pictures
+ http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+ 
+ [2015-10-18 Sun 12:02]
+
 * Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍 Mac 使用 efi 安装双系统.
