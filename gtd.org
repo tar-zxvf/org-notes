@@ -529,7 +529,10 @@ SCHEDULED: <2015-10-22 Thu 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 11:37]
 :END:
-** TODO Archive all the done things and write the wiki page of the valuable things
+** TODO  GTD weekly Review
+- Archive all the Done items.
+- Adjust the Todo item's priority.
+- Refile some tasks.
 SCHEDULED: <2015-10-18 15:00-15:30 Sun .6d/7d>
 
 * Monthly Tasks                                                     :Monthly:
