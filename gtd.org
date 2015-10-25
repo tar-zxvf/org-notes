@@ -6,9 +6,20 @@
 :PROPERTIES:
 :CATEGORY: cocos2d-x
 :END:
-** STARTED [#A] 融合 Sale9Sprite 到 Sprite 中                         :WORK:
-SCHEDULED: <2015-10-17 Fri 15:00>
+** DONE [#A] 融合 Sale9Sprite 到 Sprite 中                            :WORK:
+CLOSED: [2015-10-22 Thu 17:51] SCHEDULED: <2015-10-17 Fri 15:00>
+- State "DONE"       from "STARTED"    [2015-10-22 Thu 17:51]
 :LOGBOOK:
+CLOCK: [2015-10-22 Thu 09:37]--[2015-10-22 Thu 10:02] =>  0:25
+CLOCK: [2015-10-21 Wed 14:46]--[2015-10-21 Wed 15:11] =>  0:25
+CLOCK: [2015-10-21 Wed 10:06]--[2015-10-21 Wed 10:31] =>  0:25
+CLOCK: [2015-10-20 Tue 17:51]--[2015-10-20 Tue 18:16] =>  0:25
+CLOCK: [2015-10-20 Tue 15:17]--[2015-10-20 Tue 15:42] =>  0:25
+CLOCK: [2015-10-20 Tue 14:47]--[2015-10-20 Tue 15:12] =>  0:25
+CLOCK: [2015-10-20 Tue 14:13]--[2015-10-20 Tue 14:38] =>  0:25
+CLOCK: [2015-10-20 Tue 11:16]--[2015-10-20 Tue 11:41] =>  0:25
+CLOCK: [2015-10-20 Tue 10:18]--[2015-10-20 Tue 10:43] =>  0:25
+CLOCK: [2015-10-20 Tue 09:48]--[2015-10-20 Tue 10:13] =>  0:25
 CLOCK: [2015-10-16 Fri 20:12]--[2015-10-16 Fri 20:37] =>  0:25
 CLOCK: [2015-10-16 Fri 17:25]--[2015-10-16 Fri 17:50] =>  0:25
 CLOCK: [2015-10-16 Fri 16:49]--[2015-10-16 Fri 17:14] =>  0:25
@@ -63,7 +74,7 @@ CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
 2. Tweak the Source code 
 
 3. Learn how to extend the editor.
-** TODO [#A]  Learn Typescript and Egret GUI and Pixi GUI             :WORK:
+** TODO [#B]  Learn Typescript and Egret GUI and Pixi GUI             :WORK:
 1. Learn some basic Typescript and set Emacs MacOS X dev env
 
 2. Learn Egret GUI and write some code.
@@ -76,25 +87,28 @@ CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
 :CATEGORY: zilongshanren
 :END:
 ** Reading                                                         
-*** STARTED [#B]  Learn Javascript [0%]                       :Daily:DREAM:
+*** STARTED [#B]  Learn Javascript [22%]                        :Daily:DREAM:
 SCHEDULED: <2015-10-12 Mon 21:00 .+1d>
 :PROPERTIES:
 :CATEGORY: zilongshanren
 :END:
-- [ ] https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
-- [ ] http://tagtree.io/courses/expert-es6/do
-- [ ] http://eloquentjavascript.net/
+- [X] https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+- [X] http://tagtree.io/courses/expert-es6/do
 - [ ] https://watchandcode.com/courses/eloquent-javascript-the-annotated-version/lectures/292229
+- [ ][[file:~/Documents/%5BO'Reilly%20Media%5D%20Functional%20JavaScript.pdf][Functional Javascript]] 
 - [ ] http://addyosmani.com/resources/essentialjsdesignpatterns/book/
-- [ ] https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond
-- [ ] https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
 - [ ] http://exploringjs.com/es6/
+- [ ] https://github.com/getify/You-Dont-Know-JS
+- [ ] https://leanpub.com/javascriptallongesix/read#leanpub-auto-decaffeinated-impostors
 - [ ] https://github.com/MostlyAdequate/mostly-adequate-guide
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-11 Sun 18:15]
 :END:
 - State "DONE"       from "STARTED"    [2015-10-11 Sun 18:15]
 :LOGBOOK:
+CLOCK: [2015-10-30 Fri 14:47]--[2015-10-30 Fri 15:12] =>  0:25
+CLOCK: [2015-10-30 Fri 14:13]--[2015-10-30 Fri 14:38] =>  0:25
+CLOCK: [2015-10-30 Fri 11:37]--[2015-10-30 Fri 12:02] =>  0:25
 CLOCK: [2015-10-14 Wed 21:20]--[2015-10-14 Wed 21:45] =>  0:25
 CLOCK: [2015-10-14 Wed 20:38]--[2015-10-14 Wed 21:03] =>  0:25
 CLOCK: [2015-10-14 Wed 20:04]--[2015-10-14 Wed 20:29] =>  0:25
@@ -102,10 +116,12 @@ CLOCK: [2015-10-11 Sun 17:50]--[2015-10-12 Mon 13:31] => 19:41
 :END:
 
 *** TODO Learn WebGL and Graphics [0%]                        :Daily:DREAM:
+SCHEDULED: <2015-10-27 22:30 .+1d Tue>
 :PROPERTIES:
 :CATEGORY: zilongshanren
-:LAST_REPEAT: [2015-10-17 Sat 10:06]
+:LAST_REPEAT: [2015-10-27 Tue 09:21]
 :END:
+- State "DONE"       from "TODO"       [2015-10-27 Tue 09:21]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 10:06]
 :LOGBOOK:
 CLOCK: [2015-10-15 Thu 23:32]--[2015-10-15 Thu 23:57] =>  0:25
@@ -121,8 +137,6 @@ CLOCK: [2015-10-15 Thu 23:32]--[2015-10-15 Thu 23:57] =>  0:25
 Reference:
 https://tsherif.wordpress.com/2015/10/05/from-web-to-webgl-a-guide-for-web-developers-entering-the-third-dimension/
 
-
-SCHEDULED: <2015-10-18 Sun 07:00 .+1d/2d>
 
 *** TODO   Read <<SCIP>> books                           
 :PROPERTIES:
@@ -160,59 +174,60 @@ SCHEDULED: <2015-10-18 Sun 07:00 .+1d/2d>
 :END:
 * Daily Tasks
 #+category: Daily
-** TODO Learning  Clojure                                          :clojure:
-SCHEDULED: <2015-10-18 Sun 21:00 .+1d>
-[[http://www.flyingmachinestudios.com/programming/to-the-printers/][Clojure for the Brave and True Is Off to the Printers!]]
-https://github.com/kovasb/gamma-driver
-https://github.com/sgrove/gamma-playground
+** STARTED ListView 添加 Cell 复用  [100%]                            :WORK:
+SCHEDULED: <2015-10-26 Mon 14:42>
+:LOGBOOK:
+CLOCK: [2015-10-27 Tue 14:37]--[2015-10-27 Tue 15:02] =>  0:25
+CLOCK: [2015-10-27 Tue 14:07]--[2015-10-27 Tue 14:32] =>  0:25
+:END:
+** STARTED Learning  Clojure [%]                       :DREAM:Daily:clojure:
+SCHEDULED: <2015-10-19 Mon 21:00 .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2015-10-18 Sun 22:59]
+:END:
+- State "DONE"       from "STARTED"    [2015-10-18 Sun 22:59]
+:LOGBOOK:
+CLOCK: [2015-10-23 Fri 21:55]--[2015-10-23 Fri 22:20] =>  0:25
+CLOCK: [2015-10-19 Mon 23:03]--[2015-10-19 Mon 23:28] =>  0:25
+CLOCK: [2015-10-18 Sun 20:23]--[2015-10-18 Sun 20:48] =>  0:25
+CLOCK: [2015-10-18 Sun 17:46]--[2015-10-18 Sun 18:11] =>  0:25
+CLOCK: [2015-10-18 Sun 17:06]--[2015-10-18 Sun 17:31] =>  0:25
+CLOCK: [2015-10-18 Sun 16:29]--[2015-10-18 Sun 16:54] =>  0:25
+:END:
+- [ ] [[http://www.flyingmachinestudios.com/programming/to-the-printers/][Clojure for the Brave and True Is Off to the Printers!]]
+- [ ] https://github.com/kovasb/gamma-driver
+- [ ] https://github.com/sgrove/gamma-playground
+- [ ] http://clojure.org/cheatsheet
+- [ ] http://www.4clojure.com/problems
+- [ ] https://github.com/clojure-cookbook/clojure-cookbook
+4clojure answers
+ https://github.com/jwalsh/4clojure-exercises/blob/master/src/exercises_4clojure/core.clj
   
  [2015-08-14 Fri 09:44]
 ** TODO  Learn basic Gulp                                             :WORK:
 ** TODO Visit Reddit                                            :Daily:WORK:
+SCHEDULED: <2015-10-31 Sat 09:30-09:50 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-18 Sun 13:13]
+:LAST_REPEAT: [2015-10-30 Fri 11:35]
 :END:
-- State "DONE"       from "STARTED"    [2015-10-18 Sun 13:13]
-- State "DONE"       from "STARTED"    [2015-10-17 Sat 11:43]
-- State "DONE"       from "STARTED"    [2015-10-16 Fri 10:07]
-- State "DONE"       from "STARTED"    [2015-10-15 Thu 10:16]
-- State "DONE"       from "STARTED"    [2015-10-14 Wed 09:59]
-- State "DONE"       from "STARTED"    [2015-10-13 Tue 09:59]
-- State "DONE"       from "STARTED"    [2015-10-12 Mon 16:04]
-- State "DONE"       from "STARTED"    [2015-10-11 Sun 17:12]
-- State "DONE"       from "STARTED"    [2015-10-10 Sat 14:40]
-- State "DONE"       from "STARTED"    [2015-10-09 Fri 09:30]
-- State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
-- State "DONE"       from "TODO"       [2015-09-25 Fri 14:19]
-- State "DONE"       from "STARTED"    [2015-09-23 Wed 11:54]
-- State "DONE"       from "TODO"       [2015-09-22 Tue 14:06]
-- State "DONE"       from "STARTED"    [2015-09-21 Mon 16:47]
-- State "DONE"       from "TODO"       [2015-09-15 Tue 09:25]
-- State "DONE"       from "TODO"       [2015-09-14 Mon 10:12]
-- State "DONE"       from "TODO"       [2015-09-12 Sat 21:17]
-- State "DONE"       from "STARTED"    [2015-09-11 Fri 11:20]
-- State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
-- State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
-- State "DONE"       from "TODO"       [2015-09-06 Sun 13:44]
-- State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
-- State "DONE"       from "STARTED"    [2015-09-04 Fri 11:51]
-- State "DONE"       from "TODO"       [2015-09-01 Tue 10:33]
-- State "DONE"       from "TODO"       [2015-08-31 Mon 10:15]
-- State "DONE"       from "TODO"       [2015-08-30 Sun 22:40]
-- State "DONE"       from "TODO"       [2015-08-29 Sat 21:58]
-- State "DONE"       from "STARTED"    [2015-08-28 Fri 09:55]
-- State "DONE"       from "TODO"       [2015-08-27 Thu 09:44]
-- State "DONE"       from "TODO"       [2015-08-27 Thu 09:44]
-- State "DONE"       from "TODO"       [2015-08-25 Tue 16:58]
-- State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
-- State "DONE"       from "TODO"       [2015-08-17 Mon 11:06]
-- State "DONE"       from "STARTED"    [2015-08-14 Fri 10:01]
-- State "DONE"       from "TODO"       [2015-08-12 Wed 17:08]
-- State "DONE"       from "TODO"       [2015-08-10 Mon 11:01]
-- State "DONE"       from "STARTED"    [2015-08-10 Mon 11:00]
-
-SCHEDULED: <2015-10-19 Mon 09:30-09:50 .+1d>
+- State "DONE"       from "STARTED"    [2015-10-30 Fri 11:35]
+- State "DONE"       from "STARTED"    [2015-10-29 Thu 13:33]
+- State "DONE"       from "STARTED"    [2015-10-28 Wed 09:44]
+- State "DONE"       from "STARTED"    [2015-10-27 Tue 13:36]
+- State "DONE"       from "STARTED"    [2015-10-26 Mon 13:36]
+- State "DONE"       from "TODO"       [2015-10-25 Sun 21:33]
 :LOGBOOK:  
+CLOCK: [2015-10-30 Fri 10:56]--[2015-10-30 Fri 11:21] =>  0:25
+CLOCK: [2015-10-30 Fri 10:22]--[2015-10-30 Fri 10:47] =>  0:25
+CLOCK: [2015-10-29 Thu 09:21]--[2015-10-29 Thu 09:46] =>  0:25
+CLOCK: [2015-10-28 Wed 09:17]--[2015-10-28 Wed 09:42] =>  0:25
+CLOCK: [2015-10-27 Tue 09:24]--[2015-10-27 Tue 09:49] =>  0:25
+CLOCK: [2015-10-26 Mon 09:19]--[2015-10-26 Mon 09:44] =>  0:25
+CLOCK: [2015-10-24 Sat 11:07]--[2015-10-24 Sat 11:32] =>  0:25
+CLOCK: [2015-10-23 Fri 09:32]--[2015-10-23 Fri 09:57] =>  0:25
+CLOCK: [2015-10-21 Wed 09:34]--[2015-10-21 Wed 09:59] =>  0:25
+CLOCK: [2015-10-20 Tue 09:12]--[2015-10-20 Tue 09:37] =>  0:25
+CLOCK: [2015-10-19 Mon 07:44]--[2015-10-19 Mon 08:09] =>  0:25
 CLOCK: [2015-10-18 Sun 11:38]--[2015-10-18 Sun 12:03] =>  0:25
 CLOCK: [2015-10-17 Sat 11:11]--[2015-10-17 Sat 11:36] =>  0:25
 CLOCK: [2015-10-16 Fri 09:35]--[2015-10-16 Fri 10:00] =>  0:25
@@ -247,61 +262,24 @@ CLOCK: [2015-05-05 Tue 11:14]--[2015-05-05 Tue 11:39] =>  0:25
 CLOCK: [2015-05-04 Mon 10:32]--[2015-05-04 Mon 10:52] =>  0:20
 CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
 :END:      
-   :PROPERTIES:
-   :LAST_REPEAT: [2015-08-25 Tue 16:58]
-   :END:
 ** TODO Read RSS half an  hour                                  :Daily:LIFE:
-SCHEDULED: <2015-10-19 Mon 13:40 .+1d>
+SCHEDULED: <2015-10-31 Sat 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-18 Sun 13:46]
+:LAST_REPEAT: [2015-10-30 Fri 14:13]
 :END:
-- State "DONE"       from "TODO"       [2015-10-18 Sun 13:46]
-- State "DONE"       from "STARTED"    [2015-10-17 Sat 12:25]
-- State "DONE"       from "STARTED"    [2015-10-16 Fri 14:08]
-- State "DONE"       from "TODO"       [2015-10-15 Thu 13:34]
-- State "DONE"       from "STARTED"    [2015-10-14 Wed 14:18]
-- State "DONE"       from "STARTED"    [2015-10-13 Tue 10:39]
-- State "DONE"       from "TODO"       [2015-10-12 Mon 13:43]
-- State "DONE"       from "STARTED"    [2015-10-11 Sun 17:50]
-- State "DONE"       from "TODO"       [2015-10-10 Sat 11:08]
-- State "DONE"       from "TODO"       [2015-10-09 Fri 09:30]
-- State "DONE"       from "TODO"       [2015-10-08 Thu 00:39]
-- State "DONE"       from "TODO"       [2015-10-06 Tue 20:43]
-- State "DONE"       from "TODO"       [2015-09-25 Fri 14:19]
-- State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
-- State "DONE"       from "TODO"       [2015-09-22 Tue 14:06]
-- State "DONE"       from "TODO"       [2015-09-21 Mon 16:14]
-- State "DONE"       from "TODO"       [2015-09-15 Tue 09:25]
-- State "DONE"       from "TODO"       [2015-09-12 Sat 21:17]
-- State "DONE"       from "TODO"       [2015-09-11 Fri 11:20]
-- State "DONE"       from "TODO"       [2015-09-10 Thu 09:41]
-- State "DONE"       from "TODO"       [2015-09-07 Mon 09:50]
-- State "DONE"       from "TODO"       [2015-09-06 Sun 13:44]
-- State "DONE"       from "TODO"       [2015-09-05 Sat 23:39]
-- State "DONE"       from "TODO"       [2015-09-04 Fri 11:51]
-- State "DONE"       from "TODO"       [2015-09-02 Wed 13:36]
-- State "DONE"       from "TODO"       [2015-08-31 Mon 10:15]
-- State "DONE"       from "TODO"       [2015-08-30 Sun 22:40]
-- State "DONE"       from "TODO"       [2015-08-29 Sat 21:58]
-- State "DONE"       from "TODO"       [2015-08-28 Fri 09:55]
-- State "DONE"       from "TODO"       [2015-08-27 Thu 09:44]
-- State "DONE"       from "TODO"       [2015-08-25 Tue 16:58]
-- State "DONE"       from "TODO"       [2015-08-23 Sun 15:15]
-- State "DONE"       from "TODO"       [2015-08-21 Fri 17:59]
-- State "DONE"       from "TODO"       [2015-08-18 Tue 13:35]
-- State "DONE"       from "TODO"       [2015-08-17 Mon 11:06]
-- State "DONE"       from "TODO"       [2015-08-14 Fri 10:01]
-- State "DONE"       from "TODO"       [2015-08-13 Thu 11:57]
-- State "DONE"       from "STARTED"    [2015-08-12 Wed 11:31]
-- State "DONE"       from "STARTED"    [2015-07-21 Tue 13:48]
-- State "DONE"       from "TODO"       [2015-07-15 Wed 14:58]
-- State "DONE"       from "TODO"       [2015-07-14 Tue 17:23]
-- State "DONE"       from "TODO"       [2015-07-07 Tue 13:59]
-- State "DONE"       from "STARTED"    [2015-07-06 Mon 15:23]
-- State "DONE"       from "TODO"       [2015-07-03 Fri 14:51]
-- State "DONE"       from "TODO"       [2015-07-02 Thu 14:30]
-- State "DONE"       from "STARTED"    [2015-06-26 Fri 11:59]
+- State "DONE"       from "STARTED"    [2015-10-30 Fri 14:13]
+- State "DONE"       from "STARTED"    [2015-10-29 Thu 15:03]
+- State "DONE"       from "STARTED"    [2015-10-27 Tue 14:07]
+- State "DONE"       from "STARTED"    [2015-10-26 Mon 14:40]
 :LOGBOOK:  
+CLOCK: [2015-10-30 Fri 13:43]--[2015-10-30 Fri 14:08] =>  0:25
+CLOCK: [2015-10-29 Thu 13:33]--[2015-10-29 Thu 13:58] =>  0:25
+CLOCK: [2015-10-28 Wed 13:43]--[2015-10-28 Wed 14:08] =>  0:25
+CLOCK: [2015-10-27 Tue 13:36]--[2015-10-27 Tue 14:01] =>  0:25
+CLOCK: [2015-10-26 Mon 13:36]--[2015-10-26 Mon 14:01] =>  0:25
+CLOCK: [2015-10-22 Thu 13:32]--[2015-10-23 Fri 08:46] => 19:14
+CLOCK: [2015-10-21 Wed 13:37]--[2015-10-21 Wed 14:02] =>  0:25
+CLOCK: [2015-10-20 Tue 13:36]--[2015-10-20 Tue 14:01] =>  0:25
 CLOCK: [2015-10-17 Sat 11:43]--[2015-10-17 Sat 12:08] =>  0:25
 CLOCK: [2015-10-16 Fri 13:34]--[2015-10-17 Sat 11:11] => 21:37
 CLOCK: [2015-10-14 Wed 13:33]--[2015-10-14 Wed 13:58] =>  0:25
@@ -321,13 +299,9 @@ CLOCK: [2015-06-11 Thu 16:15]--[2015-06-11 Thu 16:40] =>  0:25
 CLOCK: [2015-06-09 Tue 13:37]--[2015-06-09 Tue 14:02] =>  0:25
 CLOCK: [2015-05-04 Mon 14:29]--[2015-05-04 Mon 14:54] =>  0:25
 :END:      
-:PROPERTIES:
-:LAST_REPEAT: [2015-08-25 Tue 16:58]
-:END:
 ** STARTED [#B] Fix node and scrollview nested issue                  :WORK:
 
 ** TODO [#C]  使用 Clojure 搭建一个 Emacs 社区                        :LIFE:
-SCHEDULED: <2015-10-28 Wed>
 
 ** TODO [#C]  替换 oh-my-zsh 为 antigen,同时为 cocos-console 编写一个 zsh 插件 :LIFE:
 "https://github.com/shengyou/codeception-zsh-plugin/blob/master/codeception.plugin.zsh"
@@ -338,7 +312,12 @@ SCHEDULED: <2015-10-28 Wed>
 ** TODO [#C]  Learn Org Dashboard to management my project, like reading a book or doing a side project. :Emacs:
 "http://thehelpfulhacker.net/2014/07/19/a-dashboard-for-your-life-a-minimal-goal-tracker-using-org-mode-go-and-git/"
 
-** TODO [#C] 学习 demo-it package 的用法，同时为我的 git 培训写一个 ppt :Emacs:
+** DONE [#C] 学习 demo-it package 的用法，同时为我的 git 培训写一个 ppt :Emacs:
+CLOSED: [2015-10-24 Sat 11:07] SCHEDULED: <2015-10-24 Sat 10:32>
+- State "DONE"       from "STARTED"    [2015-10-24 Sat 11:07]
+:LOGBOOK:
+CLOCK: [2015-10-24 Sat 10:32]--[2015-10-24 Sat 11:07] =>  0:35
+:END:
 [[https://github.com/howardabrams/demo-it][howardabrams/demo-it]]
 
 ** TODO [#C]  使用 Emacs 进行项目管理                                 :Emacs:
@@ -358,7 +337,7 @@ SCHEDULED: <2015-10-28 Wed>
 [[http://blog.binchen.org/posts/why-emacs-is-better-editor.html][Why Emacs is better editor - a case study for javascript developer | Chen's blog]]
 [[http://blog.binchen.org/posts/use-which-func-mode-with-js2-mode.html][Use which-func-mode with js2-mode | Chen's blog]]
 
-** TODO [#B]  给 Org-insert-link 添加 Helm 接口,可以从所有的 Agenda Files 里面选择一个 Headline 并插件链接 :Emacs:
+** TODO [#C]  给 Org-insert-link 添加 Helm 接口,可以从所有的 Agenda Files 里面选择一个 Headline 并插件链接 :Emacs:
 
 ** TODO [#C] 设置 org-agenda 显示周末使用不同的字体,同时设置 org-agenda 显示中国的节日和亲朋好友的 :Emacs:
 生日.使用 bbdb 来管理联系人的电话和生日.
@@ -381,15 +360,18 @@ SCHEDULED: <2015-10-28 Wed>
 ** TODO  Learn Ploymer Starter Kit                                    :WORK:
 https://developers.google.com/web/tools/polymer-starter-kit/
 
-** STARTED Do exercise for 30 minutes                           :Daily:LIFE:
-SCHEDULED: <2015-10-16 Fri 21:00-21:30 .+1d>
+** TODO Do exercise for 30 minutes                              :Daily:LIFE:
+SCHEDULED: <2015-10-26 Mon 21:00-21:30 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-15 Thu 22:33]
+:LAST_REPEAT: [2015-10-25 Sun 21:33]
 :CATEGORY: daily
 :END:
+- State "DONE"       from "TODO"       [2015-10-25 Sun 21:33]
+- State "DONE"       from "STARTED"    [2015-10-19 Mon 23:02]
 - State "DONE"       from "STARTED"    [2015-10-15 Thu 22:33]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
+CLOCK: [2015-10-18 Sun 23:00]--[2015-10-18 Sun 23:25] =>  0:25
 CLOCK: [2015-10-17 Sat 23:06]--[2015-10-17 Sat 23:31] =>  0:25
 CLOCK: [2015-10-17 Sat 21:35]--[2015-10-17 Sat 21:38] =>  0:03
 CLOCK: [2015-10-13 Tue 22:05]--[2015-10-14 Wed 09:29] => 11:24
@@ -397,10 +379,23 @@ CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
 ** TODO Do exercise for 30 minutes                              :Daily:LIFE:
-SCHEDULED: <2015-10-19 Mon 08:00 .+1d>
+SCHEDULED: <2015-10-31 Sat 08:00 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-18 Sun 11:38]
+:LAST_REPEAT: [2015-10-30 Fri 10:22]
 :END:
+- State "DONE"       from "TODO"       [2015-10-30 Fri 10:22]
+- State "DONE"       from "STARTED"    [2015-10-29 Thu 09:21]
+- State "DONE"       from "TODO"       [2015-10-28 Wed 13:43]
+- State "DONE"       from "TODO"       [2015-10-27 Tue 09:21]
+- State "DONE"       from "STARTED"    [2015-10-26 Mon 09:19]
+- State "DONE"       from "TODO"       [2015-10-25 Sun 22:38]
+- State "DONE"       from "TODO"       [2015-10-24 Sat 10:32]
+- State "DONE"       from "STARTED"    [2015-10-23 Fri 09:31]
+- State "DONE"       from "TODO"       [2015-10-22 Thu 13:32]
+- State "DONE"       from "TODO"       [2015-10-22 Thu 13:32]
+- State "DONE"       from "TODO"       [2015-10-21 Wed 09:34]
+- State "DONE"       from "TODO"       [2015-10-20 Tue 09:11]
+- State "DONE"       from "TODO"       [2015-10-19 Mon 23:02]
 - State "DONE"       from "STARTED"    [2015-10-18 Sun 11:38]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 10:32]
 - State "DONE"       from "STARTED"    [2015-10-16 Fri 09:29]
@@ -410,6 +405,9 @@ SCHEDULED: <2015-10-19 Mon 08:00 .+1d>
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:24]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
+CLOCK: [2015-10-29 Thu 08:14]--[2015-10-29 Thu 08:39] =>  0:25
+CLOCK: [2015-10-26 Mon 08:08]--[2015-10-26 Mon 08:33] =>  0:25
+CLOCK: [2015-10-23 Fri 08:46]--[2015-10-23 Fri 09:31] =>  0:45
 CLOCK: [2015-10-18 Sun 11:06]--[2015-10-18 Sun 11:31] =>  0:25
 CLOCK: [2015-10-17 Sat 09:37]--[2015-10-17 Sat 10:02] =>  0:25
 CLOCK: [2015-10-16 Fri 08:32]--[2015-10-16 Fri 09:29] =>  0:57
@@ -418,7 +416,7 @@ CLOCK: [2015-10-14 Wed 10:27]--[2015-10-14 Wed 10:52] =>  0:25
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
-** TODO [#A]  Learn 《the little scheme》 with javascript.           :DREAM:
+** TODO [#B]  Learn 《the little scheme》 with javascript.           :DREAM:
 use javascript to finish the exercises of the book.
 
 ** TODO [#C]  Make Emacs Javascript TDD more convenient 
@@ -432,40 +430,105 @@ http://roman01la.github.io/recursion-exercises/
 It should be modular, so I could build a tree for Emacs, cocos etc.
 http://skill.phodal.com/#_a2f_1_zilong
 
+** TODO [#A]  Javascript Functional programming
+https://lodash.com/docs#filter
+https://www.ibm.com/developerworks/cn/web/1006_qiujt_jsfunctional/
+http://blog.oyanglul.us/javascript/functional-javascript.html
+https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch1.html
+
+The following links are articles.
+http://www.ruanyifeng.com/blog/2012/04/functional_programming.html
+http://coolshell.cn/articles/10822.html
+
+** TODO [#C]  Learn how to use Emacs to compile, run and debug cocos2d-x
+
+** TODO [#C]  Use applescript to toogle Input method.
+
+https://discussions.apple.com/thread/5766798?tstart=0
+
+** DONE [#A]  Refactoring of Scale9Sprite  
+CLOSED: [2015-10-26 Mon 13:36]
+- State "DONE"       from "TODO"       [2015-10-26 Mon 13:36]
+1. Make a new class for compute the slice info.
+2. Encapsulate some member access method for Sprite class.
+  Such as _texture, _rect and _originalSize change.
+3. Sale9Sprite override these methods and add it's own functionality.
+4. Split the UV computation and Vertices computation.
+5. Add setTriangles to polygonInfo.
+6. Make a good name for the new class and it should return a triangle info. 
+
+SCHEDULED: <2015-10-23 Fri 14:00>
+
+** TODO  Write Android application with Clojure
+
+** TODO [#C]  One Day I should use hexo + org as my blog generator
+
+** DONE Review PageView customize code
+CLOSED: [2015-10-29 Thu 18:40] SCHEDULED: <2015-10-29 Thu 16:00>
+- State "DONE"       from "STARTED"    [2015-10-29 Thu 18:40]
+:LOGBOOK:
+CLOCK: [2015-10-29 Thu 15:53]--[2015-10-29 Thu 16:18] =>  0:25
+:END:
 
 * Weekly Tasks                                                       :Weekly:
 #+category: Weekly
 ** TODO [#B]  Record a Spacemacs rocks video.                 :Emacs:Weekly:
-SCHEDULED: <2015-10-23 Fri .+6d/7d>
+SCHEDULED: <2015-10-31 Sat .+6d/7d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-17 Sat 22:13]
+:LAST_REPEAT: [2015-10-25 Sun 21:33]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-25 Sun 21:33]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 22:13]
 :LOGBOOK:
+CLOCK: [2015-10-25 Sun 20:05]--[2015-10-25 Sun 20:30] =>  0:25
 CLOCK: [2015-10-17 Sat 22:07]--[2015-10-17 Sat 22:13] =>  0:06
 :END:
 - State "DONE"       from "TODO"       [2015-10-11 Sun 01:09]
 - The video should be within 5 min.
 - It should demo a specific feature of Spacemacs
 
-- navigate your lisp code faster.
-- Use org mode to management your time(GTD)
-- navigate your source code faster
+*** DONE navigate your lisp code faster.
+CLOSED: [2015-10-27 Tue 09:20]
+- State "DONE"       from              [2015-10-27 Tue 09:20]
+*** DONE Use org mode to management your time(GTD)
+CLOSED: [2015-10-27 Tue 09:20]
+- State "DONE"       from              [2015-10-27 Tue 09:20]
+*** DONE c/c++ IDE
+CLOSED: [2015-10-27 Tue 09:20]
+- State "DONE"       from              [2015-10-27 Tue 09:20]
+***  Python IDE
+*** Javascript IDE
+*** search and replace showcase(buffer, file, project)
+:%s/string/replace/gc
+c-c r  /  c-c q
+ Show multiple editing.
+(iedit)
+(multiple cursor)
 
+(helm-swoop/multiple file c-c c-e)
+(helm-ag-this-file/project c-c c-e)
+(occur e c-c c-c)
+*** File, buffer, directory search and open
+*** Magit
+*** Blogging
+*** Lispy
 
 
 ** TODO Update upstream from Spacemacs and update all the packages from melpa and fix possible issues
-SCHEDULED: <2015-10-22 Thu .+7d/8d>
+SCHEDULED: <2015-11-06 Fri .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-15 Thu 09:29]
+:LAST_REPEAT: [2015-10-30 Fri 11:35]
 :END:
+- State "DONE"       from "TODO"       [2015-10-30 Fri 11:35]
+- State "DONE"       from "TODO"       [2015-10-22 Thu 18:33]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 11:39]
 ** TODO Write a Blog, no matter English or Chinese                    :LIFE:
-SCHEDULED: <2015-10-17 Thu .+7d/8d>
+SCHEDULED: <2015-11-01 Sun .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-15 Thu 09:29]
+:LAST_REPEAT: [2015-10-25 Sun 22:38]
 :END:
+- State "DONE"       from "STARTED"    [2015-10-25 Sun 22:38]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
 - State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
@@ -489,18 +552,20 @@ SCHEDULED: <2015-10-17 Thu .+7d/8d>
    - State "DONE"       from "TODO"       [2014-08-13 Wed 09:50]
   - State "DONE"       from "TODO"       [2014-08-02 Sat 07:00]
   :LOGBOOK:
+CLOCK: [2015-10-25 Sun 21:33]--[2015-10-25 Sun 21:58] =>  0:25
 CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
   CLOCK: [2014-03-30 Sun 22:45]--[2014-03-30 Sun 22:57] =>  0:12
   :END:
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 16:57]
 :END:
-** TODO Keep in touch with family                                      :LIFE:
+** TODO Keep in touch with family                                     :LIFE:
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-15 Thu 09:29]
+:LAST_REPEAT: [2015-10-25 Sun 22:38]
 :END:
+- State "DONE"       from "TODO"       [2015-10-25 Sun 22:38]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
-SCHEDULED: <2015-10-22 Thu 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-11-01 Sun 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-06 Tue 20:43]
 :END:
@@ -529,7 +594,9 @@ SCHEDULED: <2015-10-22 Thu 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-08-25 Tue 11:37]
 :END:
-** TODO  GTD weekly Review
+** DONE GTD weekly Review
+CLOSED: [2015-10-18 Sun 13:58]
+- State "DONE"       from "TODO"       [2015-10-18 Sun 13:58]
 - Archive all the Done items.
 - Adjust the Todo item's priority.
 - Refile some tasks.
@@ -690,9 +757,10 @@ SCHEDULED: <2015-11-14 Sat .+30d/31d>
 * Cocos2D-X
 
 
-** STARTED [#B]  修复 Scale9Sprite 进度条缩放的问题                   :WORK:
-
-** TODO [#B] 重写 Win32 的 EditBox                                    :WORK:
+** DONE [#B]  修复 Scale9Sprite 进度条缩放的问题                      :WORK:
+CLOSED: [2015-10-25 Sun 22:44]
+- State "DONE"       from "STARTED"    [2015-10-25 Sun 22:44]
+** TODO [#C] 重写 Win32 的 EditBox                                    :WORK:
 [[http://stackoverflow.com/questions/978632/how-do-i-create-a-normal-win32-edit-control][c - How do I create a normal win32 edit control? - Stack Overflow]]
 [[https://msdn.microsoft.com/en-us/library/windows/desktop/hh298433(v%3Dvs.85).aspx][How to Create a Multiline Edit Control (Windows)]]
 [[http://www.win32developer.com/tutorial/windows/windows_tutorial_3.shtm][Win32 Developer - Tutorial 3 Using edit boxes, buttons, and other window asset using the Win32 API]]

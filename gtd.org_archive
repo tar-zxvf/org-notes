@@ -5105,43 +5105,6 @@ CLOCK: [2015-08-14 Fri 10:39]--[2015-08-14 Fri 11:04] =>  0:25
 :END:
 
 
-* DONE ListView 添加 Cell 复用  [100%]                                 :WORK:
-:PROPERTIES:
-:ARCHIVE_TIME: 2015-09-22 Tue 16:55
-:ARCHIVE_FILE: ~/org-notes/gtd.org
-:ARCHIVE_OLPATH: Cocos2D-X
-:ARCHIVE_CATEGORY: cocos2d-x
-:ARCHIVE_TODO: DONE
-:ARCHIVE_ITAGS: PROJECT
-:END:
-- State "DONE"       from "TODO"       [2015-09-21 Mon 16:54]
-- State "TODO"       from "CANCELLED"  [2015-09-21 Mon 16:54]
-- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
-  move to beijing team
-:LOGBOOK:
-CLOCK: [2015-09-11 Fri 17:37]--[2015-09-11 Fri 18:02] =>  0:25
-CLOCK: [2015-09-11 Fri 17:07]--[2015-09-11 Fri 17:32] =>  0:25
-:END:
-** CANCELLED [#A]  研究 Android 的 ListView 的实现方式
-CLOSED: [2015-09-21 Mon 16:54]
-:LOGBOOK:
-CLOCK: [2015-09-11 Fri 15:19]--[2015-09-11 Fri 15:44] =>  0:25
-CLOCK: [2015-09-11 Fri 14:49]--[2015-09-11 Fri 15:14] =>  0:25
-:END:
-** CANCELLED [#A]  设计 ListView 的接口和实现的功能
-CLOSED: [2015-09-21 Mon 16:53] DEADLINE: <2015-09-11 Fri>
-- State "CANCELLED"  from "TODO"       [2015-09-21 Mon 16:53] \\
-  move to beijing team
-** CANCELLED 提供一些基础的 Adapter: 比如 Sprite Adapter, Label Adpater 等.
-CLOSED: [2015-09-21 Mon 16:54]
-也可以自定义 Adapter
-public int getItemViewType(int position)
-public int getViewTypeCount()
-getView(int, View, ViewGroup)
-  
- [2015-08-25 Tue 17:57]
-
-
 * DONE iOS EditBox 支持多行输入                                        :WORK:
 CLOSED: [2015-09-15 Tue 10:16] DEADLINE: <2015-09-17 Thu>
 :PROPERTIES:

@@ -10,6 +10,408 @@
 
 
 * Quick notes
+** WWDC 2015 notes
+*** What's new in SpriteKit
+**** Review
+- 2D graphics framework for games, idea borrow from cocos2d-iphone
+- super easy to use, easy to learn
+- Apple's own optimization and better UIKit integration.
+- Better tools: Xcode. Live editor.
+- Support iPhone, iPad, iOS and OSX(not real cross platform: maybe cocos2d-x a try)
+**** SKCameraNode - which viewport is visible, multiple cameras.
+- Best feature, it's a node: actions, constrains, rotation, scale. 
+**** SKAudioNode
+- positional audio, environmental sound, immerse audio.
+**** SKReferenceNode(reuse nodes and actions, nscopying)
+- create serialized assets
+- Component as assets
+- editor support
+- automatically cache. This file won't load more than once.
+- Complex action combo or scene. You could reuse across project or games.
+- Texture animation action with lighting.
+**** System integration
+- Metal backend. SKShader will automatically upgrade. Zero action by developers.
+- If the device support metal, it will use metal, otherwise it will use OpenGL.
+- Swift support.  Nullability enhancements, objective-c generics.
+**** SpriteKit Tools
+- games rely on tools for iteration and scalability
+- game logic, animation or assets
+- improve workflow and build game faster
+- focus on building the gameplay
+***** tools:
+- Texture atlas: automatically built with xcode. TexturePacker, we use scripts.
+- Asset catalog: 
+  1. precise control resolution. @2x @3x 
+  2.use only download the assets match with the device.
+- on Demand Resources: load by tags. background streaming.（重点）
+- Particle editor: SKEmitterNode. live editor. Export small files.
+- XCode quick: Playground with Swift. Easy to learn and use. Even in debugger.
+- 2D editor: full visual editor for 2D games, no more compile and check. node code required. visual layout. live physics simulation. live shader editing.
+- 2d editor enhancement: custom classes, camera, audio node, reference node. increased collaboration and reusability.
+- exciting feature: timeline action editor, realtime preview, 2d and 3d support. Cinematic and interactive animations.(重点）
+- data driven, reusability, no code required.（重点）
+*** enhancement to SceneKit
+**** intro to SceneKit
+- SceneKit for 3D/ SpriteKit for 2D
+- for iOS & MacOS X
+- Particles/Physics/Physics fields/SpriteKit
+- Metal and New scene editor
+**** Scene Editor
+- Can open and edit DAE, OBJ, Alembic, STL and PLY files
+- New native file format(SceneKit Archive) NSKeyedArchiver
+- Buld your game levels
+- Shader modifiers and Ambient Occlusion
+- Skybox, geometry modifiers
+- collision mesh/rendered mesh
+- skinning and shader modifiers
+- configuring materials
+- self illumination texture
+- Reflective cube map
+- compute shader(MTLbuffer and MTLTexture)
+- Default on iOS 9
+- Backward compatibility ensured(use interface builder to choose backend)
+- Dealing with shaders(metal)
+- shaders are not compatible
+- SCNTechnique: pass description addition.
+- Integration with Model I/O
+- DAE format is best supported.
+- Debug option
+- Blend IO
+- Audio nodes(AVAudioEngine)
+**** Enhance
+- SKTransitions
+- metal support
+- automatic context matching. (Metal or OpenGL)
+*** GamePlayKit(重点）
+**** Mission
+- Common design patterns and architecture
+- Standard gameplay algorithm
+- Applicable to many games
+- Graphics and engine agnostic
+- SpriteKit, SceneKit, Metal and more.
+**** Pathfinding(重点）
+- pathfinding operates on a navigation graph
+- Graphs are collections of nodes
+- Nodes are joined by connections
+- Connections are directional
+- Optimal path exists between any two connected nodes
+***** automatic graph generation
+***** GKGraph
+- Abstract graph base class
+- Container of graph nodes
+- Dynamic add/remove nodes
+- Connect new nodes
+- Find paths between nodes
+- Two specializations(Grid graphs, obstacle graphs)
+***** GKGridGraph
+- Specialized for a 2D Grid
+- Creates nodes on the grid(Cardinal connections, Optional diagonal connections)
+- Optional diagonal connections (Easy add/remove of grid nodes)
+***** GKObstacleGraph
+- Specialized for pathing around obstacles
+- Obstacles are arbitrary polygons(Dynamically add/remove obstacles, Dynamically connect nodes.)
+- Buffer radius ("safty zone" around obstacles, Game dependent size.)
+***** GKGraphNode
+- Graph node base class
+- Subclass for:
+  - Advanced or non-spatial costs
+  - Control over pathfinding
+- Create your own graphs
+  - Manually manage connections
+  - Good for abstract or no-spatial graphs
+***** Easily generate obstacles from SKNode bounds, physics bodies or textures
+
+**** Entity/component system
+- Great way to organize game logic
+- Easy to maintain
+- Easy to collaborate
+- Scales with complexity
+- Dynamic behavior
+***** GKEntity
+- Collectioin of components
+- Dynamically add/remove component
+- Access components by class type
+- Update all components
+***** GKComponent
+- Subclass to add functionality
+- Store component data as properties
+- Custom selectors extend functionality
+- Updated by there entity's update
+- Implement logic in [updateWithDeltaTime:]
+***** GKComponentSystem
+- Collectioin of components from different entities(eg.All components are of the same class)
+- Use when update order is important(eg.Update all AI before movement)
+- Components in a system don't update with their entity's update
+
+**** state machines
+- Backbone of many gameplay elements
+- Games are a collection of state machines (eg. Animations, AI, UI, levels etc)
+- Common implementation removes boilerplate
+- States reused throughout your game
+***** GKStateMachine
+- General purpose finite state machine
+  - Single current state
+  - All possible state
+- [enterState] cause state transition
+  - Check if transition is valid
+  - Calls [exit] on previous
+  - [enter] on next state
+- Update currentState
+***** GKState
+- Abstract class
+- Implement logic in Enter/Exit/Update (There are called by the state machine)
+- Override [isValideNextState:] to control edges
+  - By default, all edges are valid
+  - Can be dynamic, based on internal state
+
+**** agents, goal and behaviors
+- Agents are autonomously moving entities(Driven by behaviors and goals, realistic constrains)
+- Behaviours are made of goals (goals combined via weights)
+- Games need believable movements
+- Organic behaviors look intelligent
+- Realistic movement(Has inertia, avoid obstacles, avoid other entities, follow paths)
+***** GKAgent
+- Simple autonomous point-mass
+- Is a GKComponent
+- Update applies behaviors(Goals change acceleration, velocity, position, rotation updated)
+- Units are dimensionless(game world specific)
+***** GKBehavior
+- Dictionary-lick container of goals
+- Dynamically modify behaviors(add/remove goals, modify weights)
+- Set behavior on agent to use it
+***** GKAgentDelegate
+- Sync graphics, animations, physics, etc
+[agentWillUpdate:] called before updates
+[agentDidUpdate:] called after updates
+
+**** AI strategies(MinMax AI)
+- Many games need equal AI components
+  - Can play the entire game
+  - Play by the same rules as human players
+- Chess, Checkers, Tic-Tac-Toe, etc
+***** Features
+- AI-controlled opponents
+- Suggest move for human players
+- Best suited for turn-based games (any game with discrete moves)
+- Variable difficulty(adjust look ahead, select suboptimal moves)
+***** GKGameModel protocol
+- Abstract of the current game state
+- list of players
+- currently active players
+- player scores
+- possible player moves
+- Apply moves for players
+- changes game state
+**** Random sources
+- game have unique random number need
+- rand() gives us random numbers, but we need more.
+- platform-independent determinism
+- multiple sources
+- number distribution
+This is where random source come in.
+**** Rule systems
+***** A game consists of three elements
+- Nouns(properties)
+- Position, speed, health, equipment, etc
+- Verbs(Actions)
+- Run , jump, use item, acceleration, etc
+- Rules
+- How your nouns and verbs interact.
+***** motivation
+- Complex reasoning with fuzzy logic
+- facts can be grades of true
+- fuzzy logic deals with approximations
+- separate what we should do from how we should to it
+- state facts about the world
+- take deferred actions based on those facts.
+
+**** Demobots(download sample)  
+- use lots of feature in SpriteKit and GameKit
+- Reference node
+- App slicing
+*** Manage 3D assets with Model I/O (重点）
+**** Overview
+- Framework for handling 3D assets and data.
+- Import and export 3D asset files
+-- Describe lighting, materials, environments
+-- Process and generate asset data
+-- Bake lights, subdivide and vocalize meshes.
+- For physically based rendering
+-- Designed for PBR tools and pipelines.
+- Integrated with Xcode 7 and GameKit APIs.
+- Available for iOS 9 and OS X 10.11.
+Content Creation Tool -> Import -> Model I/O -> (SceneKit/Metal/OpenGL)
+physic based, physics driven.
+physic materials, physics light.
+**** Features
+- File formats( .abc, .ply, .stl, .obj)  Exports format: .stl
+- Modify and Bake Assets
+- Voxels
+- System Integration: Playground and Swift, Finder and Quick look
+- MDLAsset: Indexed container for 3D objects
+- MDLObject: MDLTransformComponent -> TriggerComponent
+- MDLMesh: contains one or more vertex buffers.
+- MDLMeshBuffer/MDLVertexDescriptor
+- Materials
+***** Normal smoothing (shared vertex normals)
+- Approximates curvature of more complicated geometry
+- Flat vs smooth shading
+***** Subdivision surfaces(Vary surface detail)
+- Generate subdivided mesh from source mesh
+- Increase level of detail only when and where necessary
+***** Voxels(Physical realism)
+- Volumetric representation consistent with the real world
+- Procedural modeling/generation
+- Easily explore dataset via neighborhood, child traversal
+- Facilitates real-world operations like slicing and cutting
+- Constructive Solid Geometry operations.
+
+***** Advanced lighting and baking
+- Global illumination
+-- Global illumination looks great
+-- But very expensive
+-- We want to approximate GI 
+-- Balance performance/quality
+- Ambient occlusion 
+-- Measure of geometry occlusion
+-- Use offline raytracing
+-- Input -- a mesh and a set of occlusion meshes
+-- Output -- a set of occlusion values
+- Stored in vertices or a texture
+- Light map
+-- Computes the effect of lights
+-- Supports lots of lights
+-- calculated offline
+-- complex lights supported (tray trace)
+
+*** What's new in metal part1
+**** Overview
+- Dramatically reduced overhead
+- Precompiled shaders
+- Graphics and compute
+- Efficient multithreading
+- Support for OS X 10
+- Tools support: Frame debugger, shader profiler, shader editor, state inspector
+***** Metal OS X
+- Minimal code change required for existing iOS applications
+- Device selection
+- Support for discrete memory
+- new texture formats for desktop GPUs.
+**** New feature
+- New memory model (discrete memory model)
+-- shared storage mode/private storage mode/managed storage mode(on in OS X)
+- Layered rendering(OS X 10)
+- Texture barriers(OS X 10)
+- Texture compression formats(ASTC format)
+- GPU families
+- MetalKit
+- Metal performance shaders
+- Metal trace tools
+**** Metal and App Thinning
+- Tag assets, this is the same with iOS
+*** What's new in metal part2
+**** Introduction MetalKit
+- MetalKit provides efficient implementation for commonly used scenarios
+-- less effort to get up and rendering
+-- increased performance and stability
+- MetalKit View
+-- Unified view class for rendering Metal secene
+- Texture Loader
+-- Metal texture object creation from image files
+- Model I/O integration
+-- load and manage mesh data for Metal rendering
+**** Metal Performance Shaders(A8 chip)
+- A framwork of data-parallel algorithms for the GPU
+- CPU-style library for the GPU
+- Optimized for iOS
+- Available in iOS 9 for the A8 processor
+- Histogram, Equalization and Specification
+- Morphology -- min, max, dilate and rode
+- Lanczos(兰索斯) resampling
+- Median
+- Thresholding
+- Integral
+- Convolution -- general, gaussian blur, box, tent and sobel
+**** Summary
+- Make use of the new Metal support framework
+- robust, optimized, easy to integrate
+- faster bring-up of your application
+- less code to write and maintain
+*** metal performance optimization
+**** Metal system trace tool(new in iOS 9, watch the demo)
+- Visual frame debugger
+- Resource and state viewer
+- shader profiling
+- shader edit and continue
+- debug mode for Metal framwork
+- integrated offline Metal compiler
+**** demo
+- Create expensive objects upfront and reuse
+- MTLLibrary (a library of compiled shaders)
+- Device and Command Queue
+- Depth/Stencil and Sampler State
+**** Metal Best practices
+- profile early and often
+- Acquire the Drawable at the latest opportunity
+-- Immediately before the render pass in which it is used
+-- Hides long latency in no drawables available.
+- consider multithreading if GPU based
+**** Summary
+- Metal System Trace offers a new insight into Metal app performance.
+-- Use in conjunction with XCode to profile early and often.
+- Follow Metal best practices to maximize app performance
+-- Create expensive objects upfront and reuse.
+-- Buffer dynamic shared resource
+-- Acquire the drawable at the latest opportunity
+-- Don't waste render command encoders
+-- Consider multithreading f still CPU-bound
+-- no runtime shader compilation
+*** going so social with replaykit and game center(重点）
+**** Overview
+**** What's new in Game center
+***** What's Game Center 
+- Friends 
+- Leaderboards
+- Real time multiplayer
+- Turn based multiplayer
+- Challenges
+***** Guest players
+- GKPlayer instance 
+-- Do not require autoentication
+-- First class participants in multiplayer games
+- Can fill up all the slots in a game
+-- Up to three for real time
+-- Up to fifteen for turn based
+****** Great for pass and play and handling AI players
+****** You define the identifier--needs to be unique across the game
+****** Cannot earn achievements or post scores
+****** Sessions with guest players only compatible with other players running iOS 9
+- Game still compatible with players on older systems.
+***** Unified server environment
+****** Sandbox(production server and sandbox are in one server)
+****** Benefits
+- Simplifies accounts 
+- compatible with TestFlight
+- Multiplayer works across versions (if enabled)
+- Automatic
+****** Considerations
+- New games appear in friend's game list (include unreleased)
+- Scores post to existing leaderboards
+- iOS 8 users still need to flip the switch
+**** Introducing ReplayKit
+- New way to add social to your games
+- Share game experiences.
+- Record your running app
+- Add voice commentary
+- Playback, scrub and trim
+- Share (Social networks, Video destination sites)
+- When to Record (automatic vs user-initiated)
+- only available in iOS 9.
+**** Summary
+- Records audio and visuals of running application
+- Efficient with privacy safeguards
+- Compact framework with simple adoption.
+
 **  Learning R and Python for Big Data                                :Dream:
 [[http://blog.revolutionanalytics.com/2014/03/emacs-ess-and-r-for-zombies.html][Emacs, ESS and R for Zombies]]
 
@@ -794,7 +1196,7 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
  
  [2015-09-18 Fri 00:22]
 
-** TODO Using Page-breaks in emacs                                   :Emacs:
+** TODO [#C] Using Page-breaks in emacs                              :Emacs:
 [[https://github.com/david-christiansen/helm-pages][david-christiansen/helm-pages]]
 [[http://endlessparentheses.com/improving-page-navigation.html][Improving page (section) navigation · Endless Parentheses]]
 [[http://ericjmritz.name/2015/08/29/using-page-breaks-in-gnu-emacs/][Using Page-Breaks in GNU Emacs | One More Game-Dev and Programming Blog]] 
@@ -850,12 +1252,14 @@ https://www.youtube.com/watch?v=hEx5DNLWGgA
 http://home.comcast.net/~jpittman2/pacman/pacmandossier.html 
  [2015-10-08 Thu 23:56]
 
-** TODO [#B]  Finish A Unity tutorial 
+** DONE [#B]  Finish A Unity tutorial 
+CLOSED: [2015-10-25 Sun 22:45]
+- State "DONE"       from "TODO"       [2015-10-25 Sun 22:45]
  http://www.raywenderlich.com/79031/unity-new-gui-tutorial-part-2
  
  [2015-10-09 Fri 17:39]
 
-** TODO [#A] Learn more Unity GUI tutorials                           :WORK:
+** TODO [#B] Learn more Unity GUI tutorials                           :WORK:
  http://www.thegamecontriver.com/p/ugui.html
  
  [2015-10-10 Sat 10:44]
@@ -888,6 +1292,7 @@ CLOCK: [2015-10-12 Mon 16:14]--[2015-10-12 Mon 16:23] =>  0:09
  - [ ] http://yuiblog.com/blog/2006/10/20/video-crockford-domtheory/
  - [ ] http://www.elated.com/articles/javascript-dom-intro/
  - [ ] http://callmenick.com/post/basics-javascript-dom-manipulation
+ - [ ] http://domenlightenment.com/
 
  [2015-10-12 Mon 15:51]
 
@@ -990,6 +1395,107 @@ https://littleosbook.github.io/
  
  [2015-10-18 Sun 12:02]
 
+** TODO  Functional programming with lodash                         :nodejs:
+ https://blog.codecentric.de/en/2013/01/functional-javascript-lo-dash-underscore-js-alternative/
+ 
+ [2015-10-19 Mon 08:09]
+
+** TODO  Webpack your bags                                          :nodejs:
+ http://blog.madewithlove.be/post/webpack-your-bags/
+ 
+ [2015-10-19 Mon 08:16]
+
+** TODO  WebGL insights website
+ http://www.webglinsights.com/tips.html
+ 
+ [2015-10-21 Wed 09:56]
+
+** TODO  Understand Clojure's persistent vertor
+ http://hypirion.com/musings/understanding-persistent-vector-pt-1
+ 
+ [2015-10-23 Fri 00:00]
+
+** TODO  lazy sequences in Emacs
+ http://nicolas-petton.fr/blog/stream.html
+ 
+ [2015-10-23 Fri 11:42]
+
+** TODO  Some HTML5 and Polymer articls
+http://www.html5rocks.com/en/tutorials/webcomponents/imports/
+http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/
+http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-201/
+http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom-301/
+http://www.html5rocks.com/en/tutorials/webcomponents/imports/
+http://www.html5rocks.com/en/tutorials/webcomponents/customelements/
+ 
+ [2015-10-23 Fri 11:42]
+
+** TODO  VR with CojureScript and three.js and cardboard
+ https://nvbn.github.io/2015/06/28/cljs-vr/
+ 
+ [2015-10-23 Fri 17:17]
+
+** TODO  XCode Debug 
+ http://www.cimgf.com/2012/12/13/xcode-lldb-tutorial/
+https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-command-examples.html
+https://www.objc.io/issues/19-debugging/lldb-debugging/ 
+ [2015-10-25 Sun 16:29]
+
+** DONE Learn some spacemacs config
+CLOSED: [2015-10-26 Mon 14:40] SCHEDULED: <2015-10-25 Sun 22:45>
+- State "DONE"       from "STARTED"    [2015-10-26 Mon 14:40]
+:LOGBOOK:
+CLOCK: [2015-10-25 Sun 22:47]--[2015-10-25 Sun 23:12] =>  0:25
+:END:
+ https://github.com/coldnew/coldnew-spacemacs/tree/spacemacs
+ 
+ [2015-10-25 Sun 21:23]
+
+** TODO Better VPN solution.
+ http://jecvay.com/2015/01/learning-vps-3.html
+https://www.v2ex.com/t/214489
+https://github.com/cyfdecyf/cow
+https://github.com/shadowsocks/shadowsocks/wiki/Setup-a-Shadowsocks-relay
+ 
+ [2015-10-26 Mon 12:02]
+
+** TODO Javascript raycaster 
+ http://workshop.botter.ventures/2015/10/24/a-simple-raycaster-written-in-javascript-and-coffeescript/
+ 
+ [2015-10-27 Tue 09:33]
+
+** TODO  Clojure luminusweb, learn web development with clojure
+ http://www.luminusweb.net/docs
+ 
+ [2015-10-27 Tue 09:48]
+
+** TODO  List of the best resources to learn AI
+ https://medium.com/digital-mind/list-of-the-best-resources-to-learn-the-foundations-of-artificial-intelligence-934dbce5939#.5gyhf2sfr
+ 
+ [2015-10-27 Tue 13:41]
+
+** TODO  XCode Debugging
+ http://lldb.llvm.org/lldb-gdb.html
+https://www.bignerdranch.com/blog/xcode-breakpoint-wizardry/
+http://jeffreysambells.com/2014/01/14/using-breakpoints-in-xcode
+ 
+ [2015-10-27 Tue 18:23]
+
+** TODO css in your js 
+ https://vimeo.com/116209150
+ 
+ [2015-10-28 Wed 09:27]
+
+** TODO  Quick start of OM, a clojure react framework
+ https://github.com/omcljs/om/wiki/Quick-Start-%28om.next%29
+ 
+ [2015-10-28 Wed 09:27]
+
+** TODO  Nice machine learning video tutorial
+ https://www.youtube.com/watch?v=yDLKJtOVx5c&index=1&list=PLD0F06AA0D2E8FFBA
+ 
+ [2015-10-29 Thu 13:42]
+
 * Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍 Mac 使用 efi 安装双系统.
@@ -1013,11 +1519,14 @@ http://gistdeck.github.io/jcouyang/03121932d18eba44088e#1
   
  [2015-09-14 Mon 15:02]
 
-** TODO  You can't do anything until the GTD system tells you to do 
-  
+** DONE You can't do anything until the GTD system tells you to do 
+CLOSED: [2015-10-25 Sun 22:46]
+- State "DONE"       from "TODO"       [2015-10-25 Sun 22:46]
  [2015-10-13 Tue 11:10]
 
-** TODO Make Emacs Regex workflow. 
+** DONE Make Emacs Regex workflow. 
+CLOSED: [2015-10-25 Sun 22:46]
+- State "DONE"       from "TODO"       [2015-10-25 Sun 22:46]
 1. use c-r to construct the pcre style regex.
 2. use SPC R p e to convert to elisp style
 3. open regex-builder and escape the (, " \ symbols.
@@ -1033,4 +1542,11 @@ http://irreal.org/blog/?p=254
   
  [2015-10-15 Thu 22:34]
 
+** TODO  When to blog? How often do you blogging?
+1. Knowing and using something for 2 years then it's ready for blogging
+2. Once a week is a proper frequency.
+3. Every month we need to write a summary.
+4. When we are not blogging, we should we do? (use github to learn coding)
+  
+ [2015-10-20 Tue 10:04]
 
