@@ -755,8 +755,6 @@ SCHEDULED: <2015-11-14 Sat .+30d/31d>
 : [-LIFE-] 00:25
 
 * Cocos2D-X
-
-
 ** DONE [#B]  修复 Scale9Sprite 进度条缩放的问题                      :WORK:
 CLOSED: [2015-10-25 Sun 22:44]
 - State "DONE"       from "STARTED"    [2015-10-25 Sun 22:44]
