@@ -194,7 +194,7 @@ CLOCK: [2015-10-18 Sun 17:46]--[2015-10-18 Sun 18:11] =>  0:25
 CLOCK: [2015-10-18 Sun 17:06]--[2015-10-18 Sun 17:31] =>  0:25
 CLOCK: [2015-10-18 Sun 16:29]--[2015-10-18 Sun 16:54] =>  0:25
 :END:
-- [ ] [[http://www.flyingmachinestudios.com/programming/to-the-printers/][Clojure for the Brave and True Is Off to the Printers!]]
+- [ ] [[http://www.braveclojure.com/introduction/][Introduction | Clojure for the Brave and True]]
 - [ ] https://github.com/kovasb/gamma-driver
 - [ ] https://github.com/sgrove/gamma-playground
 - [ ] http://clojure.org/cheatsheet
@@ -206,10 +206,12 @@ CLOCK: [2015-10-18 Sun 16:29]--[2015-10-18 Sun 16:54] =>  0:25
  [2015-08-14 Fri 09:44]
 ** TODO  Learn basic Gulp                                             :WORK:
 ** TODO Visit Reddit                                            :Daily:WORK:
-SCHEDULED: <2015-10-31 Sat 09:30-09:50 .+1d>
+SCHEDULED: <2015-11-03 星期二 09:30-09:50 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-30 Fri 11:35]
+:LAST_REPEAT: [2015-11-02 星期一 10:23]
 :END:
+- State "DONE"       from "STARTED"    [2015-11-02 星期一 10:23]
+- State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "STARTED"    [2015-10-30 Fri 11:35]
 - State "DONE"       from "STARTED"    [2015-10-29 Thu 13:33]
 - State "DONE"       from "STARTED"    [2015-10-28 Wed 09:44]
@@ -217,6 +219,7 @@ SCHEDULED: <2015-10-31 Sat 09:30-09:50 .+1d>
 - State "DONE"       from "STARTED"    [2015-10-26 Mon 13:36]
 - State "DONE"       from "TODO"       [2015-10-25 Sun 21:33]
 :LOGBOOK:  
+CLOCK: [2015-11-02 Mon 09:38]--[2015-11-02 星期一 10:03] =>  0:25
 CLOCK: [2015-10-30 Fri 10:56]--[2015-10-30 Fri 11:21] =>  0:25
 CLOCK: [2015-10-30 Fri 10:22]--[2015-10-30 Fri 10:47] =>  0:25
 CLOCK: [2015-10-29 Thu 09:21]--[2015-10-29 Thu 09:46] =>  0:25
@@ -262,16 +265,19 @@ CLOCK: [2015-05-05 Tue 11:14]--[2015-05-05 Tue 11:39] =>  0:25
 CLOCK: [2015-05-04 Mon 10:32]--[2015-05-04 Mon 10:52] =>  0:20
 CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
 :END:      
-** TODO Read RSS half an  hour                                  :Daily:LIFE:
-SCHEDULED: <2015-10-31 Sat 13:40 .+1d>
+** STARTED Read RSS half an  hour                               :Daily:LIFE:
+SCHEDULED: <2015-11-02 Mon 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-30 Fri 14:13]
+:LAST_REPEAT: [2015-11-01 Sun 15:45]
 :END:
+- State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "STARTED"    [2015-10-30 Fri 14:13]
 - State "DONE"       from "STARTED"    [2015-10-29 Thu 15:03]
 - State "DONE"       from "STARTED"    [2015-10-27 Tue 14:07]
 - State "DONE"       from "STARTED"    [2015-10-26 Mon 14:40]
 :LOGBOOK:  
+CLOCK: [2015-11-02 Mon 13:47]
+CLOCK: [2015-11-02 星期一 13:35]--[2015-11-02 Mon 13:47] =>  0:12
 CLOCK: [2015-10-30 Fri 13:43]--[2015-10-30 Fri 14:08] =>  0:25
 CLOCK: [2015-10-29 Thu 13:33]--[2015-10-29 Thu 13:58] =>  0:25
 CLOCK: [2015-10-28 Wed 13:43]--[2015-10-28 Wed 14:08] =>  0:25
@@ -378,7 +384,7 @@ CLOCK: [2015-10-13 Tue 22:05]--[2015-10-14 Wed 09:29] => 11:24
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
-** TODO Do exercise for 30 minutes                              :Daily:LIFE:
+** STARTED Do exercise for 30 minutes                           :Daily:LIFE:
 SCHEDULED: <2015-10-31 Sat 08:00 .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-30 Fri 10:22]
@@ -405,6 +411,7 @@ SCHEDULED: <2015-10-31 Sat 08:00 .+1d>
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:24]
 - State "DONE"       from "TODO"       [2015-10-13 Tue 11:22]
 :LOGBOOK:
+CLOCK: [2015-11-02 星期一 10:23]--[2015-11-02 星期一 10:48] =>  0:25
 CLOCK: [2015-10-29 Thu 08:14]--[2015-10-29 Thu 08:39] =>  0:25
 CLOCK: [2015-10-26 Mon 08:08]--[2015-10-26 Mon 08:33] =>  0:25
 CLOCK: [2015-10-23 Fri 08:46]--[2015-10-23 Fri 09:31] =>  0:45
@@ -430,11 +437,12 @@ http://roman01la.github.io/recursion-exercises/
 It should be modular, so I could build a tree for Emacs, cocos etc.
 http://skill.phodal.com/#_a2f_1_zilong
 
-** TODO [#A]  Javascript Functional programming
-https://lodash.com/docs#filter
-https://www.ibm.com/developerworks/cn/web/1006_qiujt_jsfunctional/
-http://blog.oyanglul.us/javascript/functional-javascript.html
-https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch1.html
+** TODO [#A]  Javascript Functional programming [%]
+- [ ] http://www.fse.guru/how-do-i-learn-functional-programming-in-javascript-linkpost
+- [ ] https://lodash.com/docs#filter
+- [ ] https://www.ibm.com/developerworks/cn/web/1006_qiujt_jsfunctional/
+- [ ] http://blog.oyanglul.us/javascript/functional-javascript.html
+- [ ] https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch1.html
 
 The following links are articles.
 http://www.ruanyifeng.com/blog/2012/04/functional_programming.html
@@ -470,16 +478,27 @@ CLOSED: [2015-10-29 Thu 18:40] SCHEDULED: <2015-10-29 Thu 16:00>
 CLOCK: [2015-10-29 Thu 15:53]--[2015-10-29 Thu 16:18] =>  0:25
 :END:
 
+** TODO  制作一个输入法切换程序
+http://www.emacswiki.org/emacs/TcpClient
+http://stackoverflow.com/questions/7047250/building-a-server-client-application-in-cocoa
+https://github.com/robbiehanson/CocoaHTTPServer
+http://www.enigmaticape.com/blog/a-minimalish-objective-c-http-server
+
+** TODO Javascript d3
+http://www.jeromecukier.net/blog/2015/05/19/you-may-not-need-d3/
+
 * Weekly Tasks                                                       :Weekly:
 #+category: Weekly
 ** TODO [#B]  Record a Spacemacs rocks video.                 :Emacs:Weekly:
-SCHEDULED: <2015-10-31 Sat .+6d/7d>
+SCHEDULED: <2015-11-07 Sat .+6d/7d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-25 Sun 21:33]
+:LAST_REPEAT: [2015-11-01 Sun 21:16]
 :END:
+- State "DONE"       from "STARTED"    [2015-11-01 Sun 21:16]
 - State "DONE"       from "STARTED"    [2015-10-25 Sun 21:33]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 22:13]
 :LOGBOOK:
+CLOCK: [2015-11-01 Sun 15:45]--[2015-11-01 Sun 16:10] =>  0:25
 CLOCK: [2015-10-25 Sun 20:05]--[2015-10-25 Sun 20:30] =>  0:25
 CLOCK: [2015-10-17 Sat 22:07]--[2015-10-17 Sat 22:13] =>  0:06
 :END:
@@ -524,10 +543,11 @@ SCHEDULED: <2015-11-06 Fri .+7d/8d>
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 11:39]
 ** TODO Write a Blog, no matter English or Chinese                    :LIFE:
-SCHEDULED: <2015-11-01 Sun .+7d/8d>
+SCHEDULED: <2015-11-08 Sun .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-25 Sun 22:38]
+:LAST_REPEAT: [2015-11-01 Sun 15:45]
 :END:
+- State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "STARTED"    [2015-10-25 Sun 22:38]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "TODO"       [2015-09-23 Wed 11:54]
@@ -561,11 +581,12 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :END:
 ** TODO Keep in touch with family                                     :LIFE:
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-25 Sun 22:38]
+:LAST_REPEAT: [2015-11-01 Sun 15:45]
 :END:
+- State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "TODO"       [2015-10-25 Sun 22:38]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
-SCHEDULED: <2015-11-01 Sun 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-11-08 Sun 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-06 Tue 20:43]
 :END:
