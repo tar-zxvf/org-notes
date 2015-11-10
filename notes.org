@@ -10,6 +10,10 @@
 
 
 * Quick notes
+** Send notifications on MacOS with growl
+ http://blog.lojic.com/2009/08/06/send-growl-notifications-from-carbon-emacs-on-osx/
+
+ [2015-11-09 Mon 22:49]
 ** WWDC 2015 notes
 *** What's new in SpriteKit
 **** Review
@@ -1234,7 +1238,6 @@ http://programmers.stackexchange.com/questions/225400/pros-and-cons-of-facebooks
  [2015-10-08 Thu 08:16]
 
 ** TODO [#C]  Learn node.js yeoman framework                          :WORK:
-SCHEDULED: <2015-11-03 Tue>
  https://github.com/yeoman/yeoman
  
  [2015-10-08 Thu 13:38]
@@ -1496,6 +1499,25 @@ http://jeffreysambells.com/2014/01/14/using-breakpoints-in-xcode
  
  [2015-10-29 Thu 13:42]
 
+** DONE Emacs evil and ctags
+CLOSED: [2015-11-07 Sat 12:45] SCHEDULED: <2015-11-07 Sat>
+- State "DONE"       from "TODO"       [2015-11-07 Sat 12:45]
+ http://thegreata.pe/setting-up-evil-mode-friendly-ctags-in-emacs/
+
+ [2015-11-02 Mon 17:44]
+
+** TODO extend ctags to support more language rules
+ http://ericjmritz.name/2013/03/14/writing-custom-rules-for-exuberant-ctags/
+http://ericjmritz.name/2014/03/11/teaching-exuberant-ctags-to-support-new-languages/
+
+ [2015-11-02 Mon 21:15]
+
+** TODO [#C]  Use Clojure to write algorithm visualization apps.
+One side is WebGL or interactive demos.
+The other side is nice explained tutorials.
+
+ [2015-11-10 Tue 09:50]
+
 * Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍 Mac 使用 efi 安装双系统.
@@ -1511,7 +1533,10 @@ CLOCK: [2015-08-23 Sun 15:16]--[2015-08-23 Sun 15:41] =>  0:25
   
  [2015-08-21 Fri 18:11]
 
-** TODO 写一篇博客介绍 Javascript 的原形继承
+** CANCELLED 写一篇博客介绍 Javascript 的原形继承
+CLOSED: [2015-11-08 Sun 23:21]
+- State "CANCELLED"  from "TODO"       [2015-11-08 Sun 23:21] \\
+  Don't want to do this
 [[http://stackoverflow.com/questions/1646698/what-is-the-new-keyword-in-javascript][new operator - What is the 'new' keyword in JavaScript? - Stack Overflow]]
 [[http://ejohn.org/apps/learn/#66][Learning Advanced JavaScript]]
 [[http://stackoverflow.com/questions/7688902/what-is-functions-proto][javascript - What is Function's __proto__? - Stack Overflow]]
@@ -1537,7 +1562,9 @@ regex-builder tips:  c-c c-q : quit
 http://irreal.org/blog/?p=254  
  [2015-10-14 Wed 08:35]
 
-** TODO  Emacs 当前项目快速查找内容
+** DONE Emacs 当前项目快速查找内容
+CLOSED: [2015-11-08 Sun 23:21]
+- State "DONE"       from "TODO"       [2015-11-08 Sun 23:21]
 按 git 划分的项目和目录内查找。
   
  [2015-10-15 Thu 22:34]

@@ -87,8 +87,8 @@ CLOCK: [2015-10-14 Wed 11:05]--[2015-10-14 Wed 11:30] =>  0:25
 :CATEGORY: zilongshanren
 :END:
 ** Reading                                                         
-*** STARTED [#B]  Learn Javascript [22%]                        :Daily:DREAM:
-SCHEDULED: <2015-10-12 Mon 21:00 .+1d>
+*** STARTED [#B]  Learn Javascript [22%]                        :DREAM:
+# SCHEDULED: <2015-10-12 Mon 21:00 .+1d>
 :PROPERTIES:
 :CATEGORY: zilongshanren
 :END:
@@ -115,7 +115,7 @@ CLOCK: [2015-10-14 Wed 20:04]--[2015-10-14 Wed 20:29] =>  0:25
 CLOCK: [2015-10-11 Sun 17:50]--[2015-10-12 Mon 13:31] => 19:41
 :END:
 
-*** TODO Learn WebGL and Graphics [0%]                        :Daily:DREAM:
+*** STARTED Learn WebGL and Graphics [0%]                     :Daily:DREAM:
 SCHEDULED: <2015-10-27 22:30 .+1d Tue>
 :PROPERTIES:
 :CATEGORY: zilongshanren
@@ -124,6 +124,7 @@ SCHEDULED: <2015-10-27 22:30 .+1d Tue>
 - State "DONE"       from "TODO"       [2015-10-27 Tue 09:21]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 10:06]
 :LOGBOOK:
+CLOCK: [2015-11-06 Fri 09:15]--[2015-11-06 Fri 09:40] =>  0:25
 CLOCK: [2015-10-15 Thu 23:32]--[2015-10-15 Thu 23:57] =>  0:25
 :END:
 - [ ] https://www.udacity.com/course/interactive-3d-graphics--cs291
@@ -174,8 +175,7 @@ https://tsherif.wordpress.com/2015/10/05/from-web-to-webgl-a-guide-for-web-devel
 :END:
 * Daily Tasks
 #+category: Daily
-** STARTED ListView 添加 Cell 复用  [100%]                            :WORK:
-SCHEDULED: <2015-10-26 Mon 14:42>
+** STARTED [#A] ListView 添加 Cell 复用  [100%]                       :WORK:
 :LOGBOOK:
 CLOCK: [2015-10-27 Tue 14:37]--[2015-10-27 Tue 15:02] =>  0:25
 CLOCK: [2015-10-27 Tue 14:07]--[2015-10-27 Tue 14:32] =>  0:25
@@ -187,6 +187,9 @@ SCHEDULED: <2015-10-19 Mon 21:00 .+1d>
 :END:
 - State "DONE"       from "STARTED"    [2015-10-18 Sun 22:59]
 :LOGBOOK:
+CLOCK: [2015-11-09 Mon 23:15]--[2015-11-09 Mon 23:40] =>  0:25
+CLOCK: [2015-11-09 Mon 22:24]--[2015-11-09 Mon 22:49] =>  0:25
+CLOCK: [2015-11-03 Tue 21:34]--[2015-11-03 Tue 21:59] =>  0:25
 CLOCK: [2015-10-23 Fri 21:55]--[2015-10-23 Fri 22:20] =>  0:25
 CLOCK: [2015-10-19 Mon 23:03]--[2015-10-19 Mon 23:28] =>  0:25
 CLOCK: [2015-10-18 Sun 20:23]--[2015-10-18 Sun 20:48] =>  0:25
@@ -194,7 +197,7 @@ CLOCK: [2015-10-18 Sun 17:46]--[2015-10-18 Sun 18:11] =>  0:25
 CLOCK: [2015-10-18 Sun 17:06]--[2015-10-18 Sun 17:31] =>  0:25
 CLOCK: [2015-10-18 Sun 16:29]--[2015-10-18 Sun 16:54] =>  0:25
 :END:
-- [ ] [[http://www.braveclojure.com/introduction/][Introduction | Clojure for the Brave and True]]
+- [ ] http://www.braveclojure.com/read-and-eval/
 - [ ] https://github.com/kovasb/gamma-driver
 - [ ] https://github.com/sgrove/gamma-playground
 - [ ] http://clojure.org/cheatsheet
@@ -206,10 +209,20 @@ CLOCK: [2015-10-18 Sun 16:29]--[2015-10-18 Sun 16:54] =>  0:25
  [2015-08-14 Fri 09:44]
 ** TODO  Learn basic Gulp                                             :WORK:
 ** TODO Visit Reddit                                            :Daily:WORK:
-SCHEDULED: <2015-11-03 星期二 09:30-09:50 .+1d>
+SCHEDULED: <2015-11-11 Wed 09:30-09:50 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-11-02 星期一 10:23]
+:LAST_REPEAT: [2015-11-10 Tue 10:17]
 :END:
+- State "DONE"       from "STARTED"    [2015-11-10 Tue 10:17]
+- State "DONE"       from "STARTED"    [2015-11-09 Mon 09:56]
+- State "DONE"       from "TODO"       [2015-11-08 Sun 23:19]
+- State "DONE"       from "TODO"       [2015-11-07 Sat 22:03]
+- State "DONE"       from "TODO"       [2015-11-06 Fri 09:44]
+- State "DONE"       from "TODO"       [2015-11-05 Thu 10:08]
+- State "DONE"       from "TODO"       [2015-11-05 Thu 10:08]
+- State "DONE"       from "STARTED"    [2015-11-05 Thu 10:08]
+- State "DONE"       from "TODO"       [2015-11-04 Wed 22:30]
+- State "DONE"       from "STARTED"    [2015-11-03 Tue 09:46]
 - State "DONE"       from "STARTED"    [2015-11-02 星期一 10:23]
 - State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "STARTED"    [2015-10-30 Fri 11:35]
@@ -219,6 +232,10 @@ SCHEDULED: <2015-11-03 星期二 09:30-09:50 .+1d>
 - State "DONE"       from "STARTED"    [2015-10-26 Mon 13:36]
 - State "DONE"       from "TODO"       [2015-10-25 Sun 21:33]
 :LOGBOOK:  
+CLOCK: [2015-11-10 Tue 09:35]--[2015-11-10 Tue 10:00] =>  0:25
+CLOCK: [2015-11-09 Mon 09:26]--[2015-11-09 Mon 09:51] =>  0:25
+CLOCK: [2015-11-05 Thu 09:27]--[2015-11-05 Thu 09:52] =>  0:25
+CLOCK: [2015-11-03 Tue 09:18]--[2015-11-03 Tue 09:43] =>  0:25
 CLOCK: [2015-11-02 Mon 09:38]--[2015-11-02 星期一 10:03] =>  0:25
 CLOCK: [2015-10-30 Fri 10:56]--[2015-10-30 Fri 11:21] =>  0:25
 CLOCK: [2015-10-30 Fri 10:22]--[2015-10-30 Fri 10:47] =>  0:25
@@ -265,18 +282,29 @@ CLOCK: [2015-05-05 Tue 11:14]--[2015-05-05 Tue 11:39] =>  0:25
 CLOCK: [2015-05-04 Mon 10:32]--[2015-05-04 Mon 10:52] =>  0:20
 CLOCK: [2015-05-04 Mon 09:48]--[2015-05-04 Mon 10:32] =>  0:44
 :END:      
-** STARTED Read RSS half an  hour                               :Daily:LIFE:
-SCHEDULED: <2015-11-02 Mon 13:40 .+1d>
+** TODO Read RSS half an  hour                                  :Daily:LIFE:
+SCHEDULED: <2015-11-10 Tue 13:40 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-11-01 Sun 15:45]
+:LAST_REPEAT: [2015-11-09 Mon 13:54]
 :END:
+- State "DONE"       from "TODO"       [2015-11-09 Mon 13:54]
+- State "DONE"       from "TODO"       [2015-11-08 Sun 23:20]
+- State "DONE"       from "TODO"       [2015-11-07 Sat 22:03]
+- State "DONE"       from "TODO"       [2015-11-06 Fri 16:41]
+- State "DONE"       from "STARTED"    [2015-11-05 Thu 14:06]
+- State "DONE"       from "TODO"       [2015-11-04 Wed 22:30]
+- State "DONE"       from "STARTED"    [2015-11-03 Tue 14:12]
+- State "DONE"       from "STARTED"    [2015-11-02 Mon 15:13]
 - State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "STARTED"    [2015-10-30 Fri 14:13]
 - State "DONE"       from "STARTED"    [2015-10-29 Thu 15:03]
 - State "DONE"       from "STARTED"    [2015-10-27 Tue 14:07]
 - State "DONE"       from "STARTED"    [2015-10-26 Mon 14:40]
 :LOGBOOK:  
-CLOCK: [2015-11-02 Mon 13:47]
+CLOCK: [2015-11-05 Thu 13:36]--[2015-11-05 Thu 14:01] =>  0:25
+CLOCK: [2015-11-03 Tue 13:45]--[2015-11-03 Tue 14:12] =>  0:27
+CLOCK: [2015-11-03 Tue 13:32]--[2015-11-03 Tue 13:45] =>  0:13
+CLOCK: [2015-11-02 Mon 13:47]--[2015-11-02 Mon 14:12] =>  0:25
 CLOCK: [2015-11-02 星期一 13:35]--[2015-11-02 Mon 13:47] =>  0:12
 CLOCK: [2015-10-30 Fri 13:43]--[2015-10-30 Fri 14:08] =>  0:25
 CLOCK: [2015-10-29 Thu 13:33]--[2015-10-29 Thu 13:58] =>  0:25
@@ -361,17 +389,23 @@ CLOCK: [2015-10-24 Sat 10:32]--[2015-10-24 Sat 11:07] =>  0:35
 ** TODO  Read the Book <The Art of Unix Programming>
 [[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
 
-** TODO [#C]  Add Evil visual mark mode and related toggles          :Emacs:
-
+** DONE [#C]  Add Evil visual mark mode and related toggles          :Emacs:
+CLOSED: [2015-11-07 Sat 22:10] SCHEDULED: <2015-11-06 Fri 22:00>
+- State "DONE"       from "TODO"       [2015-11-07 Sat 22:10]
 ** TODO  Learn Ploymer Starter Kit                                    :WORK:
 https://developers.google.com/web/tools/polymer-starter-kit/
 
 ** TODO Do exercise for 30 minutes                              :Daily:LIFE:
-SCHEDULED: <2015-10-26 Mon 21:00-21:30 .+1d>
+SCHEDULED: <2015-11-10 Tue 21:00-21:30 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-25 Sun 21:33]
+:LAST_REPEAT: [2015-11-09 Mon 22:21]
 :CATEGORY: daily
 :END:
+- State "DONE"       from "TODO"       [2015-11-09 Mon 22:21]
+- State "DONE"       from "TODO"       [2015-11-08 Sun 23:20]
+- State "DONE"       from "TODO"       [2015-11-04 Wed 22:30]
+- State "DONE"       from "TODO"       [2015-11-03 Tue 21:33]
+- State "DONE"       from "TODO"       [2015-11-02 Mon 22:14]
 - State "DONE"       from "TODO"       [2015-10-25 Sun 21:33]
 - State "DONE"       from "STARTED"    [2015-10-19 Mon 23:02]
 - State "DONE"       from "STARTED"    [2015-10-15 Thu 22:33]
@@ -384,11 +418,18 @@ CLOCK: [2015-10-13 Tue 22:05]--[2015-10-14 Wed 09:29] => 11:24
 CLOCK: [2015-10-08 Thu 21:15]--[2015-10-08 Thu 21:40] =>  0:25
 :END:
 
-** STARTED Do exercise for 30 minutes                           :Daily:LIFE:
-SCHEDULED: <2015-10-31 Sat 08:00 .+1d>
+** TODO Do exercise for 30 minutes                              :Daily:LIFE:
+SCHEDULED: <2015-11-11 Wed 08:00 .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-30 Fri 10:22]
+:LAST_REPEAT: [2015-11-10 Tue 09:35]
 :END:
+- State "DONE"       from "TODO"       [2015-11-10 Tue 09:35]
+- State "DONE"       from "TODO"       [2015-11-09 Mon 09:26]
+- State "DONE"       from "TODO"       [2015-11-06 Fri 09:14]
+- State "DONE"       from "TODO"       [2015-11-05 Thu 09:26]
+- State "DONE"       from "TODO"       [2015-11-04 Wed 22:30]
+- State "DONE"       from "TODO"       [2015-11-03 Tue 09:18]
+- State "DONE"       from "STARTED"    [2015-11-02 Mon 22:14]
 - State "DONE"       from "TODO"       [2015-10-30 Fri 10:22]
 - State "DONE"       from "STARTED"    [2015-10-29 Thu 09:21]
 - State "DONE"       from "TODO"       [2015-10-28 Wed 13:43]
@@ -487,13 +528,15 @@ http://www.enigmaticape.com/blog/a-minimalish-objective-c-http-server
 ** TODO Javascript d3
 http://www.jeromecukier.net/blog/2015/05/19/you-may-not-need-d3/
 
+
 * Weekly Tasks                                                       :Weekly:
 #+category: Weekly
 ** TODO [#B]  Record a Spacemacs rocks video.                 :Emacs:Weekly:
-SCHEDULED: <2015-11-07 Sat .+6d/7d>
+SCHEDULED: <2015-11-14 Sat .+6d/7d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-11-01 Sun 21:16]
+:LAST_REPEAT: [2015-11-08 Sun 23:20]
 :END:
+- State "DONE"       from "TODO"       [2015-11-08 Sun 23:20]
 - State "DONE"       from "STARTED"    [2015-11-01 Sun 21:16]
 - State "DONE"       from "STARTED"    [2015-10-25 Sun 21:33]
 - State "DONE"       from "STARTED"    [2015-10-17 Sat 22:13]
@@ -534,19 +577,21 @@ c-c r  /  c-c q
 
 
 ** TODO Update upstream from Spacemacs and update all the packages from melpa and fix possible issues
-SCHEDULED: <2015-11-06 Fri .+7d/8d>
+SCHEDULED: <2015-11-14 Sat .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-10-30 Fri 11:35]
+:LAST_REPEAT: [2015-11-07 Sat 12:44]
 :END:
+- State "DONE"       from "TODO"       [2015-11-07 Sat 12:44]
 - State "DONE"       from "TODO"       [2015-10-30 Fri 11:35]
 - State "DONE"       from "TODO"       [2015-10-22 Thu 18:33]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
 - State "DONE"       from "TODO"       [2015-10-08 Thu 11:39]
 ** TODO Write a Blog, no matter English or Chinese                    :LIFE:
-SCHEDULED: <2015-11-08 Sun .+7d/8d>
+SCHEDULED: <2015-11-15 Sun .+7d/8d>
 :PROPERTIES:
-:LAST_REPEAT: [2015-11-01 Sun 15:45]
+:LAST_REPEAT: [2015-11-08 Sun 23:20]
 :END:
+- State "DONE"       from "TODO"       [2015-11-08 Sun 23:20]
 - State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "STARTED"    [2015-10-25 Sun 22:38]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
@@ -581,12 +626,13 @@ CLOCK: [2015-08-30 Sun 22:55]--[2015-08-30 Sun 23:20] =>  0:25
 :END:
 ** TODO Keep in touch with family                                     :LIFE:
 :PROPERTIES:
-:LAST_REPEAT: [2015-11-01 Sun 15:45]
+:LAST_REPEAT: [2015-11-08 Sun 23:20]
 :END:
+- State "DONE"       from "TODO"       [2015-11-08 Sun 23:20]
 - State "DONE"       from "TODO"       [2015-11-01 Sun 15:45]
 - State "DONE"       from "TODO"       [2015-10-25 Sun 22:38]
 - State "DONE"       from "TODO"       [2015-10-15 Thu 09:29]
-SCHEDULED: <2015-11-08 Sun 10:00-10:30 .+7d/8d>
+SCHEDULED: <2015-11-15 Sun 10:00-10:30 .+7d/8d>
 :PROPERTIES:
 :LAST_REPEAT: [2015-10-06 Tue 20:43]
 :END:
@@ -654,20 +700,16 @@ SCHEDULED: <2015-11-14 Sat .+30d/31d>
 
 * Daily Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block today :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-10-17 Sat 22:16], for Saturday, October 17, 2015.
-| File    | Headline                                     | Time    |       |
-|---------+----------------------------------------------+---------+-------|
-|         | ALL *Total time*                             | *13:33* |       |
-|---------+----------------------------------------------+---------+-------|
-| gtd.org | *File time*                                  | *13:33* |       |
-|         | Daily Tasks                                  | 12:29   |       |
-|         | \_  TODO Visit Reddit                        |         |  0:25 |
-|         | \_  TODO Read RSS half an  hour              |         | 11:36 |
-|         | \_  STARTED Do exercise for 30 minutes       |         |  0:03 |
-|         | \_  TODO Do exercise for 30 minutes          |         |  0:25 |
-|         | Weekly Tasks                                 | 1:04    |       |
-|         | \_  TODO [#B]  Record a Spacemacs rocks...   |         |  0:06 |
-|         | \_  DONE Review the TODO items, move C to... |         |  0:58 |
+#+CAPTION: Clock summary at [2015-11-09 Mon 22:22], for Monday, November 09, 2015.
+| File    | Headline                                   | Time   |      |
+|---------+--------------------------------------------+--------+------|
+|         | ALL *Total time*                           | *2:05* |      |
+|---------+--------------------------------------------+--------+------|
+| gtd.org | *File time*                                | *2:05* |      |
+|         | Daily Tasks                                | 0:25   |      |
+|         | \_  TODO Visit Reddit                      |        | 0:25 |
+|         | Cocos2D-X                                  | 1:40   |      |
+|         | \_  STARTED Improve Label of native engine |        | 1:40 |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -681,38 +723,16 @@ SCHEDULED: <2015-11-14 Sat .+30d/31d>
 # The following section is used for Weekly Review
 * Weekly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thisweek :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-10-17 Sat 22:16], for week 2015-W42.
-| File              | Headline                                       | Time       |       |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-|                   | ALL *Total time*                               | *2d 18:59* |       |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-| gtd.org           | *File time*                                    | *2d 15:32* |       |       |
-|                   | FireBall                                       | 5:42       |       |       |
-|                   | \_  STARTED [#A] 融合 Sale9Sprite 到 Sprite 中 |            |  5:42 |       |
-|                   | \_    Hacking the draw method.                 |            |       |  2:22 |
-|                   | Zilongshanren                                  | 15:11      |       |       |
-|                   | \_  Reading                                    |            | 15:11 |       |
-|                   | \_    STARTED [#B]  Learn Javascript [0%]      |            |       | 14:46 |
-|                   | \_    TODO Learn WebGL and Graphics [0%]       |            |       |  0:25 |
-|                   | Daily Tasks                                    | 1d 17:35   |       |       |
-|                   | \_  DONE c/c++ enable ycmd and binding...      |            |  0:27 |       |
-|                   | \_  TODO Visit Reddit                          |            |  2:32 |       |
-|                   | \_  TODO Read RSS half an  hour                |            | 22:52 |       |
-|                   | \_  DONE [#A] Create a file-browser package    |            |  1:15 |       |
-|                   | \_  STARTED Do exercise for 30 minutes         |            | 11:27 |       |
-|                   | \_  TODO Do exercise for 30 minutes            |            |  2:12 |       |
-|                   | \_  DONE Learn literal programming of...       |            |  0:25 |       |
-|                   | \_  DONE Read a article about how to...        |            |  0:25 |       |
-|                   | Weekly Tasks                                   | 1:04       |       |       |
-|                   | \_  TODO [#B]  Record a Spacemacs rocks...     |            |  0:06 |       |
-|                   | \_  DONE Review the TODO items, move C to...   |            |  0:58 |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-| notes.org         | *File time*                                    | *1:47*     |       |       |
-|                   | Quick notes                                    | 1:47       |       |       |
-|                   | \_  TODO Learn DOM manipulate [16%]            |            |  1:47 |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-| notes.org_archive | *File time*                                    | *1:40*     |       |       |
-|                   | DONE Learn mocha node.js test...               | 1:40       |       |       |
+#+CAPTION: Clock summary at [2015-11-09 Mon 22:24], for week 2015-W46.
+| File    | Headline                                   | Time   |      |
+|---------+--------------------------------------------+--------+------|
+|         | ALL *Total time*                           | *2:05* |      |
+|---------+--------------------------------------------+--------+------|
+| gtd.org | *File time*                                | *2:05* |      |
+|         | Daily Tasks                                | 0:25   |      |
+|         | \_  TODO Visit Reddit                      |        | 0:25 |
+|         | Cocos2D-X                                  | 1:40   |      |
+|         | \_  STARTED Improve Label of native engine |        | 1:40 |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -728,42 +748,25 @@ SCHEDULED: <2015-11-14 Sat .+30d/31d>
 # The following section is used for Monthly Review
 * Monthly Review
 #+BEGIN: clocktable :maxlevel 5 :scope agenda-with-archives :block thismonth :fileskip0 t :indent t
-#+CAPTION: Clock summary at [2015-10-17 Sat 22:16], for October 2015.
-| File              | Headline                                       |       Time |       |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-|                   | ALL *Total time*                               | *3d 11:35* |       |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-| gtd.org           | *File time*                                    |  *3d 3:33* |       |       |
-|                   | FireBall                                       |       5:42 |       |       |
-|                   | \_  STARTED [#A] 融合 Sale9Sprite 到 Sprite 中 |            |  5:42 |       |
-|                   | \_    Hacking the draw method.                 |            |       |  2:22 |
-|                   | Zilongshanren                                  |      21:21 |       |       |
-|                   | \_  Reading                                    |            | 21:21 |       |
-|                   | \_    STARTED [#B]  Learn Javascript [0%]      |            |       | 20:56 |
-|                   | \_    TODO Learn WebGL and Graphics [0%]       |            |       |  0:25 |
-|                   | Daily Tasks                                    |   1d 23:26 |       |       |
-|                   | \_  DONE c/c++ enable ycmd and binding...      |            |  0:27 |       |
-|                   | \_  TODO Visit Reddit                          |            |  3:47 |       |
-|                   | \_  TODO Read RSS half an  hour                |            | 23:17 |       |
-|                   | \_  DONE [#A] Create a file-browser package    |            |  4:36 |       |
-|                   | \_  STARTED Do exercise for 30 minutes         |            | 11:52 |       |
-|                   | \_  TODO Do exercise for 30 minutes            |            |  2:37 |       |
-|                   | \_  DONE Learn literal programming of...       |            |  0:25 |       |
-|                   | \_  DONE Read a article about how to...        |            |  0:25 |       |
-|                   | Weekly Tasks                                   |       1:04 |       |       |
-|                   | \_  TODO [#B]  Record a Spacemacs rocks...     |            |  0:06 |       |
-|                   | \_  DONE Review the TODO items, move C to...   |            |  0:58 |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-| gtd.org_archive   | *File time*                                    |     *0:25* |       |       |
-|                   | DONE Add Chrome refresh function from...       |       0:25 |       |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-| notes.org         | *File time*                                    |     *1:47* |       |       |
-|                   | Quick notes                                    |       1:47 |       |       |
-|                   | \_  TODO Learn DOM manipulate [16%]            |            |  1:47 |       |
-|-------------------+------------------------------------------------+------------+-------+-------|
-| notes.org_archive | *File time*                                    |     *5:50* |       |       |
-|                   | DONE Learn mocha node.js test...               |       1:40 |       |       |
-|                   | DONE Learn Unity UI                            |       4:10 |       |       |
+#+CAPTION: Clock summary at [2015-11-09 Mon 22:24], for November 2015.
+| File    | Headline                                    |    Time |      |      |
+|---------+---------------------------------------------+---------+------+------|
+|         | ALL *Total time*                            | *10:01* |      |      |
+|---------+---------------------------------------------+---------+------+------|
+| gtd.org | *File time*                                 | *10:01* |      |      |
+|         | Zilongshanren                               |    0:25 |      |      |
+|         | \_  Reading                                 |         | 0:25 |      |
+|         | \_    STARTED Learn WebGL and Graphics [0%] |         |      | 0:25 |
+|         | Daily Tasks                                 |    4:12 |      |      |
+|         | \_  STARTED Learning  Clojure [%]           |         | 0:25 |      |
+|         | \_  TODO Visit Reddit                       |         | 1:40 |      |
+|         | \_  TODO Read RSS half an  hour             |         | 1:42 |      |
+|         | \_  TODO Do exercise for 30 minutes         |         | 0:25 |      |
+|         | Weekly Tasks                                |    0:25 |      |      |
+|         | \_  TODO [#B]  Record a Spacemacs rocks...  |         | 0:25 |      |
+|         | Cocos2D-X                                   |    4:59 |      |      |
+|         | \_  STARTED Merge H5 Label implementation   |         | 2:54 |      |
+|         | \_  STARTED Improve Label of native engine  |         | 2:05 |      |
 #+END:
 
 #+BEGIN_SRC emacs-lisp :results value
@@ -784,3 +787,33 @@ CLOSED: [2015-10-25 Sun 22:44]
 [[https://msdn.microsoft.com/en-us/library/windows/desktop/hh298433(v%3Dvs.85).aspx][How to Create a Multiline Edit Control (Windows)]]
 [[http://www.win32developer.com/tutorial/windows/windows_tutorial_3.shtm][Win32 Developer - Tutorial 3 Using edit boxes, buttons, and other window asset using the Win32 API]]
 [[https://msdn.microsoft.com/en-us/library/bb773169(VS.85).aspx][Control Library (Windows)]]
+
+** STARTED Merge H5 Label implementation                              :WORK:
+SCHEDULED: <2015-11-03 Tue> DEADLINE: <2015-11-07 Sat>
+:LOGBOOK:
+CLOCK: [2015-11-05 Thu 14:06]--[2015-11-05 Thu 14:31] =>  0:25
+CLOCK: [2015-11-05 Thu 11:13]--[2015-11-05 Thu 11:38] =>  0:25
+CLOCK: [2015-11-05 Thu 10:08]--[2015-11-05 Thu 10:33] =>  0:25
+CLOCK: [2015-11-03 Tue 14:25]--[2015-11-03 Tue 14:50] =>  0:25
+CLOCK: [2015-11-03 Tue 14:12]--[2015-11-03 Tue 14:25] =>  0:13
+CLOCK: [2015-11-03 Tue 09:50]--[2015-11-03 Tue 10:15] =>  0:25
+CLOCK: [2015-11-02 Mon 15:24]--[2015-11-02 Mon 15:49] =>  0:25
+CLOCK: [2015-11-02 Mon 15:13]--[2015-11-02 Mon 15:24] =>  0:11
+:END:
+
+ [2015-11-02 Mon 15:13]
+
+** STARTED Improve Label of native engine                             :WORK:
+SCHEDULED: <2015-11-06 Fri 09:50>
+:LOGBOOK:
+CLOCK: [2015-11-10 Tue 11:19]
+CLOCK: [2015-11-10 Tue 10:48]--[2015-11-10 Tue 11:13] =>  0:25
+CLOCK: [2015-11-10 Tue 10:17]--[2015-11-10 Tue 10:42] =>  0:25
+CLOCK: [2015-11-09 Mon 14:20]--[2015-11-09 Mon 14:45] =>  0:25
+CLOCK: [2015-11-09 Mon 10:58]--[2015-11-09 Mon 11:23] =>  0:25
+CLOCK: [2015-11-09 Mon 10:27]--[2015-11-09 Mon 10:52] =>  0:25
+CLOCK: [2015-11-09 Mon 09:56]--[2015-11-09 Mon 10:21] =>  0:25
+CLOCK: [2015-11-06 Fri 09:45]--[2015-11-06 Fri 10:10] =>  0:25
+:END:
+
+ [2015-11-06 Fri 09:44]

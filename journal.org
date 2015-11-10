@@ -2,23 +2,40 @@
 #+AUTHOR: guanghui
 #+TAGS: { WORK(w) LIFE(l) secret(s) }
 
-* 2015                                                               :secret:
+* 2015
+** 2015-04 April
+*** 2015-04-01 Wednesday
+
+**** What I have done today?                                      :secret:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v1
 
-jA0EAwMCmvyQBZM9QjZgyengQZqU24Nf1oNPCWkAaWJag6Mub+2YK7JIo3MDZ/Ct
-xRABbeMIt+ykAm5XtHFCVKSv7FRcxHLw9F1UJuQzHyS5aRl3MMLeUj8uZU8ipO9d
-mLGRygWe6eOM/1As7zoigFuLU7zDQTDzSpfGFbFiSGkMkO5I1ZiCfK75Wctv0Mxx
-WsrpuKRXH9SINVjMXO2aTWI+7fLFaWD9qCzTBYGhzjYmS0XVHAKHCIqFNYECX64j
-/AUtl31wzlkIMndWCIbZZE9GQknQfwKGWlIF3wBOl9qiTXutQ7D9wpJ2sj8FwfnR
-AbOvndRKQ5DI8T3/rSp9stexAD+6hMvM7EPCQuqyNKojQpxPijKRKlO4vKYTg0E/
-umlXNbA5lKJsER1eB4OV1EACbLrsnolsynKzaaqSDlsM7wv8m5btavHouIPaXLEM
-iz9qfCxMHjWMV76/J/dPUnKNM2lYN/yRv9LAminU3uqBSfwngtIWTax+XUWR571S
-9b29RSjhl6C/S19IHesCSjxREqEifQv4VYKKde24xvW1UyYFHWsW1D+a71bZPfsM
-wL+IkUrxq0f6mk/B0FQzpqOy3dS7oycfmpp+sreZuw5vLfzzY0NWsWOD3f9ylveS
-yri6VPqZB9eR/zXAiddz5wNZ/gt3oGpubaZa9kvnxz5OR7tRgtDLHCEWt2vSCDS+
-AEpM3mum/48+mNLyz1d6aT4RqjV01ibtZKgtNcf/4i+qvIqZzbZ58s9crj4L5tqC
-Buu+6EZeCTxyuI3DM5HVWW+5KPFXVhP2Bf0OTA==
-=Fp64
+jA0EAwMCH961ROInoxpgycEgtfeezpK2SlaF90q3cztMBpI58mo33P9O0pge0CUW
+kszt2eTsyiGxWC+C1DzMebhrq5XKYtTesZ7NDS/uaOR83zr5sN9UaeJMzVSqKXOJ
++RwvpXjX/IhVQOYicnXtVdXxHaPTr42W200cjSEoojk1W20Xq1Wh6M+/yFb4+eT5
+siOZ60KYSIvOCnUVnAXQcj64RzpCViK860TYCxyTlHxh65oJZN9iihS8iCsWZjxJ
+tAPBDrUwp6NqbgD0alRK2If/f9J7DVbH18jplIBRl3PF3YccOyLD8+3lN5OlfEiA
+VS0Ui1Nm0m7FqLol5clE67hn7ag+nCdG3e98i3mHBKgUjL3l6Bsh2zvPLDT9HX3b
+exTDhiTmBdiXtCX5hANkRjyqG0pIVanAD4zVh+P5CRXcp5kv+vPC2YWuzz/FUnv5
+DIHWMhz7R1aRqurhpgUQ8Gy15bQqsa+SMfyLkdXkv225+dUPFWXUux0r+fTYvYFY
+ChBHz7w1BwuwFnHldWptHqp3C3liAON1MYRn+jRpTtLi1MFiAAGfT1XJbeqiHG+I
+fwrh9Yp/tR8cdfwJ/vNTW0KKIeTyrMGBJIZ+W4rgWVySntf9urp+6dUrdVNjYh7z
+ePcpcCr60jU39gtQHr2Wx1+F
+=k1iP
 -----END PGP MESSAGE-----
+** 2015-11 November
+*** 2015-11-10 Tuesday
+** Label 的 shrink 功能设计
+设计目标：
+1. 在 shrink 模式下面，任何字符都不会被 clamp，即任何字符一定要显示在 Label 的 boundingBox 内。
+2. ttf 和 bmfont 都要支持 shrink 功能，另外 label 要记录用户设置的字体大小和实际渲染显示的字体大小。
+3. 水平和垂直方向都要支持 wrap 和非 wrap 两种模式切换。
 
+
+详细设计：
+1. 当用户修改宽度的时候，如果 wrap 开启了，则优先换行，如果换行显示不下，则缩小字体（一次缩小一个 pt），然后继续
+   判断是否能够显示下，直到刚好显示下为止。
+如果 wrap 没有开启，则不换行，如果显示不下，则直接缩小字体。（此处比较容易实现）
+
+2. 当用户修改高度的时候，如果 wrap 开启了，当高度不够显示的时候，缩小字体后会有 wrap 行为产生。
+如果没有开启 wrap。则一直缩小字体。
