@@ -54,6 +54,8 @@ Emacs is a state machine, all configurations override the existing
 
 ** org-mode
 
+*** TODO [#C]  One Day I should use hexo + org as my blog generator
+
 *** 使用 Org-mode 来绘制 UML
 [[http://archive.3zso.com/archives/plantuml-quickstart.html][使用 Emacs 敲出 UML，PlantUML 快速指南]]
 

@@ -1,5 +1,11 @@
 #+OPTIONS: TeX:t LaTeX:t skip:nil d:nil tasks:nil pri:nil title:t
 #+TITLE: 编程语言学习
+* TODO  Read the Book <The Art of Unix Programming>
+[[http://www.catb.org/esr/writings/taoup/html/index.html][The Art of Unix Programming]]
+
+* TODO  Haskell Mooc course
+https://courses.edx.org/courses/course-v1:DelftX+FP101x+3T2015/courseware/8049e2e3f2b44c7e874497b73908de49/c136e207fcc4430e8d55afbb4c40be29/
+
 * Clojure
 http://blog.clojure.cn/
 http://ask.clojure.cn/
@@ -19,6 +25,10 @@ http://www.flyingmachinestudios.com/programming/building-a-forum-with-clojure-da
 [[http://www.unexpected-vortices.com/clojure/brief-beginners-guide/standalone-scripts.html][Standalone Scripts]]
 [[http://stackoverflow.com/questions/4260522/what-is-clojure-useful-for][What is Clojure useful for? - Stack Overflow]]
 [[http://stackoverflow.com/questions/2285437/a-gentle-tutorial-to-emacs-swank-paredit-for-clojure][A gentle tutorial to Emacs/Swank/Paredit for Clojure - Stack Overflow]]
+
+** TODO  Write Android application with Clojure
+
+** TODO [#C]  使用 Clojure 搭建一个 Emacs 社区                        :LIFE:
 
 * Scheme
 ** SCIP notes
@@ -66,6 +76,9 @@ CLOSED: [2015-08-23 Sun 16:12]
 
 
 * Javascript
+
+** TODO Javascript d3
+http://www.jeromecukier.net/blog/2015/05/19/you-may-not-need-d3/
 
 * Python
 

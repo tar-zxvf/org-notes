@@ -1518,6 +1518,56 @@ The other side is nice explained tutorials.
 
  [2015-11-10 Tue 09:50]
 
+** TODO  Functional Javascript by example
+ http://tobyho.com/2015/11/09/functional-programming-by-example/
+
+ [2015-11-11 Wed 10:22]
+
+** TODO  WebGL 2.0 for Web Developers
+ https://docs.google.com/presentation/d/1Orx0GB0cQcYhHkYsaEcoo5js3c5-pv7ahPniIRIzzfg/edit#slide=id.gd1fc5cab2_1_10
+
+ [2015-11-12 Thu 09:57]
+
+** TODO  Build and test Regex on line
+ http://www.regexr.com/
+
+ [2015-11-12 Thu 15:04]
+
+** TODO [#A]  Better math explained.                                 :DREAM:
+ http://betterexplained.com/cheatsheet/
+
+ [2015-11-16 Mon 14:15]
+
+** TODO  Understand Euler Angle
+http://www.chrobotics.com/library/understanding-euler-angles
+http://mathworld.wolfram.com/EulerAngles.html
+http://cration.rcstech.org/math/2014/02/26/quaternion-and-euler-angles/
+http://www.mini-vol.com/wiki/understanding-urler-angles.htm
+
+ [2015-11-18 Wed 18:06]
+
+** TODO  Functional programming with Javascript
+ http://reactivex.io/learnrx/
+
+ [2015-11-20 Fri 09:36]
+
+** TODO Learning  C++ metaprogramming                                :DREAM:
+ http://alejandrohitti.com/2015/06/21/template-metaprogramming-in-cpp/
+http://stackoverflow.com/questions/112277/best-introduction-to-c-template-metaprogramming
+
+ [2015-11-23 Mon 18:08]
+
+** TODO  Typed Clojure
+ http://blog.juxt.pro/posts/typed-clojure.html
+http://blog.circleci.com/why-were-no-longer-using-core-typed/
+
+ [2015-11-24 Tue 10:07]
+
+** TODO  Game glossary. Tutorial
+ http://gamedevelopment.tutsplus.com/categories/gamedev-glossary
+
+ [2015-11-24 Tue 10:20]
+
 * Blog Ideas                                                          :BLOG:
 
 ** DONE 写一篇博客介绍 Mac 使用 efi 安装双系统.
@@ -1569,7 +1619,12 @@ CLOSED: [2015-11-08 Sun 23:21]
   
  [2015-10-15 Thu 22:34]
 
-** TODO  When to blog? How often do you blogging?
+** DONE When to blog? How often do you blogging?
+CLOSED: [2015-11-15 Sun 23:24]
+- State "DONE"       from "STARTED"    [2015-11-15 Sun 23:24]
+:LOGBOOK:
+CLOCK: [2015-11-15 Sun 22:53]--[2015-11-15 Sun 23:18] =>  0:25
+:END:
 1. Knowing and using something for 2 years then it's ready for blogging
 2. Once a week is a proper frequency.
 3. Every month we need to write a summary.
@@ -1577,3 +1632,6 @@ CLOSED: [2015-11-08 Sun 23:21]
   
  [2015-10-20 Tue 10:04]
 
+** TODO  搭建 Mac 上面的 Ogre3D Dev environment
+
+ [2015-11-20 Fri 18:19]
